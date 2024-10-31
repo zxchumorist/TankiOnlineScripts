@@ -1,35 +1,3 @@
-function replaceColors(selector) {
-    const elements = document.querySelectorAll(selector);
-    elements.forEach(element => {
-        const style = getComputedStyle(element);
-        const backgroundImage = style.backgroundImage;
-        if (backgroundImage.includes('rgb(0, 25, 38)') || backgroundImage.includes('rgba(0, 25, 38, 0)') ||
-            backgroundImage.includes('rgb(0, 26, 39)') || backgroundImage.includes('rgba(0, 26, 39, 0)')) {
-            const newBackgroundImage = backgroundImage
-                .replace(/rgb\(0, 25, 38\)/g, 'black')
-                .replace(/rgba\(0, 25, 38, 0\)/g, 'transparent')
-                .replace(/rgb\(0, 26, 39\)/g, 'black')
-                .replace(/rgba\(0, 26, 39, 0\)/g, 'transparent');
-            element.style.backgroundImage = newBackgroundImage;
-        }
-    });
-}
-
-const observer = new MutationObserver((mutations) => {
-    mutations.forEach(mutation => {
-        if (mutation.type === 'childList') {
-            replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageCover, .FormatsSectionComponentStyle-card .Common-backgroundImageCover');
-        }
-    });
-});
-
-replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageCover, .FormatsSectionComponentStyle-card .Common-backgroundImageCover');
-
-observer.observe(document.body, {
-    childList: true,
-    subtree: true
-});
-
 /* СТАРАЯ ВАРИАЦИЯ ОТОБРАЖЕНИЙ ИКОНОК РЕЗИСТОВ В ТАБЕ */
 (() => {
 	var tankResistances = [
