@@ -1,133 +1,309 @@
-
 /* ТЕМА */
 const css = `
-.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn,
-.ProBattlesComponentStyle-mainContainer,
-.ScrollingCardsComponentStyle-scrollCard {
-    animation: opacity 1.5s ease forwards;
+/* ФОН */
+.Common-entranceGradient,html, body,.Common-container {
+    background: #0d0d0d !important;
 }
-
-@keyframes opacity {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+/* Битва */
+//худ
+.BattleHudComponentStyle-hudButton {
+	  transition: transform 0.2s ease-in-out !important;
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(5px);
 }
-#modal-root > div > .Common-flexSpaceBetweenAlignStartColumn {
-    border-radius: 10px !important;
+//таб
+tr.BattleTabStatisticComponentStyle-selectedRowBackGround,
+tr.BattleTabStatisticComponentStyle-rowBackGround {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams {
+	  border-radius: 1.3em !important;
+    border: 0.15em solid rgb(170 170 170 / 25%) !important;
+    box-shadow: rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(5px);
+}
+.BattleTabStatisticComponentStyle-redTeamTableContainer table thead tr th .Common-maskImageContain,
+.BattleTabStatisticComponentStyle-blueTeamTableContainer table thead tr th .Common-maskImageContain {
+    background-color: white !important;
+}
+.BattleTabStatisticComponentStyle-blueTeamTableContainer table thead tr th h2,
+.BattleTabStatisticComponentStyle-redTeamTableContainer table thead tr th h2 {
+    color: white !important;
+}
+/* Лобби */
+//Играть
+.MainScreenComponentStyle-buttonPlay {
+    position: absolute !important;
+    margin: unset !important;
+    width: 22.5em !important;
+    height: 10em !important;
+    bottom: 1em !important;
+    right: 50% !important;
+    transform: translateX(50%) !important;
+    transition: 0.2s ease-in-out !important;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover {
+    border: 0.15em solid rgb(255 255 255 / 70%) !important;
+    box-shadow: rgb(255 255 255 / 50%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem {
+    height: 5em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
-    background: radial-gradient(100% 100% at 0% 0%, rgba(254, 38, 74, 0.75) 0%, rgba(255, 38, 74, 0) 100%), rgb(0 0 0 / 75%) !important;
 }
-.TableComponentStyle-row,
-.ClanCommonStyle-rowEmpty {
-    border-radius: 10px !important;
+.MainScreenComponentStyle-playButtonContainer span {
+    color: white !important;
 }
-.ClanCreateComponentStyle-blockCreatureClan {
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover {
+	transform: translateX(50%) scale(0.96) !important;
+}
+//Играть лок
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay {
+	  height: 10em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(170 170 170 / 25%) !important;
+    box-shadow: rgb(0 0 0 / 50%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 35%) !important;
     backdrop-filter: blur(5px) !important;
-    background: radial-gradient(50% 100% at 50% 100%, rgb(0 0 0) 0%, rgb(0 0 0 / 80%) 100%) !important;
 }
-.PrimaryMenuItemComponentStyle-discountNotification {
-    background-color: rgb(243, 166, 131) !important;
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay .Common-backgroundImageContain {
+    filter: saturate(0) !important;
 }
-.PrimaryMenuItemComponentStyle-menuItemContainer:hover div {
-	  scale: 1.2;
-    background-color: #f3a683;
+.MainScreenComponentStyle-playButtonContainer h3 {
+    color: rgb(255 255 255) !important;
 }
-.FooterComponentStyle-containerMenu:hover div {
-	  scale: 1.2;
-    background-color: #f3a683;
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay:active {
+    border: 0.15em solid rgb(255 102 102 / 50%) !important;
+    box-shadow: rgb(255 102 102 / 50%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background-color: rgb(255 102 102 / 14%) !important;
 }
-.FooterComponentStyle-containerMenu div,
-.PrimaryMenuItemComponentStyle-menuItemContainer div {
-    transition: scale 300ms ease-in-out, background-color 300ms ease-in-out !important;
+//PrimaryMenuItemComponentStyle
+li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer {
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    margin: 0 0.2em !important;
+    width: 15em !important;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer:hover {
+    transform: scale(0.95);
+}
+li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer div {
+    scale: 1.35 !important;
+    margin: unset !important;
     background-color: white;
 }
-/* Задний фон */
-.ClanCommonStyle-content,
-.Common-entranceGradient, html, body, .Common-container {
-    background: radial-gradient(#252525 0%, #000000 100%);
+.PrimaryMenuItemComponentStyle-itemName {
+    font-size: 1em !important;
+    margin: 0.2em 0 0 0;
 }
-.Common-entranceGradient > .Common-flexStartAlignStartColumn {
-    background-color: white !important;
-    border: 2px solid black !important;
-    border-radius: 10px !important;
+.MainScreenComponentStyle-blockMainMenu ul {
+	flex-direction: row !important;
+	width: unset !important;
 }
-.StartScreenComponentStyle-text {
-    filter: drop-shadow(0 0 3px #f3a683) !important;
-}
-
-/* применяем blur */
-.JoinToBattleComponentStyle-buttonJoin,
-.Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin,
-.BattleResultNavigationComponentStyle-button,
-.BattleRewardsComponentStyle-normalRow, .BattleRewardsComponentStyle-selectedRow,
-.BattleResultUserInfoComponentStyle-progressVictoryContainer,
-.SettingsComponentStyle-blockContentOptions,
-.Common-alignSelfFlexEnd,
-.InputComponentStyle-defaultStyle,
-.FriendListComponentStyle-containerButtonFriends > .FriendListComponentStyle-buttonAddFriends,
-.ButtonComponentStyle-disabled,
-.InvitationWindowsComponentStyle-buttonsContainer > .Common-flexCenterAlignCenter {
-    border-radius: 10px !important;
+.MainScreenComponentStyle-blockMainMenu ul {
+    top: 7em !important;
+    right: 50% !important;
+    transform: translateX(50%) !important;
+    height: 5em !important;
+    position: absolute;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    align-items: center;
 }
 
-/* GS */
-@keyframes humoristBackground {
-    0% {
-        background-position: 0% 0%;
-    }
-    25% {
-        background-position: 100% 0%;
-    }
-    50% {
-        background-position: 200% 0%;
-    }
-    75% {
-        background-position: 300% 0%;
-    }
-    100% {
-        background-position: 400% 0%;
-    }
+//MainScreenComponentStyle
+.MainScreenComponentStyle-containerPanel {
+    border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+//пропуск
+.BattlePassLobbyComponentStyle-menuBattlePass {
+    z-index: 2 !important;
+    position: absolute;
+    bottom: 1em !important;
+    right: 1em !important;
+    margin: unset !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.BattlePassLobbyComponentStyle-commonDescription,
+.BattlePassLobbyComponentStyle-blockBattlePass {
+    background-color: transparent !important;
+    border: 0em solid transparent !important;
+}
+//Footer
+.FooterComponentStyle-containerMenu {
+    transition: transform 0.1s linear;
+    box-shadow: none !important;
+}
+.FooterComponentStyle-containerMenu div {
+	background-color: white;
+}
+footer.FooterComponentStyle-footer ul {
+    width: unset !important;
+    margin: unset !important;
+}
+li.FooterComponentStyle-containerMenu.FooterComponentStyle-containerMenu {
+    width: 6em !important;
+    height: 3em !important;
+    margin: 0 0.2em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 10%) !important;
+    transition: transform 0.2s ease-in-out;
+}
+footer.FooterComponentStyle-footer {
+    flex-direction: column;
+    position: absolute !important;
+    height: 5em !important;
+    right: 50% !important;
+    left: unset !important;
+    bottom: unset !important;
+    transform: translateX(50%) !important;
+    top: 13em !important;
+    width: unset !important;
+    padding: 0 0 !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.FooterComponentStyle-containerMenu:hover {
+    transform: scale(0.95) !important;
+}
+//уведы
+.AnnouncementHomeScreenComponentStyle-mainContainer > .Common-flexCenterAlignCenterColumn {
+    display: none !important;
+}
+.AnnouncementHomeScreenComponentStyle-mainClickContainer > .Common-backgroundImageContain {
+    border-radius: 1.3em !important;
+}
+.AnnouncementHomeScreenComponentStyle-announceContainer {
+    background: linear-gradient(transparent 0%, rgb(0 0 0) 100%) !important;
+    border-radius: 1.3em !important;
+}
+.AnnouncementHomeScreenComponentStyle-mainContainer {
+    width: 22.5em !important;
+    height: 10em !important;
+    bottom: 1em !important;
+    left: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.AnnouncementHomeScreenComponentStyle-mainBackGroundContainer {
+    width: 22.5em !important;
+    height: 10em !important;
+}
+//новости
+.NewsComponentStyle-newsContainer {
+    width: 26.25em !important;
+}
+.ChatComponentStyle-upMenu,
+.ChatComponentStyle-closeArea,
+.NewsComponentStyle-header,
+.NewsComponentStyle-closeArea {
+    background-color: transparent !important;
+}
+//чат Лобби
+.ChatComponentStyle-chatResize {
+    display: none;
+}
+.ChatComponentStyle-channelsSelect > .ChatComponentStyle-channelSelect {
+    border-radius: 0.8em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 10%) !important;
+}
+.ChatComponentStyle-messageRow {
+    border-radius: 0.8em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 10%) !important;
+}
+//элитка
+.EventBattlePassLobbyComponentStyle-buttonEventBattlePass {
+    transition: 0.2s linear !important;
+    opacity: 0 !important;
+    width: 10em !important;
+    height: 10em !important;
+    position: absolute !important;
+    top: unset !important;
+    padding: unset !important;
+    bottom: 1em !important;
+    right: 18em !important;
+    margin: unset !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.EventBattlePassLobbyComponentStyle-buttonEventBattlePass:hover {
+	opacity: 1 !important;
+	right: 24.5em !important;
+}
+.EventBattlePassLobbyComponentStyle-commonBlockProgressBar {
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 10%) !important;
 }
 
-.GearScoreStyle-bestGS {
-    background: linear-gradient(90deg, #f3a683, #f7d794, #778beb, #e77f67, #cf6a87, #c44569, #e15f41, #546de5, #f5cd79, #f19066, #f3a683);
-    background-size: 400% 100% !important;
-    animation: humoristBackground 8s linear infinite !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+//хз
+.MainScreenComponentStyle-containerPanel > .UserScoreComponentStyle-blockRightPanel > .BreadcrumbsComponentStyle-logout,
+.MainScreenComponentStyle-containerPanel > .UserScoreComponentStyle-blockRightPanel > .Common-flexCenterAlignCenter,
+.MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > .Common-flexCenterAlignCenterColumn,
+.MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > .Common-flexCenterAlignCenter,
+.MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > .Common-flexStartAlignCenter > .UserInfoContainerStyle-rankIconContainerClickable {
+    margin: 0 0.2em !important;
+    width: 5em !important;
+    height: 5em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 10%) !important;
+    transition: transform 0.2s ease-in-out !important;
 }
-.MainScreenComponentStyle-playButtonContainer > .Common-backgroundImageContain,
-.CheckBoxStyle-checkbox {
-    filter: saturate(0);
+.FriendListComponentStyle-stringCommunity > .FriendListComponentStyle-blockList:hover,
+.BattleHudComponentStyle-hudButton:hover,
+.MainScreenComponentStyle-containerPanel > .UserScoreComponentStyle-blockRightPanel > .BreadcrumbsComponentStyle-logout:hover,
+.MainScreenComponentStyle-containerPanel > .UserScoreComponentStyle-blockRightPanel > .Common-flexCenterAlignCenter:hover,
+.MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > .Common-flexCenterAlignCenterColumn:hover,
+.MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > .Common-flexCenterAlignCenter:hover,
+.MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > .Common-flexStartAlignCenter > .UserInfoContainerStyle-rankIconContainerClickable:hover {
+	   transform: scale(0.95) !important;
 }
-        input[type="range"] {
-            -webkit-appearance: none;
-            width: 100%;
-            height: 8px;
-            background: #ffffff4d;
-            border-radius: 5px;
-            outline: none;
-        }
-        input[type="range"]::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            border-radius: 20px;
-            width: 25px;
-            height: 15px;
-            background: white;
-            cursor: pointer;
-        }
-        input[type="range"]::-moz-range-thumb {
-            border-radius: 20px;
-            width: 25px;
-            height: 15px;
-            background: white;
-            cursor: pointer;
-        }
-
+.UserScoreComponentStyle-blockRightPanel > div > .HeaderCommonStyle-icons {
+    border: none !important;
+    background: transparent !important;
+}
+.ContainerInfoComponentStyle-rewardsMenuHotkey,
 .HotKey-commonBlockForHotKey,
 .ProBattlesComponentStyle-createBattleButton h3,
 .Common-buttonQE span,
@@ -135,528 +311,147 @@ const css = `
 .BreadcrumbsComponentStyle-backButton h3,
 .Common-container .HotKey-commonBlockForHotKey,
 .BattlePauseMenuComponentStyle-hotKey{
-    background-color: white !important;
-    border-radius: 360px !important;
-    color: black !important;
-}
-
-.UserScoreComponentStyle-blockRightPanel > div.Common-flexCenterAlignCenter, .BreadcrumbsComponentStyle-rightButtonsContainer > div.Common-flexCenterAlignCenter {
-    width: 6em;
-    height: 6em;
-    background-color: transparent !important;
-}
-
-/* убираем background и background-color там, где они не нужны */
-.MainSectionComponentStyle-rightBlock > .Common-flexStartAlignCenter,
-.InputComponentStyle-defaultStyle,
-.BattleCreateComponentStyle-formNameBattle input[type="text"],
-.BattleOptionsSectionComponentStyle-checkBoxSettingsCreateBattle > .Common-flexSpaceBetweenAlignCenter,
-.TableComponentStyle-table thead tr th,
-.EventBattlePassLobbyComponentStyle-commonBlockProgressBar,
-.BattlePassLobbyComponentStyle-blockBattlePass,
-.ScrollBarStyle-rightScrollArrow,
-.ScrollBarStyle-leftScrollArrow,
-.ListItemsComponentStyle-itemsWrapper > .Common-flexCenterAlignCenter,
-.ListItemsComponentStyle-itemsListContainer,
-.ChatComponentStyle-chatResize,
-.ClanInfoComponentStyle-clanActionDescription,
-.ContainerInfoComponentStyle-lootBoxDescriptionContainer,
-.BattleInfoComponentStyle-customOptions,
-.BattleInfoComponentStyle-invite > .Common-flexStartAlignCenter,
-.GarageCommonStyle-subMenu > .Common-flexSpaceBetweenAlignStartColumn,
-.SettingsComponentStyle-scrollingMenu,
-.SuperMissionComponentStyle-gradientBackground,
-.BattleModesComponentStyle-fund,
-.BattleModesComponentStyle-button > .Common-flexCenterAlignCenter,
-.ContainersComponentStyle-leftPane,
-.ContainersComponentStyle-rightPane,
-.MenuComponentStyle-decorLineMenu,
-.MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > div.Common-flexCenterAlignCenterColumn,
-.UserScoreComponentStyle-blockRightPanel > div > div.HeaderCommonStyle-icons:hover,
-.BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.Common-flexCenterAlignCenter:hover,
-.BreadcrumbsComponentStyle-rightButtonsContainer > div.BreadcrumbsComponentStyle-exitGameButton:hover, .BreadcrumbsComponentStyle-rightButtonsContainer > div > div.HeaderCommonStyle-icons:hover, .BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.BreadcrumbsComponentStyle-backButton:hover, .BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.Common-flexStartAlignCenter:hover, .ProBattlesComponentStyle-commonBlockHotkeyV:hover,
-.UserInfoContainerStyle-rankIconContainerClickable:hover, .UserScoreComponentStyle-blockRightPanel > div.BreadcrumbsComponentStyle-logout:hover, .MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > div.Common-flexCenterAlignCenterColumn:hover, .MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > div.Common-flexCenterAlignCenter:hover {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-
-/* убираем border, outline, box-shadow там, где они не нужны */
-.MainQuestComponentStyle-colorCardPlay,
-.BattleCreateComponentStyle-blockCard > .Common-flexStartAlignStretchColumn > .Common-flexCenterAlignCenterColumn,
-.NotificationViewStyle-positionBlock,
-.NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter,
-.ClanStatisticsComponentStyle-areCommon,
-.ClanHeaderComponentStyle-blockInform,
-.ClanInfoComponentStyle-messageClan,
-.TableComponentStyle-tBody tr,
-.ConverterDialogComponentStyle-modal,
-.BattleModesComponentStyle-cardContentRight > .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn,
-.BattleModesComponentStyle-cardContentRight > .BattleModesComponentStyle-cardDown > .Common-flexSpaceBetweenAlignCenterColumn,
-.BattleCreateComponentStyle-scrollBattlePick > .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight,
-.MainQuestComponentStyle-cardPlayCommon,
-.MainQuestComponentStyle-cardRewardGiven,
-.MainQuestComponentStyle-cardRewardCompleted,
-.BattleResultQuestProgressComponentStyle-container,
-.ContractCardComponentStyle-card,
-.TableMainQuestComponentStyle-cardLockedTable,
-.MainQuestComponentStyle-cardPlay,
-.SuperMissionComponentStyle-conditionContextItems,
-.BattlePauseMenuDialogComponentStyle-wrapper,
-.BattlePauseMenuComponentStyle-menuButton,
-.BattlePauseMenuComponentStyle-redMenuButton,
-.ContextMenuStyle-menu,
-.ProBattlesComponentStyle-table > .TableComponentStyle-tBody > .Common-flexWrapNowrap,
-.SettingsComponentStyle-scrollCreateBattle,
-.MainSectionComponentStyle-commonBlockCheckBoxCreateBattle,
-.BattleOptionsSectionComponentStyle-checkBoxSettingsCreateBattle > .Common-flexSpaceBetweenAlignCenter,
-.InputComponentStyle-defaultStyle,
-.BattleCreateComponentStyle-formNameBattle input[type="text"],
-.SearchInputComponentStyle-searchInput > .Font-normal,
-.FriendListComponentStyle-buttonCloseAddFriends,
-.InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap,
-.FriendListComponentStyle-stringCommunity > .FriendListComponentStyle-blockList,
-.TankParametersStyle-marginBlockGear,
-.TankParametersStyle-parametersBlockGear,
-.ChatComponentStyle-upMenu > .ChatComponentStyle-channels > .ChatComponentStyle-channelsSelect > .ChatComponentStyle-channelSelect,
-.ChatComponentStyle-chatWindow,
-.ItemDescriptionComponentStyle-commonBlockModal, .TutorialModalComponentStyle-contentWrapper, .SaleByKitStyle-commonBlockModal, .NewsComponentStyle-newsWindow,
-.PaintsCollectionComponentStyle-captionPaint > .Common-backgroundImageContain,
-.GarageCommonStyle-animatedBlurredLeftBlock > :nth-child(2),
-.TanksPartComponentStyle-tankPartUpgrades,
-.Common-flexCenterAlignCenter,
-.DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter,
-.SkinsIconComponentStyle-cellSkins > .Common-flexCenterAlignCenter,
-.ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice,
-.ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle,
-.MountedItemsStyle-commonBlockGrenades, .MountedItemsStyle-commonBlockDrone, .MountedItemsStyle-commonBlockForTurretsHulls, .TankParametersStyle-leftParamsContainer, .SuppliesComponentStyle-cellAdd,
-.ReceivedRewardsComponentStyle-rewards > .ReceivedRewardsComponentStyle-stringRewards > div, .AnimationOpenContainerComponentStyle-rewardContainer, .ContainerInfoComponentStyle-itemsContainer > .Common-flexStartAlignStretchColumn > div, .ContainersComponentStyle-rewards > div,
-.ContainersComponentStyle-infoPanel > .ContainersComponentStyle-possibleRewardsBlock,
-.ItemDescriptionComponentStyle-descriptionBlockDevice > .ContainersComponentStyle-description,
-.UserProgressComponentStyle-progressLegendPlus,
-.UserProgressComponentStyle-itemContainer,
-.UserProgressComponentStyle-progressItemCompleted,
-.UserProgressComponentStyle-rankGainedIndicator,
-.ModalStyle-rootHover > .Common-displayFlex > .Common-flexCenterAlignCenterColumn,
-.ModalStyle-rootHover > .Common-displayFlex,
-.KeyboardSettingsComponentStyle-buttonResetAllKeys,
-.KeyMappingWithIconComponentStyle-noNameKey,
-.KeyboardSettingsComponentStyle-keyInput,
-.KeyMappingWithIconComponentStyle-overdrives,
-.KeyMappingWithIconComponentStyle-commonBlockSupplies,
-.VerticalScrollStyle-outerContainerStyle,
-.DropDownStyle-dropdownControl,
-.TooltipStyle-tooltip,
-.FooterComponentStyle-containerMenu,
-.MainScreenComponentStyle-playButtonContainer,
-.AnnouncementHomeScreenComponentStyle-mainContainer,
-.PrimaryMenuItemComponentStyle-menuItemContainer,
-.EventBattlePassLobbyComponentStyle-buttonEventBattlePass,
-.BattlePassLobbyComponentStyle-commonDescription,
-.BattlePassLobbyComponentStyle-blockBattlePass,
-.BattlePassLobbyComponentStyle-menuBattlePass,
-.BreadcrumbsComponentStyle-backButton,
-.MainScreenComponentStyle-containerPanel, .MainScreenComponentStyle-containerPanel *,
-.BreadcrumbsComponentStyle-headerContainer, .BreadcrumbsComponentStyle-headerContainer *,
-.BattleResultNavigationComponentStyle-commonBlockBattleResultNavigation,
-.TankBuilderHeaderComponentStyle-headerWrapper *,
-.TankBuilderHeaderComponentStyle-headerWrapper,
-.MatchmakingWaitComponentStyle-cancelButton,
-.QuestsChallengesComponentStyle-maxTierBlockEvent,
-.DialogContainerComponentStyle-container,
-.BattlePauseMenuComponentStyle-enabledButton,
-.ScrollingCardsComponentStyle-selectCard,
-.AnnouncementHomeScreenComponentStyle-mainContainer,
-.ProBattlesComponentStyle-commonBlockHotkeyV,
-.SuperMissionComponentStyle-descriptionSuperMission,
-.Common-flexSpaceBetweenAlignStartColumn,
-.QuestsChallengesComponentStyle-maxTierBlock,
-.ProBattlesComponentStyle-rightPanel,
-.ProBattlesComponentStyle-borderLineCell,
-.InvitationWindowsComponentStyle-commonBorder,
-.InvitationWindowsComponentStyle-commonBlockButton,
-.InvitationWindowsComponentStyle-commonBlockButton:hover,
-.BattleInfoComponentStyle-invite,
-.BattleInfoComponentStyle-customOptions,
-.ProBattlesComponentStyle-createBattleButton,
-.BattleModesComponentStyle-button,
-.ContainersComponentStyle-navigationBlockForCategories,
-.BattleModesComponentStyle-fund:hover,
-.ContainerInfoComponentStyle-lootBoxDescriptionContainer,
-.ProBattlesComponentStyle-navigationBlock,
-.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn > .Common-flexStartAlignStartColumn, .ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-/* применяем transition: background-color 0.2s linear; */
-.MainQuestComponentStyle-colorCardPlay,
-.ClanCommonStyle-row,
-.BattleCreateComponentStyle-blockCard > .Common-flexStartAlignStretchColumn > .Common-flexCenterAlignCenterColumn,
-.NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter,
-.InvitationWindowsComponentStyle-commonBorder,
-.BattleModesComponentStyle-cardContentRight > .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn,
-.BattleModesComponentStyle-cardContentRight > .BattleModesComponentStyle-cardDown > .Common-flexSpaceBetweenAlignCenterColumn,
-.BattleCreateComponentStyle-scrollBattlePick > .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight,
-.MainQuestComponentStyle-cardPlayCommon,
-.MainQuestComponentStyle-cardRewardCompleted,
-.BattleResultQuestProgressComponentStyle-container,
-.ContractCardComponentStyle-card,
-.TableMainQuestComponentStyle-cardLockedTable,
-.MainQuestComponentStyle-cardPlay,
-.BattlePauseMenuComponentStyle-menuButton,
-.BattlePauseMenuComponentStyle-redMenuButton,
-.ContextMenuStyle-menu > .Common-flexStartAlignCenter,
-.JoinToBattleComponentStyle-buttonJoin,
-#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter > div,
-.UsersTableStyle-rowBattle > .UsersTableStyle-cellNameDM, .UsersTableStyle-rowBattle,
-.ProBattlesComponentStyle-table > .TableComponentStyle-tBody > .Common-flexWrapNowrap,
-.BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter,
-.MainSectionComponentStyle-commonBlockCheckBoxCreateBattle,
-.BattleHudComponentStyle-tabButton, .BattleHudComponentStyle-pauseButton, .BattleHudComponentStyle-fullScreenButton,
-.ProBattlesComponentStyle-createBattleButton,
-.SearchInputComponentStyle-searchInput > .Font-normal,
-.FriendListComponentStyle-buttonCloseAddFriends,
-.InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap,
-.FriendListComponentStyle-stringCommunity > .FriendListComponentStyle-blockList,
-.Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin,
-.ChatComponentStyle-upMenu > .ChatComponentStyle-channels > .ChatComponentStyle-channelsSelect > .ChatComponentStyle-channelSelect,
-.PaintsCollectionComponentStyle-commonBlockPaint > .Common-flexCenterAlignCenter,
-.PaintsCollectionComponentStyle-captionPaint > .Common-backgroundImageContain,
-.TanksPartComponentStyle-tankPartUpgrades > .SquarePriceButtonComponentStyle-commonBlockButton,
-.GarageSuppliesComponentStyle-containerButtons > .SquarePriceButtonComponentStyle-commonBlockButton,
-.TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton,
-.Common-boxShadowForButton,
-.DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter,
-.SkinsIconComponentStyle-cellSkins > .Common-flexCenterAlignCenter,
-.ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice,.ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle,.GarageProtectionsComponentStyle-equipmentResistance.GarageProtectionsComponentStyle-mountedResistActive,
-.GarageProtectionsComponentStyle-equipmentResistance.GarageProtectionsComponentStyle-mountedResist,
-.MountedItemsStyle-commonForCellResistenceName,
-.MountedItemsStyle-commonBlockGrenades, .MountedItemsStyle-commonBlockDrone, .MountedItemsStyle-commonBlockForTurretsHulls, .TankParametersStyle-leftParamsContainer, .SuppliesComponentStyle-cellAdd,.ContainersComponentStyle-rewards > div,.ContainerInfoComponentStyle-itemsContainer > .Common-flexStartAlignStretchColumn > div,.ContainersComponentStyle-infoPanel > .ContainersComponentStyle-possibleRewardsBlock,.ItemDescriptionComponentStyle-descriptionBlockDevice > .ContainersComponentStyle-description,.UserProgressComponentStyle-progressItemCompleted,.KeyboardSettingsComponentStyle-buttonResetAllKeys,.KeyMappingWithIconComponentStyle-noNameKey,.KeyboardSettingsComponentStyle-keyInput,.KeyMappingWithIconComponentStyle-overdrives,.KeyMappingWithIconComponentStyle-commonBlockSupplies,.DropDownStyle-innerContainerStyle > div > .Common-flexStartAlignCenter,.DropDownStyle-dropdownControl,.MainScreenComponentStyle-playButtonContainer,.BattlePassLobbyComponentStyle-menuBattlePass,.EventBattlePassLobbyComponentStyle-buttonEventBattlePass,.AnnouncementHomeScreenComponentStyle-announceContainer,.PrimaryMenuItemComponentStyle-menuItemContainer,.FooterComponentStyle-containerMenu {
-	transition: background-color 0.2s linear, background 0.2s linear !important;
-}
-
-/* Выбор в про битвах */
-.BattleResultUserInfoComponentStyle-progressVictoryContainer {
-    background-color: #00000026;
-}
-.BattleRewardsComponentStyle-normalRow,
-.BattleRewardsComponentStyle-selectedRow {
-    background: linear-gradient(90deg, #00000026 50%, #ff335580 100%);
-}
-.BattleInfoComponentStyle-commonBlockSelectedOptionsSettings {
-    background: linear-gradient(0deg, #ffffff00 0%, rgb(0 0 0) 100%) !important;
-    backdrop-filter: blur(5px) !important;
-}
-.UsersTableStyle-rowBattleEmpty {
-    backdrop-filter: blur(5px);
-    border-radius: 10px !important;
-    background-color: rgb(0 0 0 / 10%);
-}
-.BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter > .Common-maskImageContain {
-    transform: translateX(-50%) !important;
-    left: 50% !important;
-}
-.BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter p {
     display: none !important;
 }
-.BattleModesComponentStyle-button > .Common-flexCenterAlignCenter div {
+span.PrimaryMenuItemComponentStyle-discountNotification {
+    width: 1em !important;
+    height: 1em !important;
+    background-color: rgb(255 255 255) !important;
+    box-shadow: rgb(255 255 255 / 50%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+}
+.UserInfoContainerStyle-progressValue {
+    text-shadow: rgb(0, 0, 0) 0em 0em 0.15em !important;
+    color: rgb(255, 102, 102) !important;
+}
+.UserInfoContainerStyle-progressValue span {
+    color: rgb(255 102 102 / 65%) !important;
+}
+.UserInfoContainerStyle-xpIcon {
     filter: saturate(0) !important;
 }
-.ProBattlesComponentStyle-table > .TableComponentStyle-tBody > .Common-flexWrapNowrap {
-    width: 99% !important;
+.UserInfoContainerStyle-containerProgressMainScreen > .Common-flexStartAlignStartColumn {
+    background-color: rgb(255 102 102 / 50%) !important;
 }
-.FormatsSectionComponentStyle-card >.Common-flexCenterAlignCenterColumn {
+.UserInfoContainerStyle-containerProgressMainScreen > .Common-flexStartAlignStartColumn:after {
+    filter: drop-shadow(0 0 3px rgb(255 102 102)) !important;
+    background-color: rgb(255 102 102) !important;
+}
+.InvitationWindowsComponentStyle-commonBorder, .InvitationWindowsComponentStyle-commonBlockButton {
     background: transparent !important;
     border: none !important;
 }
-.ProBattlesComponentStyle-createBattleButton {
-    scale: 0.9 !important;
+.InvitationWindowsComponentStyle-commonItem {
+    left: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+tr.BattleTabStatisticComponentStyle-selectedRowBackGround .BattleTabStatisticComponentStyle-nicknameCell div div .Common-flexStartAlignCenter .Common-whiteSpaceNoWrap {
+  	text-shadow: rgb(255, 102, 102) 0em 0em 0.15em !important;
+    color: rgb(255, 102, 102) !important;
+}
+.ScrollingCardsComponentStyle-selectCard {
+    border: none !important;
+}
+.BattlePickComponentStyle-commonStyleBlock.cardImgEvents:hover,
+.ScrollingCardsComponentStyle-scrollCard:hover {
+	transform: scale(0.97) !important;
+}
+.ScrollingCardsComponentStyle-scrollCard {
+	  transition: transform 0.2s ease-in-out !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
 }
 .BattlePickComponentStyle-cardImgEvent,
 .Common-backgroundImageCover {
     transform: none !important;
 }
-.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn {
-    background-color: transparent !important;
-}
-.BattleModesComponentStyle-blockModesFilter .Common-flexCenterAlignCenter:hover {
-    box-shadow: none !important;
-}
-.MapCardComponentStyle-linearGradient {
-    border-radius: 10px !important;
-}
-.BattleCardComponentStyle-line {
-    background-color: transparent !important;
-}
-.FormatsSectionComponentStyle-card:hover,
-.BattlePickComponentStyle-commonStyleBlock:hover,
-.ScrollingCardsComponentStyle-scrollCard:hover,
-.BattleCreateComponentStyle-blockCard .Common-flexStartAlignStretchColumn .Common-backgroundImageCover:hover, .Common-backgroundImageCover.modeLimitIcon:hover {
-    transform: scale(0.985) !important;
-    background-color: black !important;
-    box-shadow: white 0em 0em 0em 2px !important;
-}
-.FormatsSectionComponentStyle-card,
-.BattlePickComponentStyle-commonStyleBlock,
-.ScrollingCardsComponentStyle-scrollCard,
-.BattleCreateComponentStyle-blockCard .Common-flexStartAlignStretchColumn .Common-backgroundImageCover,
-.Common-backgroundImageCover.modeLimitIcon {
-    transition: transform 0.2s linear, box-shadow 0.2s linear !important;
-    box-shadow: black 0em 0em 0em 2px !important;
-    border-radius: 10px !important;
-    background-color: black !important;
-}
-.MainSectionComponentStyle-linearGradientImgCard {
-    border-radius: 10px !important;
-}
-.BattleInfoComponentStyle-selectBattle {
-    display: none !important;
-}
-.ContextMenuStyle-menuItemRank {
-    visibility: hidden !important;
-    height: 0px !important;
-}
-.AnnouncementHomeScreenComponentStyle-headerTimer {
-background-color: white !important;
-}
-.MainScreenComponentStyle-playButtonContainer h3 {
-    color: #f3a683 !important;
-}
-
-/* Containers1 */
-.ContainersComponentStyle-infoPanel > .ContainersComponentStyle-possibleRewardsBlock:hover,
-.ItemDescriptionComponentStyle-descriptionBlockDevice > .ContainersComponentStyle-description:hover, {
-    background: #25252580 !important;
-}
-.ContainersComponentStyle-infoPanel > .ContainersComponentStyle-possibleRewardsBlock,
-.ItemDescriptionComponentStyle-descriptionBlockDevice > .ContainersComponentStyle-description {
+.BreadcrumbsComponentStyle-headerContainer {
+    border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
-    background: #00000080 !important;
-    border-radius: 10px !important;
 }
-.MenuComponentStyle-battleTitleCommunity span {
-    filter: none !important;
-    text-shadow: none !important;
-    background-color: transparent !important;
+.BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart > .Common-flexStartAlignCenter > .UserInfoContainerStyle-containerRightBorder, .BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart > .BreadcrumbsComponentStyle-backButton, .BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart > .Common-flexStartAlignCenter > .UserInfoContainerStyle-rankIconContainerClickable, .BreadcrumbsComponentStyle-headerContainer > .BreadcrumbsComponentStyle-rightButtonsContainer > .BreadcrumbsComponentStyle-exitGameButton, .BreadcrumbsComponentStyle-headerContainer > .BreadcrumbsComponentStyle-rightButtonsContainer > .Common-flexCenterAlignCenter {
+    margin: 0 0.15em !important;
+    width: 5em !important;
+    height: 5em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
 }
-.Common-activeMenu > .Common-menuItemActive {
-    background-color: #f3a683 !important;
-    box-shadow: #f3a683 0px 0px 5px 0px !important;
-    filter: drop-shadow(0 0 2px #f3a683) !important;
-}
-.Common-activeMenu {
-    color: #f3a683 !important;
-    filter: drop-shadow(0 0 2px #f3a683) !important;
-}
-.MenuComponentStyle-mainMenuItem:hover {
-    color: #f3a683 !important;
-}
-.MenuComponentStyle-mainMenuItem {
-    color: white !important;
-}
-.AnimationOpenContainerComponentStyle-rewardContainer > .Common-flexCenterAlignCenterColumn {
-    background: transparent;
-    box-shadow: unset;
-}
-.ReceivedRewardsComponentStyle-rewards > .ReceivedRewardsComponentStyle-stringRewards > div, .AnimationOpenContainerComponentStyle-rewardContainer, .ContainerInfoComponentStyle-itemsContainer > .Common-flexStartAlignStretchColumn > div, .ContainersComponentStyle-rewards > div {
-    backdrop-filter: blur(5px) !important;
-    background: #00000080 !important;
-    border-radius: 10px !important;
-}
-.ContainersComponentStyle-rewards > div:hover,
-.ContainerInfoComponentStyle-itemsContainer > .Common-flexStartAlignStretchColumn > div:hover {
-    background: #25252580 !important;
-}
-
-/* garage */
-.FriendListComponentStyle-containerButtonFriends > .FriendListComponentStyle-buttonAddFriends {
-    border-radius: 10px !important;
-}
-.GarageMainScreenStyle-blockParameters > div > .CssCommonAnimations-appearFromLeft {
-    top: 17em !important;
-    bottom: unset !important;
-}
-.SuppliesComponentStyle-decorLine {
-    background: transparent !important;
-}
-.SuppliesComponentStyle-screenShotButtonOpen {
-    filter: drop-shadow(0 0 3px #f3a683) !important;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA20lEQVR4nO2UQQrCQAxF/zG0XshqS0/gzl3BpXUlggheqrZn0RPYunFjZeALIslgzbjSQDb56X/TJh3gF2IBoFNyaTWfAbh5AE6bv2s2AXBSjHKhP1d6nUcsATTzjedQa+WZo9T8EK3RaT4+QAagBnBhVgDSUIC9Z8g7KyBj7cqVjJgFa05LLICaNWf4GgW1gwXQsjYU+gfUmhCASOgfUTtbAJXnE62olRZA+jTkQhny1AIAV1Fb0y0C/WgJt6VllsLJTYA+ofpol133QYqXXUwhhPm41zv/A9+MO74ysZQOexG2AAAAAElFTkSuQmCC") !important;
-    width: 2em;
-    height: 2em;
-}
-.TanksPartComponentStyle-tankPartUpgrades {
-    background-color: transparent !important;
-}
-.TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:hover {
-    background-color: #25252580;
-}
-.TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton {
-    background-color: #00000080;
-    backdrop-filter: blur(5px) !important;
-    border-radius: 10px !important;
-}
-.GarageCommonStyle-animatedBlurredLeftBlock, .GarageCommonStyle-animatedBlurredRightBlock {
-    backdrop-filter: none !important;
-}
-.PaintsCollectionComponentStyle-captionPaint > .Common-backgroundImageContain {
-    content: url(/play/static/images/info.78c2fe48.svg);
-    transform: scale(0.4);
-    padding: 15px;
-}
-#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter > div {
-   backdrop-filter: blur(5px) !important;
-   border-radius: 10px !important;
-}
-.MainQuestComponentStyle-colorCardPlay {
-    backdrop-filter: blur(5px) !important;
-    background: #25252580 !important;
-    border-radius: 10px !important;
-}
-.MainQuestComponentStyle-colorCardPlay:hover {
-    background: #00000080 !important;
-}
-
-.ClanCommonStyle-row,
-.BattleCreateComponentStyle-blockCard > .Common-flexStartAlignStretchColumn > .Common-flexCenterAlignCenterColumn,
-.NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter,
-.BattleModesComponentStyle-cardContentRight > .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn,
-.BattleModesComponentStyle-cardContentRight > .BattleModesComponentStyle-cardDown > .Common-flexSpaceBetweenAlignCenterColumn,
-.BattleCreateComponentStyle-scrollBattlePick > .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight,
-.MainQuestComponentStyle-cardPlayCommon,
-.BattleResultQuestProgressComponentStyle-container,
-.ContractCardComponentStyle-card,
-.TableMainQuestComponentStyle-cardLockedTable,
-.MainQuestComponentStyle-cardPlay,
-.UsersTableStyle-rowBattle > .UsersTableStyle-cellNameDM, .UsersTableStyle-rowBattle,
-.ProBattlesComponentStyle-table > .TableComponentStyle-tBody > .Common-flexWrapNowrap,
-.BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter,
-.MainSectionComponentStyle-commonBlockCheckBoxCreateBattle,
-.ProBattlesComponentStyle-createBattleButton,
-.SearchInputComponentStyle-searchInput > .Font-normal,
-.FriendListComponentStyle-buttonCloseAddFriends,
-.InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap,
-.FriendListComponentStyle-stringCommunity > .FriendListComponentStyle-blockList,
-.PaintsCollectionComponentStyle-commonBlockPaint > .Common-flexCenterAlignCenter,
-.PaintsCollectionComponentStyle-captionPaint > .Common-backgroundImageContain,
-.TanksPartComponentStyle-tankPartUpgrades > .SquarePriceButtonComponentStyle-commonBlockButton,
-.GarageSuppliesComponentStyle-containerButtons > .SquarePriceButtonComponentStyle-commonBlockButton,
-.Common-boxShadowForButton,
-.DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter,
-.SkinsIconComponentStyle-cellSkins > .Common-flexCenterAlignCenter,
-.ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice,
-.ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle,
-.MountedItemsStyle-commonBlockGrenades, .MountedItemsStyle-commonBlockDrone, .MountedItemsStyle-commonBlockForTurretsHulls, .TankParametersStyle-leftParamsContainer, .SuppliesComponentStyle-cellAdd {
-    backdrop-filter: blur(5px) !important;
-    background: #00000080 !important;
-    border-radius: 10px !important;
-}
-.ClanCommonStyle-row:hover,
-.BattleCreateComponentStyle-blockCard > .Common-flexStartAlignStretchColumn > .Common-flexCenterAlignCenterColumn:hover,
+.NewShopCommonComponentStyle-commonContainer > .NewShopCommonComponentStyle-commonBlockMenuShop > div > .Common-flexStartAlignCenter:hover,
+.ShopCategoryOfferSectionStyle-containerCoin > .Common-flexStartAlignStart > .Common-flexCenterAlignCenterColumn:hover,
+.ShopCategoryOfferSectionStyle-containerItem > .Common-flexStartAlignStart > .Common-flexCenterAlignCenterColumn:hover,
+.ContainersComponentStyle-contentContainer > .ContainersComponentStyle-bottomBlock > .DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter:hover,
+.BattleResultNavigationComponentStyle-disabledButtonWithTimer:hover,
+.BattlePauseMenuComponentStyle-redMenuButton:hover,
+.BattlePauseMenuComponentStyle-menuButton:hover,
 .NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter:hover,
-.BattleModesComponentStyle-cardContentRight > .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn:hover,
-.BattleModesComponentStyle-cardContentRight > .BattleModesComponentStyle-cardDown > .Common-flexSpaceBetweenAlignCenterColumn:hover,
-.BattleCreateComponentStyle-scrollBattlePick > .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight:hover,
-.MainQuestComponentStyle-cardPlayCommon:hover,
-.BattleResultQuestProgressComponentStyle-container:hover,
-.ContractCardComponentStyle-card:hover,
-.TableMainQuestComponentStyle-cardLockedTable:hover,
-.MainQuestComponentStyle-cardPlay:hover,
-.JoinToBattleComponentStyle-buttonJoin:hover,
-#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter > div:hover,
-.UsersTableStyle-rowBattle > .UsersTableStyle-cellNameDM:hover, .UsersTableStyle-rowBattle:hover,
-.ProBattlesComponentStyle-table > .TableComponentStyle-tBody > .Common-flexWrapNowrap:hover,
-.BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter:hover,
-.MainSectionComponentStyle-commonBlockCheckBoxCreateBattle:hover,
-.ProBattlesComponentStyle-createBattleButton:hover,
-.SearchInputComponentStyle-searchInput > .Font-normal:hover,
-.FriendListComponentStyle-buttonCloseAddFriends:hover,
-.InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap:hover,
-.FriendListComponentStyle-stringCommunity > .FriendListComponentStyle-blockList:hover,
-.Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin:hover,
-.PaintsCollectionComponentStyle-commonBlockPaint > .Common-flexCenterAlignCenter:hover,
-.PaintsCollectionComponentStyle-captionPaint > .Common-backgroundImageContain:hover,
-.TanksPartComponentStyle-tankPartUpgrades > .SquarePriceButtonComponentStyle-commonBlockButton:hover,
-.GarageSuppliesComponentStyle-containerButtons > .SquarePriceButtonComponentStyle-commonBlockButton:hover,
-.Common-boxShadowForButton:hover,
+.DialogContainerComponentStyle-footerContainer > .Common-flexCenterAlignCenter:hover,
+.TwitchSettingsRendersStyle-TwitchTextAndButtonBlock > .TwitchSettingsRendersStyle-button:hover,
+.AccountSettingsComponentStyle-commonBlock > .AccountSettingsComponentStyle-mountTagButton > .AccountSettingsComponentStyle-buttonChangesOptions:hover,
+.SecuritySettingsComponentStyle-about2FaTextAndButtonBlock > .SecuritySettingsComponentStyle-button:hover,
+.GameSettingsStyle-notificationsTextAndButtonBlock > .GameSettingsStyle-button:hover,
+.SettingsButtonsComponentStyle-containerGroupButton > .SettingsButtonsComponentStyle-buttonsWidthBackReset:hover,
+.DropDownStyle-dropdownRoot > .VerticalScrollStyle-outerContainerStyle > .DropDownStyle-innerContainerStyle > div > .Common-flexStartAlignCenter:hover,
+li.SettingsMenuComponentStyle-menuItemOptions:hover,
+.GarageProtectionsComponentStyle-equipmentResistance:hover,
+.PaintsCollectionComponentStyle-commonBlockForDescriptionAndButton > .TanksPartComponentStyle-tankPartUpgrades > .SquarePriceButtonComponentStyle-commonBlockButton:hover,
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-descriptionContainer > .GarageSuppliesComponentStyle-containerButtons > .SquarePriceButtonComponentStyle-commonBlockButton:hover,
+.GarageCommonStyle-garageContainer > div > .Common-borderRadius4px:hover,
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-tankPartUpgrades > .TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(2):hover,
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-tankPartUpgrades > .TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1):hover,
+.GarageMenuComponentStyle-garageMenuContainer > .GarageCommonStyle-subMenu > .Common-flexSpaceBetweenAlignStartColumn > .GarageTurretsAlterationsComponentStyle-mountStandardButton > .AlterationButtonStyle-buyButton:hover,
+.Common-scrollBarVisible > .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight:hover,
+.DeviceButtonComponentStyle-blockAlterations > div > .SkinsIconComponentStyle-cellSkins > .Common-flexCenterAlignCenter:hover,
 .DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter:hover,
-.SkinsIconComponentStyle-cellSkins > .Common-flexCenterAlignCenter:hover,
-.ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice:hover,
-.ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle:hover,
-.MountedItemsStyle-commonBlockGrenades:hover, .MountedItemsStyle-commonBlockDrone:hover, .MountedItemsStyle-commonBlockForTurretsHulls:hover, .TankParametersStyle-leftParamsContainer:hover, .SuppliesComponentStyle-cellAdd:hover {
-    background: #25252580 !important;
+.ListItemsComponentStyle-itemsWrapper > .ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle:hover,
+.MountedItemsStyle-commonForCellResistenceName.Common-backgroundImage:hover,
+.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls:hover,
+.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsWeapon.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls:hover,
+.MountedItemsStyle-containerBlockGarage .MountedItemsStyle-commonBlockGrenades:hover,
+.MountedItemsStyle-containerBlockGarage .MountedItemsStyle-commonBlockDrone:hover,
+.SuppliesComponentStyle-blocksCell .SuppliesComponentStyle-cellAdd:hover,
+.ContainersComponentStyle-possibleRewardsBlock > .ContainersComponentStyle-rewards > .Common-flexCenterAlignCenterColumn:hover,
+.ContainerInfoComponentStyle-itemsContainer > .Common-flexStartAlignStretchColumn > .Common-flexCenterAlignCenterColumn:hover,
+.ContainerInfoComponentStyle-rewardsMenu > .Common-flexCenterAlignCenter:hover,
+.BattleResultNavigationComponentStyle-disabledButton:hover,
+.BattleResultNavigationComponentStyle-button:nth-child(2):hover,
+.FriendListComponentStyle-buttonAddFriends:hover,
+.MatchmakingWaitComponentStyle-cancelButton:hover,
+.BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart > .Common-flexStartAlignCenter > .UserInfoContainerStyle-containerRightBorder:hover,
+.BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart > .BreadcrumbsComponentStyle-backButton:hover,
+.BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart > .Common-flexStartAlignCenter > .UserInfoContainerStyle-rankIconContainerClickable:hover,
+.BreadcrumbsComponentStyle-headerContainer > .BreadcrumbsComponentStyle-rightButtonsContainer > .BreadcrumbsComponentStyle-exitGameButton:hover,
+.BreadcrumbsComponentStyle-headerContainer > .BreadcrumbsComponentStyle-rightButtonsContainer > .Common-flexCenterAlignCenter:hover {
+	   transform: scale(0.95) !important;
 }
-.GarageProtectionsComponentStyle-equipmentResistance.GarageProtectionsComponentStyle-mountedResistActive,
-.GarageProtectionsComponentStyle-equipmentResistance.GarageProtectionsComponentStyle-mountedResist,
-.MountedItemsStyle-commonForCellResistenceName {
-    background: #00000080 !important;
-    border-radius: 10px !important;
-}
-.GarageProtectionsComponentStyle-equipmentResistance.GarageProtectionsComponentStyle-mountedResistActive:hover,
-.GarageProtectionsComponentStyle-equipmentResistance.GarageProtectionsComponentStyle-mountedResist:hover,
-.MountedItemsStyle-commonForCellResistenceName:hover {
-    background: #25252580 !important;
-}
-
-
-/* прогресс */
-.UserProgressComponentStyle-progressLegendPlusImage {
-    opacity: 0.5 !important;
-}
-.UserProgressComponentStyle-progressLegendPlusGradient {
+.BreadcrumbsComponentStyle-rightButtonsContainer > div > .HeaderCommonStyle-icons {
+    border: none !important;
     background: transparent !important;
-    border-radius: 10px !important;
 }
-.UserProgressComponentStyle-itemContainer {
-    backdrop-filter: blur(5px) !important;
-    background-color: #25252580 !important;
-    border-radius: 10px !important;
+.BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart {
+    align-items: center !important;
 }
-.UserProgressComponentStyle-modalWrapper {
-    backdrop-filter: blur(5px) !important;
-    background: #00000080 !important;
+.BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart > .Common-flexCenterAlignCenter {
+    display: none;
 }
-.UserProgressComponentStyle-progressLegendPlusGradient > .Common-flexCenterAlignCenter {
-    filter: drop-shadow(0 0 3px #f3a683) !important;
-    color: #f3a683 !important;
-    text-shadow: none !important;
-}
-.UserProgressComponentStyle-rankProgressBarGained {
-    filter: drop-shadow(0 0 2px #f3a683) !important;
-    border-top: 4px solid #f3a683 !important;
-}
-.UserProgressComponentStyle-progressItemCompleted:hover > :nth-child(2) {
-    margin-top: unset !important;
-}
-.UserProgressComponentStyle-progressItemCompleted:hover {
-    background: #25252580 !important;
-}
-.UserProgressComponentStyle-progressItemCompleted {
-    background: #00000080 !important;
-    backdrop-filter: blur(5px) !important;
-    border-radius: 10px !important;
-}
-.UserProgressComponentStyle-rankProgressBarContainerLegend {
-    border-top: 4px solid #ffffff4d !important;
-}
-
-/* Premium */
-.ModalStyle-rootHover > .Common-displayFlex {
-    background: #00000080 !important;
-    backdrop-filter: blur(5px) !important;
-    border-radius: 10px !important;
-}
-
-/* LobbyLoader */
 .LobbyLoaderComponentStyle-container {
-    backdrop-filter: blur(5px) !important;
-    background: #00000080 !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) saturate(0.5);
 }
 .LobbyLoaderComponentStyle-loaderContainer {
     display: none !important;
 }
-.LobbyLoaderComponentStyle-logo {
+.LobbyLoaderComponentStyle-container > .LobbyLoaderComponentStyle-logo {
   animation: logoAnim 1s linear infinite;
   animation-fill-mode: both;
   position: relative;
@@ -683,469 +478,787 @@ background-color: white !important;
     opacity: 0.5;
   }
   100% {
-    filter: drop-shadow(0 0 5px #f3a683);
+    filter: drop-shadow(0 0 5px rgb(255, 102, 102));
     transform: scale(1);
     opacity: 0;
   }
 }
-
-/* Keys */
-.ContextMenuStyle-menu > .Common-flexStartAlignCenter:hover, .DropDownStyle-innerContainerStyle > div > .Common-flexStartAlignCenter:hover {
-    background-color: #25252580 !important;
-    border-radius: 10px !important;
+.UserInfoContainerStyle-blockForIconTankiOnline img {
+	animation: UserInfoAnim 2s linear infinite;
+  animation-fill-mode: both;
+  position: relative;
 }
-.KeyboardSettingsComponentStyle-buttonResetAllKeys:hover {
-    background-color: #25252580 !important;
+@keyframes UserInfoAnim {
+	0% {
+    filter: drop-shadow(0 0 5px rgb(255, 102, 102));
+  }
+  50% {
+    filter: drop-shadow(0 0 30px rgb(255, 5, 45));
+  }
+  100% {
+    filter: drop-shadow(0 0 5px rgb(255, 102, 102));
+  }
 }
-.KeyboardSettingsComponentStyle-buttonResetAllKeys {
+.ContextMenuStyle-menu,
+.TooltipStyle-tooltip {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 35%) !important;
     backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    border-radius: 10px !important;
-}
-.KeyMappingWithIconComponentStyle-noNameKey:hover {
-    background-color: #6400004d !important;
-}
-.KeyMappingWithIconComponentStyle-noNameKey {
-    backdrop-filter: blur(5px) !important;
-    background-color: #5a00004d !important;
-    border-radius: 10px !important;
-}
-.KeyboardSettingsComponentStyle-keyInput:hover,
-.KeyMappingWithIconComponentStyle-overdrives:hover,
-.KeyMappingWithIconComponentStyle-commonBlockSupplies:hover {
-    background-color: #25252580 !important;
-}
-.KeyboardSettingsComponentStyle-keyInput,
-.KeyMappingWithIconComponentStyle-overdrives,
-.KeyMappingWithIconComponentStyle-commonBlockSupplies {
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    border-radius: 10px !important;
-}
-
-
-/* InputRangeComponent */
-.InputRangeComponentStyle-blockSoundVolume p span {
-    filter: drop-shadow(0 0 2px #f3a683) !important;
-    color: #f3a683 !important;
-}
-
-/* Settings */
-.SettingsComponentStyle-scrollingMenu {
-    scrollbar-color: white transparent !important;
-}
-.SettingsMenuComponentStyle-yellowLineMenuOptions {
-    background-color: #f3a683 !important;
-    box-shadow: #f3a683 0px 0px 5px 0px !important;
-    border-radius: 10px !important;
-}
-.SettingsMenuComponentStyle-slideMenuOptions {
-    background: linear-gradient(to right, #2d2d2d, transparent) !important;
-}
-
-/* DropDown */
-.DropDownStyle-dropdownControl:hover {
-    background-color: #25252580 !important;
-}
-.DropDownStyle-dropdownControl {
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    border-radius: 10px !important;
-}
-.ContextMenuStyle-menu > .Common-flexStartAlignCenter:hover,
-.DropDownStyle-innerContainerStyle > div > .Common-flexStartAlignCenter:hover {
-    background: #25252580 !important;
 }
 .ContextMenuStyle-menu > .Common-flexStartAlignCenter,
-.DropDownStyle-innerContainerStyle > div > .Common-flexStartAlignCenter {
+.ContextMenuStyle-menuItemRank {
+	background: transparent !important;
+}
+.UserScoreComponentStyle-coinsContainer {
+    border: none !important;
+}
+.DialogContainerComponentStyle-container {
+    outline: none !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.BattlePickComponentStyle-cardContentLeft, .BattlePickComponentStyle-cardContentRight {
+    flex-direction: row !important;
+    min-width: 45em !important;
+    margin: unset !important;
+    min-height: unset !important;
+}
+.BattlePickComponentStyle-modeCards {
+    padding: 1em 0.5em !important;
+    border-radius: 1.6em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    height: unset !important;
+    width: unset !important;
+}
+.BattlePickComponentStyle-commonStyleBlock.cardImgEvents {
+	  transition: transform 0.2s ease-in-out !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    height: 13em !important;
+    margin: 0 0.5em !important;
+}
+#modal-root > div {
     background: transparent !important;
-    border-radius: 10px !important;
 }
-.VerticalScrollStyle-outerContainerStyle {
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    border-radius: 10px !important;
-    scrollbar-color: white transparent !important;
+.MatchmakingWaitComponentStyle-contentContainer,
+.MatchmakingWaitComponentStyle-cancelButton {
+    height: 4.5em !important;
 }
-.ContextMenuStyle-menu {
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    border-radius: 10px !important;
-}
-
-/* Tool */
-.TooltipStyle-tooltip {
-    background-color: #00000080 !important;
-    border-radius: 10px !important;
-    backdrop-filter: blur(5px) !important;
-}
-
-/* прогресс звания */
-.UserProgressComponentStyle-rankScore,
-.UserProgressComponentStyle-rankProgressLegend,
-.AccountSettingsComponentStyle-blockTextOptions h1 {
-    filter: drop-shadow(0 0 2px #f3a683) !important;
-    color: #f3a683 !important;
-}
-.UserProgressComponentStyle-xpIcon,
-.UserInfoContainerStyle-xpIcon,
-.UserInfoContainerStyle-progressValue {
-    filter: saturate(0) !important;
-}
-.UserInfoContainerStyle-containerProgressMainScreen > .Common-flexStartAlignStartColumn {
-    background-color: #ffffff4d !important;
-}
-.UserInfoContainerStyle-containerProgressMainScreen > .Common-flexStartAlignStartColumn::after {
-    filter: drop-shadow(0 0 2px #f3a683) !important;
-    background-color: #f3a683 !important;
-}
-
-/* Footer */
-.FooterComponentStyle-containerMenu:hover {
-    background-color: #25252580 !important;
-}
-.FooterComponentStyle-containerMenu {
-    margin: 0px 2px !important;
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    border-radius: 360% !important;
-}
-
-/* Кнопка играть */
-.MainScreenComponentStyle-playButtonContainer:hover {
-    background-color: #25252580 !important;
-}
-.MainScreenComponentStyle-playButtonContainer {
+.MatchmakingWaitComponentStyle-container > div {
     background-image: none !important;
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
 }
-.MainScreenComponentStyle-playButtonContainer span {
-    color: white !important;
+.MatchmakingWaitComponentStyle-cancelButton span {
+    margin: 0.5em 1em !important;
 }
-
-/* чат в главном меню и тд */
-.ChatComponentStyle-chatWindow {
-	background: #00000080 !important;
+.MatchmakingWaitComponentStyle-cancelButton {
+	  transition: transform 0.2s ease-in-out !important;
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
-	border-radius: 10px !important;
-    align-self: center !important;
-    position: absolute !important;
-    right: unset !important;
-    height: 80% !important;
-    top: 7em !important;
+    height: unset !important;
+    width: unset !important;
+    padding: 0.5em !important;
 }
-.ItemDescriptionComponentStyle-commonBlockModal, .TutorialModalComponentStyle-contentWrapper, .SaleByKitStyle-commonBlockModal, .NewsComponentStyle-newsWindow {
-    animation: unset !important;
-    background: #00000080 !important;
-    backdrop-filter: blur(5px) !important;
-    margin: 7em 0em 0em 0em !important;
-    height: 50em !important;
+.MatchmakingWaitComponentStyle-container > div {
+    margin: 0 1em !important;
+    background-image: none;
+}
+.MatchmakingWaitComponentStyle-container {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(15px) !important;
+    width: 34.25em;
+    height: 5em;
+    position: absolute;
+    top: 0.3em;
+    right: 50%;
     transform: translateX(50%);
-    right: 50% !important;
-    border-radius: 10px !important;
-    left: unset !important;
 }
-.TutorialModalComponentStyle-backgroundClickArea {
-    background-color: #25252580 !important;
-}
-.ChatComponentStyle-upMenu > .ChatComponentStyle-channels > .ChatComponentStyle-channelsSelect > .ChatComponentStyle-channelSelect:hover {
-    background-color: #25252580 !important;
-}
-.ChatComponentStyle-upMenu > .ChatComponentStyle-channels > .ChatComponentStyle-channelsSelect > .ChatComponentStyle-channelSelect {
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    border-radius: 10px !important;
-}
-.NewsComponentStyle-header,
-.ChatComponentStyle-upMenu {
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
-}
-.ChatComponentStyle-closeArea,
-.NewsComponentStyle-closeArea {
-    background-color: transparent !important;
-}
-.ChatComponentStyle-chatResize {
-	    border-radius: 20px !important;
-	    top: 1em !important;
-	    height: 97% !important;
-}
-.ClanCreateComponentStyle-containerButtons {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-/* Primary */
-.PrimaryMenuItemComponentStyle-discountNotification {
-    width: 1.25em !important;
-}
-.PrimaryMenuItemComponentStyle-menuItemContainer:hover {
-    background-color: #25252580 !important;
-}
-.PrimaryMenuItemComponentStyle-menuItemContainer {
-    width: 21.875em !important;
-    margin: 2px 0px;
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    border-radius: 10px !important;
-}
-
-/* ивенты */
-.AnnouncementHomeScreenComponentStyle-mainContainer > .Common-flexCenterAlignCenterColumn {
-    height: 0px !important;
-}
-.AnnouncementHomeScreenComponentStyle-navigationLabelContainer {
-    display: none !important;
-}
-.AnnouncementHomeScreenComponentStyle-announceContainer {
-    height: 8em !important;
-    border-bottom-right-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
-    background: linear-gradient(transparent 0%, black 100%) !important;
-}
-.AnnouncementHomeScreenComponentStyle-mainClickContainer > .Common-backgroundImageContain {
-    border-radius: 10px !important;
-}
-.AnnouncementHomeScreenComponentStyle-mainContainer {
-    backdrop-filter: blur(5px) !important;
-    background-color: black !important;
-    border-radius: 10px !important;
-}
-
-/* Элитный пропуск */
-.QuestsChallengesComponentStyle-blockImage {
-    opacity: 0.07 !important;
-    border-top-left-radius: 10px !important;
-}
-.EventBattlePassLobbyComponentStyle-buttonEventBattlePass:hover {
-    background-color: #25252580 !important;
-}
-.EventBattlePassLobbyComponentStyle-buttonEventBattlePass {
-    background-color: #00000080 !important;
-    background: transparent;
-}
-
-/* Пропуск */
-.QuestsChallengesComponentStyle-premiumTier,
-.QuestsChallengesComponentStyle-tiers,
-.QuestsChallengesComponentStyle-eventTier,
-.QuestsChallengesComponentStyle-blockGradientEvent,
-.QuestsChallengesComponentStyle-blockGradient {
-    background-image: unset !important;
-}
-.QuestsChallengesComponentStyle-maxTierBlockFree {
-    background: radial-gradient(180% 100% at 50% 100%, #00000030 0%, transparent 100%) !important;
-}
-.EventBattlePassLobbyComponentStyle-commonBlockProgressBarEvent,
-.EventBattlePassLobbyComponentStyle-commonBlockProgressBarChallenge {
-    background-color: black !important;
-}
-.BattlePassLobbyComponentStyle-levelFinished {
-    color: white !important;
-}
-.BattlePassLobbyComponentStyle-menuBattlePass {
-    backdrop-filter: blur(5px) !important;
-    background-color: #00000080 !important;
-    background: transparent;
-    border-radius: 10px !important;
-}
-.BattlePassLobbyComponentStyle-menuBattlePass:hover {
-    background-color: #25252580 !important;
-}
-
-/* загрузка */
-.wrapper .ApplicationLoaderComponentStyle-container > div[style*="linear-gradient"] {
-    background: linear-gradient(transparent 0%, black 100%) !important;
-}
-.ApplicationLoaderComponentStyle-loader {
-    filter: opacity(0) !important;
-}
-
-/* tab */
-.BattleTabStatisticComponentStyle-commonBlockScroll {
-    margin-bottom: 0em;
-    margin-top: 0.5em;
-}
-.BattleTabStatisticComponentStyle-dmTableContainer table thead,
-.BattleTabStatisticComponentStyle-redTeamTableContainer table thead,
-.BattleTabStatisticComponentStyle-blueTeamTableContainer table thead {
-    display: none;
-}
-.BattleTabStatisticComponentStyle-containerInsideTeams,
-.BattleTabStatisticComponentStyle-containerInsideResults {
-    box-shadow: none;
-    backdrop-filter: blur(7px) !important;
-    background-color: #00000099;
-    border-radius: 10px;
-    width: 90em;
-}
-.BattleTabStatisticComponentStyle-redTeamTableContainer table tbody tr, .BattleTabStatisticComponentStyle-blueTeamTableContainer table tbody tr {
-	  border-radius: 7px;
-    width: 43.9em;
-}
-.BattleTabStatisticComponentStyle-dmTableContainer table tbody tr td:nth-child(n+7),
-.BattleTabStatisticComponentStyle-dmTableContainer table tbody tr td:nth-child(n+6),
-.BattleTabStatisticComponentStyle-blueTeamTableContainer table tbody tr td:nth-child(n+7),
-.BattleTabStatisticComponentStyle-redTeamTableContainer table tbody tr td:nth-child(n+6),
-.BattleTabStatisticComponentStyle-redTeamTableContainer table tbody tr td:nth-child(n+7),
-.BattleTabStatisticComponentStyle-blueTeamTableContainer table tbody tr td:nth-child(n+6) {
-    border-left: none;
-}
-.BattleTabStatisticComponentStyle-gsCell, .BattleTabStatisticComponentStyle-defenceCell, .BattleTabStatisticComponentStyle-scoreCell, .BattleTabStatisticComponentStyle-deviceCell {
-    visibility: unset !important;
-}
-.BattleTabStatisticComponentStyle-containerInsideTeams>div:first-child{
-    justify-content:center;
-    text-align:center;
-}
-.BattleTabStatisticComponentStyle-containerInsideTeams>div:first-child:hover{
-    text-align:center;
-}
-.BattleTabStatisticComponentStyle-containerInsideTeams>div:nth-child(2)>div>div:first-child tbody>tr td:first-child{
-    min-width:12em;
-}
-.BattleTabStatisticComponentStyle-containerInsideTeams>div:nth-child(2)>div>div:last-child tbody>tr td:first-child{
-    min-width:12em;
-}
-.BattleTabStatisticComponentStyle-resistanceModuleCell{
-    min-width:10em;
-    visibility:unset !important;
-    width:10em !important;
-}
-.BattleTabStatisticComponentStyle-rowBackGround:hover,
-.BattleTabStatisticComponentStyle-selectedRowBackGround:hover {
-    box-shadow: none;
-}
-.BattleTabStatisticComponentStyle-header {
-    border-bottom: none;
-}
-.BattleTabStatisticComponentStyle-containerInsideResults {
-    width: 65em;
-}
-.BattleTabStatisticComponentStyle-dmTableContainer table tbody tr {
-    border-radius: 7px !important;
-    width: 63.3em;
-}
-.BattleTabStatisticComponentStyle-resistanceModuleCell {
-    display: flex !important;
-    justify-content: space-between !important;
-    width: 10em !important;
-    padding: 0em 0.5em !important;
+.SuppliesComponentStyle-screenShotButtonOpen {
+    filter: drop-shadow(0 0 3px rgb(255, 102, 102)) !important;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA20lEQVR4nO2UQQrCQAxF/zG0XshqS0/gzl3BpXUlggheqrZn0RPYunFjZeALIslgzbjSQDb56X/TJh3gF2IBoFNyaTWfAbh5AE6bv2s2AXBSjHKhP1d6nUcsATTzjedQa+WZo9T8EK3RaT4+QAagBnBhVgDSUIC9Z8g7KyBj7cqVjJgFa05LLICaNWf4GgW1gwXQsjYU+gfUmhCASOgfUTtbAJXnE62olRZA+jTkQhny1AIAV1Fb0y0C/WgJt6VllsLJTYA+ofpol133QYqXXUwhhPm41zv/A9+MO74ysZQOexG2AAAAAElFTkSuQmCC") !important;
+    width: 2em !important;
     height: 2em !important;
 }
-.BattleTabStatisticComponentStyle-defenceLabel {
-    margin-left: 0em !important;
-    margin-right: 0em !important;
-}
-
-/* Hud */
-.BattleHudComponentStyle-tabButton, .BattleHudComponentStyle-pauseButton, .BattleHudComponentStyle-fullScreenButton {
-    background: #00000080 !important;
+.NotificationViewStyle-commonBlockNotification {
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
-    border-radius: 10px !important;
 }
-.BattleHudComponentStyle-tabButton:hover, .BattleHudComponentStyle-pauseButton:hover, .BattleHudComponentStyle-fullScreenButton:hover {
-    background: #25252580 !important;
+.NotificationViewStyle-commonBlockNotification, .NotificationViewStyle-positionBlock {
+    border-top-left-radius: 1em !important;
+    border-bottom-left-radius: 1em !important;
 }
-
-/* стилизация уведомлений с битве */
-.BattleMessagesComponentStyle-message {
-    background-color: #00000080 !important;
-    backdrop-filter: blur(5px) !important;
-    border-radius: 7px !important;
+.NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter span {
+    color: white !important;
 }
-.BattleMessagesComponentStyle-container {
-    width: unset !important;
-    align-items: flex-start !important;
-    margin-left: 1em !important;
-}
-
-/* миссии */
-.TableMainQuestComponentStyle-rewardsContainerTable > .Common-flexCenterAlignCenterColumn,
-.SuperMissionComponentStyle-descriptionSuperMission > div,
-.MainQuestComponentStyle-colorLockedGradient,
-.SuperMissionComponentStyle-rewardsContainer > .Common-flexCenterAlignCenterColumn,
-.MainQuestComponentStyle-rewardsContainer > .Common-flexCenterAlignCenterColumn {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-.SuperMissionComponentStyle-descriptionSuperMission > div > .SuperMissionComponentStyle-buttonDisable {
-    background-color: #25252580 !important;
-}
-.TableMainQuestComponentStyle-colorLockedGradientTable {
-    background: linear-gradient(90deg, #ff333340 0%, #ff333300 50%), transparent !important;
-}
-
-/* пауза */
 .NotificationViewStyle-progressNotification {
-    display: none;
+    rotate: -90deg !important;
+    filter: brightness(5) blur(1px) saturate(0) !important;
+    border-right: 1em solid rgb(0, 25, 38) !important;
+    border-left: 1em solid rgb(75, 41, 57) !important;
+    margin-top: unset !important;
+    width: 46% !important;
+    height: 1em !important;
+    position: absolute !important;
+    bottom: 6em !important;
+    left: -8em;
+    border-radius: 1em !important;
+    box-shadow: rgb(0, 0, 0) 0 0 0.5rem 0 !important;
 }
-.InvitationWindowsComponentStyle-commonBlockButton,
-.InvitationWindowsComponentStyle-commonBorder {
-    border-radius: 10px !important;
+.NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter {
+    border-radius: 1.1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 10%) !important;
+    transition: transform 0.2s ease-in-out !important;
 }
-.InvitationWindowsComponentStyle-commonBlockButton:hover,
-.InvitationWindowsComponentStyle-commonBorder:hover {
-    background-color: #25252580 !important;
+.NotificationViewStyle-positionBlock {
+	border: none !important;
 }
-.ClanStatisticsComponentStyle-areCommon,
-.ClanHeaderComponentStyle-blockInform,
-.ClanInfoComponentStyle-messageClan,
-.ClanInvitationsComponentStyle-invitationContent,
-.InvitationWindowsComponentStyle-commonItem,
-.ConverterDialogComponentStyle-modal,
-.DialogContainerComponentStyle-container {
-    background: #00000080 !important;
+.FriendListComponentStyle-scrollCommunity {
+    height: 47em !important;
+    padding: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
-    border-radius: 10px !important;
 }
-.ModalStyle-rootHover {
-    background-color: #00000080 !important;
+.FriendListComponentStyle-stringCommunity > .FriendListComponentStyle-blockList {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
 }
-.BattlePauseMenuComponentStyle-redMenuButton:hover {
-    background: #28000080 !important;
+.FriendListComponentStyle-buttonAddFriends,
+.SearchInputComponentStyle-searchInput > .Font-normal {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
 }
-.BattlePauseMenuComponentStyle-menuButton:hover {
-    background: #25252580 !important;
+.MenuComponentStyle-decorLineMenu {
+    background: transparent !important;
 }
-.BattlePauseMenuComponentStyle-redMenuButton,
-.BattlePauseMenuComponentStyle-menuButton {
+.FriendListComponentStyle-containerButtonFriends > .ButtonComponentStyle-disabled {
+    border-radius: 1.3em !important;
+    box-shadow: rgb(255 102 102 / 20%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 102 102 / 30%) !important;
+}
+.FriendListComponentStyle-buttonCloseAddFriends {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.MenuComponentStyle-battleTitleCommunity {
+    height: 3em !important;
+    padding: unset !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.Common-menuItemActive {
+    background-color: rgb(255, 102, 102) !important;
+    box-shadow: rgb(255, 102, 102) 0em 0em 0.375em !important;
+    filter: drop-shadow(rgb(255, 102, 102) 0em 0em 0.375em);
+}
+.MenuComponentStyle-battleTitleCommunity .Common-displayFlex {
+    align-items: center !important;
+}
+.MenuComponentStyle-mainMenuItem.Common-activeMenu {
+    color: rgb(255, 102, 102) !important;
+    height: 2em !important;
+}
+.MenuComponentStyle-mainMenuItem:hover {
+    color: rgb(255, 102, 102) !important;
+}
+.MenuComponentStyle-mainMenuItem .Common-activeMenu,
+.MenuComponentStyle-mainMenuItem.Common-activeMenu .Common-activeMenu {
+    background-color: rgb(255 102 102 / 15%) !important;
+}
+.MenuComponentStyle-mainMenuItem .Common-activeMenu,
+.MenuComponentStyle-mainMenuItem.Common-activeMenu .Common-activeMenu,
+.MenuComponentStyle-mainMenuItem.Common-activeMenu .Common-activeMenu:hover {
+    color: rgb(255, 102, 102) !important;
+}
+.AnimationOpenContainerComponentStyle-rewardContainer {
+    border-radius: 1.6em !important;
+    border: 0.15em solid rgb(70 70 70) !important;
+    box-shadow: rgb(0 0 0 / 35%) 0rem 0rem 1.5rem 0.1rem !important;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    border-top-left-radius: 0.5em !important;
+}
+.ContainersComponentStyle-possibleRewardsBlock > .ContainersComponentStyle-rewards > .Common-flexCenterAlignCenterColumn {
+	  transition: transform 0.2s ease-in-out !important;
+	 border-radius: 1em !important;
+    border: 0.15em solid rgb(70 70 70) !important;
+    box-shadow: rgb(0 0 0 / 35%) 0rem 0rem 1.5rem 0.1rem !important;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    border-top-left-radius: 0.5em !important;
+}
+.ContainerInfoComponentStyle-itemsContainer > .Common-flexStartAlignStretchColumn > .Common-flexCenterAlignCenterColumn {
+	  transition: transform 0.2s ease-in-out !important;
+    border-radius: 1.6em !important;
+    border: 0.15em solid rgb(70 70 70) !important;
+    box-shadow: rgb(0 0 0 / 35%) 0rem 0rem 1.5rem 0.1rem !important;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    border-top-left-radius: 0.5em !important;
+}
+.AnimationOpenContainerComponentStyle-rewardContainer .Common-flexCenterAlignCenterColumn {
+    border-radius: 1.4em !important;
+    box-shadow: none !important;
+}
+.ContainersComponentStyle-rightPane,.ContainersComponentStyle-leftPane {
+	background: transparent !important;
+}
+.ItemDescriptionComponentStyle-descriptionBlockDevice.ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice.Common-flexSpaceAroundAlignStretchColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignStretch.ContainersComponentStyle-description,
+.ContainersComponentStyle-infoPanel > .ContainersComponentStyle-possibleRewardsBlock {
+  	border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.ContainersComponentStyle-contentContainer .ContainersComponentStyle-infoPanel {
+    padding: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.BattleResultNavigationComponentStyle-commonBlockBattleResultNavigation > .Common-flexCenterAlignCenter > .BattleResultNavigationComponentStyle-buttonsQE {
+    width: unset !important;
+}
+.BattleResultNavigationComponentStyle-commonBlockBattleResultNavigation {
+    border: none !important;
+}
+.BattleResultHeaderComponentStyle-resultBg {
+    display: none !important;
+}
+.BattleResultHeaderComponentStyle-descriptionVictory > .BattleResultHeaderComponentStyle-flashLight {
+    background: transparent !important;
+}
+.BattleResultQuestProgressComponentStyle-container {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.BattleResultNavigationComponentStyle-disabledButton {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.BattleResultNavigationComponentStyle-button:nth-child(2) {
+    border-radius: 1em !important;
+    border: 0.15em solid rgb(0 255 25 / 10%) !important;
+    box-shadow: rgb(0 255 25 / 10%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 255 25 / 10%) !important;
+}
+.BattleResultUserInfoComponentStyle-progressVictoryContainer {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.GarageMenuComponentStyle-garageMenuContainer > .GarageCommonStyle-subMenu > .Common-flexSpaceBetweenAlignStartColumn,
+.ContainerInfoComponentStyle-lootBoxDescriptionContainer {
+    background: transparent !important;
+    border: none !important;
+}
+.ContainersComponentStyle-navigationBlockForCategories {
+    border: none !important;
+}
+.ContainerInfoComponentStyle-rewardsMenu {
+    margin-top: 1em !important;
+    padding: 0.5em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.ContainerInfoComponentStyle-rewardsMenu > .Common-flexCenterAlignCenter {
+	  transition: transform 0.2s ease-in-out !important;
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.ScrollBarStyle-leftScrollArrow,
+.ScrollBarStyle-rightScrollArrow {
+	      background: radial-gradient(100% 50% at 100% 50%, #000000 0%, transparent) 100% !important;
+}
+.SuppliesComponentStyle-decorLine {
+    background: transparent !important;
+}
+.SuppliesComponentStyle-blocksCell {
+    bottom: 0.5em !important;
+    padding: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.SuppliesComponentStyle-blocksCell .SuppliesComponentStyle-cellAdd {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.TankParametersStyle-leftParamsContainer.GarageCommonStyle-animatedBlurredLeftBlock {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.MountedItemsStyle-container.GarageCommonStyle-animatedBlurredRightBlock {
+    width: 23.5em !important;
+    padding: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls,
+.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsWeapon.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls,
+.MountedItemsStyle-containerBlockGarage .MountedItemsStyle-commonBlockGrenades,
+.MountedItemsStyle-containerBlockGarage .MountedItemsStyle-commonBlockDrone {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.GarageMainScreenStyle-blockParameters > div > .CssCommonAnimations-appearFromLeft > div {
+    z-index: 1 !important;
+}
+.MountedItemsStyle-commonForCellResistenceName.Common-backgroundImage {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.ListItemsComponentStyle-itemsWrapper > .Common-flexCenterAlignCenter,
+.ListItemsComponentStyle-itemsListContainer.CssCommonAnimations-appearFromBottom {
+    background: transparent !important;
+}
+.Common-scrollBarVisible > .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight,
+.ListItemsComponentStyle-itemsWrapper > .ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    border-top-left-radius: 0.5em !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.TanksPartComponentStyle-descriptionContainer > .ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice,
+.TanksPartComponentStyle-commonBlockDescriptionDevices > .TanksPartComponentStyle-blockForImageResistanceModule,
+.TanksPartBaseComponentStyle-blockInsideContainerItem .TanksPartComponentStyle-descriptionContainer .GarageCommonStyle-animatedBlurredLeftBlock > div:nth-child(2),
+.GarageCommonStyle-animatedBlurredLeftBlock > .ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.DeviceButtonComponentStyle-blockAlterations > div > .SkinsIconComponentStyle-cellSkins > .Common-flexCenterAlignCenter,
+.DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+@media screen and (min-width: 1280px), (min-height: 950px) {
+    .GarageMainScreenStyle-blockParameters {
+        width: calc(100% - 10em) !important;
+    }
+}
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-descriptionContainer > .GarageSuppliesComponentStyle-containerButtons > .SquarePriceButtonComponentStyle-commonBlockButton > div > .SquarePriceButtonComponentStyle-paddingPriceStyleButton > .Font-medium,
+.GarageMenuComponentStyle-garageMenuContainer > .GarageCommonStyle-subMenu > .Common-flexSpaceBetweenAlignStartColumn > .GarageTurretsAlterationsComponentStyle-mountStandardButton > .AlterationButtonStyle-buyButton > .Common-flexEndAlignEnd > .Font-bold {
+    color: rgb(255 255 255) !important;
+}
+.GarageMenuComponentStyle-garageMenuContainer > .GarageCommonStyle-subMenu > .Common-flexSpaceBetweenAlignStartColumn > .GarageTurretsAlterationsComponentStyle-mountStandardButton > .AlterationButtonStyle-buyButton {
+	  border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-descriptionContainer > .GarageSuppliesComponentStyle-containerButtons > .SquarePriceButtonComponentStyle-commonBlockButton,
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-tankPartUpgrades > .TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1) {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(0 125 175 / 35%) !important;
+    box-shadow: rgb(0 125 175 / 35%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 125 175 / 35%) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-tankPartUpgrades > .TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1) > div > .SquarePriceButtonComponentStyle-paddingPriceStyleButton > .Font-medium {
+    color: rgb(255 255 255) !important;
+}
+.PaintsCollectionComponentStyle-commonBlockForDescriptionAndButton > .TanksPartComponentStyle-tankPartUpgrades > .SquarePriceButtonComponentStyle-commonBlockButton,
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-tankPartUpgrades > .TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(2) {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(118 255 51 / 20%) !important;
+    box-shadow: rgb(118 255 51 / 10%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: radial-gradient(50% 100% at 50% 0%, rgb(118 255 51 / 50%) 0%, rgb(118 255 51 / 10%) 100%) rgb(0 0 0 / 35%);
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-tankPartUpgrades > .TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(2) > .Common-flexEndAlignEnd > .Font-bold {
+    color: rgb(118, 255, 51) !important;
+}
+.GarageCommonStyle-garageContainer > div > .Common-borderRadius4px {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.GarageCommonStyle-animatedBlurredLeftBlock,
+.TanksPartBaseComponentStyle-buttonsContainer.MountedItemsComponentStyleMobile-buttonsContainer.GarageCommonStyle-animatedBlurredRightBlock,
+.Common-displayFlexColumn.GarageCommonStyle-animatedBlurredRightBlock {
+    backdrop-filter: unset !important;
+}
+.MainScreenComponentStyle-containerPanel:after {
+	  content: "by humorist";
+	  position: absolute;
+    left: 0.5em;
+    bottom: -1.5em;
+    color: rgb(255 255 255 / 30%);
+}
+.GarageProtectionsComponentStyle-equipmentResistance {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.Common-boxShadowForButton {
+    border-radius: 0.7em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.FriendListComponentStyle-buttonDisableAdd img,
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-tankPartUpgrades > .TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1) > .Common-flexCenterAlignCenter > .Common-backgroundImage,
+.TanksPartBaseComponentStyle-blockInsideContainerItem > .TanksPartComponentStyle-tankPartUpgrades > .TanksPartBaseComponentStyle-buttonsContainer > .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1) > div > .SquarePriceButtonComponentStyle-paddingPriceStyleButton > .GarageCommonStyle-iconCoinSmall.Common-backgroundImageContain {
+    filter: saturate(0) brightness(100) !important;
+}
+#modal-root > div > .Common-displayFlex {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.DropDownStyle-dropdownRoot > .DropDownStyle-dropdownControl {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.DropDownStyle-dropdownRoot > .VerticalScrollStyle-outerContainerStyle > .DropDownStyle-innerContainerStyle > div > .Common-flexStartAlignCenter {
+    margin: 0.2em 0 !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.DropDownStyle-dropdownRoot > .VerticalScrollStyle-outerContainerStyle {
+    margin-top: 0.5em !important;
+    padding: 0.7em 0.5em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0) !important;
+    scrollbar-color: rgb(188 188 188) transparent !important;
+}
+.CheckBoxComponentStyle-oneSetting > .CheckBoxStyle-checkbox > label > .Common-displayFlex {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+    align-items: center !important;
+}
+.CheckBoxComponentStyle-oneSetting > .CheckBoxStyle-checkbox > label > .Common-displayFlex::before {
+    height: 1em !important;
+    width: 1em !important;
+    border-radius: 1.3em !important;
+    box-shadow: rgb(255 255 255 / 75%) 0rem 0rem 0.1rem 0.1rem !important;
+    background: rgb(255 255 255 / 75%) !important;
+}
+.SettingsComponentStyle-scrollingMenu {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    scrollbar-color: rgb(188 188 188) transparent !important;
+}
+.SettingsMenuComponentStyle-slideMenuOptions {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.SettingsMenuComponentStyle-yellowLineMenuOptions {
+    display: none !important;
+}
+.SettingsMenuComponentStyle-slideMenuOptions {
+    display: none !important;
+}
+.SettingsMenuComponentStyle-activeItemOptions span {
+    color: rgb(255, 102, 102);
+}
+li.SettingsMenuComponentStyle-menuItemOptions {
+    height: 3em;
+    margin: 0.3em 0 !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+li.SettingsMenuComponentStyle-activeItemOptions {
+    box-shadow: rgb(255 102 102 / 10%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 102 102 / 10%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.AccountSettingsComponentStyle-blockTextOptions h1,
+.InputRangeComponentStyle-blockSoundVolume p span {
+    color: rgb(255, 102, 102) !important;
+}
+
+.SettingsButtonsComponentStyle-containerGroupButton > .SettingsButtonsComponentStyle-buttonsWidthBackReset {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.SettingsButtonsComponentStyle-buttonsWidthBackReset span {
+    color: white !important;
+}
+.TwitchSettingsRendersStyle-TwitchTextAndButtonBlock > .TwitchSettingsRendersStyle-button,
+.GameSettingsStyle-notificationsTextAndButtonBlock > .GameSettingsStyle-button {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(118 255 51 / 35%) !important;
+    box-shadow: rgb(118 255 51 / 35%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(118 255 51 / 35%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.SecuritySettingsComponentStyle-about2FaTextAndButtonBlock > .SecuritySettingsComponentStyle-button {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(255 102 102 / 40%) !important;
+    box-shadow: rgb(255 102 102 / 40%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 102 102 / 40%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.AccountSettingsComponentStyle-commonBlock > .AccountSettingsComponentStyle-mountTagButton > .AccountSettingsComponentStyle-buttonChangesOptions {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(255 204 0 / 40%) !important;
+    box-shadow: rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 204 0 / 40%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.SettingsComponentStyle-scrollingMenu * .ButtonComponentStyle-disabled {
+    border: 0.15em solid rgb(170 170 170 / 20%) !important;
+    border-radius: 1.3em !important;
+}
+.AccountSettingsComponentStyle-blockInputEmail input {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 255 255 / 10%) !important;
+}
+.KeyMappingWithIconComponentStyle-overdrives,
+.KeyMappingWithIconComponentStyle-commonBlockSupplies,
+.KeyboardSettingsComponentStyle-keyInput {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.DialogContainerComponentStyle-footerContainer > .DialogContainerComponentStyle-enterButton {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(118 255 51 / 25%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.DialogContainerComponentStyle-footerContainer > .Common-flexCenterAlignCenter:nth-child(1) {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.DialogContainerComponentStyle-container * .DialogContainerComponentStyle-enterButton span {
+    color: white !important;
+}
+.FriendListComponentStyle-containerButtonFriends > .FriendListComponentStyle-buttonNoFoundUser {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(235 87 87 / 50%) !important;
+    box-shadow: rgb(235 87 87 / 50%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(235 87 87 / 50%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.FriendListComponentStyle-containerButtonFriends > .FriendListComponentStyle-buttonFoundAdd {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(116 186 61 / 50%) !important;
+    box-shadow: rgb(116 186 61 / 50%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(116 186 61 / 50%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.PaintsCollectionComponentStyle-commonBlockPaint > .Common-flexCenterAlignCenter {
+    box-shadow: none !important;
+}
+.ChatComponentStyle-chatWindow,
+.NewsComponentStyle-newsWindow,
+.TutorialModalComponentStyle-modalContainer > .TutorialModalComponentStyle-contentWrapper,
+.TutorialModalComponentStyle-modalContainer > .ItemDescriptionComponentStyle-commonBlockModal {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transform: translate(50%, 50%);
+    right: 50% !important;
+    bottom: 50% !important;
+    animation: none !important;
+    height: 50em !important;
+}
+.BattlePauseMenuComponentStyle-redMenuButton, .BattlePauseMenuComponentStyle-menuButton {
     margin: 2px 0px !important;
-    border-radius: 10px !important;
-    background: #00000040 !important;
+    border-radius: 1em !important;
+    border: 0.2em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
 }
 .BattlePauseMenuDialogComponentStyle-wrapper {
-    backdrop-filter: blur(5px);
-    border-radius: 10px !important;
     padding: 20px !important;
-    background-color: #00000099 !important;
     max-width: 27em !important;
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(5px);
 }
 .BattlePauseMenuDialogComponentStyle-content {
     padding-left: 0em !important;
     padding-right: 0em !important;
 }
 .BattlePauseMenuComponentStyle-disabledButton {
-    background: #25252599 !important;
+    border-radius: 1em !important;
+    border: 0.2em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(255, 255, 255, 0.2) !important;
 }
 .BattlePauseMenuComponentStyle-blackGlobalWrapper {
     background: transparent !important;
 }
-.NotificationViewStyle-commonBlockNotification {
-    background-color: #00000080 !important;
-    backdrop-filter: blur(10px) !important;
+.BattleResultNavigationComponentStyle-disabledButtonWithTimer {
+    transition: transform 0.2s ease-in-out !important;
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(118, 255, 51, 0.25) !important;
 }
-.NotificationViewStyle-commonBlockNotification,
-.NotificationViewStyle-positionBlock {
-    border-radius: 10px;
+.ContainersComponentStyle-contentContainer > .ContainersComponentStyle-bottomBlock > .DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter span {
+    color: rgb(255 255 255) !important;
+    margin: unset !important;
 }
-.NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter p {
-    background-color: transparent !important;
-    border: none !important;
+.SettingsComponentStyle-commonBlock > .SecuritySettingsComponentStyle-containerFormOptions > .SecuritySettingsComponentStyle-about2FaTextAndButtonBlock > .SecuritySettingsComponentStyle-button span,
+.SettingsComponentStyle-commonBlock > .TwitchSettingsRendersStyle-twitchForm > .TwitchSettingsRendersStyle-TwitchTextAndButtonBlock > .TwitchSettingsRendersStyle-button span,
+.AccountSettingsComponentStyle-commonBlock > .AccountSettingsComponentStyle-mountTagButton > .AccountSettingsComponentStyle-buttonChangesOptions span,
+.GameSettingsStyle-notificationsTextAndButtonBlock > .GameSettingsStyle-button span {
+    color: rgb(255 255 255);
 }
-.NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter span {
-    color: white !important;
+.ContainersComponentStyle-contentContainer > .ContainersComponentStyle-bottomBlock > .DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(118, 255, 51, 0.35) !important;
+    box-shadow: rgba(118, 255, 51, 0.35) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(118, 255, 51, 0.35) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.NewShopCommonComponentStyle-commonContainer {
+    background: radial-gradient(50% 100% at 50% 100%, #0d0d0d 0%, #0d0d0d 100%) !important;
+}
+.NewShopCommonComponentStyle-gradient {
+    background-image: none !important;
+}
+.ShopCategoryOfferSectionStyle-containerCoin > .Common-flexStartAlignStart > .Common-flexCenterAlignCenterColumn,
+.ShopCategoryOfferSectionStyle-containerItem > .Common-flexStartAlignStart > .Common-flexCenterAlignCenterColumn {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 35%) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.NewShopCommonComponentStyle-commonContainer > .NewShopCommonComponentStyle-commonBlockMenuShop {
+    padding: 0.5em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 35%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.NewShopCommonComponentStyle-commonContainer > .NewShopCommonComponentStyle-commonBlockMenuShop > div > .Common-flexStartAlignCenter {
+    margin: 0.5em 0 !important;
+    border-radius: 1em !important;
+    border: 0.2em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
 }
 `;
 
@@ -1182,7 +1295,7 @@ function updateStyles() {
         if (notificationIcon) {
             notificationIcon.style.display = 'none';
             if (menuItemContainer) {
-                menuItemContainer.style.backgroundColor = '#f3a683';
+                menuItemContainer.style.backgroundColor = 'rgb(255, 102, 102)';
             }
         } else {
             if (menuItemContainer) {
@@ -1461,8 +1574,6 @@ replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageC
 	}
 })();
 
-/* фильтры */
-
 (function() {
     let contrastEnabled = localStorage.getItem('contrastEnabled') === 'true';
     let contrastValue = parseInt(localStorage.getItem('contrastValue')) || 100;
@@ -1475,17 +1586,18 @@ replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageC
     const menu = document.createElement('div');
     menu.style.position = 'absolute';
     menu.style.width = '20em';
-    menu.style.top = '2em';
-    menu.style.right = '2em';
-    menu.style.transform = 'scale(0)';
+    menu.style.bottom = '8em';
+    menu.style.right = '50%';
+    menu.style.transform = 'translateX(50%) scale(0)';
     menu.style.zIndex = '1000';
     menu.style.display = 'block';
-    menu.style.backgroundColor = 'rgba(0, 25, 38, 0.8)';
+    menu.style.backgroundColor = 'rgba(0, 0, 0, 0.35)';
     menu.style.color = 'white';
-    menu.style.borderRadius = '10px';
+    menu.style.borderRadius = '1.2em';
     menu.style.backdropFilter = 'blur(5px)';
     menu.style.padding = '10px';
-    menu.style.boxShadow = '0px 0px 0px 1px rgb(255 255 255)';
+    menu.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
+    menu.style.boxShadow = 'rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset';
     menu.style.transition = 'transform 0.3s ease';
 
     const dragLabel = document.createElement('div');
@@ -1583,10 +1695,10 @@ menu.innerHTML = `
     }
 
    function toggleMenu() {
-        if (menu.style.transform === 'scale(1)') {
-            menu.style.transform = 'scale(0)';
+        if (menu.style.transform === 'translateX(50%) scale(1)') {
+            menu.style.transform = 'translateX(50%) scale(0)';
         } else {
-            menu.style.transform = 'scale(1)';
+            menu.style.transform = 'translateX(50%) scale(1)';
         }
     }
 
