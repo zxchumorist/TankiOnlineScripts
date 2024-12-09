@@ -1,13 +1,11 @@
+/* ТЕМА */
 const css = `
-/* ФОН */
 .Common-entranceGradient,
 html,
 body,
 .Common-container {
 	background: #0d0d0d !important;
 }
-/* Битва */
-//худ
 .BattleHudComponentStyle-hudButton {
 	transition: transform 0.2s ease-in-out !important;
 	border-radius: 1em !important;
@@ -18,7 +16,6 @@ body,
 	background: rgba(0, 0, 0, 0.5) !important;
 	backdrop-filter: blur(5px);
 }
-//таб
 tr.BattleTabStatisticComponentStyle-selectedRowBackGround,
 tr.BattleTabStatisticComponentStyle-rowBackGround {
 	border-radius: 1.3em !important;
@@ -33,9 +30,9 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	border: 0.15em solid rgb(170 170 170 / 25%) !important;
 	box-shadow:
 		rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem,
-		transparent 0rem 0rem 0rem 0rem inset;
+		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.5) !important;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px) !important;
 }
 .BattleTabStatisticComponentStyle-redTeamTableContainer
 	table
@@ -55,8 +52,6 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 .BattleTabStatisticComponentStyle-redTeamTableContainer table thead tr th h2 {
 	color: white !important;
 }
-/* Лобби */
-//Играть
 .MainScreenComponentStyle-buttonPlay {
 	position: absolute !important;
 	margin: unset !important;
@@ -89,7 +84,6 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover {
 	transform: translateX(50%) scale(0.96) !important;
 }
-//Играть лок
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay {
 	height: 10em !important;
 	border-radius: 1.3em !important;
@@ -114,13 +108,12 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background-color: rgb(255 102 102 / 14%) !important;
 }
-//PrimaryMenuItemComponentStyle
 li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer {
 	flex-direction: column-reverse !important;
 	justify-content: center !important;
 	margin: 0 0.2em !important;
 	width: 15em !important;
-	transition: transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out !important;
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -129,17 +122,17 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 	background: rgba(0, 0, 0, 0.1) !important;
 }
 li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer:hover {
-	transform: scale(0.95);
+	transform: scale(0.95) !important;
 }
 li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer
 	div {
 	scale: 1.35 !important;
 	margin: unset !important;
-	background-color: white;
+	background-color: white !important;
 }
 .PrimaryMenuItemComponentStyle-itemName {
 	font-size: 1em !important;
-	margin: 0.2em 0 0 0;
+	margin: 0.2em 0 0 0 !important;
 }
 .MainScreenComponentStyle-blockMainMenu ul {
 	flex-direction: row !important;
@@ -150,7 +143,7 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 	right: 50% !important;
 	transform: translateX(50%) !important;
 	height: 5em !important;
-	position: absolute;
+	position: absolute !important;
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -158,10 +151,8 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.35) !important;
 	backdrop-filter: blur(5px) !important;
-	align-items: center;
+	align-items: center !important;
 }
-
-//MainScreenComponentStyle
 .MainScreenComponentStyle-containerPanel {
 	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -170,7 +161,6 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 	background: rgba(0, 0, 0, 0.35) !important;
 	backdrop-filter: blur(5px) !important;
 }
-//пропуск
 .BattlePassLobbyComponentStyle-menuBattlePass {
 	z-index: 2 !important;
 	position: absolute;
@@ -190,13 +180,12 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 	background-color: transparent !important;
 	border: 0em solid transparent !important;
 }
-//Footer
 .FooterComponentStyle-containerMenu {
 	transition: transform 0.1s linear;
 	box-shadow: none !important;
 }
 .FooterComponentStyle-containerMenu div {
-	background-color: white;
+	background-color: white !important;
 }
 footer.FooterComponentStyle-footer ul {
 	width: unset !important;
@@ -236,7 +225,6 @@ footer.FooterComponentStyle-footer {
 .FooterComponentStyle-containerMenu:hover {
 	transform: scale(0.95) !important;
 }
-//уведы
 .AnnouncementHomeScreenComponentStyle-mainContainer
 	> .Common-flexCenterAlignCenterColumn {
 	display: none !important;
@@ -266,7 +254,6 @@ footer.FooterComponentStyle-footer {
 	width: 22.5em !important;
 	height: 10em !important;
 }
-//новости
 .NewsComponentStyle-newsContainer {
 	width: 26.25em !important;
 }
@@ -276,7 +263,6 @@ footer.FooterComponentStyle-footer {
 .NewsComponentStyle-closeArea {
 	background-color: transparent !important;
 }
-//чат Лобби
 .ChatComponentStyle-chatResize {
 	display: none;
 }
@@ -296,7 +282,6 @@ footer.FooterComponentStyle-footer {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(0 0 0 / 10%) !important;
 }
-//элитка
 .EventBattlePassLobbyComponentStyle-buttonEventBattlePass {
 	transition: 0.2s linear !important;
 	opacity: 0 !important;
@@ -326,8 +311,6 @@ footer.FooterComponentStyle-footer {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(0 0 0 / 10%) !important;
 }
-
-//хз
 .MainScreenComponentStyle-containerPanel
 	> .UserScoreComponentStyle-blockRightPanel
 	> .BreadcrumbsComponentStyle-logout,
@@ -1728,7 +1711,6 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 	background: rgba(0, 0, 0, 0.1) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
-
 `;
 
 const body = document.body || document.getElementsByTagName('body')[0],
