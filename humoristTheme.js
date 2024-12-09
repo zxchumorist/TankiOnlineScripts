@@ -1,10 +1,257 @@
-/* ТЕМА */
 const css = `
+tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
+    width: 97% !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.BattleInfoComponentStyle-commonBlockSelectBattle > .BattleInfoComponentStyle-selectBattle {
+    border-top-left-radius: 1.3em !important;
+    border-bottom-left-radius: 1.3em !important;
+    border-left: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    backdrop-filter: blur(5px) !important;
+    height: 95% !important;
+    padding-bottom: 1em !important;
+    filter: saturate(0) !important;
+}
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(1) .Common-flexStartAlignStartColumn > .BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter > .Common-maskImageContain {
+    position: relative !important;
+    left: unset !important;
+}
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(1) .Common-flexStartAlignStartColumn > .BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.BattleModesComponentStyle-button .Common-flexCenterAlignCenter > div {
+    filter: saturate(0) !important;
+}
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn > .Common-flexStartAlignStartColumn > .ProBattlesComponentStyle-createBattleButton {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: scale 0.2s ease-in-out !important;
+    scale: 0.8 !important;
+}
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn > .Common-flexStartAlignStartColumn > .ProBattlesComponentStyle-createBattleButton:hover {
+    scale: 0.75 !important;
+}
+#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter > div {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+    scale: 0.97 !important;
+}
+.BattleModesComponentStyle-button .Common-flexCenterAlignCenter,
+.Common-flexStartAlignCenter.BattleModesComponentStyle-fund,
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(1) .Common-flexStartAlignStartColumn,
+#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter > div.Common-flexCenterAlignCenterColumn > div,
+#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter.ProBattleCommonStyleMobile-buttonContainer > div.Common-flexCenterAlignCenter > div,
+#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter > div > div.Common-flexCenterAlignCenter.ButtonComponentStyle-disabled {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.UsersTableStyle-containerBattleListCommands > .UsersTableStyle-scrollCommandTable > .Common-flexStartAlignStartColumn > .UsersTableStyle-rowBattleEmpty,
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(3) > .Common-scrollBarHoverVisible > .UsersTableStyle-containerBattleListCommands > .UsersTableStyle-scrollCommandTable > .Common-flexStartAlignStartColumn > .UsersTableStyle-row > .UsersTableStyle-rowBattleEmpty {
+    margin: 0.1em !important;
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(108 108 108 / 10%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.UsersTableStyle-containerBattleListCommands > .UsersTableStyle-scrollCommandTable > .Common-flexStartAlignStartColumn > .UsersTableStyle-rowBattle,
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(3) > .Common-scrollBarHoverVisible > .UsersTableStyle-containerBattleListCommands > .UsersTableStyle-scrollCommandTable > .Common-flexStartAlignStartColumn > .UsersTableStyle-row > .UsersTableStyle-rowBattle {
+    margin: 0.1em !important;
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.BattleCardComponentStyle-line {
+    background: transparent !important;
+}
+.MainSectionComponentStyle-linearGradientImgCard,
+.MainSectionComponentStyle-transformLinearGradientImgCard {
+    border-radius: 1.1em !important;
+}
+.BattleInfoComponentStyle-blockCard > .Common-backgroundImageCover.modeLimitIcon,
+.Common-flexStartAlignStretchColumn.ProBattleCommonStyleMobile-marginTop > .Common-backgroundImageCover.modeLimitIcon {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(55 55 55) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(3) {
+    border-top-left-radius: 1.3em !important;
+    border-bottom-left-radius: 1.3em !important;
+    border-left: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    height: 95% !important;
+    padding-bottom: 1em !important;
+}
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(1) {
+    border-top-right-radius: 1.3em !important;
+    border-bottom-right-radius: 1.3em !important;
+    border-right: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    height: 95% !important;
+    padding-bottom: 1em !important;
+}
+.ProBattlesComponentStyle-navigationBlock {
+    border: none !important;
+}
+.ContextMenuStyle-menuItemRank span {
+    color: rgb(255, 102, 102) !important;
+}
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-containerButtonStore.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(255 204 0 / 40%) !important;
+    box-shadow: rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 204 0 / 40%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenterColumn.MainQuestComponentStyle-needRank,
+.TutorialModalComponentStyle-modalContainer > .ItemDescriptionComponentStyle-commonBlockModal > .Common-flexStartAlignStartColumn > .MainQuestComponentStyle-rewardsCommonBlock > .MainQuestComponentStyle-rewardsInDescriptionModal > .Common-flexStartAlignCenter,
+.SuperMissionComponentStyle-descriptionSuperMission > div > .Common-flexEndAlignCenterColumn > .SuperMissionComponentStyle-rewardsContainer > .Common-flexCenterAlignCenterColumn,
+.TableMainQuestComponentStyle-rewardsContainerTable > .Common-flexCenterAlignCenterColumn,
+.MainQuestComponentStyle-rewardsContainer > .Common-flexCenterAlignCenterColumn {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-buttonContainer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.TableMainQuestComponentStyle-colorLockedGradientTable,
+.MainQuestComponentStyle-colorLockedGradient {
+    border-radius: 1em !important;
+}
+.TableMainQuestComponentStyle-commonTableMainQuest.TableMainQuestComponentStyle-cardLockedTable,
+.MainQuestComponentStyle-commonCard.iconsMission.TableMainQuestComponentStyle-cardLockedTable.MainQuestComponentStyle-animationImgHover {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 204 0 / 10%) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.MainQuestComponentStyle-cardPlayCommon.TableMainQuestComponentStyle-commonTableMainQuest,
+.TableMainQuestComponentStyle-commonTableMainQuest.MainQuestComponentStyle-cardCommonLocked,
+.TableMainQuestComponentStyle-commonTableMainQuest.TableMainQuestComponentStyle-cardLockedTable,
+.MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-colorCardPlay.MainQuestComponentStyle-animationImgHover,
+.MainQuestComponentStyle-cardPlay.iconsMission.MainQuestComponentStyle-animationImgHover {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.SuperMissionComponentStyle-descriptionSuperMission > div {
+    background: transparent !important;
+}
+.BattleInfoComponentStyle-invite,
+.BattleInfoComponentStyle-invite > .Common-flexStartAlignCenter,
+.BattleInfoComponentStyle-customOptions,
+.SuperMissionComponentStyle-descriptionSuperMission,
+.ProBattlesComponentStyle-commonBlockHotkeyV {
+    background: transparent !important;
+    border: none !important;
+}
+.PaymentInfoComponentStyle-commonBlock {
+    border-bottom: none !important;
+}
+.LargeSingleCardComponentStyle-largeCardContainer > .LargeSingleCardComponentStyle-commonBlock > .Common-flexCenterAlignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(255 204 0 / 40%) !important;
+    box-shadow: rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 204 0 / 40%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.LargeSingleCardComponentStyle-largeCardContainer > .LargeSingleCardComponentStyle-commonBlock > .Common-backgroundImageCover {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(85 5 34) !important;
+    box-shadow: rgb(85 5 34) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background-color: rgb(85 5 34) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.ShopCategoryOfferSectionStyle-containerLimitOffers > .Common-flexCenterAlignCenter > .Common-flexWrapWrap > .Common-flexCenterAlignCenterColumn {
+    border-radius: 1.3em !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(50 50 50 / 10%) !important;
+}
+.ShopCategoryOfferSectionStyle-containerLimitOffers > .Common-flexCenterAlignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 35%) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter > div span,
+#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter.ProBattleCommonStyleMobile-buttonContainer > div.Common-flexCenterAlignCenter > div span,
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-containerButtonStore.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter span,
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-buttonContainer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter span,
+.LargeSingleCardComponentStyle-largeCardContainer > .LargeSingleCardComponentStyle-commonBlock > .Common-flexCenterAlignCenter span,
+.PromoCodesComponentStyle-controlsWrapper .PromoCodesComponentStyle-sendButton span {
+    color: rgb(255 255 255) !important;
+}
+.PromoCodesComponentStyle-controlsWrapper .PromoCodesComponentStyle-sendButton {
+    border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.PromoCodesComponentStyle-controlsWrapper {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 35%) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.ShopCategoryComponentStyle-bonusContainer {
+    background-color: rgb(0 0 0 / 25%) !important;
+}
+.ShopSelectedSectionComponentStyle-activeCategory {
+    margin: 1.25em !important;
+}
 .Common-entranceGradient,
 html,
 body,
 .Common-container {
-	background: #0d0d0d !important;
+	    background: radial-gradient(#2d2d2d 0%, #0d0d0d 100%)  !important;
 }
 .BattleHudComponentStyle-hudButton {
 	transition: transform 0.2s ease-in-out !important;
@@ -341,6 +588,12 @@ footer.FooterComponentStyle-footer {
 	background: rgb(0 0 0 / 10%) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
+tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon:hover,
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(1) .Common-flexStartAlignStartColumn > .BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter:hover,
+.UsersTableStyle-containerBattleListCommands > .UsersTableStyle-scrollCommandTable > .Common-flexStartAlignStartColumn > .UsersTableStyle-rowBattle:hover,
+#root > div > div.ProBattlesComponentStyle-mainContainer > div.Common-flexStartAlignCenterColumn > div.Common-flexStartAlignStretchColumn > div.Common-flexStartAlignCenter > div:hover,
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(3) > .Common-scrollBarHoverVisible > .UsersTableStyle-containerBattleListCommands > .UsersTableStyle-scrollCommandTable > .Common-flexStartAlignStartColumn > .UsersTableStyle-row > .UsersTableStyle-rowBattle:hover,
+.Common-flexStartAlignStretchColumn.ProBattleCommonStyleMobile-marginTop > .Common-backgroundImageCover.modeLimitIcon:hover,
 .FriendListComponentStyle-stringCommunity
 	> .FriendListComponentStyle-blockList:hover,
 .BattleHudComponentStyle-hudButton:hover,
@@ -488,6 +741,17 @@ tr.BattleTabStatisticComponentStyle-selectedRowBackGround
 	background: rgba(0, 0, 0, 0.1) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-containerButtonStore.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-buttonContainer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
+.TableMainQuestComponentStyle-commonTableMainQuest.MainQuestComponentStyle-cardCommonLocked:hover,
+.MainQuestComponentStyle-cardPlayCommon.TableMainQuestComponentStyle-commonTableMainQuest:hover,
+.TableMainQuestComponentStyle-commonTableMainQuest.TableMainQuestComponentStyle-cardLockedTable:hover,
+.MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-colorCardPlay.MainQuestComponentStyle-animationImgHover:hover,
+.MainQuestComponentStyle-commonCard.iconsMission.TableMainQuestComponentStyle-cardLockedTable.MainQuestComponentStyle-animationImgHover:hover,
+.MainQuestComponentStyle-cardPlay.iconsMission.MainQuestComponentStyle-animationImgHover:hover,
+.LargeSingleCardComponentStyle-largeCardContainer > .LargeSingleCardComponentStyle-commonBlock > .Common-flexCenterAlignCenter:hover,
+.ShopCategoryOfferSectionStyle-containerLimitOffers > .Common-flexCenterAlignCenter:hover,
+.PromoCodesComponentStyle-controlsWrapper .PromoCodesComponentStyle-sendButton:hover,
 .NewShopCommonComponentStyle-commonContainer
 	> .NewShopCommonComponentStyle-commonBlockMenuShop
 	> div
@@ -884,9 +1148,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	backdrop-filter: blur(5px) !important;
 }
 .Common-menuItemActive {
-	background-color: rgb(255, 102, 102) !important;
-	box-shadow: rgb(255, 102, 102) 0em 0em 0.375em !important;
-	filter: drop-shadow(rgb(255, 102, 102) 0em 0em 0.375em);
+    display: none !important;
 }
 .MenuComponentStyle-battleTitleCommunity .Common-displayFlex {
 	align-items: center !important;
@@ -1581,7 +1843,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 .BattlePauseMenuComponentStyle-menuButton {
 	margin: 2px 0px !important;
 	border-radius: 1em !important;
-	border: 0.2em solid rgba(170, 170, 170, 0.25) !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
@@ -1605,7 +1867,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 }
 .BattlePauseMenuComponentStyle-disabledButton {
 	border-radius: 1em !important;
-	border: 0.2em solid rgba(170, 170, 170, 0.25) !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
@@ -1704,7 +1966,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 	> .Common-flexStartAlignCenter {
 	margin: 0.5em 0 !important;
 	border-radius: 1em !important;
-	border: 0.2em solid rgba(170, 170, 170, 0.25) !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
@@ -1764,9 +2026,9 @@ function replaceColors(selector) {
         if (backgroundImage.includes('rgb(0, 25, 38)') || backgroundImage.includes('rgba(0, 25, 38, 0)') ||
             backgroundImage.includes('rgb(0, 26, 39)') || backgroundImage.includes('rgba(0, 26, 39, 0)')) {
             const newBackgroundImage = backgroundImage
-                .replace(/rgb\(0, 25, 38\)/g, 'black')
+                .replace(/rgb\(0, 25, 38\)/g, '#0d0d0d')
                 .replace(/rgba\(0, 25, 38, 0\)/g, 'transparent')
-                .replace(/rgb\(0, 26, 39\)/g, 'black')
+                .replace(/rgb\(0, 26, 39\)/g, '#0d0d0d')
                 .replace(/rgba\(0, 26, 39, 0\)/g, 'transparent');
             element.style.backgroundImage = newBackgroundImage;
         }
