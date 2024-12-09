@@ -1,4 +1,11 @@
 const css = `
+.SuperMissionComponentStyle-descriptionSuperMission > div > .SuperMissionComponentStyle-buttonCollect {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    transition: transform 0.2s ease-in-out !important;
+    scale: 0.97 !important;
+}
 .BasePaymentComponentStyle-commonContainerForChoiceAndButton
 	> .BasePaymentComponentStyle-buttonContainer
 	> .Common-flexCenterAlignCenter
@@ -72,6 +79,7 @@ h2.EntranceComponentStyle-fontStyleLabel {
 .TierHeaderComponentStyle-descriptionTier {
 	filter: saturate(0) !important;
 }
+.TableMainQuestComponentStyle-cardRewardCompletedTable.TableMainQuestComponentStyle-commonTableMainQuest,
 .MainQuestComponentStyle-cardRewardCompleted.iconsMission.MainQuestComponentStyle-animationImgHover {
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgba(118, 255, 51, 0.15) !important;
@@ -1028,6 +1036,8 @@ footer.FooterComponentStyle-footer {
 	background: rgb(0 0 0 / 10%) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
+.SuperMissionComponentStyle-descriptionSuperMission > div > .SuperMissionComponentStyle-buttonCollect:hover,
+.TableMainQuestComponentStyle-cardRewardCompletedTable.TableMainQuestComponentStyle-commonTableMainQuest:hover,
 .MainQuestComponentStyle-cardRewardCompleted.iconsMission.MainQuestComponentStyle-animationImgHover:hover,
 .BasePaymentComponentStyle-commonContainerForChoiceAndButton
 	> .BasePaymentComponentStyle-buttonContainer
