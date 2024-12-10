@@ -1,11 +1,128 @@
 const css = `
+.FriendRequestComponentStyle-buttonDeclineAllInvisible {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+}
+.QuestsChallengesComponentStyle-eventTier,
+.TableComponentStyle-table thead tr th {
+    background: none !important;
+}
+.QuestsChallengesComponentStyle-blockGradientTiersEvent {
+    background: linear-gradient(rgba(255, 204, 0, 0) 0%, rgb(0 0 0) 50%, rgb(0 0 0 / 0%) 100%) center center / contain no-repeat  !important;
+}
+.FriendRequestComponentStyle-buttonAccept {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(118 255 51 / 15%) !important;
+}
+.FriendRequestComponentStyle-blockInformationCommunityNoSearch .FriendRequestComponentStyle-buttonDeclineAll,
+.FriendRequestComponentStyle-buttonDecline {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 102 102 / 15%) !important;
+}
+.TableComponentStyle-table > .TableComponentStyle-tBody > tr.TableComponentStyle-row {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.BattleMessagesComponentStyle-message {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgb(0 0 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(5px);
+}
+.Common-flexCenterAlignCenter.UserTitleComponentStyle-premiumButton {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgb(255 204 0 / 40%) !important;
+    box-shadow: rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 204 0 / 40%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-backButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(118 255 51 / 25%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter span {
+    color: rgb(255 255 255) !important;
+    margin: unset !important;
+}
+.InvitationWindowsComponentStyle-typeListContainer h3 {
+    z-index: 1;
+    color: white !important;
+}
+.ShopSelectedSectionComponentStyle-commonCard > .Common-backgroundImageCover {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+}
+.InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.ShopSelectedSectionComponentStyle-commonCard,
+.ShopSelectedSectionComponentStyle-limitedOffersCommon {
+    background-image: none !important;
+    padding: 0 !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(55, 55, 55) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.ShopSelectedSectionComponentStyle-gradientCategory {
+    background: radial-gradient(100% 100% at 0% 100%, #000 0%, #00000000 100%);
+    border-radius: 1.1em;
+    transform: none !important;
+    transition: none !important;
+    bottom: 0 !important;
+}
+.ShopSelectedSectionComponentStyle-commonCard::before,
+.ShopSelectedSectionComponentStyle-commonCard::after,
+.ShopSelectedSectionComponentStyle-limitedOffersCommon::before,
+.ShopSelectedSectionComponentStyle-limitedOffersCommon::after {
+    display: none !important;
+}
+.TableMainQuestComponentStyle-colorLockedGradientTable {
+    background: linear-gradient(90deg, rgba(255, 51, 51, 0.25) 0%, rgba(255, 51, 51, 0) 50%), rgb(0 0 0 / 0%) !important;
+}
+.SuperMissionComponentStyle-descriptionSuperMission > div > .SuperMissionComponentStyle-buttonDisable {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+    scale: 0.97 !important;
+    backdrop-filter: blur(5px) !important;
+}
 .SuperMissionComponentStyle-descriptionSuperMission > div > .SuperMissionComponentStyle-buttonCollect {
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     transition: transform 0.2s ease-in-out !important;
+    background: rgba(118, 255, 51, 0.25) !important;
     scale: 0.97 !important;
+    backdrop-filter: blur(5px) !important;
 }
+.Common-flexCenterAlignCenter.UserTitleComponentStyle-premiumButton span,
 .BasePaymentComponentStyle-commonContainerForChoiceAndButton
 	> .BasePaymentComponentStyle-buttonContainer
 	> .Common-flexCenterAlignCenter
@@ -689,11 +806,11 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 	margin: 1.25em !important;
 }
 .Common-container::before {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	backdrop-filter: blur(5px);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
 }
 .Common-entranceGradient,
 html,
@@ -720,6 +837,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
 }
+.BattleTabStatisticComponentStyle-containerInsideResults,
 .BattleTabStatisticComponentStyle-containerInsideTeams {
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgb(170 170 170 / 25%) !important;
@@ -729,6 +847,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	background: rgba(0, 0, 0, 0.5) !important;
 	backdrop-filter: blur(5px) !important;
 }
+.BattleTabStatisticComponentStyle-dmTableContainer table thead tr th .Common-maskImageContain,
 .BattleTabStatisticComponentStyle-redTeamTableContainer
 	table
 	thead
@@ -743,6 +862,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	.Common-maskImageContain {
 	background-color: white !important;
 }
+.BattleTabStatisticComponentStyle-dmTableContainer table thead tr th h2,
 .BattleTabStatisticComponentStyle-blueTeamTableContainer table thead tr th h2,
 .BattleTabStatisticComponentStyle-redTeamTableContainer table thead tr th h2 {
 	color: white !important;
@@ -1036,6 +1156,11 @@ footer.FooterComponentStyle-footer {
 	background: rgb(0 0 0 / 10%) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-backButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter:hover,
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter:hover,
+.InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap:hover,
+.ShopSelectedSectionComponentStyle-commonCard:hover,
+.ShopSelectedSectionComponentStyle-limitedOffersCommon:hover,
 .SuperMissionComponentStyle-descriptionSuperMission > div > .SuperMissionComponentStyle-buttonCollect:hover,
 .TableMainQuestComponentStyle-cardRewardCompletedTable.TableMainQuestComponentStyle-commonTableMainQuest:hover,
 .MainQuestComponentStyle-cardRewardCompleted.iconsMission.MainQuestComponentStyle-animationImgHover:hover,
@@ -1561,12 +1686,11 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	height: 2em !important;
 }
 .NotificationViewStyle-commonBlockNotification {
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	box-shadow:
-		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
-		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgba(0, 0, 0, 0.35) !important;
-	backdrop-filter: blur(5px) !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    border-right: none !important;
 }
 .NotificationViewStyle-commonBlockNotification,
 .NotificationViewStyle-positionBlock {
