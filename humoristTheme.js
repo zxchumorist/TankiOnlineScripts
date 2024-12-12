@@ -1,4 +1,36 @@
+// ==UserScript==
+// @name         Тема
+// @version      2024-11-05
+// @description  try to take over the world!
+// @author       humorist
+// @match        *://*.tankionline.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
+// ==/UserScript==
+
 const css = `
+.BattleChatComponentStyle-btnToggleTeamAll,
+.BattleChatComponentStyle-btnToggleTeamAllies {
+    border-top-left-radius: 0.9em !important;
+    border-bottom-left-radius: 0.9em !important;
+}
+.BattleChatComponentStyle-inputContainerAll,
+.BattleChatComponentStyle-inputContainerAllies {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(5px);
+}
+.ClanInfoComponentStyle-containerParametersClan {
+    z-index: 1 !important;
+}
+.ClanCreateComponentStyle-blockCreatureClan {
+    border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
 .FriendRequestComponentStyle-buttonDeclineAllInvisible {
     border-radius: 1em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
@@ -812,6 +844,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
     height: 100%;
     backdrop-filter: blur(5px);
 }
+.ClanCommonStyle-content,
 .Common-entranceGradient,
 html,
 body,
@@ -2611,7 +2644,115 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 	background: rgba(0, 0, 0, 0.1) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
+.gearscore__value {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+@keyframes humoristBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 200% 0%;
+    }
+    75% {
+        background-position: 300% 0%;
+    }
+    100% {
+        background-position: 400% 0%;
+    }
+}
+
+.gearscore__value {
+    background: linear-gradient(90deg, #f3a683, #f7d794, #778beb, #e77f67, #cf6a87, #c44569, #e15f41, #546de5, #f5cd79, #f19066, #f3a683);
+    background-size: 400% 100% !important;
+    animation: humoristBackground 8s linear infinite !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.size-2 .slider__item-holder {
+    padding: 1rem !important;
+}
+
+.generic-box {
+	border: 2px solid rgb(170 170 170 / 75%) !important;
+    padding: 1rem !important;
+    border-radius: 15px !important;
+    box-shadow: rgb(0 0 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
+    background: rgb(0 0 0 / 50%) !important;
+    backdrop-filter: blur(5px);
+}
+
+.size-3 .slider__item-holder {
+    padding: 0.5rem !important;
+}
+
+.navbar {
+	border: 2px solid rgb(170 170 170 / 75%) !important;
+	backdrop-filter: blur(5px);
+    padding: 1rem !important;
+    margin-top: 4em !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    border-radius: 15px !important;
+    box-shadow: rgb(0 0 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
+    background-color: rgb(0 0 0 / 50%) !important;
+    width: 53em !important;
+    background: none;
+}
+
+.progress-bar__bar {
+    height: 100% !important;
+    border-radius: 10px !important;
+    background: rgb(169 169 169) !important;
+}
+
+.progress-bar {
+    border: 1px solid hsla(0, 0%, 66.7%, .75) !important;
+    border-radius: 14px !important;
+    background: rgb(0 0 0 / 100%) !important;
+}
+
+.parallax {
+    background-color: rgb(0 0 0 / 100%) !important;
+}
+
+.lang-selector__list {
+    border: 1px solid hsla(0, 0%, 66.7%, .75) !important;
+    border-radius: 10px !important;
+    background: rgb(0 0 0 / 75%) !important;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .25) !important;
+}
+
+.generic-selector__itself {
+    background: rgb(0 0 0 / 75%) !important;
+    border: 1px solid hsla(0, 0%, 66.7%, .75) !important;
+    border-radius: 10px !important;
+}
+
+.generic-input {
+    background-image: none !important;
+    background: rgb(0 0 0 / 75%) !important;
+}
+.form-element {
+    border: 1px solid hsla(0, 0%, 66.7%, .75) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .25) !important;
+    background: rgb(0 0 0 / 75%) !important;
+}
+
+.my-favorites__list {
+    box-shadow: 0 0 100px 7px rgba(0, 0, 0, .75) !important;
+    background: rgb(0 0 0 / 80%) !important;
+    border: 1px solid hsla(0, 0%, 66.7%, .75) !important;
+    border-radius: 10px !important;
+}
 `;
 
 const body = document.body || document.getElementsByTagName('body')[0],
