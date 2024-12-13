@@ -1,4 +1,8 @@
 const css = `
+.Common-flexStartAlignCenterColumn.QuestsComponentStyle-scrollBlock,
+.ClanInfoComponentStyle-containerParametersClan {
+    z-index: 1 !important;
+}
 .BattleChatComponentStyle-btnToggleTeamAll,
 .BattleChatComponentStyle-btnToggleTeamAllies {
     border-top-left-radius: 0.9em !important;
@@ -11,9 +15,6 @@ const css = `
     box-shadow: rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
     background: rgba(0, 0, 0, 0.5) !important;
     backdrop-filter: blur(5px);
-}
-.ClanInfoComponentStyle-containerParametersClan {
-    z-index: 1 !important;
 }
 .ClanCreateComponentStyle-blockCreatureClan {
     border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
@@ -1935,6 +1936,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgb(0 255 25 / 10%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(0 255 25 / 10%) !important;
+    transition: transform 0.2s ease-in-out !important;
 }
 .BattleResultUserInfoComponentStyle-progressVictoryContainer {
 	border-radius: 1em !important;
