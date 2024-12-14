@@ -1,7 +1,49 @@
 const css = `
+.BattleKillBoardComponentStyle-tableContainer table tbody #selfUserBg {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(255 255 255 / 10%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.BattleKillBoardComponentStyle-tableContainer table tbody #enemyCommand {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(150 0 0 / 10%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.BattleKillBoardComponentStyle-tableContainer table tbody #blueCommand {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 60 110 / 15%) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
 .Common-flexStartAlignCenterColumn.QuestsComponentStyle-scrollBlock,
 .ClanInfoComponentStyle-containerParametersClan {
     z-index: 1 !important;
+}
+span.ClanInfoComponentStyle-clanActionDescription {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.FriendListComponentStyle-containerMembers > .TableComponentStyle-table > .TableComponentStyle-tBody > div div > .ClanCommonStyle-row,
+.ClanStatisticsComponentStyle-areCommon,
+.ClanInfoComponentStyle-messageClan,
+.ClanHeaderComponentStyle-blockInform {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.ClanInfoComponentStyle-containerParametersClan {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    height: unset !important;
+    padding: 1em !important;
 }
 .BattleChatComponentStyle-btnToggleTeamAll,
 .BattleChatComponentStyle-btnToggleTeamAllies {
@@ -1837,6 +1879,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 .MenuComponentStyle-mainMenuItem.Common-activeMenu .Common-activeMenu:hover {
 	color: rgb(255, 102, 102) !important;
 }
+.ReceivedRewardsComponentStyle-stringRewards .Common-flexCenterAlignCenterColumn.RewardCardComponentStyle-fastAppearance,
 .AnimationOpenContainerComponentStyle-rewardContainer {
 	border-radius: 1.6em !important;
 	border: 0.15em solid rgb(70 70 70) !important;
