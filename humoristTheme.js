@@ -1,22 +1,22 @@
 const css = `
+.wrapper .ApplicationLoaderComponentStyle-container > div[style*="linear-gradient"] {
+    background: linear-gradient(rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 75%) 100%) !important;
+}
 .BattleKillBoardComponentStyle-tableContainer table tbody #selfUserBg {
     border-radius: 1em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgb(255 255 255 / 10%) !important;
     transition: transform 0.2s ease-in-out !important;
 }
 .BattleKillBoardComponentStyle-tableContainer table tbody #enemyCommand {
     border-radius: 1em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgb(150 0 0 / 10%) !important;
     transition: transform 0.2s ease-in-out !important;
 }
 .BattleKillBoardComponentStyle-tableContainer table tbody #blueCommand {
     border-radius: 1em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgb(0 60 110 / 15%) !important;
     transition: transform 0.2s ease-in-out !important;
 }
