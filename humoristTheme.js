@@ -1136,9 +1136,6 @@ footer.FooterComponentStyle-footer {
 	width: 22.5em !important;
 	height: 10em !important;
 }
-.NewsComponentStyle-newsContainer {
-	width: 26.25em !important;
-}
 .ChatComponentStyle-upMenu,
 .ChatComponentStyle-closeArea,
 .NewsComponentStyle-header,
