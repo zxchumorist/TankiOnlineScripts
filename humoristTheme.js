@@ -3351,7 +3351,8 @@ function toggleFontSize() {
 }
 
 document.addEventListener('keydown', function(event) {
-    if (event.altKey && (event.key === 'q' || event.key === 'й')) {
+    if (event.key === 'F1') {
+        event.preventDefault();
         toggleFontSize();
     }
 });
