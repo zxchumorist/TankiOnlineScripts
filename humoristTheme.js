@@ -1,4 +1,15 @@
 const css = `
+.Common-flexSpaceBetweenAlignCenterColumn.descriptionMode.blockCard {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+.AnnouncementComponentStyle-mainContainer {
+    z-index: 1 !important;
+}
 .wrapper .ApplicationLoaderComponentStyle-container > div[style*="linear-gradient"] {
     background: linear-gradient(rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 75%) 100%) !important;
 }
@@ -1220,6 +1231,7 @@ footer.FooterComponentStyle-footer {
 	background: rgb(0 0 0 / 10%) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
+.Common-flexSpaceBetweenAlignCenterColumn.descriptionMode.blockCard:hover,
 .Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-backButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter:hover,
 .Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter:hover,
 .InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap:hover,
