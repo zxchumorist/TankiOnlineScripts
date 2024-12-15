@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         Тема
+// @version      2024-11-05
+// @description  try to take over the world!
+// @author       humorist
+// @match        *://*.tankionline.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
+// ==/UserScript==
+
 const css = `
 .Common-flexSpaceBetweenAlignCenterColumn.descriptionMode.blockCard {
     border-radius: 1.3em !important;
@@ -3338,3 +3347,20 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
 
     applyStyles();
 })();
+
+function toggleFontSize() {
+    const element = document.querySelector('html');
+    if (element) {
+        if (element.style.fontSize === '0px') {
+            element.style.fontSize = 'max(min(1.48148vh, 1vw) * 1, 3px)';
+        } else {
+            element.style.fontSize = '0';
+        }
+    }
+}
+
+document.addEventListener('keydown', function(event) {
+    if (event.altKey && event.key === 'q') {
+        toggleFontSize();
+    }
+});
