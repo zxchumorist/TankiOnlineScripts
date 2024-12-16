@@ -1693,7 +1693,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 .UserScoreComponentStyle-coinsContainer {
 	border: none !important;
 }
-.DialogContainerComponentStyle-container {
+#modal-root > div > .Common-flexSpaceBetweenAlignStartColumn, .DialogContainerComponentStyle-container {
 	outline: none !important;
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
