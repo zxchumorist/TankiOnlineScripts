@@ -7,6 +7,18 @@ const css = `
     backdrop-filter: blur(5px) !important;
     transition: transform 0.2s ease-in-out !important;
 }
+.ClanCommonStyle-tableInvite thead tr th,
+.ClanProfileEditComponentStyle-containerParametersClanBlockInform {
+    background: none !important;
+}
+.ClanProfileEditComponentStyle-clanDescriptionEdit {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.ClanProfileEditComponentStyle-containerParametersClan,
 .AnnouncementComponentStyle-mainContainer {
     z-index: 1 !important;
 }
@@ -38,13 +50,25 @@ const css = `
 span.ClanInfoComponentStyle-clanActionDescription {
     background: rgba(0, 0, 0, 0.1) !important;
 }
-.FriendListComponentStyle-containerMembers > .TableComponentStyle-table > .TableComponentStyle-tBody > div div > .ClanCommonStyle-row,
+.ClanInvitationsComponentStyle-invitationContent {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(36 36 36) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.ClanCommonStyle-rowEmpty {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.ClanCommonStyle-row,
 .ClanStatisticsComponentStyle-areCommon,
 .ClanInfoComponentStyle-messageClan,
 .ClanHeaderComponentStyle-blockInform {
-    border-radius: 1.3em !important;
+    border-radius: 1em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgba(0, 0, 0, 0.1) !important;
 }
 .ClanInfoComponentStyle-containerParametersClan {
@@ -389,7 +413,7 @@ td.BattleTabStatisticComponentStyle-scoreCell,
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgb(0 0 0) !important;
+	background: rgb(17 17 17) !important;
 	bottom: -0.1em !important;
 }
 .ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
@@ -3338,21 +3362,3 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
 
     applyStyles();
 })();
-
-function toggleFontSize() {
-    const element = document.querySelector('html');
-    if (element) {
-        if (element.style.fontSize === '0px') {
-            element.style.fontSize = 'max(min(1.48148vh, 1vw) * 1, 3px)';
-        } else {
-            element.style.fontSize = '0';
-        }
-    }
-}
-
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'F1') {
-        event.preventDefault();
-        toggleFontSize();
-    }
-});
