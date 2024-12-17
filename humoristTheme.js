@@ -2765,7 +2765,6 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 .navbar {
     border-bottom: 2px solid rgb(170 170 170 / 75%) !important;
     backdrop-filter: blur(5px);
-    padding: 1rem !important;
     box-shadow: rgb(0 0 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
     background-color: rgb(0 0 0 / 50%) !important;
     width: unset !important;
