@@ -2763,16 +2763,12 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 }
 
 .navbar {
-	border: 2px solid rgb(170 170 170 / 75%) !important;
-	backdrop-filter: blur(5px);
+    border-bottom: 2px solid rgb(170 170 170 / 75%) !important;
+    backdrop-filter: blur(5px);
     padding: 1rem !important;
-    margin-top: 4em !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    border-radius: 15px !important;
     box-shadow: rgb(0 0 0) 0rem 0rem 0.5rem 0.2rem, transparent 0rem 0rem 0rem 0rem inset;
     background-color: rgb(0 0 0 / 50%) !important;
-    width: 53em !important;
+    width: unset !important;
     background: none;
 }
 
