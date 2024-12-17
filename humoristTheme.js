@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         Тема
+// @version      2024-11-05
+// @description  try to take over the world!
+// @author       humorist
+// @match        *://*.tankionline.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
+// ==/UserScript==
+
 const css = `
 .Common-flexSpaceBetweenAlignCenterColumn.descriptionMode.blockCard {
     border-radius: 1.3em !important;
