@@ -1,4 +1,7 @@
 const css = `
+.FooterComponentStyle-musicLink {
+    display: none !important;
+}
 .Common-flexSpaceBetweenAlignCenterColumn.descriptionMode.blockCard {
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
