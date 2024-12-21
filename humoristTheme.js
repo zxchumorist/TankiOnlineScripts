@@ -1,10 +1,61 @@
 const css = `
-.GearScoreStyle-bestGS {
-    background: linear-gradient(90deg, #f3a683, #f7d794, #778beb, #e77f67, #cf6a87, #c44569, #e15f41, #546de5, #f5cd79, #f19066, #f3a683);
-    background-size: 400% 100% !important;
-    animation: humoristBackground 8s linear infinite !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+@keyframes DialogContainer {
+  from {
+    opacity: 0.2;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+#modal-root > div > .Common-flexSpaceBetweenAlignStartColumn, .DialogContainerComponentStyle-container {
+   animation: DialogContainer 0.5s ease forwards;
+}
+
+@keyframes BattlePick {
+  from {
+    opacity: 0.2;
+    scale: 0.2;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.BattlePickComponentStyle-modeCards {
+  animation: BattlePick 0.5s ease forwards;
+}
+
+@keyframes BattleTab {
+  from {
+    opacity: 0.2;
+    max-height: 5em;
+  }
+  to {
+    opacity: 1;
+    max-height: 52.5em;
+  }
+}
+
+.BattleTabStatisticComponentStyle-containerInsideResults,
+.BattleTabStatisticComponentStyle-containerInsideTeams {
+  animation: BattleTab 0.5s ease forwards;
+}
+
+.UserProgressComponentStyle-progressLegendPlusImage,
+.UserProgressComponentStyle-progressLegendPlusGradient {
+    border-radius: 1.1em !important;
+}
+.UserProgressComponentStyle-progressLegendPlus,
+.UserProgressComponentStyle-progressItemCompleted {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
 }
 .FooterComponentStyle-musicLink {
     display: none !important;
@@ -1755,8 +1806,6 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgba(0, 0, 0, 0.35) !important;
-	backdrop-filter: blur(5px) !important;
 	height: unset !important;
 	width: unset !important;
 	padding: 0.5em !important;
