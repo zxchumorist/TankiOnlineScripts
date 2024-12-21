@@ -1,4 +1,11 @@
 const css = `
+.GearScoreStyle-bestGS {
+    background: linear-gradient(90deg, #f3a683, #f7d794, #778beb, #e77f67, #cf6a87, #c44569, #e15f41, #546de5, #f5cd79, #f19066, #f3a683);
+    background-size: 400% 100% !important;
+    animation: humoristBackground 8s linear infinite !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
 .FooterComponentStyle-musicLink {
     display: none !important;
 }
@@ -2346,8 +2353,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgba(0, 0, 0, 0.35) !important;
-	backdrop-filter: blur(5px) !important;
+	background: rgba(0, 0, 0, 0.1) !important;
 }
 .DropDownStyle-dropdownRoot
 	> .VerticalScrollStyle-outerContainerStyle
@@ -2382,14 +2388,9 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
 	transition: transform 0.2s ease-in-out !important;
-	align-items: center !important;
 }
 .CheckBoxStyle-checkbox > label > .Common-displayFlex::before {
-	height: 1em !important;
-	width: 1em !important;
-	border-radius: 1.3em !important;
-	box-shadow: rgb(255 255 255 / 75%) 0rem 0rem 0.1rem 0.1rem !important;
-	background: rgb(255 255 255 / 75%) !important;
+    filter: saturate(0) !important;
 }
 .SettingsComponentStyle-scrollingMenu {
 	border-radius: 1.3em !important;
@@ -2898,6 +2899,29 @@ observer.observe(document.body, {
 
 updateStyles();
 replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageCover, .FormatsSectionComponentStyle-card .Common-backgroundImageCover');
+
+// Функция для создания кнопки
+function createButton() {
+  const containerPanel = document.querySelector('.MainScreenComponentStyle-containerPanel');
+  if (containerPanel) {
+    // Создаем кнопку
+    const button = document.createElement('button');
+    button.className = 'MainScreenComponentStyle-humorist';
+    button.textContent = 'Перейти на канал';
+
+    // Добавляем событие по клику
+    button.addEventListener('click', () => {
+      window.location.href = 'https://www.youtube.com/@humoristZXC';
+    });
+
+    // Добавляем кнопку в контейнер
+    containerPanel.appendChild(button);
+  }
+}
+
+// Вызов функции для создания кнопки
+createButton();
+
 
 /* СТАРАЯ ВАРИАЦИЯ ОТОБРАЖЕНИЙ ИКОНОК РЕЗИСТОВ В ТАБЕ */
 (() => {
