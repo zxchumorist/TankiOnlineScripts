@@ -1713,15 +1713,8 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	background: rgba(0, 0, 0, 0.35) !important;
 	backdrop-filter: blur(5px) !important;
 }
-.BattlePickComponentStyle-cardContentLeft,
-.BattlePickComponentStyle-cardContentRight {
-	flex-direction: row !important;
-	min-width: 45em !important;
-	margin: unset !important;
-	min-height: unset !important;
-}
 .BattlePickComponentStyle-modeCards {
-	padding: 1em 0.5em !important;
+	padding: 1em !important;
 	border-radius: 1.6em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -1741,8 +1734,6 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.35) !important;
 	backdrop-filter: blur(5px) !important;
-	height: 13em !important;
-	margin: 0 0.5em !important;
 }
 #modal-root > div {
 	background: transparent !important;
