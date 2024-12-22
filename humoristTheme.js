@@ -3505,12 +3505,11 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
     applyStyles();
 })();
 
-
-
 (function() {
     'use strict';
 
     function createNotification(text, topOffset) {
+        console.log(`Creating notification: "${text}" at offset: ${topOffset}`);
         var notification = document.createElement('div');
         notification.textContent = text;
 
@@ -3561,26 +3560,33 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
     document.head.appendChild(style);
 
     window.onload = function() {
+        console.log("Window loaded, displaying notifications.");
 
         notificationHumor.style.display = 'block';
         notificationHumor.style.animation = 'fadeInScale 0.5s forwards';
+        console.log("Displayed notificationHumor.");
 
         setTimeout(function() {
             notificationHumorVersion.style.display = 'block';
             notificationHumorVersion.style.animation = 'fadeInScale 0.5s forwards';
+            console.log("Displayed notificationHumorVersion.");
 
             setTimeout(function() {
                 notificationHumorVersion.style.animation = 'fadeOutScale 0.5s forwards';
+                console.log("Fading out notificationHumorVersion.");
                 setTimeout(function() {
                     notificationHumorVersion.style.display = 'none';
+                    console.log("notificationHumorVersion hidden.");
                 }, 500);
             }, 3000);
         }, 500);
 
         setTimeout(function() {
             notificationHumor.style.animation = 'fadeOutScale 0.5s forwards';
+            console.log("Fading out notificationHumor.");
             setTimeout(function() {
                 notificationHumor.style.display = 'none';
+                console.log("notificationHumor hidden.");
             }, 500);
         }, 3000);
     };
