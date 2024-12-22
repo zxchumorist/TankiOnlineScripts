@@ -3508,43 +3508,31 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
 (function() {
     'use strict';
 
-    var notificationHumor = document.createElement('div');
-    notificationHumor.textContent = "Открытие меню фильтров: alt 9. Применение фильтров: alt 8.";
+    // Создаем контейнер для уведомлений
+    function createNotification(text, topOffset) {
+        var notification = document.createElement('div');
+        notification.textContent = text;
 
-    notificationHumor.style.position = 'fixed';
-    notificationHumor.style.top = '1em';
-    notificationHumor.style.left = '50%';
-    notificationHumor.style.transform = 'translate(-50%, -10em) scale(0.7)';
-    notificationHumor.style.borderRadius = '1em';
-    notificationHumor.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
-    notificationHumor.style.boxShadow = 'rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset';
-    notificationHumor.style.background = 'rgba(0, 0, 0, 0.35)';
-    notificationHumor.style.backdropFilter = 'blur(15px)';
-    notificationHumor.style.color = '#fff';
-    notificationHumor.style.padding = '10px 20px';
-    notificationHumor.style.zIndex = '999';
-    notificationHumor.style.display = 'none';
+        notification.style.position = 'fixed';
+        notification.style.top = topOffset;
+        notification.style.left = '50%';
+        notification.style.transform = 'translate(-50%, -10em) scale(0.7)';
+        notification.style.borderRadius = '1em';
+        notification.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
+        notification.style.boxShadow = 'rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset';
+        notification.style.background = 'rgba(0, 0, 0, 0.35)';
+        notification.style.backdropFilter = 'blur(15px)';
+        notification.style.color = '#fff';
+        notification.style.padding = '10px 20px';
+        notification.style.zIndex = '999';
+        notification.style.display = 'none';
 
-    document.body.appendChild(notificationHumor);
+        document.body.appendChild(notification);
+        return notification;
+    }
 
-    var notificationHumorVersion = document.createElement('div');
-    notificationHumorVersion.textContent = "Version 1.1.5";
-
-    notificationHumorVersion.style.position = 'fixed';
-    notificationHumorVersion.style.top = '4.5em';
-    notificationHumorVersion.style.left = '50%';
-    notificationHumorVersion.style.transform = 'translate(-50%, -10em) scale(0.7)';
-    notificationHumorVersion.style.borderRadius = '1em';
-    notificationHumorVersion.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
-    notificationHumorVersion.style.boxShadow = 'rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset';
-    notificationHumorVersion.style.background = 'rgba(0, 0, 0, 0.35)';
-    notificationHumorVersion.style.backdropFilter = 'blur(15px)';
-    notificationHumorVersion.style.color = '#fff';
-    notificationHumorVersion.style.padding = '10px 20px';
-    notificationHumorVersion.style.zIndex = '999';
-    notificationHumorVersion.style.display = 'none';
-
-    document.body.appendChild(notificationHumorVersion);
+    var notificationHumor = createNotification("Открытие меню фильтров: alt 9. Применение фильтров: alt 8.", '1em');
+    var notificationHumorVersion = createNotification("Version 1.1.5", '4.5em');
 
     var style = document.createElement('style');
     style.textContent = `
