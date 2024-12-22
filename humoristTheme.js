@@ -3505,6 +3505,8 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
     applyStyles();
 })();
 
+
+
 (function() {
     'use strict';
 
