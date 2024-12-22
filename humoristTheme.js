@@ -1,4 +1,35 @@
 const css = `
+td.BattleTabStatisticComponentStyle-nicknameCell > div div .Common-flexStartAlignCenter {
+    max-width: 7.5em !important;
+}
+td.BattleTabStatisticComponentStyle-nicknameCell {
+    max-width: 15.625em !important;
+    width: 15.625em !important;
+}
+.BattleTabStatisticComponentStyle-commonBlockScroll {
+    margin-top: 0.5em !important;
+}
+.BattleTabStatisticComponentStyle-tablesContainer thead.TableComponentStyle-thead {
+    display: none !important;
+}
+td.BattleTabStatisticComponentStyle-scoreCell,
+td.BattleTabStatisticComponentStyle-dlCell {
+    width: 3em !important;
+    position: relative !important;
+    left: 5em !important;
+}
+td.BattleTabStatisticComponentStyle-resistanceModuleCell {
+    visibility: visible !important;
+    position: relative !important;
+    left: 5em !important;
+}
+.BattleTabStatisticComponentStyle-commonBlock,
+.BattleTabStatisticComponentStyle-gsCell {
+    position: relative !important;
+    right: 7em !important;
+    visibility: visible !important;
+}
+
 @keyframes DialogContainer {
   from {
     opacity: 0.2;
@@ -88,10 +119,6 @@ const css = `
   100% {
     scale: 1;
   }
-}
-
-.BattleTabStatisticComponentStyle-commonBlockScroll {
-    margin-top: 3.5em !important;
 }
 
 .ProBattlesComponentStyle-table > .TableComponentStyle-tBody {
@@ -1104,9 +1131,7 @@ tr.BattleTabStatisticComponentStyle-selectedRowBackGround,
 tr.BattleTabStatisticComponentStyle-rowBackGround {
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	box-shadow:
-		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
-		transparent 0rem 0rem 0rem 0rem inset !important;
+	box-shadow: none !important;
 	background: rgba(0, 0, 0, 0.1) !important;
 }
 .BattleTabStatisticComponentStyle-containerInsideResults,
