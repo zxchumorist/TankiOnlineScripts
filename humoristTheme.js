@@ -3508,7 +3508,6 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
 (function() {
     'use strict';
 
-    // Создаем контейнер для уведомлений
     function createNotification(text, topOffset) {
         var notification = document.createElement('div');
         notification.textContent = text;
@@ -3560,25 +3559,22 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
     document.head.appendChild(style);
 
     window.onload = function() {
-        // Показать первое сообщение
+
         notificationHumor.style.display = 'block';
         notificationHumor.style.animation = 'fadeInScale 0.5s forwards';
 
-        // Задержка перед показом второго сообщения
         setTimeout(function() {
             notificationHumorVersion.style.display = 'block';
             notificationHumorVersion.style.animation = 'fadeInScale 0.5s forwards';
 
-            // Задержка перед скрытием второго сообщения
             setTimeout(function() {
                 notificationHumorVersion.style.animation = 'fadeOutScale 0.5s forwards';
                 setTimeout(function() {
                     notificationHumorVersion.style.display = 'none';
                 }, 500);
             }, 3000);
-        }, 500); // Задержка 500 мс перед показом второго сообщения
+        }, 500);
 
-        // Задержка перед скрытием первого сообщения
         setTimeout(function() {
             notificationHumor.style.animation = 'fadeOutScale 0.5s forwards';
             setTimeout(function() {
