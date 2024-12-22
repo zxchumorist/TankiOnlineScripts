@@ -3509,7 +3509,6 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
     'use strict';
 
     function createNotification(text, topOffset) {
-        console.log(`Creating notification: "${text}" at offset: ${topOffset}`);
         var notification = document.createElement('div');
         notification.textContent = text;
 
@@ -3525,7 +3524,7 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
         notification.style.color = '#fff';
         notification.style.padding = '10px 20px';
         notification.style.zIndex = '999';
-        notification.style.display = 'none';
+        notification.classList.add('hidden'); // Добавляем класс для скрытия
 
         document.body.appendChild(notification);
         return notification;
@@ -3556,37 +3555,39 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
                 transform: translate(-50%, -10em) scale(0.7);
             }
         }
+        .hidden {
+            display: none;
+        }
+        .visible {
+            display: block;
+        }
     `;
     document.head.appendChild(style);
 
     window.onload = function() {
-        console.log("Window loaded, displaying notifications.");
-
-        notificationHumor.style.display = 'block';
+        notificationHumor.classList.remove('hidden');
+        notificationHumor.classList.add('visible');
         notificationHumor.style.animation = 'fadeInScale 0.5s forwards';
-        console.log("Displayed notificationHumor.");
 
         setTimeout(function() {
-            notificationHumorVersion.style.display = 'block';
+            notificationHumorVersion.classList.remove('hidden');
+            notificationHumorVersion.classList.add('visible');
             notificationHumorVersion.style.animation = 'fadeInScale 0.5s forwards';
-            console.log("Displayed notificationHumorVersion.");
 
             setTimeout(function() {
                 notificationHumorVersion.style.animation = 'fadeOutScale 0.5s forwards';
-                console.log("Fading out notificationHumorVersion.");
                 setTimeout(function() {
-                    notificationHumorVersion.style.display = 'none';
-                    console.log("notificationHumorVersion hidden.");
+                    notificationHumorVersion.classList.remove('visible');
+                    notificationHumorVersion.classList.add('hidden');
                 }, 500);
             }, 3000);
         }, 500);
 
         setTimeout(function() {
             notificationHumor.style.animation = 'fadeOutScale 0.5s forwards';
-            console.log("Fading out notificationHumor.");
             setTimeout(function() {
-                notificationHumor.style.display = 'none';
-                console.log("notificationHumor hidden.");
+                notificationHumor.classList.remove('visible');
+                notificationHumor.classList.add('hidden');
             }, 500);
         }, 3000);
     };
