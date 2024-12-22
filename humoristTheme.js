@@ -17,7 +17,7 @@ const css = `
 @keyframes BattlePick {
   from {
     opacity: 0.2;
-    scale: 0.2;
+    scale: 0.7;
   }
   to {
     opacity: 1;
@@ -28,8 +28,18 @@ const css = `
 .BattlePickComponentStyle-modeCards {
   animation: BattlePick 0.5s ease forwards;
 }
-
 @keyframes BattleTab {
+  from {
+    opacity: 0;
+    transform: scaleY(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes SaleByKitStyle {
   from {
     opacity: 0.2;
     max-height: 5em;
@@ -42,7 +52,92 @@ const css = `
 
 .BattleTabStatisticComponentStyle-containerInsideResults,
 .BattleTabStatisticComponentStyle-containerInsideTeams {
-  animation: BattleTab 0.5s ease forwards;
+  animation: BattleTab 1s ease forwards;
+}
+.SaleByKitStyle-commonBlockModal, .ChatComponentStyle-chatWindow, .NewsComponentStyle-newsWindow, .TutorialModalComponentStyle-modalContainer > .TutorialModalComponentStyle-contentWrapper, .TutorialModalComponentStyle-modalContainer > .ItemDescriptionComponentStyle-commonBlockModal {
+    animation: SaleByKitStyle 1s ease forwards !important;
+}
+
+.FriendListComponentStyle-scrollCommunity > .FriendListComponentStyle-stringCommunity > .FriendListComponentStyle-blockList,
+.BattleTabStatisticComponentStyle-tablesContainer > div tbody,
+.ChatComponentStyle-messagesContainer {
+    animation: ChatComponentStyle 1s ease forwards !important;
+}
+
+@keyframes ChatComponentStyle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.BattleTabStatisticComponentStyle-commonBlockScroll {
+    margin-top: 3.5em !important;
+}
+
+.ProBattlesComponentStyle-table > .TableComponentStyle-tBody {
+    animation: TableComponentStyle 0.5s ease forwards !important;
+}
+
+@keyframes TableComponentStyle {
+  from {
+    opacity: 0;
+    transform: scaleY(0.5);
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.MenuComponentStyle-battleTitleCommunity {
+    animation: MenuComponentStyle 0.5s ease forwards !important;
+}
+
+@keyframes MenuComponentStyle {
+  from {
+    opacity: 0;
+    transform: translateY(-5em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.NotificationViewStyle-commonBlockNotification,
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(3) {
+    animation: ProBattles-child3 0.5s ease forwards !important;
+}
+
+@keyframes ProBattles-child3 {
+  from {
+    opacity: 0;
+    transform: translateX(20em);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn:nth-child(1) {
+    animation: ProBattles-child1 0.5s ease forwards !important;
+}
+
+@keyframes ProBattles-child1 {
+  from {
+    opacity: 0;
+    transform: translateX(-10em);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .UserProgressComponentStyle-progressLegendPlusImage,
@@ -1879,15 +1974,15 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	border: none !important;
 }
 .FriendListComponentStyle-scrollCommunity {
-	height: 47em !important;
-	padding: 1em !important;
-	border-radius: 1.3em !important;
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	box-shadow:
-		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
-		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgba(0, 0, 0, 0.35) !important;
-	backdrop-filter: blur(5px) !important;
+    animation: SaleByKitStyle 1s ease forwards !important;
+    height: 47em !important;
+    padding: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    min-height: 5em !important;
 }
 .FriendListComponentStyle-stringCommunity
 	> .FriendListComponentStyle-blockList {
@@ -2604,6 +2699,17 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 	> .Common-flexCenterAlignCenter {
 	box-shadow: none !important;
 }
+.SaleByKitStyle-commonBlockModal > .Common-alignContentStart > .SaleByKitStyle-commonCard:hover {
+    transform: scale(0.95) !important;
+}
+.SaleByKitStyle-commonBlockModal > .Common-alignContentStart > .SaleByKitStyle-commonCard {
+    transition: transform 0.2s ease-in-out !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.SaleByKitStyle-commonBlockModal,
 .ChatComponentStyle-chatWindow,
 .NewsComponentStyle-newsWindow,
 .TutorialModalComponentStyle-modalContainer
@@ -2620,8 +2726,8 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 	transform: translate(50%, 50%);
 	right: 50% !important;
 	bottom: 50% !important;
-	animation: none !important;
 	height: 50em !important;
+    left: unset !important;
 }
 .BattlePauseMenuComponentStyle-redMenuButton,
 .BattlePauseMenuComponentStyle-menuButton {
