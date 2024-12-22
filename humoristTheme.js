@@ -39,6 +39,17 @@ const css = `
   }
 }
 
+@keyframes BattlePause {
+  from {
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%) scaleY(1);
+  }
+}
+
 @keyframes SaleByKitStyle {
   from {
     opacity: 0.2;
@@ -49,7 +60,9 @@ const css = `
     max-height: 52.5em;
   }
 }
-
+.BattlePauseMenuDialogComponentStyle-wrapper {
+  animation: BattlePause 1s ease forwards;
+}
 .BattleTabStatisticComponentStyle-containerInsideResults,
 .BattleTabStatisticComponentStyle-containerInsideTeams {
   animation: BattleTab 1s ease forwards;
@@ -57,7 +70,7 @@ const css = `
 .SaleByKitStyle-commonBlockModal, .ChatComponentStyle-chatWindow, .NewsComponentStyle-newsWindow, .TutorialModalComponentStyle-modalContainer > .TutorialModalComponentStyle-contentWrapper, .TutorialModalComponentStyle-modalContainer > .ItemDescriptionComponentStyle-commonBlockModal {
     animation: SaleByKitStyle 1s ease forwards !important;
 }
-
+.BattlePauseMenuComponentStyle-enabledButton,
 .FriendListComponentStyle-scrollCommunity > .FriendListComponentStyle-stringCommunity > .FriendListComponentStyle-blockList,
 .BattleTabStatisticComponentStyle-tablesContainer > div tbody,
 .ChatComponentStyle-messagesContainer {
