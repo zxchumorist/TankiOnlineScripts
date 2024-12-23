@@ -1,37 +1,40 @@
-// Массив никнеймов для проверки
-const nicknames = ["Hit", "Ruse"];
+const nicknames = ["humorist", "Hit", "Ruse"];
 
-// Функция для проверки никнеймов
-function checkForNicknames() {
-  const container = document.querySelector('.UserInfoContainerStyle-containerProgressMainScreen');
+function checkForNicknames(element) {
+  const elementText = element.innerText;
+  const foundNickname = nicknames.some(nickname => elementText.includes(nickname));
 
-  if (container) {
-    const element = container.querySelector('.UserInfoContainerStyle-textDecoration');
-
-    if (element) {
-      const elementText = element.innerText;
-
-      const foundNickname = nicknames.some(nickname => elementText.includes(nickname));
-
-      if (!foundNickname) {
-        // Удаляем весь HTML на странице, если ни один из никнеймов не найден
-        document.documentElement.innerHTML = '';
-        console.error('Ни один из никнеймов не найден. Все HTML на странице удалено.');
-      } else {
-        console.log('Один из никнеймов найден. Продолжаем работу...');
-      }
-    } else {
-      console.log('Элемент .UserInfoContainerStyle-textDecoration не найден внутри .UserInfoContainerStyle-containerProgressMainScreen.');
-    }
+  if (!foundNickname) {
+    document.documentElement.innerHTML = '';
+    console.error('Ни один из никнеймов не найден. Все HTML на странице удалено.');
   } else {
-    console.log('Элемент .UserInfoContainerStyle-containerProgressMainScreen не найден, продолжаем проверку...');
+    console.log('Один из никнеймов найден. Продолжаем работу...');
   }
 }
 
-// Таймер, который периодически ищет элемент и проверяет никнеймы
-const intervalId = setInterval(() => {
-  checkForNicknames();
-}, 1000); // Проверка каждые 1000 мс (1 секунда)
+function initObserver() {
+  const observer = new MutationObserver((mutationsList, observer) => {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'childList' || mutation.type === 'subtree') {
+        const container = document.querySelector('.UserInfoContainerStyle-containerProgressMainScreen');
+        if (container) {
+          const element = container.querySelector('.UserInfoContainerStyle-textDecoration');
+          if (element) {
+            checkForNicknames(element);
+            observer.disconnect();
+            return;
+          }
+        }
+      }
+    }
+  });
+
+  const config = { childList: true, subtree: true };
+  observer.observe(document.body, config);
+}
+
+initObserver();
+
 
 
 document.title = "TForce 1.1.4";
