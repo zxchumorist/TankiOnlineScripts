@@ -1,8 +1,18 @@
+// ==UserScript==
+// @name         Тема
+// @version      2024-11-05
+// @description  try to take over the world!
+// @author       humorist
+// @match        *://*.tankionline.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
+// ==/UserScript==
+
 const nicknames = ["Hit", "Ruse"];
 
+// Функция для проверки никнеймов
 function checkForNicknames(element) {
   const elementText = element.innerText;
-  const foundNickname = nicknames.some(nickname => elementText.includes(nickname));
+  const foundNickname = nicknames.some(nickname => new RegExp(`\\b${nickname}\\b`).test(elementText)); // Точная проверка с использованием регулярного выражения
 
   if (!foundNickname) {
     document.documentElement.innerHTML = '';
@@ -12,6 +22,7 @@ function checkForNicknames(element) {
   }
 }
 
+// Функция для инициализации MutationObserver
 function initObserver() {
   const observer = new MutationObserver((mutationsList, observer) => {
     for (const mutation of mutationsList) {
@@ -21,7 +32,7 @@ function initObserver() {
           const element = container.querySelector('.UserInfoContainerStyle-textDecoration');
           if (element) {
             checkForNicknames(element);
-            observer.disconnect();
+            observer.disconnect(); // Останавливаем наблюдение после выполнения проверки
             return;
           }
         }
@@ -33,8 +44,8 @@ function initObserver() {
   observer.observe(document.body, config);
 }
 
+// Инициализация MutationObserver
 initObserver();
-
 
 
 document.title = "TForce 1.1.4";
