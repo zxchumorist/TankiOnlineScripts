@@ -1,26 +1,5 @@
 document.title = "TForce 1.1.4";
 
-// Функция для добавления фона
-function addBackground() {
-  const element = document.querySelector('.Common-entranceGradient');
-  if (element) {
-    element.style.background = 'url(resources/battle/skybox/parkour/left.png)';
-    element.style.backgroundSize = 'cover'; // Настройка для покрытия всего элемента
-  } else {
-    console.error('Элемент с классом .Common-entranceGradient не найден');
-  }
-}
-
-// Таймер, который периодически ищет элемент и добавляет ему фон
-const intervalId = setInterval(() => {
-  const element = document.querySelector('.Common-entranceGradient');
-  if (element) {
-    addBackground();
-    clearInterval(intervalId); // Остановить таймер после нахождения и применения фона
-  }
-}, 1000); // Проверка каждые 1000 мс (1 секунда)
-
-
 (function() {
   // Создаем элемент уведомления для открытия меню фильтров
   const notification1 = document.createElement('div');
