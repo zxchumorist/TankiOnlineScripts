@@ -1,35 +1,50 @@
-const css = `
-td.BattleTabStatisticComponentStyle-nicknameCell > div div .Common-flexStartAlignCenter {
-    max-width: 7.5em !important;
-}
-td.BattleTabStatisticComponentStyle-nicknameCell {
-    max-width: 15.625em !important;
-    width: 15.625em !important;
-}
-.BattleTabStatisticComponentStyle-commonBlockScroll {
-    margin-top: 0.5em !important;
-}
-.BattleTabStatisticComponentStyle-tablesContainer thead.TableComponentStyle-thead {
-    display: none !important;
-}
-td.BattleTabStatisticComponentStyle-scoreCell,
-td.BattleTabStatisticComponentStyle-dlCell {
-    width: 3em !important;
-    position: relative !important;
-    left: 5em !important;
-}
-td.BattleTabStatisticComponentStyle-resistanceModuleCell {
-    visibility: visible !important;
-    position: relative !important;
-    left: 5em !important;
-}
-.BattleTabStatisticComponentStyle-commonBlock,
-.BattleTabStatisticComponentStyle-gsCell {
-    position: relative !important;
-    right: 7em !important;
-    visibility: visible !important;
-}
+(function() {
+  const notification = document.createElement('div');
+  notification.innerHTML = `
+    <div class="custom-notification">
+      По предложению нововведений писать: <a href="https://t.me/zxchumorist" target="_blank">https://t.me/zxchumorist</a>
+    </div>
+  `;
 
+  const style = document.createElement('style');
+  style.textContent = `
+    .custom-notification {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      padding: 1rem;
+      border-radius: 1.3em !important;
+      border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+      box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+      background: rgba(0, 0, 0, 0.35) !important;
+      backdrop-filter: blur(5px) !important;
+      color: #fff;
+      z-index: 10000;
+      opacity: 1;
+      transition: opacity 2s ease-in-out;
+    }
+    .custom-notification a {
+      color: #74ba3d;
+      text-decoration: none;
+    }
+    .custom-notification a:hover {
+      text-decoration: underline;
+    }
+  `;
+
+  document.head.appendChild(style);
+  document.body.appendChild(notification);
+
+  setTimeout(() => {
+    notification.querySelector('.custom-notification').style.opacity = '0';
+    setTimeout(() => {
+      notification.remove();
+    }, 2000);
+  }, 7000);
+})();
+
+
+const css = `
 @keyframes DialogContainer {
   from {
     opacity: 0.2;
