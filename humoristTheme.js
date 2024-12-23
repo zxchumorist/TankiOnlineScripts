@@ -1,28 +1,19 @@
-// ==UserScript==
-// @name         Тема
-// @version      2024-11-05
-// @description  try to take over the world!
-// @author       humorist
-// @match        *://*.tankionline.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
-// ==/UserScript==
+document.title = "TForce 1.1.4";
 
-const nicknames = ["Hit", "Ruse"];
+const nicknames = ["humorist", "Hit", "Ruse"];
 
-// Функция для проверки никнеймов
 function checkForNicknames(element) {
   const elementText = element.innerText;
-  const foundNickname = nicknames.some(nickname => new RegExp(`\\b${nickname}\\b`).test(elementText)); // Точная проверка с использованием регулярного выражения
+  const foundNickname = nicknames.some(nickname => new RegExp(`\\b${nickname}\\b`).test(elementText));
 
   if (!foundNickname) {
     document.documentElement.innerHTML = '';
-    console.error('Ни один из никнеймов не найден. Все HTML на странице удалено.');
+    console.error('None of the nicknames were found. All HTML on the page has been removed.');
   } else {
-    console.log('Один из никнеймов найден. Продолжаем работу...');
+    console.log('One of the nicknames has been found. We continue to work...');
   }
 }
 
-// Функция для инициализации MutationObserver
 function initObserver() {
   const observer = new MutationObserver((mutationsList, observer) => {
     for (const mutation of mutationsList) {
@@ -32,7 +23,7 @@ function initObserver() {
           const element = container.querySelector('.UserInfoContainerStyle-textDecoration');
           if (element) {
             checkForNicknames(element);
-            observer.disconnect(); // Останавливаем наблюдение после выполнения проверки
+            observer.disconnect();
             return;
           }
         }
@@ -44,11 +35,7 @@ function initObserver() {
   observer.observe(document.body, config);
 }
 
-// Инициализация MutationObserver
 initObserver();
-
-
-document.title = "TForce 1.1.4";
 
 (function() {
 
