@@ -1,3 +1,26 @@
+document.title = "TForce 1.1.4";
+
+// Функция для добавления фона
+function addBackground() {
+  const element = document.querySelector('.Common-entranceGradient');
+  if (element) {
+    element.style.background = 'url(resources/battle/skybox/parkour/left.png)';
+    element.style.backgroundSize = 'cover'; // Настройка для покрытия всего элемента
+  } else {
+    console.error('Элемент с классом .Common-entranceGradient не найден');
+  }
+}
+
+// Таймер, который периодически ищет элемент и добавляет ему фон
+const intervalId = setInterval(() => {
+  const element = document.querySelector('.Common-entranceGradient');
+  if (element) {
+    addBackground();
+    clearInterval(intervalId); // Остановить таймер после нахождения и применения фона
+  }
+}, 1000); // Проверка каждые 1000 мс (1 секунда)
+
+
 (function() {
   // Создаем элемент уведомления для открытия меню фильтров
   const notification1 = document.createElement('div');
@@ -11,7 +34,7 @@
   const notification2 = document.createElement('div');
   notification2.innerHTML = `
     <div class="custom-notification">
-      <p>Для предложений по нововведениям пишите на: <a href="https://t.me/zxchumorist" target="_blank">https://t.me/zxchumorist</a></p>
+      <p>Для предложений по нововведениям пишите на: <a href="https://t.me/zxchumorist" target="_blank">Telegram</a></p>
       <p style="text-align: right; font-size: 0.8em; margin-top: unset; opacity: 0.5;">версия: 1.1.4</p>
     </div>
   `;
@@ -24,18 +47,17 @@
       bottom: 1rem;
       right: -100%; /* Начальная позиция за пределами экрана справа */
       padding: 1rem;
-      border-radius: 1.3em !important;
-      border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-      box-shadow: rgba(0, 0, 0, 0.5) 0rem 0рем 0.5рем 0.1рем, transparent 0рем 0рем 0рем 0рем inset !important;
-      background: rgba(0, 0, 0, 0.35) !important;
-      backdrop-filter: blur(15px) !important;
+      border-radius: 1em;
+      border: 0.15em solid rgba(170, 170, 170, 0.25);
+      background: rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(15px);
       color: #fff;
       z-index: 10000;
       opacity: 0;
       transition: opacity 2s ease-in-out, right 1s ease-in-out;
     }
     .custom-notification a {
-      color: #74ba3d;
+      color: rgb(70 165 225);
       text-decoration: none;
     }
     .custom-notification a:hover {
@@ -45,7 +67,7 @@
       margin: unset;
     }
     .custom-notification.show {
-      right: 1rem; /* Конечная позиция */
+      right: 1rem;
       opacity: 1;
     }
   `;
@@ -3136,28 +3158,6 @@ observer.observe(document.body, {
 
 updateStyles();
 replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageCover, .FormatsSectionComponentStyle-card .Common-backgroundImageCover');
-
-// Функция для создания кнопки
-function createButton() {
-  const containerPanel = document.querySelector('.MainScreenComponentStyle-containerPanel');
-  if (containerPanel) {
-    // Создаем кнопку
-    const button = document.createElement('button');
-    button.className = 'MainScreenComponentStyle-humorist';
-    button.textContent = 'Перейти на канал';
-
-    // Добавляем событие по клику
-    button.addEventListener('click', () => {
-      window.location.href = 'https://www.youtube.com/@humoristZXC';
-    });
-
-    // Добавляем кнопку в контейнер
-    containerPanel.appendChild(button);
-  }
-}
-
-// Вызов функции для создания кнопки
-createButton();
 
 
 /* СТАРАЯ ВАРИАЦИЯ ОТОБРАЖЕНИЙ ИКОНОК РЕЗИСТОВ В ТАБЕ */
