@@ -4,10 +4,8 @@ const nicknames = ["Hit", "Ruse"];
 // Функция для проверки никнеймов
 function checkForNicknames() {
   const container = document.querySelector('.UserInfoContainerStyle-containerProgressMainScreen');
-
   if (container) {
     const element = container.querySelector('.UserInfoContainerStyle-textDecoration');
-
     if (element) {
       const elementText = element.innerText;
 
