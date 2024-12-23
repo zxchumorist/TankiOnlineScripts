@@ -1,7 +1,7 @@
 document.title = "TForce 1.1.4";
 
 (function() {
-  // Создаем элемент уведомления для открытия меню фильтров
+
   const notification1 = document.createElement('div');
   notification1.innerHTML = `
     <div class="custom-notification">
@@ -9,7 +9,6 @@ document.title = "TForce 1.1.4";
     </div>
   `;
 
-  // Создаем элемент уведомления для предложений по нововведениям
   const notification2 = document.createElement('div');
   notification2.innerHTML = `
     <div class="custom-notification">
@@ -18,7 +17,6 @@ document.title = "TForce 1.1.4";
     </div>
   `;
 
-  // Стили для уведомлений
   const style = document.createElement('style');
   style.textContent = `
     .custom-notification {
@@ -33,7 +31,7 @@ document.title = "TForce 1.1.4";
       color: #fff;
       z-index: 10000;
       opacity: 0;
-      transition: opacity 2s ease-in-out, right 1s ease-in-out;
+      transition: opacity 2s ease-in-out, right 1.5s ease-in-out;
     }
     .custom-notification a {
       color: rgb(70 165 225);
@@ -51,21 +49,18 @@ document.title = "TForce 1.1.4";
     }
   `;
 
-  // Добавляем стили и уведомления на страницу
   document.head.appendChild(style);
   document.body.appendChild(notification1);
 
-  // Показываем первое уведомление
   setTimeout(() => {
     notification1.querySelector('.custom-notification').classList.add('show');
   }, 100);
 
-  // Устанавливаем таймер на 3 секунды, чтобы скрыть первое уведомление
   setTimeout(() => {
     notification1.querySelector('.custom-notification').style.opacity = '0';
     setTimeout(() => {
       notification1.remove();
-      // Добавляем второе уведомление после удаления первого
+
       document.body.appendChild(notification2);
       setTimeout(() => {
         notification2.querySelector('.custom-notification').classList.add('show');
@@ -73,16 +68,19 @@ document.title = "TForce 1.1.4";
           notification2.querySelector('.custom-notification').style.opacity = '0';
           setTimeout(() => {
             notification2.remove();
-          }, 2000); // Время совпадает с временем перехода, чтобы удалить элемент после исчезновения
+          }, 2000);
         }, 7000);
       }, 100);
-    }, 2000); // Время совпадает с временем перехода, чтобы удалить элемент после исчезновения
+    }, 2000);
   }, 3000);
 })();
 
-
-
 const css = `
+.Common-entranceBackground > .Common-entranceGradient > .Common-flexStartAlignStartColumn {
+    background-color: white;
+    border: 2px solid rgb(111 111 111);
+    border-radius: 1em;
+}
 @keyframes DialogContainer {
   from {
     opacity: 0.2;
@@ -3138,8 +3136,6 @@ observer.observe(document.body, {
 updateStyles();
 replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageCover, .FormatsSectionComponentStyle-card .Common-backgroundImageCover');
 
-
-/* СТАРАЯ ВАРИАЦИЯ ОТОБРАЖЕНИЙ ИКОНОК РЕЗИСТОВ В ТАБЕ */
 (() => {
 	var tankResistances = [
 		{
@@ -3294,7 +3290,6 @@ replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageC
 	}).observe(document, { childList: !0, subtree: !0 });
 })();
 
-/* СТАРАЯ ВАРИАЦИЯ ОТОБРАЖЕНИЙ ЗВАНИЯ ВОЗЛЕ НИКНЕЙМА */
 (() => {
 	'use strict';
 	const ranks = [
