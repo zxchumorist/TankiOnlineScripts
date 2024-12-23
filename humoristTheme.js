@@ -1,6 +1,6 @@
 document.title = "TForce 1.1.4";
 
-const nicknames = ["humorist", "Ruse"];
+const nicknames = ["humorist", "Hit", "Ruse"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
