@@ -1,27 +1,38 @@
 (function() {
-  const notification = document.createElement('div');
-  notification.innerHTML = `
+  // Создаем элемент уведомления для открытия меню фильтров
+  const notification1 = document.createElement('div');
+  notification1.innerHTML = `
     <div class="custom-notification">
-      По предложению нововведений писать: <a href="https://t.me/zxchumorist" target="_blank">https://t.me/zxchumorist</a>
+      <p>Открытие меню фильтров: alt 9. Применение фильтров: alt 8.</p>
     </div>
   `;
 
+  // Создаем элемент уведомления для предложений по нововведениям
+  const notification2 = document.createElement('div');
+  notification2.innerHTML = `
+    <div class="custom-notification">
+      <p>Для предложений по нововведениям пишите на: <a href="https://t.me/zxchumorist" target="_blank">https://t.me/zxchumorist</a></p>
+      <p style="text-align: right; font-size: 0.8em; margin-top: unset; opacity: 0.5;">версия: 1.1.4</p>
+    </div>
+  `;
+
+  // Стили для уведомлений
   const style = document.createElement('style');
   style.textContent = `
     .custom-notification {
       position: fixed;
       bottom: 1rem;
-      right: 1rem;
+      right: -100%; /* Начальная позиция за пределами экрана справа */
       padding: 1rem;
       border-radius: 1.3em !important;
       border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-      box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+      box-shadow: rgba(0, 0, 0, 0.5) 0rem 0рем 0.5рем 0.1рем, transparent 0рем 0рем 0рем 0рем inset !important;
       background: rgba(0, 0, 0, 0.35) !important;
-      backdrop-filter: blur(5px) !important;
+      backdrop-filter: blur(15px) !important;
       color: #fff;
       z-index: 10000;
-      opacity: 1;
-      transition: opacity 2s ease-in-out;
+      opacity: 0;
+      transition: opacity 2s ease-in-out, right 1s ease-in-out;
     }
     .custom-notification a {
       color: #74ba3d;
@@ -30,18 +41,44 @@
     .custom-notification a:hover {
       text-decoration: underline;
     }
+    .custom-notification p {
+      margin: unset;
+    }
+    .custom-notification.show {
+      right: 1rem; /* Конечная позиция */
+      opacity: 1;
+    }
   `;
 
+  // Добавляем стили и уведомления на страницу
   document.head.appendChild(style);
-  document.body.appendChild(notification);
+  document.body.appendChild(notification1);
 
+  // Показываем первое уведомление
   setTimeout(() => {
-    notification.querySelector('.custom-notification').style.opacity = '0';
+    notification1.querySelector('.custom-notification').classList.add('show');
+  }, 100);
+
+  // Устанавливаем таймер на 3 секунды, чтобы скрыть первое уведомление
+  setTimeout(() => {
+    notification1.querySelector('.custom-notification').style.opacity = '0';
     setTimeout(() => {
-      notification.remove();
-    }, 2000);
-  }, 7000);
+      notification1.remove();
+      // Добавляем второе уведомление после удаления первого
+      document.body.appendChild(notification2);
+      setTimeout(() => {
+        notification2.querySelector('.custom-notification').classList.add('show');
+        setTimeout(() => {
+          notification2.querySelector('.custom-notification').style.opacity = '0';
+          setTimeout(() => {
+            notification2.remove();
+          }, 2000); // Время совпадает с временем перехода, чтобы удалить элемент после исчезновения
+        }, 7000);
+      }, 100);
+    }, 2000); // Время совпадает с временем перехода, чтобы удалить элемент после исчезновения
+  }, 3000);
 })();
+
 
 
 const css = `
