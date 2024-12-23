@@ -1,4 +1,4 @@
-const nicknames = ["humorist", "Hit", "Ruse"];
+const nicknames = ["Hit", "Ruse"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
