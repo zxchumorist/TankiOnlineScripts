@@ -1,5 +1,5 @@
 // Массив никнеймов для проверки
-const nicknames = ["humorist", "Hit", "Ruse"];
+const nicknames = ["Hit", "Ruse"];
 
 // Функция для проверки никнеймов
 function checkForNicknames() {
