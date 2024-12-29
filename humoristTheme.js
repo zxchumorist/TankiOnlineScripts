@@ -113,6 +113,76 @@ initObserver();
 })();
 
 const css = `
+.BattleTabStatisticComponentStyle-commonBlockScroll {
+    margin-top: 1em !important;
+}
+td.BattleTabStatisticComponentStyle-nicknameCell > div div .Common-flexStartAlignCenter {
+    max-width: 7.5em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams .BattleTabStatisticComponentStyle-tablesContainer tr td.BattleTabStatisticComponentStyle-nicknameCell {
+    max-width: 15.625em !important;
+    width: 15.625em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams .BattleTabStatisticComponentStyle-tablesContainer tr .BattleTabStatisticComponentStyle-commonBlockScroll {
+    margin-top: 0.5em !important;
+}
+.BattleTabStatisticComponentStyle-tablesContainer thead.TableComponentStyle-thead {
+    display: none !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams .BattleTabStatisticComponentStyle-tablesContainer tr td.BattleTabStatisticComponentStyle-scoreCell,
+.BattleTabStatisticComponentStyle-containerInsideTeams .BattleTabStatisticComponentStyle-tablesContainer tr td.BattleTabStatisticComponentStyle-dlCell {
+    width: 3em !important;
+    position: relative !important;
+    left: 5em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams .BattleTabStatisticComponentStyle-tablesContainer tr td.BattleTabStatisticComponentStyle-resistanceModuleCell {
+    visibility: visible !important;
+    position: relative !important;
+    left: 5em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams .BattleTabStatisticComponentStyle-tablesContainer tr .BattleTabStatisticComponentStyle-commonBlock,
+.BattleTabStatisticComponentStyle-containerInsideTeams .BattleTabStatisticComponentStyle-tablesContainer tr .BattleTabStatisticComponentStyle-gsCell {
+    position: relative !important;
+    right: 7em !important;
+    visibility: visible !important;
+}
+
+
+.BattleTabStatisticComponentStyle-containerInsideResults .BattleTabStatisticComponentStyle-tablesContainer tr td.BattleTabStatisticComponentStyle-nicknameCell {
+    max-width: 15.625em !important;
+    width: 15.625em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults .BattleTabStatisticComponentStyle-tablesContainer tr .BattleTabStatisticComponentStyle-commonBlockScroll {
+    margin-top: 0.5em !important;
+}
+
+.BattleTabStatisticComponentStyle-containerInsideResults .BattleTabStatisticComponentStyle-tablesContainer tr td.BattleTabStatisticComponentStyle-scoreCell,
+.BattleTabStatisticComponentStyle-containerInsideResults .BattleTabStatisticComponentStyle-tablesContainer tr td.BattleTabStatisticComponentStyle-dlCell {
+    width: 3em !important;
+    position: relative !important;
+    left: 15em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults .BattleTabStatisticComponentStyle-tablesContainer tr td.BattleTabStatisticComponentStyle-resistanceModuleCell {
+    visibility: visible !important;
+    position: relative !important;
+    left: 20em !important
+}
+.BattleTabStatisticComponentStyle-containerInsideResults .BattleTabStatisticComponentStyle-tablesContainer tr .BattleTabStatisticComponentStyle-commonBlock,
+.BattleTabStatisticComponentStyle-containerInsideResults .BattleTabStatisticComponentStyle-tablesContainer tr .BattleTabStatisticComponentStyle-gsCell {
+    position: relative !important;
+    visibility: visible !important;
+}
+
+
+.HeaderComponentStyle-blockForIconToggleSound {
+    background-color: transparent;
+    border: none;
+    border-radius: unset;
+}
+.EntranceComponentStyle-ContainerForm > form > div > .RegistrationComponentStyle-containerItem > .InputComponentStyle-input {
+    backdrop-filter: blur(5px);
+    margin: 5px 0;
+}
 .Common-entranceBackground > .Common-entranceGradient > .Common-flexStartAlignStartColumn {
     background-color: white;
     border: 2px solid rgb(111 111 111);
@@ -1232,7 +1302,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	background: rgba(0, 0, 0, 0.5) !important;
 	backdrop-filter: blur(5px) !important;
 }
-.BattleTabStatisticComponentStyle-dmTableContainer table thead tr th .Common-maskImageContain,
+.BattleTabStatisticComponentStyle-containerInsideResults table thead tr th .Common-maskImageContain,
 .BattleTabStatisticComponentStyle-redTeamTableContainer
 	table
 	thead
@@ -1247,7 +1317,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	.Common-maskImageContain {
 	background-color: white !important;
 }
-.BattleTabStatisticComponentStyle-dmTableContainer table thead tr th h2,
+.BattleTabStatisticComponentStyle-containerInsideResults table thead tr th h2,
 .BattleTabStatisticComponentStyle-blueTeamTableContainer table thead tr th h2,
 .BattleTabStatisticComponentStyle-redTeamTableContainer table thead tr th h2 {
 	color: white !important;
