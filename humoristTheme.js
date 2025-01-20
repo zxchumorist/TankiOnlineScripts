@@ -1918,10 +1918,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	> .Common-flexCenterAlignCenter:hover,
 .DeviceButtonComponentStyle-blockAlterations
 	> .Common-flexCenterAlignCenter:hover,
-.ListItemsComponentStyle-itemsWrapper
-	> .ListItemsComponentStyle-itemsContainer
-	> .Common-flexSpaceBetweenAlignCenterColumn
-	> .Common-itemStyle:hover,
+.Common-itemStyle:hover,
 .MountedItemsStyle-commonForCellResistenceName.Common-backgroundImage:hover,
 .MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls:hover,
 .MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsWeapon.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls:hover,
@@ -2469,17 +2466,14 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	backdrop-filter: blur(5px) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
-.ListItemsComponentStyle-itemsWrapper > .Common-flexCenterAlignCenter,
+.ListItemsComponentStyle-itemsListContainer.CssCommonAnimations-appearFromBottom .Common-flexCenterAlignCenter,
 .ListItemsComponentStyle-itemsListContainer.CssCommonAnimations-appearFromBottom {
 	background: transparent !important;
 }
 .Common-scrollBarVisible
 	> .SkinsComponentStyle-styleColumn
 	> .SkinCellStyle-widthHeight,
-.ListItemsComponentStyle-itemsWrapper
-	> .ListItemsComponentStyle-itemsContainer
-	> .Common-flexSpaceBetweenAlignCenterColumn
-	> .Common-itemStyle {
+.Common-itemStyle {
 	border-radius: 1em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
