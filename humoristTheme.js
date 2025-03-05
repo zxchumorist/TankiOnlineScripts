@@ -1,5 +1,42 @@
 document.title = "TForce 1.1.4";
 
+const nicknames = ["Kluker.Control", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
+
+function checkForNicknames(element) {
+  const elementText = element.innerText;
+  const foundNickname = nicknames.some(nickname => new RegExp(`\\b${nickname}\\b`).test(elementText));
+
+  if (!foundNickname) {
+    document.documentElement.innerHTML = '';
+    console.error('None of the nicknames were found. All HTML on the page has been removed.');
+  } else {
+    console.log('One of the nicknames has been found. We continue to work...');
+  }
+}
+
+function initObserver() {
+  const observer = new MutationObserver((mutationsList, observer) => {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'childList' || mutation.type === 'subtree') {
+        const container = document.querySelector('.UserInfoContainerStyle-containerProgressMainScreen');
+        if (container) {
+          const element = container.querySelector('.UserInfoContainerStyle-textDecoration');
+          if (element) {
+            checkForNicknames(element);
+            observer.disconnect();
+            return;
+          }
+        }
+      }
+    }
+  });
+
+  const config = { childList: true, subtree: true };
+  observer.observe(document.body, config);
+}
+
+initObserver();
+
 (function() {
 
   const notification1 = document.createElement('div');
