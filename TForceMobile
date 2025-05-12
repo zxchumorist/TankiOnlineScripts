@@ -1338,9 +1338,7 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 	width: unset !important;
 }
 .MainScreenComponentStyle-blockMainMenu ul {
-    display: flex
-;
-    width: 22.5em !important;
+    width: 22em !important;
     top: unset !important;
     bottom: 1em !important;
     left: 1em !important;
@@ -2556,10 +2554,11 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	backdrop-filter: unset !important;
 }
 footer.FooterComponentStyle-footer:after {
-	content: 'by Principal';
-	position: absolute;
-	bottom: 5.5em;
-	color: rgb(255 255 255 / 30%);
+    content: 'by Principal';
+    position: absolute;
+    bottom: 5em;
+    font-size: 1.1em;
+    color: rgb(255 255 255 / 75%);
 }
 .GarageProtectionsComponentStyle-equipmentResistance {
 	border-radius: 1.3em !important;
