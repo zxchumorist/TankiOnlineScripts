@@ -1391,7 +1391,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	background-color: rgb(255 102 102 / 14%) !important;
 }
 li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer {
-    margin: 0.3em 0.5em 7.5037px !important;
+    margin: 0.3em 0.5em !important;
     width: 18em !important;
     transition: transform 0.2s ease-in-out !important;
     border-radius: 1.3em !important;
