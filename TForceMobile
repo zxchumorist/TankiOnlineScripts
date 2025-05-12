@@ -1293,6 +1293,8 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	color: white !important;
 }
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay {
+    top: 7em !important;
+    left: 1em !important;
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgb(170 170 170 / 25%) !important;
 	box-shadow:
