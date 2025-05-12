@@ -1356,13 +1356,13 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 }
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem {
-	border-radius: 1.3em !important;
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	box-shadow:
-		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
-		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgba(0, 0, 0, 0.35) !important;
-	backdrop-filter: blur(5px) !important;
+    top: 7em !important;
+    left: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
 }
 .MainScreenComponentStyle-playButtonContainer span {
 	color: white !important;
@@ -1391,7 +1391,6 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	background-color: rgb(255 102 102 / 14%) !important;
 }
 li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer {
-    font-size: max(min(1vh, 1vw) * 1px, 3px) !important;
     margin: 0.3em 0.5em !important;
     width: 18em !important;
     transition: transform 0.2s ease-in-out !important;
@@ -1412,8 +1411,8 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 	width: unset !important;
 }
 .MainScreenComponentStyle-blockMainMenu ul {
-    top: 23em !important;
-    left: 2em !important;
+    top: 18.5em !important;
+    left: 1em !important;
     position: absolute !important;
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
@@ -1435,6 +1434,8 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
+    right: 1em !important;
+    margin-top: 7em !important;
 }
 .BattlePassLobbyComponentStyle-commonDescription,
 .BattlePassLobbyComponentStyle-blockBattlePass {
@@ -1466,12 +1467,13 @@ li.FooterComponentStyle-containerMenu.FooterComponentStyle-containerMenu {
 	transition: transform 0.2s ease-in-out;
 }
 footer.FooterComponentStyle-footer {
+    transform: translateX(50%) !important;
     flex-direction: column;
     position: absolute !important;
     height: 5em !important;
-    right: unset !important;
-    left: 2em !important;
-    bottom: 2em !important;
+    right: 50% !important;
+    left: unset !important;
+    bottom: 1em !important;
     top: unset !important;
     width: unset !important;
     padding: 0 0 !important;
@@ -1497,6 +1499,8 @@ footer.FooterComponentStyle-footer {
 	border-radius: 1.3em !important;
 }
 .AnnouncementHomeScreenComponentStyle-mainContainer {
+    bottom: 1em !important;
+    right: 1em !important;
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
@@ -1543,6 +1547,8 @@ footer.FooterComponentStyle-footer {
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
+    right: 24.5em !important;
+    top: 7em !important;
 }
 .EventBattlePassLobbyComponentStyle-commonBlockProgressBar {
 	box-shadow:
