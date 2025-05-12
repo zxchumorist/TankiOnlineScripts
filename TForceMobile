@@ -1391,6 +1391,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	background-color: rgb(255 102 102 / 14%) !important;
 }
 li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer {
+    font-size: max(min(1vh, 1vw) * 1px, 3px) !important;
     margin: 0.3em 0.5em !important;
     width: 18em !important;
     transition: transform 0.2s ease-in-out !important;
