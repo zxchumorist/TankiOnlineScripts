@@ -844,12 +844,6 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 	transition: scale 0.2s ease-in-out !important;
 	scale: 0.8 !important;
 }
-.ProBattlesComponentStyle-mainContainer
-	> .Common-flexStartAlignCenterColumn
-	> .Common-flexStartAlignStartColumn
-	> .ProBattlesComponentStyle-createBattleButton:hover {
-	scale: 0.75 !important;
-}
 .BattleCreateComponentStyle-mainContainer
 	> .ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
 	> .MainSectionComponentStyle-rightBlock
@@ -1216,12 +1210,18 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
     height: 100%;
     backdrop-filter: blur(5px);
 }
+.Common-entranceBackground {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-image: url(/play/static/images/background.fc2779c1.webp) !important;
+}
 .ClanCommonStyle-content,
 .Common-entranceGradient,
 html,
 body,
 .Common-container {
-	background: radial-gradient(#2d2d2d80 0%, #0d0d0d80 100%) !important;
+	background: radial-gradient(#2d2d2d80 0%, #0d0d0d80 100%);
 }
 .BattleHudComponentStyle-hudButton {
 	transition: transform 0.2s ease-in-out !important;
@@ -1439,9 +1439,6 @@ footer.FooterComponentStyle-footer {
     background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
 }
-.FooterComponentStyle-containerMenu:hover {
-	transform: scale(0.95) !important;
-}
 .AnnouncementHomeScreenComponentStyle-mainContainer
 	> .Common-flexCenterAlignCenterColumn {
 	display: none !important;
@@ -1542,91 +1539,6 @@ footer.FooterComponentStyle-footer {
 	background: rgb(0 0 0 / 10%) !important;
 	transition: transform 0.2s ease-in-out !important;
 }
-.Common-flexSpaceBetweenAlignCenterColumn.descriptionMode.blockCard:hover,
-.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-backButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter:hover,
-.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter:hover,
-.InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap:hover,
-.ShopSelectedSectionComponentStyle-commonCard:hover,
-.ShopSelectedSectionComponentStyle-limitedOffersCommon:hover,
-.SuperMissionComponentStyle-descriptionSuperMission > div > .SuperMissionComponentStyle-buttonCollect:hover,
-.TableMainQuestComponentStyle-cardRewardCompletedTable.TableMainQuestComponentStyle-commonTableMainQuest:hover,
-.MainQuestComponentStyle-cardRewardCompleted.iconsMission.MainQuestComponentStyle-animationImgHover:hover,
-.BasePaymentComponentStyle-commonContainerForChoiceAndButton
-	> .BasePaymentComponentStyle-buttonContainer
-	> .Common-flexCenterAlignCenter:hover,
-.ChallengePurchaseComponentStyle-buttonBattlePass:hover,
-.ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
-	> .MainSectionComponentStyle-rightBlock
-	> .Common-flexStartAlignStretchColumn
-	> div
-	> .Common-flexCenterAlignCenter.Common-alignSelfFlexEnd:hover,
-.BattleCreateComponentStyle-mainContainer
-	> .ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
-	> .MainSectionComponentStyle-rightBlock
-	> .JoinToBattleComponentStyle-buttonJoin:hover,
-.BattleCreateComponentStyle-blockCard
-	> .Common-flexStartAlignStretchColumn
-	> .Common-flexCenterAlignCenterColumn:hover,
-.BattleCreateComponentStyle-blockCard
-	> .Common-flexStartAlignStretchColumn
-	> .Common-backgroundImageCover:hover,
-.BattleResultNavigationComponentStyle-commonBlockProBattleButton
-	> .Common-flexCenterAlignCenter.BattleResultNavigationComponentStyle-buttonNextWithTimer.BattleResultNavigationComponentStyle-buttonWithTimer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
-tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon:hover,
-.ProBattlesComponentStyle-mainContainer
-	> .Common-flexStartAlignCenterColumn:nth-child(1)
-	.Common-flexStartAlignStartColumn
-	> .Common-flexCenterAlignCenter:hover,
-.ProBattlesComponentStyle-mainContainer
-	> .Common-flexStartAlignCenterColumn:nth-child(1)
-	.Common-flexStartAlignStartColumn
-	> .BattleModesComponentStyle-blockModesFilter
-	> .Common-flexCenterAlignCenter:hover,
-.UsersTableStyle-containerBattleListCommands
-	> .UsersTableStyle-scrollCommandTable
-	> .Common-flexStartAlignStartColumn
-	> .UsersTableStyle-rowBattle:hover,
-#root
-	> div
-	> div.ProBattlesComponentStyle-mainContainer
-	> div.Common-flexStartAlignCenterColumn
-	> div.Common-flexStartAlignStretchColumn
-	> div.Common-flexStartAlignCenter
-	> div:hover,
-.ProBattlesComponentStyle-mainContainer
-	> .Common-flexStartAlignCenterColumn:nth-child(3)
-	> .Common-scrollBarHoverVisible
-	> .UsersTableStyle-containerBattleListCommands
-	> .UsersTableStyle-scrollCommandTable
-	> .Common-flexStartAlignStartColumn
-	> .UsersTableStyle-row
-	> .UsersTableStyle-rowBattle:hover,
-.Common-flexStartAlignStretchColumn.ProBattleCommonStyleMobile-marginTop
-	> .Common-backgroundImageCover.modeLimitIcon:hover,
-.FriendListComponentStyle-stringCommunity
-	> .FriendListComponentStyle-blockList:hover,
-.BattleHudComponentStyle-hudButton:hover,
-.MainScreenComponentStyle-containerPanel
-	> .UserScoreComponentStyle-blockRightPanel
-	> .BreadcrumbsComponentStyle-logout:hover,
-.MainScreenComponentStyle-containerPanel
-	> .UserScoreComponentStyle-blockRightPanel
-	> .Common-flexCenterAlignCenter:hover,
-.MainScreenComponentStyle-containerPanel
-	> .UserInfoContainerStyle-blockLeftPanel
-	> .UserInfoContainerStyle-userTitleContainer
-	> .Common-flexCenterAlignCenterColumn:hover,
-.MainScreenComponentStyle-containerPanel
-	> .UserInfoContainerStyle-blockLeftPanel
-	> .UserInfoContainerStyle-userTitleContainer
-	> .Common-flexCenterAlignCenter:hover,
-.MainScreenComponentStyle-containerPanel
-	> .UserInfoContainerStyle-blockLeftPanel
-	> .UserInfoContainerStyle-userTitleContainer
-	> .Common-flexStartAlignCenter
-	> .UserInfoContainerStyle-rankIconContainerClickable:hover {
-	transform: scale(0.95) !important;
-}
 .BasePaymentComponentStyle-commonContainerForChoiceAndButton
 	> .BasePaymentComponentStyle-buttonContainer
 	> .Common-flexCenterAlignCenter
@@ -1704,11 +1616,6 @@ tr.BattleTabStatisticComponentStyle-selectedRowBackGround
 .ScrollingCardsComponentStyle-selectCard {
 	border: none !important;
 }
-.FormatsSectionComponentStyle-card:hover,
-.BattlePickComponentStyle-commonStyleBlock.cardImgEvents:hover,
-.ScrollingCardsComponentStyle-scrollCard:hover {
-	transform: scale(0.97) !important;
-}
 .FormatsSectionComponentStyle-card,
 .ScrollingCardsComponentStyle-scrollCard {
 	transition: transform 0.2s ease-in-out !important;
@@ -1767,129 +1674,6 @@ tr.BattleTabStatisticComponentStyle-selectedRowBackGround
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
 	transition: transform 0.2s ease-in-out !important;
-}
-.Common-flexCenterAlignCenter.MainQuestComponentStyle-containerButtonStore.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
-.Common-flexCenterAlignCenter.MainQuestComponentStyle-buttonContainer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
-.TableMainQuestComponentStyle-commonTableMainQuest.MainQuestComponentStyle-cardCommonLocked:hover,
-.MainQuestComponentStyle-cardPlayCommon.TableMainQuestComponentStyle-commonTableMainQuest:hover,
-.TableMainQuestComponentStyle-commonTableMainQuest.TableMainQuestComponentStyle-cardLockedTable:hover,
-.MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-colorCardPlay.MainQuestComponentStyle-animationImgHover:hover,
-.MainQuestComponentStyle-commonCard.iconsMission.TableMainQuestComponentStyle-cardLockedTable.MainQuestComponentStyle-animationImgHover:hover,
-.MainQuestComponentStyle-cardPlay.iconsMission.MainQuestComponentStyle-animationImgHover:hover,
-.LargeSingleCardComponentStyle-largeCardContainer
-	> .LargeSingleCardComponentStyle-commonBlock
-	> .Common-flexCenterAlignCenter:hover,
-.ShopCategoryOfferSectionStyle-containerLimitOffers
-	> .Common-flexCenterAlignCenter:hover,
-.PromoCodesComponentStyle-controlsWrapper
-	.PromoCodesComponentStyle-sendButton:hover,
-.NewShopCommonComponentStyle-commonContainer
-	> .NewShopCommonComponentStyle-commonBlockMenuShop
-	> div
-	> .Common-flexStartAlignCenter:hover,
-.ShopCategoryOfferSectionStyle-containerCoin
-	> .Common-flexStartAlignStart
-	> .Common-flexCenterAlignCenterColumn:hover,
-.ShopCategoryOfferSectionStyle-containerItem
-	> .Common-flexStartAlignStart
-	> .Common-flexCenterAlignCenterColumn:hover,
-.ContainersComponentStyle-contentContainer
-	> .ContainersComponentStyle-bottomBlock
-	> .DeviceButtonComponentStyle-blockAlterations
-	> .Common-flexCenterAlignCenter:hover,
-.BattleResultNavigationComponentStyle-disabledButtonWithTimer:hover,
-.BattlePauseMenuComponentStyle-redMenuButton:hover,
-.BattlePauseMenuComponentStyle-menuButton:hover,
-.NotificationViewStyle-commonBlockButtonYesNo
-	> .Common-flexCenterAlignCenter:hover,
-.DialogContainerComponentStyle-footerContainer
-	> .Common-flexCenterAlignCenter:hover,
-.TwitchSettingsRendersStyle-TwitchTextAndButtonBlock
-	> .TwitchSettingsRendersStyle-button:hover,
-.AccountSettingsComponentStyle-commonBlock
-	> .AccountSettingsComponentStyle-mountTagButton
-	> .AccountSettingsComponentStyle-buttonChangesOptions:hover,
-.SecuritySettingsComponentStyle-about2FaTextAndButtonBlock
-	> .SecuritySettingsComponentStyle-button:hover,
-.GameSettingsStyle-notificationsTextAndButtonBlock
-	> .GameSettingsStyle-button:hover,
-.SettingsButtonsComponentStyle-containerGroupButton
-	> .SettingsButtonsComponentStyle-buttonsWidthBackReset:hover,
-.DropDownStyle-dropdownRoot
-	> .VerticalScrollStyle-outerContainerStyle
-	> .DropDownStyle-innerContainerStyle
-	> div
-	> .Common-flexStartAlignCenter:hover,
-li.SettingsMenuComponentStyle-menuItemOptions:hover,
-.GarageProtectionsComponentStyle-equipmentResistance:hover,
-.PaintsCollectionComponentStyle-commonBlockForDescriptionAndButton
-	> .TanksPartComponentStyle-tankPartUpgrades
-	> .SquarePriceButtonComponentStyle-commonBlockButton:hover,
-.TanksPartBaseComponentStyle-blockInsideContainerItem
-	> .TanksPartComponentStyle-descriptionContainer
-	> .GarageSuppliesComponentStyle-containerButtons
-	> .SquarePriceButtonComponentStyle-commonBlockButton:hover,
-.GarageCommonStyle-garageContainer > div > .Common-borderRadius4px:hover,
-.TanksPartBaseComponentStyle-blockInsideContainerItem
-	> .TanksPartComponentStyle-tankPartUpgrades
-	> .TanksPartBaseComponentStyle-buttonsContainer
-	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(2):hover,
-.TanksPartBaseComponentStyle-blockInsideContainerItem
-	> .TanksPartComponentStyle-tankPartUpgrades
-	> .TanksPartBaseComponentStyle-buttonsContainer
-	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1):hover,
-.GarageMenuComponentStyle-garageMenuContainer
-	> .GarageCommonStyle-subMenu
-	> .Common-flexSpaceBetweenAlignStartColumn
-	> .GarageTurretsAlterationsComponentStyle-mountStandardButton
-	> .AlterationButtonStyle-buyButton:hover,
-.Common-scrollBarVisible
-	> .SkinsComponentStyle-styleColumn
-	> .SkinCellStyle-widthHeight:hover,
-.DeviceButtonComponentStyle-blockAlterations
-	> div
-	> .SkinsIconComponentStyle-cellSkins
-	> .Common-flexCenterAlignCenter:hover,
-.DeviceButtonComponentStyle-blockAlterations
-	> .Common-flexCenterAlignCenter:hover,
-.Common-itemStyle:hover,
-.MountedItemsStyle-commonForCellResistenceName.Common-backgroundImage:hover,
-.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls:hover,
-.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsWeapon.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls:hover,
-.MountedItemsStyle-containerBlockGarage
-	.MountedItemsStyle-commonBlockGrenades:hover,
-.MountedItemsStyle-containerBlockGarage
-	.MountedItemsStyle-commonBlockDrone:hover,
-.SuppliesComponentStyle-blocksCell .SuppliesComponentStyle-cellAdd:hover,
-.ContainersComponentStyle-possibleRewardsBlock
-	> .ContainersComponentStyle-rewards
-	> .Common-flexCenterAlignCenterColumn:hover,
-.ContainerInfoComponentStyle-itemsContainer
-	> .Common-flexStartAlignStretchColumn
-	> .Common-flexCenterAlignCenterColumn:hover,
-.ContainerInfoComponentStyle-rewardsMenu > .Common-flexCenterAlignCenter:hover,
-.BattleResultNavigationComponentStyle-disabledButton:hover,
-.BattleResultNavigationComponentStyle-button:nth-child(2):hover,
-.FriendListComponentStyle-buttonAddFriends:hover,
-.MatchmakingWaitComponentStyle-cancelButton:hover,
-.BreadcrumbsComponentStyle-headerContainer
-	> .Common-flexCenterAlignStart
-	> .Common-flexStartAlignCenter
-	> .UserInfoContainerStyle-containerRightBorder:hover,
-.BreadcrumbsComponentStyle-headerContainer
-	> .Common-flexCenterAlignStart
-	> .BreadcrumbsComponentStyle-backButton:hover,
-.BreadcrumbsComponentStyle-headerContainer
-	> .Common-flexCenterAlignStart
-	> .Common-flexStartAlignCenter
-	> .UserInfoContainerStyle-rankIconContainerClickable:hover,
-.BreadcrumbsComponentStyle-headerContainer
-	> .BreadcrumbsComponentStyle-rightButtonsContainer
-	> .BreadcrumbsComponentStyle-exitGameButton:hover,
-.BreadcrumbsComponentStyle-headerContainer
-	> .BreadcrumbsComponentStyle-rightButtonsContainer
-	> .Common-flexCenterAlignCenter:hover {
-	transform: scale(0.95) !important;
 }
 .BreadcrumbsComponentStyle-rightButtonsContainer
 	> div
@@ -2565,6 +2349,12 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	backdrop-filter: unset !important;
 }
 footer.FooterComponentStyle-footer:after {
+    padding: 0.3em;
+    border-radius: 0.7em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
     content: 'by Principal';
     position: absolute;
     bottom: 5em;
@@ -2832,9 +2622,6 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 .PaintsCollectionComponentStyle-commonBlockPaint
 	> .Common-flexCenterAlignCenter {
 	box-shadow: none !important;
-}
-.SaleByKitStyle-commonBlockModal > .Common-alignContentStart > .SaleByKitStyle-commonCard:hover {
-    transform: scale(0.95) !important;
 }
 .SaleByKitStyle-commonBlockModal > .Common-alignContentStart > .SaleByKitStyle-commonCard {
     transition: transform 0.2s ease-in-out !important;
