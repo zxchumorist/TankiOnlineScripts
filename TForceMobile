@@ -24,14 +24,14 @@ function checkForNicknames(element) {
 
     // Добавляем текст
     const text = document.createElement('p');
-    text.innerText = 'Чтобы продлить или купить тему, пишите в Telegram';
+    text.innerText = 'Чтобы продлить или купить тему, пишите в Telegram:';
     text.style.fontSize = '18px';
     text.style.marginBottom = '10px';
     menu.appendChild(text);
 
     // Добавляем ссылку
     const link = document.createElement('a');
-    link.innerText = 't.me: ZxcPrincipal';
+    link.innerText = 'Principal';
     link.href = 'https://t.me/ZxcPrincipal';
     link.style.fontSize = '20px';
     link.style.fontWeight = 'bold';
