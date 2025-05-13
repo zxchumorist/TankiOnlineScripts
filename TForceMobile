@@ -1,6 +1,9 @@
 document.title = "TForce 1.1.5";
 
 const css = `
+.BreadcrumbsComponentStyle-rootTitle div {
+    border: none !important;
+}
 .BattleOptionsComponentStyle-commonBlockCheckBoxCreateBattle {
         border: none !important;
 }
@@ -2832,24 +2835,16 @@ li.SettingsMenuComponentStyle-activeItemOptions {
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgba(0, 0, 0, 0.1) !important;
 }
-.SaleByKitStyle-commonBlockModal,
-.ChatComponentStyle-chatWindow,
-.NewsComponentStyle-newsWindow,
-.TutorialModalComponentStyle-modalContainer
-	> .TutorialModalComponentStyle-contentWrapper,
-.TutorialModalComponentStyle-modalContainer
-	> .ItemDescriptionComponentStyle-commonBlockModal {
-	border-radius: 1.3em !important;
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	box-shadow:
-		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
-		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgba(0, 0, 0, 0.35) !important;
-	backdrop-filter: blur(5px) !important;
-	transform: translate(50%, 50%);
-	right: 50% !important;
-	bottom: 50% !important;
-	height: 50em !important;
+.SaleByKitStyle-commonBlockModal, .ChatComponentStyle-chatWindow, .NewsComponentStyle-newsWindow, .TutorialModalComponentStyle-modalContainer > .TutorialModalComponentStyle-contentWrapper, .TutorialModalComponentStyle-modalContainer > .ItemDescriptionComponentStyle-commonBlockModal {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+    transform: translate(50%, 50%);
+    right: 50% !important;
+    bottom: 50% !important;
+    height: 90% !important;
     left: unset !important;
 }
 .BattlePauseMenuComponentStyle-redMenuButton,
