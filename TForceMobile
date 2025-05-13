@@ -519,13 +519,12 @@ span.ClanInfoComponentStyle-clanActionDescription {
     backdrop-filter: blur(5px) !important;
 }
 .SuperMissionComponentStyle-descriptionSuperMission > div > .SuperMissionComponentStyle-buttonCollect {
-    border-radius: 1.3em !important;
-    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     transition: transform 0.2s ease-in-out !important;
-    background: rgba(118, 255, 51, 0.25) !important;
     scale: 0.97 !important;
-    backdrop-filter: blur(5px) !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(118, 255, 51, 0.15) !important;
+    box-shadow: rgba(118, 255, 51, 0.15) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(118, 255, 51, 0.15) !important;
 }
 .Common-flexCenterAlignCenter.UserTitleComponentStyle-premiumButton span,
 .BasePaymentComponentStyle-commonContainerForChoiceAndButton
@@ -2102,9 +2101,18 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 .NotificationViewStyle-positionBlock {
 	border: none !important;
 }
+.SuperMissionComponentStyle-descriptionSuperMission {
+    height: 95%;
+    padding: 0.3em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
 .FriendListComponentStyle-scrollCommunity {
     animation: SaleByKitStyle 1s ease forwards !important;
-    height: 47em !important;
+    height: 75% !important;
     padding: 1em !important;
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
