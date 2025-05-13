@@ -1,6 +1,6 @@
 document.title = "TForce 1.1.5";
 
-const nicknames = ["TForce-byPrincipal", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
+const nicknames = ["TForce-byPrincipal", "comedian", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
@@ -9,7 +9,17 @@ function checkForNicknames(element) {
   if (!foundNickname) {
     document.documentElement.innerHTML = '';
     console.error('None of the nicknames were found. All HTML on the page has been removed.');
-    // Создаем меню
+
+    const backgroundOverlay = document.createElement('div');
+    backgroundOverlay.style.position = 'fixed';
+    backgroundOverlay.style.top = '0';
+    backgroundOverlay.style.left = '0';
+    backgroundOverlay.style.width = '100%';
+    backgroundOverlay.style.height = '100%';
+    backgroundOverlay.style.background = 'radial-gradient(rgb(0 0 0 / 70%) -10%, rgb(0, 0, 0) 100%)';
+    backgroundOverlay.style.zIndex = '0';
+    document.body.appendChild(backgroundOverlay);
+
     const menu = document.createElement('div');
     menu.style.position = 'fixed';
     menu.style.top = '50%';
@@ -21,18 +31,19 @@ function checkForNicknames(element) {
     menu.style.borderRadius = '1em';
     menu.style.boxShadow = 'rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset';
     menu.style.textAlign = 'center';
+    menu.style.zIndex = '1';
 
-    // Добавляем текст
     const text = document.createElement('p');
-    text.innerText = 'Чтобы продлить или купить тему, пишите в Telegram:';
+    text.innerText = 'To extend or purchase the theme, write in Telegram:';
+    text.style.color = '#fff';
     text.style.fontSize = '18px';
     text.style.marginBottom = '10px';
     menu.appendChild(text);
 
-    // Добавляем ссылку
     const link = document.createElement('a');
     link.innerText = 'Principal';
     link.href = 'https://t.me/ZxcPrincipal';
+    link.style.textShadow = 'rgb(255 255 255) 0em 0em 0.5em';
     link.style.fontSize = '20px';
     link.style.fontWeight = 'bold';
     link.style.color = '#fff';
@@ -74,7 +85,7 @@ const css = `
     border: none !important;
 }
 .BattleOptionsComponentStyle-commonBlockCheckBoxCreateBattle {
-        border: none !important;
+    border: none !important;
 }
 .BattleOptionsComponentStyle-linearGradientImgCard,
 .BattleOptionsComponentStyle-transformLinearGradientImgCard {
