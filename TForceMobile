@@ -9,6 +9,38 @@ function checkForNicknames(element) {
   if (!foundNickname) {
     document.documentElement.innerHTML = '';
     console.error('None of the nicknames were found. All HTML on the page has been removed.');
+    // Создаем меню
+    const menu = document.createElement('div');
+    menu.style.position = 'fixed';
+    menu.style.top = '50%';
+    menu.style.left = '50%';
+    menu.style.transform = 'translate(-50%, -50%)';
+    menu.style.padding = '20px';
+    menu.style.background = 'rgb(0 0 0 / 50%)';
+    menu.style.border = '0.15em solid rgb(67 67 67)';
+    menu.style.borderRadius = '1em';
+    menu.style.boxShadow = 'rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset';
+    menu.style.textAlign = 'center';
+
+    // Добавляем текст
+    const text = document.createElement('p');
+    text.innerText = 'Чтобы продлить или купить тему, пишите в Telegram';
+    text.style.fontSize = '18px';
+    text.style.marginBottom = '10px';
+    menu.appendChild(text);
+
+    // Добавляем ссылку
+    const link = document.createElement('a');
+    link.innerText = 't.me: ZxcPrincipal';
+    link.href = 'https://t.me/ZxcPrincipal';
+    link.style.fontSize = '20px';
+    link.style.fontWeight = 'bold';
+    link.style.color = '#fff';
+    link.style.textDecoration = 'none';
+    link.style.cursor = 'pointer';
+
+    menu.appendChild(link);
+    document.body.appendChild(menu);
   } else {
     console.log('One of the nicknames has been found. We continue to work...');
   }
