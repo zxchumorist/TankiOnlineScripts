@@ -1276,11 +1276,16 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
     width: 22.5em !important;
     left: 2em !important;
 }
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem span {
+    transition: 0.2s ease-in-out;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover span {
+    color: rgb(15 10 5 / 35%) !important;
+    text-shadow: rgb(15 10 5 / 35%) 0em 0em 0.5em;
+}
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover {
-	border: 0.15em solid rgb(255 255 255 / 70%) !important;
-	box-shadow:
-		rgb(255 255 255 / 50%) 0rem 0rem 0.5rem 0.1rem,
-		transparent 0rem 0rem 0rem 0rem inset !important;
+    border: 0.15em solid rgb(15 10 5 / 20%) !important;
+    box-shadow: rgb(15 10 5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
 }
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem {
     top: 7em !important;
