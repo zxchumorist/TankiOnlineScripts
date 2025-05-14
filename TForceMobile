@@ -46,7 +46,8 @@ function checkForNicknames(element) {
 
     const text = document.createElement('p');
     text.innerText = 'To extend or purchase the theme, write in Telegram:';
-    text.style.color = '#fff';
+    text.style.color = 'rgb(255 255 255 / 25%)';
+    text.style.textShadow = 'rgb(0 0 0) 0em 0em 1em';
     text.style.fontSize = '18px';
     text.style.marginBottom = '10px';
     menu.appendChild(text);
@@ -54,10 +55,10 @@ function checkForNicknames(element) {
     const link = document.createElement('a');
     link.innerText = 'Principal';
     link.href = 'https://t.me/ZxcPrincipal';
-    link.style.textShadow = 'rgb(70 165 225) 0em 0em 0.5em';
+    link.style.textShadow = 'rgb(0 0 0) 0em 0em 1em';
     link.style.fontSize = '20px';
     link.style.fontWeight = 'bold';
-    link.style.color = 'rgb(70 165 225)';
+    link.style.color = 'rgb(255 255 255 / 25%)';
     link.style.textDecoration = 'none';
     link.style.cursor = 'pointer';
 
@@ -92,6 +93,9 @@ function initObserver() {
 initObserver();
 
 const css = `
+html {
+    filter: saturate(150%);
+}
 .ModalStyle-root > .Common-flexCenterAlignCenter {
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
