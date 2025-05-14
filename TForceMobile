@@ -1,6 +1,6 @@
 document.title = "TForce 1.1.5";
 
-const nicknames = ["TForce-byPrincipal"];
+const nicknames = ["TForce-byPrincipal", "comedian"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
@@ -49,7 +49,7 @@ function checkForNicknames(element) {
     text.style.color = 'rgb(255 255 255 / 25%)';
     text.style.textShadow = 'rgb(0 0 0) 0em 0em 1em';
     text.style.fontSize = '18px';
-    text.style.marginBottom = '10px';
+    text.style.margin = '10px';
     menu.appendChild(text);
 
     const link = document.createElement('a');
@@ -95,6 +95,20 @@ initObserver();
 const css = `
 html {
     filter: saturate(150%);
+}
+.UserInfoContainerStyle-blockForIconTankiOnline:after {
+    padding: 0.3em;
+    border-bottom-left-radius: 0.7em !important;
+    border-bottom-right-radius: 0.7em !important;
+    border-top: none !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgb(0 0 0 / 50%) !important;
+    content: 'theme by Principal';
+    position: absolute;
+    font-size: 1.1em;
+    top: 4.5em;
+    color: rgb(255 255 255 / 75%);
 }
 .ModalStyle-root > .Common-flexCenterAlignCenter {
     border-radius: 1.3em !important;
@@ -2454,19 +2468,6 @@ tr.BattleTabStatisticComponentStyle-selectedRowBackGround
 .TanksPartBaseComponentStyle-buttonsContainer.MountedItemsComponentStyleMobile-buttonsContainer.GarageCommonStyle-animatedBlurredRightBlock,
 .Common-displayFlexColumn.GarageCommonStyle-animatedBlurredRightBlock {
 	backdrop-filter: unset !important;
-}
-footer.FooterComponentStyle-footer:after {
-    padding: 0.3em;
-    border-radius: 0.7em !important;
-    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
-    background: rgba(0, 0, 0, 0.35) !important;
-    backdrop-filter: blur(5px) !important;
-    content: 'by Principal';
-    position: absolute;
-    bottom: 5em;
-    font-size: 1.1em;
-    color: rgb(255 255 255 / 75%);
 }
 .GarageProtectionsComponentStyle-equipmentResistance {
 	border-radius: 1.3em !important;
