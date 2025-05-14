@@ -96,19 +96,8 @@ const css = `
 html {
     filter: saturate(150%);
 }
-.UserInfoContainerStyle-blockForIconTankiOnline:after {
-    padding: 0.3em;
-    border-bottom-left-radius: 0.7em !important;
-    border-bottom-right-radius: 0.7em !important;
-    border-top: none !important;
-    border: 0.15em solid rgba(170, 170, 170, 0.25);
-    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
-    background: rgb(0 0 0 / 50%) !important;
-    content: 'theme by Principal';
-    position: absolute;
-    font-size: 1.1em;
-    top: 4.5em;
-    color: rgb(255 255 255 / 75%);
+.ClanInfoComponentStyle-messageClan {
+    height: 15em !important;
 }
 .ModalStyle-root > .Common-flexCenterAlignCenter {
     border-radius: 1.3em !important;
@@ -498,6 +487,7 @@ span.ClanInfoComponentStyle-clanActionDescription {
     background: rgba(0, 0, 0, 0.35) !important;
     backdrop-filter: blur(5px) !important;
     height: unset !important;
+    min-height: unset !important;
     padding: 1em !important;
 }
 .BattleChatComponentStyle-btnToggleTeamAll,
