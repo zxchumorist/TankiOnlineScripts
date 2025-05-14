@@ -1,6 +1,6 @@
 document.title = "TForce 1.1.5";
 
-const nicknames = ["None-nicknames"];
+const nicknames = ["校長"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
@@ -36,7 +36,7 @@ function checkForNicknames(element) {
     menu.style.top = '50%';
     menu.style.left = '50%';
     menu.style.transform = 'translate(-50%, -50%)';
-    menu.style.padding = '20px';
+    menu.style.padding = '5px';
     menu.style.background = 'rgba(0, 0, 0, 0.35)';
     menu.style.backdropFilter = 'blur(15px)';
     menu.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
