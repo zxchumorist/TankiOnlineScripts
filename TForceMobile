@@ -1396,9 +1396,8 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
     transition: 0.2s ease-in-out;
 }
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover span {
-    text-shadow: rgb(0 0 0) 0em 0em 1em !important;
+    text-shadow: rgb(175 175 175) 0em 0em 0.5em !important;
     color: rgb(15 10 5 / 35%) !important;
-    text-shadow: rgb(15 10 5 / 35%) 0em 0em 0.5em;
 }
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover {
     border: 0.15em solid rgb(15 10 5 / 20%) !important;
