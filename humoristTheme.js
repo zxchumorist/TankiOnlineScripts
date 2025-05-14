@@ -1,6 +1,6 @@
-document.title = "TForce 1.1.4";
+document.title = "TForce 1.1.5";
 
-const nicknames = ["Principal", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
+const nicknames = ["TForce-byPrincipal", "comedian", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
@@ -9,6 +9,61 @@ function checkForNicknames(element) {
   if (!foundNickname) {
     document.documentElement.innerHTML = '';
     console.error('None of the nicknames were found. All HTML on the page has been removed.');
+
+    const backgroundOverlay = document.createElement('div');
+    backgroundOverlay.style.position = 'fixed';
+    backgroundOverlay.style.top = '0';
+    backgroundOverlay.style.left = '0';
+    backgroundOverlay.style.width = '100%';
+    backgroundOverlay.style.height = '100%';
+    backgroundOverlay.style.backgroundImage = 'url(/play/static/images/background.fc2779c1.webp)';
+    backgroundOverlay.style.backgroundRepeat = 'no-repeat';
+    backgroundOverlay.style.backgroundSize = 'cover';
+    backgroundOverlay.style.backgroundPosition = 'center center';
+    backgroundOverlay.style.zIndex = '0';
+
+    const beforeElement = document.createElement('div');
+    beforeElement.style.content = "''";
+    beforeElement.style.position = 'absolute';
+    beforeElement.style.width = '100%';
+    beforeElement.style.height = '100%';
+    beforeElement.style.backdropFilter = 'blur(5px)';
+    backgroundOverlay.appendChild(beforeElement);
+    document.body.appendChild(backgroundOverlay);
+
+    const menu = document.createElement('div');
+    menu.style.position = 'fixed';
+    menu.style.top = '50%';
+    menu.style.left = '50%';
+    menu.style.transform = 'translate(-50%, -50%)';
+    menu.style.padding = '5px';
+    menu.style.background = 'rgba(0, 0, 0, 0.35)';
+    menu.style.backdropFilter = 'blur(15px)';
+    menu.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
+    menu.style.borderRadius = '1em';
+    menu.style.textAlign = 'center';
+    menu.style.zIndex = '1';
+
+    const text = document.createElement('p');
+    text.innerText = 'To extend or purchase the theme, write in Telegram:';
+    text.style.color = 'rgb(255 255 255 / 25%)';
+    text.style.textShadow = 'rgb(0 0 0) 0em 0em 1em';
+    text.style.fontSize = '18px';
+    text.style.margin = '10px';
+    menu.appendChild(text);
+
+    const link = document.createElement('a');
+    link.innerText = 'Principal';
+    link.href = 'https://t.me/ZxcPrincipal';
+    link.style.textShadow = 'rgb(0 0 0) 0em 0em 1em';
+    link.style.fontSize = '20px';
+    link.style.fontWeight = 'bold';
+    link.style.color = 'rgb(255 255 255 / 25%)';
+    link.style.textDecoration = 'none';
+    link.style.cursor = 'pointer';
+
+    menu.appendChild(link);
+    document.body.appendChild(menu);
   } else {
     console.log('One of the nicknames has been found. We continue to work...');
   }
@@ -36,7 +91,6 @@ function initObserver() {
 }
 
 initObserver();
-
 (function() {
 
   const notification1 = document.createElement('div');
@@ -49,8 +103,8 @@ initObserver();
   const notification2 = document.createElement('div');
   notification2.innerHTML = `
     <div class="custom-notification">
-      <p>Для предложений по нововведениям пишите на: <a href="https://t.me/zxchumorist" target="_blank">Telegram</a></p>
-      <p style="text-align: right; font-size: 0.8em; margin-top: unset; opacity: 0.5;">версия: 1.1.4</p>
+      <p>Для предложений по нововведениям пишите на: <a href="https://t.me/zxcprincipal" target="_blank">Telegram</a></p>
+      <p style="text-align: right; font-size: 0.8em; margin-top: unset; opacity: 0.5;">версия: 1.1.5</p>
     </div>
   `;
 
@@ -113,6 +167,48 @@ initObserver();
 })();
 
 const css = `
+.BattleOptionsComponentStyle-linearGradientImgCard,
+.BattleOptionsComponentStyle-transformLinearGradientImgCard {
+    border-radius: 1em;
+}
+tr.UsersTableStyle-row.UsersTableStyle-rowBattle.UsersTableStyle-rowWidth {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+tr.UsersTableStyle-row.UsersTableStyle-rowBattleEmpty.UsersTableStyle-rowWidth {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(170, 170, 170, 0.1) !important;
+}
+.TanksPartBaseComponentStyle-buttonsContainer > div > .GarageCommonStyle-bigActionButton {
+    box-shadow: none !important;
+}
+.UserProgressComponentStyle-modalWrapper {
+    margin: 5em !important;
+    outline: none !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.UserProgressComponentStyle-progressItemUncompleted,
+.UserProgressComponentStyle-itemContainer,
+.UsersTableStyle-row > .UsersTableStyle-rowBattleEmpty {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(170, 170, 170, 0.1) !important;
+}
+.UsersTableStyle-row > .UsersTableStyle-rowBattle {
+    border-radius: 1em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
 .BattleTabStatisticComponentStyle-commonBlockScroll {
     margin-top: 1em !important;
 }
@@ -1268,12 +1364,18 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
     height: 100%;
     backdrop-filter: blur(5px);
 }
+.Common-entranceBackground {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-image: url(/play/static/images/background.fc2779c1.webp) !important;
+}
 .ClanCommonStyle-content,
 .Common-entranceGradient,
 html,
 body,
 .Common-container {
-	background: radial-gradient(#2d2d2d80 0%, #0d0d0d80 100%) !important;
+	background: radial-gradient(#2d2d2d80 0%, #0d0d0d80 100%);
 }
 .BattleHudComponentStyle-hudButton {
 	transition: transform 0.2s ease-in-out !important;
@@ -1327,7 +1429,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	margin: unset !important;
 	width: 22.5em !important;
 	height: 10em !important;
-	bottom: 1em !important;
+	bottom: 7em !important;
 	right: 50% !important;
 	transform: translateX(50%) !important;
 	transition: 0.2s ease-in-out !important;
@@ -1474,23 +1576,20 @@ li.FooterComponentStyle-containerMenu.FooterComponentStyle-containerMenu {
 	transition: transform 0.2s ease-in-out;
 }
 footer.FooterComponentStyle-footer {
-	flex-direction: column;
-	position: absolute !important;
-	height: 5em !important;
-	right: 50% !important;
-	left: unset !important;
-	bottom: unset !important;
-	transform: translateX(50%) !important;
-	top: 13em !important;
-	width: unset !important;
-	padding: 0 0 !important;
-	border-radius: 1.3em !important;
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	box-shadow:
-		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
-		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgba(0, 0, 0, 0.35) !important;
-	backdrop-filter: blur(5px) !important;
+    flex-direction: column;
+    position: absolute !important;
+    height: 5em !important;
+    right: 50% !important;
+    left: unset !important;
+    bottom: 1em !important;
+    transform: translateX(50%) !important;
+    width: unset !important;
+    padding: 0 0 !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(5px) !important;
 }
 .FooterComponentStyle-containerMenu:hover {
 	transform: scale(0.95) !important;
@@ -2622,7 +2721,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	backdrop-filter: unset !important;
 }
 .MainScreenComponentStyle-containerPanel:after {
-	content: 'by humorist';
+	content: 'by Principal';
 	position: absolute;
 	left: 0.5em;
 	bottom: -1.5em;
@@ -3060,7 +3159,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
     font-family: 'Rubik', sans-serif !important;
 }
 
-@keyframes humoristBackground {
+@keyframes PrincipalBackground {
     0% {
         background-position: 0% 0%;
     }
@@ -3081,7 +3180,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 .gearscore__value {
     background: linear-gradient(90deg, #f3a683, #f7d794, #778beb, #e77f67, #cf6a87, #c44569, #e15f41, #546de5, #f5cd79, #f19066, #f3a683);
     background-size: 400% 100% !important;
-    animation: humoristBackground 8s linear infinite !important;
+    animation: PrincipalBackground 8s linear infinite !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
 }
@@ -3502,7 +3601,7 @@ menu.innerHTML = `
     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvwAAABgCAYAAABhY6aeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABAMSURBVHhe7d17yGVVHcZxpxlHTR2R0kKUSirzklpJpFlomEp/WFGamVM2ylhpEKRF2QUyr9VfomPGWF7SDJQiSAfTIrqBhZqWhWnhpVLIyxjO6Fzent/eZ+X2vPucfb+stb4feDhrn/fc3rPWXvu313ve912ysLCwDQAAAIAwvWRyCQAAACBAFPwAAABAwCj4AQAAgIBR8AMAAAABo+AHAOSpcnxYMrkEAIzQvAndvna88qSylYwuzyuPKz9S3qE08SGlaT8/pZyklNXG2LLnPEHBeLUxtkj/sT47UdlWKcOOF3cpeY9Fhs0W5WnlDmW10tSdSt7zkGHj+vn3yulK23ZXvq7cr2xQ8l4D6T61+3lewW8PvFSxlRsyvtiBeDflvco65SpluVKV9bGNg7znqBJ7HEtZ9pzLlLzHKhu7f5XnRP/cHJPXf2ScMXZp+5YdXMqw27cxj5D2Y/2yQjlEWaNY4d9kkcjGRd7zkGHj+vktymWKFYRNFwOdUxU70TtHea2yvZL3Gkj3me5n25/fqRRyB2P4bQdlpfJjZTu7ogJ31tiUO/Msy26/OW3WZs9X5TnRvzbGFoZRZW6w/ZB/6jJ+dsy3wv9q5Wi7AkGyfraCsI1+/qLyLWWPZAtj4vZnW/A9xq6Yp6jgr7pqi+HYmd9Riq3gVDXEiZ87U23CrTRhvNyqBPzh+qtqv9HP/ni1crGyT7JVDf3sD+vni5R9k63qVilnKbskWxgrtz/P7eeigst27CGKQdRjH3F5n/KxZKsc619fJ3DGJjAOrO775yDlc2kTATtYsaK96vHyNcqnlV2TLYzdgcrZaTNf0QDwuRiMle2cH06bpbXVx32PFcbn+NE/frJ+o+/CZx/3ODJtImDHKkekzdI+oNT5CRCG8x7lXWlzsaKCn0nfT/sph6fNQj73L2MT6E7V/Yv90T+vUA5TqvQd/ewf189VHKrY7wfCH9bPb0+bi5Up+OEfW+W3z3SFzsYnYxQA6rG/9raXwkeywma/77Zn2ixt78kl/GL7c66igt8wEfhp7P1GoQ6MG/toHDjGIw9/sCUwFPwAAABAwCj4w+TLR13aGFusQgLdYN+KA/0ch6r9zLjw08x+Kyr4rSCj4PdPLH3G2PQDBw4/sX8BgF9qF/zwU9UTtbYKsiqPQxEYD/o6fPSxvzixAyJAwR+mKhO4uy0HbHSFgsI/1mdV+o1jiZ/YN4GwzNyniybprcqWtAmPWIdb340ZJxhxqFo4Yniuv6rMIezP/nH9XHX/ZH/2E/to+GzfnFmzFxX89nUGiZ/KTsp2O+vjIfqZsRU++9Nu/Hm38LHC7x83/zIPA2GwfXlm7TdvkraD9CbFVnnsAWKLfd9Fybvf0LHXZWd4G5Qy7D6m70mfg0wcbCxuVqbHqS9pKu8x+0rd+crYpd2nLOtjO15MPxYZf55Xqqjbz3XGYswJUd73SdqL7Vu2f+ZasrBgt5lpuWITeZWJH36xwvtk5TJlJ7uipvXKmco1yVaxk5Q1yopkq57nlFXKdckW0Fx2zrtVOUpp4j5lv7SZLLC4idkHc1eLAHTmEOUE5TTF/nN+G76jrE6bpdyjHJA2G3tAuVJ5MNl68Tw4a47JWxQcYmFyo3LL5NJrRQU/4rBSseJ7x2SrnjoF/+XKzslWPbYDnqpQ8KML65Sj02Zt2YIfAKo4QrlCeV2y1cxQBf9tynHKs8kWBsPnLjGUNs7UOVtFV+wjjW2MUXuMlyrMtQCq+oVyiVL1Y1d5+l4dNw8rX1Eo9keAgxCcISaDIZ4TKMN+96CtE0p7LD4WCaAqW3iwjxZa4eyj+5XfpE0MjYIfPrOCjFV+dKWtscUYBVCHLRb8VWljhX8Ij0wuMQIU/GhrlZ3VeiAfBT+AuljYQiso+DEUThAQCw7WAJrwdQ5h7hsRCn64wnuIHbNp0c9kgi61cVLKGAUADI6CHwC6RdEPABgUBT/4aA3QLQp+AMCgKPgRAk5aMFZW7FPwA2iCYxwao+AHgG5R8AOIEScqI0LBDwAAME5Wp1E4ozEKfrD6CHSH/QtAE8cpe6TNRoaYi+xEZYe0iaHFWPBztrzYEO9HG8/pJjD6E12gWIfD4hiGYOPueGWXZMs/m5SNaRNDK5rElilLJ5dWVI2xsHKvy74Xe60Wa7u469z3kf2es200R+ENxMnt+9l51y7HNie444WLe73uNbu4123Xbzu5tOuRcu+TO6a69wvtWaFconww2fKTjQ0WTrqVnc9sn7T3PNeShYW5ffFu5RxlV2Wrkn3gruU9R/Y6157+BmzbJcu27T7u+v8q5yk3J1vxssFxsnKZsqNdUdMzypnK1clWsZXKGqXJc1ofrlZuUGx8Am1apxydNmv7k3JA2gze9cpByuZkazGbf928nTeXT5uew4vkPU7edWUeN3s/myOvVc5NtvB95UDFHVOn32N33fT1TtV+zZq+b95zO7Oev655j5f3Pbnrsl/Lu86x61zseLan8nKlLVcop6fNUu5Rms5djypPKK4Ite8r71jt3lu7dDF52/Pkva9m1vtdZN5tytx/2rzXn308156+nCX7Ptk8fL6ySFHBf5JypbJdshWWp5UzFJu8YmYD5KPKpQoFP/ACCv5q7lX2T5vBsePgqWkzencrVvDDL0MU/OjfWuW0tPliM5f+M+wzWKFxZzmzVqJiNO/Mc6xcP/r42oHQbJlchijE4yDiYeP3kbSJwM2ch4sK/rmfBwIAYCLkE28WFV7Ae+Ef+1jNHWkTgZu5fxYV8/Z1flEpfL5P4EWfbwPQPQpBYJxuV25Jmwhc7YLf7sgKP8aKAgNAH5hr4Cv7LP7X0iYiULvgD5V7Q5jEw8AKPwD0g+OmP/6tfF75S7KFqJUp+CmmwhZC/zJGAXSJIhe+sSL/40rsf3ocE0UFvxVSIRdTTOJ+o/8AAHjBg8pZyr7KL+0KRGVmXVSm4OfvmwMAivCTNmBc2Cfxf7Gv8MNvrPAD6APHQfhib+Wbiv3Tv8MVjpNxmTlXxfpLuxgeB1AAALqxn/I9pel/C4dfan+kx3B2GAcf+5mxCaAPzDXw0R7Khco+yVY1LMoFJvaCnwENAABCdaBydtpEzPhID4bECRcAHzBXwVdW5x2rHJlslceYD0yMK/w2iN1AZkC3q+/3kx+zA+gDf60OPttNOSxtIlYxrvBni0QKRgBAEY4V8NlyZc+0WRoLooFZsrAwt09XKt9Rtku26tmk/E3ZmGy9eIW9iToTcPZ5n1HOVW5PtuJ2inKZskOyVY+9n2co1yRbxU5W1ig7JVv12JhapVyfbAHtWqc0/QsX9qfxDkibwfuj8sa0WdujypNpM5njp48X0/N+9muunb3OTG877rHsMq9t7L6blR8oF9kV2OYepemYfkh5Qsnrm7zrrE9m9WNWth+zl1l511Ux/Trc9vRlWbNuv5diK/NNX69zufLJtFnK1cqbFHt9tjhsP+XaMtk27nVlX3/2tU5/X9mvTX9PZb426zbTt29D9rXntYuuy5p+fXY7ey/t0r6W/br9SdUVabO2K5VT0+aL9VHwr1esELw22cIYWcFvxff2yVY9VQv+jyg2AVHwY6wo+Ktpo+C/SrH5aAjZA+/cA2Pk2ij41yqnpU3MYAtwFyirJ+2mvq18Im16r0yRX+Y2dc2bH6a/5l6HXbqvZW/jTqbMvcr+abO2mQV/0Ud67EXN+8bKauMx0B36B8AYDDkXueMd82H3+J2IYhuUzyg/TLaQld1XZ8XGWFfJez6Xae767P2y7Hon7/6t6eMz/Esn6fJsC8PrdKDOwJjC2DFGq+FYEYcYf3+wrhuUx9MmAma/Z9Gpvna67Oe+EK6qfcyYAJDlVsEQtuyqJua7WaHgD9/zk8umZi6YlCn425h82bkBAIDhpA5YrNP9oo8VflZsAPiIj5b0j2MFAHSgj4KfCRx5bFwwNgAAADrW12f4KezQFVZhAQAA5ujjM/wU+/GgrwE0wRwCIFadLmD2tcKPcbODrK8HWlb4AQCYj2Nl5Cj44TM7SWESQ1cYWwCAvrDCD8xAwQ+MB/siymKsAIsNWvCzU6IrbYyt7ZVXpU0AAeCYA3SDfWvcXq/skDa7wQo/fGYT2NvSJoAA2DGp04MeGqNwBNp3jNLpAiYFP3x3tHJe2gTguU3KhrQJAFE4VPmU0mlNXubB+TNpGLNtlS8oNynvtyuAEWH+rCZ7TFqqsJoMoCs2v5RJV45V1io/Ud5gV7Rg5jGHFX6EwHZIK/ZvVLaSTvOUcqICdOEUxY01W+3fktkm3eQSBeGrWrjeqeSNlyqxfXi98nRO7FhSlLz7ZVPl9tnb/Uu5S7HvsUymb3u38piSfcwyeUbJzmk/VVYpL1M610fB3+XZEdoTwkqkOxsn3WW5YiuvQBfyxhzpNvbHD4Bpy5S88VIl9hg7KytyskuJ5N0vmyq3z97ulcpBFXNwJgcquyvZxyyTnRSru7PvUW9Y4QdQxfOKrVAA8J8t9LA/x6HOoh4fSQwIBT+GwkTip15XJAAAg2G+98/M2oqCH0BVnKwBYaCgwyyMjcCUKfjpdAAOiwRAWDiBjwP9HLk+Dt42yBho42b9w4kdymCcAED4qNsCwwo/2sQEET6bD5gTymOfABZjv+gf73kcZvYzP56HQxEHtI+DLAAfMXf5aWYtV1Tws5oHIFZtzH3/nFwCY0VhF4eq/bx5cgm/sMKPQn2f2HEyiRg8MrmMAfuzf+z/ajycNhG4qvvng5NL+OWhyeUirPBjKKwq+SmWfmtj3ntW+V3aBEbpCeWOtFkac3ccfqtsSJvwxGPKzGNOmRV+dm4ATkzzQdPv9R7l2rQZBY4Vftmq3Kb8LNnqFwuJ/av6nt+k/DltwhO3K7emzcX6KvjZucfN+od+Rhmx/Bv+pmP5P8o3lI3JFjA+dytfTZuIQNU57e/KpcqTyRbG7i7lS2kzX1HBb0VgG7+4wcrPuDXtZ7u/S1m2umSBP1z/Vulnn9Udn3aA/LJyY7IVj1jGRQismPus8kCyVU0b/cxYqWao9+u7ysXK08kWxuofytnK3N+7KCr4l05SlxukZX6SgGG4Pq7bz9mJqEo/2/PxEwH/xHKgtvFZdd6yE4T7lTOVNXZFRJYpzPPjZ2PUPrO/Uvm5XVFDG/3M3F+N7V9N1X3PL1Ts5JC/ODY+tj//QbH9ufCjeUU77qZJ7CBfNfZCXDuWjwH4yAobW923v9aQ7b8yyfaxpcpPCWxMTN+fjDfZvorhz7XZ9/nc5LIo9su59ynnK29WrlNiY++DjYvp94YMH9t31ytW6J+uvFX5tVKXzd15z1Mldryh6C+vbh2Wjb3nda1VbNxcoNhPheyjinnPQbqP25+t0D9DOUT5lVJoycKC3X+m7RU+gxo2K/iXK24HBpCyBRGbXFHMrUDGcDIYO/aL/tnJEcdnNFJU8AMAAADwGJ+5BAAAAAJGwQ8AAAAEjIIfAAAACBgFPwAAABCsbbb5H23GJqTVZNY5AAAAAElFTkSuQmCC" style="filter: drop-shadow(0 0 3px white); max-width: 100%; height: auto;">
 </div>
 <span id="author" style="text-align: right; margin: 0px 0px 10px 0px; font-size: 0.8em; color: #ccc; position: absolute; top: 10px; right: 10px;">
-    by <a href="https://www.youtube.com/@humoristZXC" target="_blank">humorist</a>
+    by <a href="https://www.youtube.com/@PrincipalZXC" target="_blank">Principal</a>
 </span>
 <label for="contrastSlider">Contrast: <span id="contrastValue">${contrastValue}%</span></label>
 <input type="range" id="contrastSlider" min="0" max="200" value="${contrastValue}">
@@ -3604,7 +3703,7 @@ menu.innerHTML = `
 
 document.getElementById('author').addEventListener('click', (event) => {
     event.preventDefault();
-    window.open('https://www.youtube.com/@humoristZXC', '_blank');
+    window.open('https://www.youtube.com/@PrincipalZXC', '_blank');
 });
 
 document.getElementById('descriptionText').addEventListener('click', () => {
