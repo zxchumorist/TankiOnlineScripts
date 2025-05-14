@@ -92,6 +92,13 @@ function initObserver() {
 initObserver();
 
 const css = `
+.ModalStyle-root > .Common-flexCenterAlignCenter {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(10px) !important;
+}
 .BreadcrumbsComponentStyle-rootTitle div {
     border: none !important;
 }
