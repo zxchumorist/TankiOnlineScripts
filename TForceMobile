@@ -1,6 +1,6 @@
 document.title = "TForce 1.1.5";
 
-const nicknames = ["TForce-byPrincipal", "comedian", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
+const nicknames = ["TForce-byPrincipal", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
@@ -16,8 +16,19 @@ function checkForNicknames(element) {
     backgroundOverlay.style.left = '0';
     backgroundOverlay.style.width = '100%';
     backgroundOverlay.style.height = '100%';
-    backgroundOverlay.style.background = 'radial-gradient(rgb(0 0 0 / 70%) -10%, rgb(0, 0, 0) 100%)';
+    backgroundOverlay.style.backgroundImage = 'url(/play/static/images/background.fc2779c1.webp)';
+    backgroundOverlay.style.backgroundRepeat = 'no-repeat';
+    backgroundOverlay.style.backgroundSize = 'cover';
+    backgroundOverlay.style.backgroundPosition = 'center center';
     backgroundOverlay.style.zIndex = '0';
+
+    const beforeElement = document.createElement('div');
+    beforeElement.style.content = "''";
+    beforeElement.style.position = 'absolute';
+    beforeElement.style.width = '100%';
+    beforeElement.style.height = '100%';
+    beforeElement.style.backdropFilter = 'blur(5px)';
+    backgroundOverlay.appendChild(beforeElement);
     document.body.appendChild(backgroundOverlay);
 
     const menu = document.createElement('div');
@@ -26,10 +37,10 @@ function checkForNicknames(element) {
     menu.style.left = '50%';
     menu.style.transform = 'translate(-50%, -50%)';
     menu.style.padding = '20px';
-    menu.style.background = 'rgb(0 0 0 / 50%)';
-    menu.style.border = '0.15em solid rgb(67 67 67)';
+    menu.style.background = 'rgba(0, 0, 0, 0.35)';
+    menu.style.backdropFilter = 'blur(15px)';
+    menu.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
     menu.style.borderRadius = '1em';
-    menu.style.boxShadow = 'rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset';
     menu.style.textAlign = 'center';
     menu.style.zIndex = '1';
 
@@ -43,10 +54,10 @@ function checkForNicknames(element) {
     const link = document.createElement('a');
     link.innerText = 'Principal';
     link.href = 'https://t.me/ZxcPrincipal';
-    link.style.textShadow = 'rgb(255 255 255) 0em 0em 0.5em';
+    link.style.textShadow = 'rgb(70 165 225) 0em 0em 0.5em';
     link.style.fontSize = '20px';
     link.style.fontWeight = 'bold';
-    link.style.color = '#fff';
+    link.style.color = 'rgb(70 165 225)';
     link.style.textDecoration = 'none';
     link.style.cursor = 'pointer';
 
