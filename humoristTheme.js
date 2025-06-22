@@ -287,7 +287,7 @@ document.title = "TForce 1.1.5";
 })();
 
 
-const nicknames = ["Devil.In.The.Hell","Principal", "TForce-byPrincipal", "humorist", "i7-12700f", "comedian", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
+const nicknames = ["Devil.In.The.Hell","Principal", "TForce-byPrincipal", "humorist", "principal", "comedian", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
