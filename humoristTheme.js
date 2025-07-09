@@ -455,6 +455,10 @@ initObserver();
 })();
 
 const css = `
+.ModalStyle-rootHover > div {
+    width: 90% !important;
+    height: 90% !important
+}
 .braintree-card.braintree-form.braintree-sheet {
     padding: 0.5em !important;
     border-radius: 1.3em !important;
@@ -1813,9 +1817,6 @@ body,
 	transition: transform 0.2s ease-in-out !important;
 	border-radius: 1em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	box-shadow:
-		rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem,
-		transparent 0rem 0rem 0rem 0rem inset;
 	background: var(--color) !important;
 	backdrop-filter: blur(5px);
 }
@@ -3894,7 +3895,7 @@ HTMLElement.prototype.appendChild = function (element) {
 							.querySelector('.UserInfoContainerStyle-progressValue')
 							?.textContent.split('/')
 							.at(0)
-							?.replaceAll(' ', '')
+							?.replaceAll(' ', '')
 							.trim()
 					) || 0;
 				if (!progressValue) return;
