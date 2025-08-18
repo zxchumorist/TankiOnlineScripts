@@ -48,7 +48,7 @@ replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageC
 
 document.title = "TForce 1.1.5";
 
-const nicknames = ["TForce-byPrincipal", "comedian", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
+const nicknames = ["TForce-byPrincipal", "principal", "XIII", "Krush", "MO9I_vikyli4ka", "Prince.Of.Moldova", "DigitaI", "XwX_Akuma_Xwx", "Andrik", "Hit", "Ruse"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
@@ -3330,7 +3330,7 @@ HTMLElement.prototype.appendChild = function (element) {
 							.querySelector('.UserInfoContainerStyle-progressValue')
 							?.textContent.split('/')
 							.at(0)
-							?.replaceAll(' ', '')
+							?.replaceAll(' ', '')
 							.trim()
 					) || 0;
 				if (!progressValue) return;
