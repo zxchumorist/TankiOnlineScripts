@@ -1,17 +1,3 @@
-// ==UserScript==
-// @name         Substituting skins 2
-// @version      1.4
-// @description  Менеджер замены ресурсов Tanki Online с выбором подверсий скинов (эксклюзивный выбор для вариаций)
-// @author       principal
-// @match        https://*.tankionline.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
-// @connect      s.eu.tankionline.com
-// @connect      i.ibb.co
-// @grant        GM_xmlhttpRequest
-// @grant        unsafeWindow
-// @run-at       document-start
-// ==/UserScript==
-
 (function() {
     'use strict';
 
