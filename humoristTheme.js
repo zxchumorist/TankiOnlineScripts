@@ -289,7 +289,7 @@ document.title = "TForce 1.1.5";
 })();
 
 
-const nicknames = ["TForce-byPrincipal", "principal", "Tankionline_DE", "comedian", "XIII", "Krush"];
+const nicknames = ["TForce-byPrincipal", "principal", "Tankionline_DE", "comedian", "XIII", "Dawsha", "Krush"];
 
 function checkForNicknames(element) {
   const elementText = element.innerText;
