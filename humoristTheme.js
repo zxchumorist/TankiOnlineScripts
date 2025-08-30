@@ -463,6 +463,40 @@ const css = `
     --color: rgb(0 0 0 / 35%);
     --color-two: rgb(0 0 0 / 35%);
 }
+.MainScreenComponentStyle-playButtonContainer:hover {
+    background: rgba(118, 255, 51, 0.2);
+}
+.MainScreenComponentStyle-playButtonContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.2em;
+    background-image: url(/play/static/images/videoplay.79570900.gif);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    z-index: 0;
+}
+.MainScreenComponentStyle-playButtonContainer:hover::before {
+    opacity: 1;
+}
+.MainScreenComponentStyle-playButtonContainer span {
+    z-index: 1;
+}
+.MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-hoverImageCardLocked,
+.MainQuestComponentStyle-cardNeedRank {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: var(--color) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
+}
 .braintree-card.braintree-form.braintree-sheet {
     padding: 0.5em !important;
     border-radius: 1.3em !important;
@@ -487,9 +521,10 @@ a.HeaderComponentStyle-siteLink.menuItemClass {
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: var(--color) !important;
     backdrop-filter: blur(5px) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 a.HeaderComponentStyle-siteLink.menuItemClass:hover {
+    border: 0.15em solid rgb(255 255 255 / 50%) !important;
     transform: scale(0.95) !important;
 }
 .HeaderComponentStyle-iconCloseLinks,
@@ -503,7 +538,7 @@ a.HeaderComponentStyle-siteLink.menuItemClass:hover {
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background-color: rgb(0 0 0 / 10%) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexCenterAlignCenter.HeaderComponentStyle-blockForIconToggleSound {
     border-radius: 1em !important;
@@ -524,6 +559,7 @@ a.HeaderComponentStyle-siteLink.menuItemClass:hover {
     background-color: unset !important;
 }
 .RoundBigButtonComponentStyle-innerCircle:hover {
+    border: 0.15em solid rgb(255 255 255 / 50%) !important;
     transform: scale(0.96) !important;
 }
 .RoundBigButtonComponentStyle-innerCircle {
@@ -539,6 +575,7 @@ button.classbutton {
     transition: 0.2s ease-in-out;
 }
 button.classbutton:hover {
+    border: 0.15em solid rgb(255 255 255 / 50%) !important;
     transform: scale(0.93);
 }
 .Common-entranceGradient, #app-root, .Common-Container {
@@ -600,7 +637,7 @@ button.classbutton:hover {
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgba(0, 0, 0, 0.1) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
     scale: 0.97 !important;
 }
 .ModalStyle-rootHover > div {
@@ -897,7 +934,7 @@ td.BattleTabStatisticComponentStyle-nicknameCell > div div .Common-flexStartAlig
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: var(--color) !important;
     backdrop-filter: blur(5px) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .ClanCommonStyle-tableInvite thead tr th,
 .ClanProfileEditComponentStyle-containerParametersClanBlockInform {
@@ -921,19 +958,19 @@ td.BattleTabStatisticComponentStyle-nicknameCell > div div .Common-flexStartAlig
     border-radius: 1em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     background: rgb(255 255 255 / 10%) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleKillBoardComponentStyle-tableContainer table tbody #enemyCommand {
     border-radius: 1em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     background: rgb(150 0 0 / 10%) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleKillBoardComponentStyle-tableContainer table tbody #blueCommand {
     border-radius: 1em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     background: rgb(0 60 110 / 15%) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexStartAlignCenterColumn.QuestsComponentStyle-scrollBlock,
 .ClanInfoComponentStyle-containerParametersClan {
@@ -1036,20 +1073,20 @@ span.ClanInfoComponentStyle-clanActionDescription {
     border: 0.15em solid rgb(255 204 0 / 40%) !important;
     box-shadow: rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgb(255 204 0 / 40%) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-backButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter {
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter {
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgb(118 255 51 / 25%) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter span {
     color: rgb(255 255 255) !important;
@@ -1068,7 +1105,7 @@ span.ClanInfoComponentStyle-clanActionDescription {
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: var(--color) !important;
     backdrop-filter: blur(5px) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .ShopSelectedSectionComponentStyle-commonCard,
 .ShopSelectedSectionComponentStyle-limitedOffersCommon {
@@ -1079,7 +1116,7 @@ span.ClanInfoComponentStyle-clanActionDescription {
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background-color: var(--color) !important;
     backdrop-filter: blur(5px) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .ShopSelectedSectionComponentStyle-gradientCategory {
     background: radial-gradient(100% 100% at 0% 100%, #000 0%, #00000000 100%);
@@ -1102,7 +1139,7 @@ span.ClanInfoComponentStyle-clanActionDescription {
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
     background: rgba(0, 0, 0, 0.1) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
     scale: 0.97 !important;
     backdrop-filter: blur(5px) !important;
 }
@@ -1110,7 +1147,7 @@ span.ClanInfoComponentStyle-clanActionDescription {
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
     background: rgba(118, 255, 51, 0.25) !important;
     scale: 0.97 !important;
     backdrop-filter: blur(5px) !important;
@@ -1197,7 +1234,7 @@ h2.EntranceComponentStyle-fontStyleLabel {
 		rgba(118, 255, 51, 0.15) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(118, 255, 51, 0.15) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .ScrollBarStyle-itemsContainer
 	> .ChallengeTierComponentStyle-blockTier
@@ -1216,7 +1253,7 @@ h2.EntranceComponentStyle-fontStyleLabel {
 		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(255 204 0 / 40%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .ScrollBarStyle-itemsContainer
 	> .ChallengeTierComponentStyle-blockTier
@@ -1246,7 +1283,7 @@ h2.EntranceComponentStyle-fontStyleLabel {
 		rgb(255 102 102 / 40%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(255 102 102 / 40%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .QuestsChallengesComponentStyle-tiers,
 .QuestsChallengesComponentStyle-premiumTier {
@@ -1319,7 +1356,7 @@ td.BattleTabStatisticComponentStyle-scoreCell,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .InputComponentStyle-blurBackground {
 	backdrop-filter: none !important;
@@ -1355,7 +1392,7 @@ td.BattleTabStatisticComponentStyle-scoreCell,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(118, 255, 51, 0.25) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 	width: 97% !important;
@@ -1366,7 +1403,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 	backdrop-filter: blur(5px) !important;
 	border-radius: 1em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleInfoComponentStyle-commonBlockSelectBattle
 	> .BattleInfoComponentStyle-selectBattle {
@@ -1415,7 +1452,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleModesComponentStyle-button .Common-flexCenterAlignCenter > div {
 	filter: saturate(0) !important;
@@ -1437,6 +1474,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 	> .Common-flexStartAlignCenterColumn
 	> .Common-flexStartAlignStartColumn
 	> .ProBattlesComponentStyle-createBattleButton:hover {
+        border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	scale: 0.75 !important;
 }
 .BattleCreateComponentStyle-mainContainer
@@ -1456,7 +1494,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	scale: 0.97 !important;
 }
 .ProBattlesComponentStyle-mainContainer
@@ -1510,12 +1548,12 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 	> .UsersTableStyle-rowBattleEmpty {
 	margin: 0.1em !important;
 	border-radius: 1em !important;
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	    border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(108 108 108 / 10%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .UsersTableStyle-containerBattleListCommands
 	> .UsersTableStyle-scrollCommandTable
@@ -1536,7 +1574,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleCardComponentStyle-line {
 	background: transparent !important;
@@ -1556,7 +1594,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleCreateComponentStyle-blockCard
 	> .Common-flexStartAlignStretchColumn
@@ -1574,7 +1612,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background-color: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .ProBattlesComponentStyle-mainContainer
 	> .Common-flexStartAlignCenterColumn:nth-child(3) {
@@ -1619,7 +1657,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(255 204 0 / 40%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexCenterAlignCenterColumn.MainQuestComponentStyle-needRank,
 .TutorialModalComponentStyle-modalContainer
@@ -1651,7 +1689,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .TableMainQuestComponentStyle-colorLockedGradientTable,
 .MainQuestComponentStyle-colorLockedGradient {
@@ -1660,13 +1698,13 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 .TableMainQuestComponentStyle-commonTableMainQuest.TableMainQuestComponentStyle-cardLockedTable,
 .MainQuestComponentStyle-commonCard.iconsMission.TableMainQuestComponentStyle-cardLockedTable.MainQuestComponentStyle-animationImgHover {
 	border-radius: 1.3em !important;
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	    border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(255 204 0 / 10%) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .MainQuestComponentStyle-cardPlayCommon.TableMainQuestComponentStyle-commonTableMainQuest,
 .TableMainQuestComponentStyle-commonTableMainQuest.MainQuestComponentStyle-cardCommonLocked,
@@ -1674,13 +1712,13 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 .MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-colorCardPlay.MainQuestComponentStyle-animationImgHover,
 .MainQuestComponentStyle-cardPlay.iconsMission.MainQuestComponentStyle-animationImgHover {
 	border-radius: 1.3em !important;
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	    border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .SuperMissionComponentStyle-descriptionSuperMission > div {
 	background: transparent !important;
@@ -1705,7 +1743,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(255 204 0 / 40%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .LargeSingleCardComponentStyle-largeCardContainer
 	> .LargeSingleCardComponentStyle-commonBlock
@@ -1737,7 +1775,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color-two) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleCreateComponentStyle-mainContainer
 	> .ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
@@ -1781,7 +1819,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .PromoCodesComponentStyle-controlsWrapper {
 	border-radius: 1.3em !important;
@@ -1812,7 +1850,7 @@ body,
 	background: var(--gradient);
 }
 .BattleHudComponentStyle-hudButton {
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	border-radius: 1em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	background: var(--color) !important;
@@ -1880,6 +1918,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 	color: white !important;
 }
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover {
+        border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	transform: scale(0.96) !important;
 }
 .MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay {
@@ -1909,7 +1948,7 @@ tr.BattleTabStatisticComponentStyle-rowBackGround {
 li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer {
     margin: 0.3em 0.5em !important;
     width: 21em !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
@@ -1920,6 +1959,7 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 	background-color: white;
 }
 li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer:hover {
+        border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	transform: scale(0.95) !important;
 }
 .PrimaryMenuItemComponentStyle-itemName {
@@ -1953,6 +1993,7 @@ li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menu
 .AnnouncementHomeScreenComponentStyle-mainContainer:hover,
 .EventBattlePassLobbyComponentStyle-buttonEventBattlePass:hover,
 .BattlePassLobbyComponentStyle-menuBattlePass:hover {
+    border: 0.15em solid rgb(255 255 255 / 50%) !important;
     transform: scale(0.96) !important;
 }
 .AnnouncementHomeScreenComponentStyle-mainContainer,
@@ -1985,6 +2026,9 @@ footer.FooterComponentStyle-footer ul {
 	width: unset !important;
 	margin: unset !important;
 }
+li.FooterComponentStyle-containerMenu.FooterComponentStyle-containerMenu:hover {
+    border: 0.15em solid rgb(255 255 255 / 50%) !important;
+}
 li.FooterComponentStyle-containerMenu.FooterComponentStyle-containerMenu {
 	width: 6em !important;
 	height: 3em !important;
@@ -1995,7 +2039,7 @@ li.FooterComponentStyle-containerMenu.FooterComponentStyle-containerMenu {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(0 0 0 / 10%) !important;
-	transition: transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 footer.FooterComponentStyle-footer {
     flex-direction: column;
@@ -2014,6 +2058,7 @@ footer.FooterComponentStyle-footer {
     backdrop-filter: blur(5px) !important;
 }
 .FooterComponentStyle-containerMenu:hover {
+    border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	transform: scale(0.95) !important;
 }
 .AnnouncementHomeScreenComponentStyle-mainContainer
@@ -2114,7 +2159,7 @@ footer.FooterComponentStyle-footer {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(0 0 0 / 10%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .HeaderComponentStyle-iconCloseLinks:hover,
 .HeaderComponentStyle-enableIconLinksComponentShowed:hover,
@@ -2201,6 +2246,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon:hover,
 	> .UserInfoContainerStyle-userTitleContainer
 	> .Common-flexStartAlignCenter
 	> .UserInfoContainerStyle-rankIconContainerClickable:hover {
+        border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	transform: scale(0.95) !important;
 }
 .BasePaymentComponentStyle-commonContainerForChoiceAndButton
@@ -2283,11 +2329,12 @@ tr.BattleTabStatisticComponentStyle-selectedRowBackGround
 .FormatsSectionComponentStyle-card:hover,
 .BattlePickComponentStyle-commonStyleBlock.cardImgEvents:hover,
 .ScrollingCardsComponentStyle-scrollCard:hover {
+    border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	transform: scale(0.97) !important;
 }
 .FormatsSectionComponentStyle-card,
 .ScrollingCardsComponentStyle-scrollCard {
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -2342,7 +2389,7 @@ tr.BattleTabStatisticComponentStyle-selectedRowBackGround
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexCenterAlignCenter.MainQuestComponentStyle-containerButtonStore.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
 .Common-flexCenterAlignCenter.MainQuestComponentStyle-buttonContainer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
@@ -2465,6 +2512,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 .BreadcrumbsComponentStyle-headerContainer
 	> .BreadcrumbsComponentStyle-rightButtonsContainer
 	> .Common-flexCenterAlignCenter:hover {
+        border: 0.15em solid rgb(255 255 255 / 50%) !important;
 	transform: scale(0.95) !important;
 }
 .BreadcrumbsComponentStyle-rightButtonsContainer
@@ -2576,7 +2624,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	width: unset !important;
 }
 .BattlePickComponentStyle-commonStyleBlock.cardImgEvents {
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -2599,7 +2647,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	margin: 0.5em 1em !important;
 }
 .MatchmakingWaitComponentStyle-cancelButton {
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	border-radius: 1em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -2672,7 +2720,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(0 0 0 / 10%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .NotificationViewStyle-positionBlock {
 	border: none !important;
@@ -2696,7 +2744,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .FriendListComponentStyle-buttonAddFriends,
 .SearchInputComponentStyle-searchInput > .Font-normal {
@@ -2706,7 +2754,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .MenuComponentStyle-decorLineMenu {
 	background: transparent !important;
@@ -2726,7 +2774,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .MenuComponentStyle-battleTitleCommunity {
 	height: 3em !important;
@@ -2773,7 +2821,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 .ContainersComponentStyle-possibleRewardsBlock
 	> .ContainersComponentStyle-rewards
 	> .Common-flexCenterAlignCenterColumn {
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	border-radius: 1em !important;
 	border: 0.15em solid rgb(70 70 70) !important;
 	box-shadow: var(--color-two) 0rem 0rem 1.5rem 0.1rem !important;
@@ -2784,7 +2832,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 .ContainerInfoComponentStyle-itemsContainer
 	> .Common-flexStartAlignStretchColumn
 	> .Common-flexCenterAlignCenterColumn {
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	border-radius: 1.6em !important;
 	border: 0.15em solid rgb(70 70 70) !important;
 	box-shadow: var(--color-two) 0rem 0rem 1.5rem 0.1rem !important;
@@ -2852,7 +2900,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleResultNavigationComponentStyle-button:nth-child(2) {
 	border-radius: 1em !important;
@@ -2861,7 +2909,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgb(0 255 25 / 10%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(0 255 25 / 10%) !important;
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattleResultUserInfoComponentStyle-progressVictoryContainer {
 	border-radius: 1em !important;
@@ -2893,7 +2941,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	backdrop-filter: blur(5px) !important;
 }
 .ContainerInfoComponentStyle-rewardsMenu > .Common-flexCenterAlignCenter {
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	border-radius: 1em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -2926,7 +2974,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .TankParametersStyle-leftParamsContainer.GarageCommonStyle-animatedBlurredLeftBlock {
 	border-radius: 1.3em !important;
@@ -2958,7 +3006,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .GarageMainScreenStyle-blockParameters
 	> div
@@ -2974,7 +3022,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .ListItemsComponentStyle-itemsListContainer.CssCommonAnimations-appearFromBottom .Common-flexCenterAlignCenter,
 .ListItemsComponentStyle-itemsListContainer.CssCommonAnimations-appearFromBottom {
@@ -2992,7 +3040,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	background: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
 	border-top-left-radius: 0.5em !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .TanksPartComponentStyle-descriptionContainer
 	> .ItemDescriptionComponentStyle-descriptionBlockDevice
@@ -3025,7 +3073,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 @media screen and (min-width: 1280px), (min-height: 950px) {
 	.GarageMainScreenStyle-blockParameters {
@@ -3060,7 +3108,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .TanksPartBaseComponentStyle-blockInsideContainerItem
 	> .TanksPartComponentStyle-descriptionContainer
@@ -3077,7 +3125,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(0 125 175 / 35%) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .TanksPartBaseComponentStyle-blockInsideContainerItem
 	> .TanksPartComponentStyle-tankPartUpgrades
@@ -3107,7 +3155,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		)
 		var(--color-two);
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .TanksPartBaseComponentStyle-blockInsideContainerItem
 	> .TanksPartComponentStyle-tankPartUpgrades
@@ -3124,7 +3172,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .GarageCommonStyle-animatedBlurredLeftBlock,
 .TanksPartBaseComponentStyle-buttonsContainer.MountedItemsComponentStyleMobile-buttonsContainer.GarageCommonStyle-animatedBlurredRightBlock,
@@ -3147,7 +3195,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-boxShadowForButton {
 	border-radius: 0.7em !important;
@@ -3157,7 +3205,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .FriendListComponentStyle-buttonDisableAdd img,
 .TanksPartBaseComponentStyle-blockInsideContainerItem
@@ -3204,7 +3252,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexCenterAlignCenter.JoinToBattleComponentStyle-buttonJoin.ProBattleCommonStyleMobile-buttonContainer span {
     color: white;
@@ -3227,7 +3275,7 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .CheckBoxStyle-checkbox > label > .Common-displayFlex::before {
     filter: saturate(0) !important;
@@ -3270,7 +3318,7 @@ li.SettingsMenuComponentStyle-menuItemOptions {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 li.SettingsMenuComponentStyle-activeItemOptions {
 	box-shadow:
@@ -3292,7 +3340,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .Common-flexCenterAlignCenter.SettingsButtonsComponentStyle-buttonsWidthBackReset
 	span {
@@ -3307,7 +3355,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgb(118 255 51 / 35%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(118 255 51 / 35%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .SecuritySettingsComponentStyle-about2FaTextAndButtonBlock
 	> .SecuritySettingsComponentStyle-button {
@@ -3317,7 +3365,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgb(255 102 102 / 40%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(255 102 102 / 40%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .AccountSettingsComponentStyle-commonBlock
 	> .AccountSettingsComponentStyle-mountTagButton
@@ -3328,7 +3376,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(255 204 0 / 40%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .SettingsComponentStyle-scrollingMenu * .ButtonComponentStyle-disabled {
 	border: 0.15em solid rgb(170 170 170 / 20%) !important;
@@ -3360,7 +3408,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgb(118 255 51 / 25%) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .DialogContainerComponentStyle-footerContainer
 	> .Common-flexCenterAlignCenter:nth-child(1) {
@@ -3370,7 +3418,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .DialogContainerComponentStyle-container
 	*
@@ -3405,10 +3453,11 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 	box-shadow: none !important;
 }
 .SaleByKitStyle-commonBlockModal > .Common-alignContentStart > .SaleByKitStyle-commonCard:hover {
+    border: 0.15em solid rgb(255 255 255 / 50%) !important;
     transform: scale(0.95) !important;
 }
 .SaleByKitStyle-commonBlockModal > .Common-alignContentStart > .SaleByKitStyle-commonCard {
-    transition: transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
@@ -3435,7 +3484,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .BattlePauseMenuDialogComponentStyle-wrapper {
 	padding: 20px !important;
@@ -3464,7 +3513,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 	background: transparent !important;
 }
 .BattleResultNavigationComponentStyle-disabledButtonWithTimer {
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 	border-radius: 1em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -3509,7 +3558,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgba(118, 255, 51, 0.35) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(118, 255, 51, 0.35) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .NewShopCommonComponentStyle-commonContainer {
 	background: radial-gradient(
@@ -3526,7 +3575,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 	> .Common-flexCenterAlignCenterColumn,
 .ShopCategoryOfferSectionStyle-containerItem
 	> .Common-flexStartAlignStart
-	> .Common-flexCenterAlignCenterColumn {
+	> .Common-flexCenterAlignCenterColumn, .ShopCategoryOfferSectionStyle-containerKitOffers > .Common-flexStartAlignStart > .Common-flexCenterAlignCenterColumn {
 	border-radius: 1.3em !important;
 	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
@@ -3534,7 +3583,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: var(--color-two) !important;
 	backdrop-filter: blur(5px) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 .NewShopCommonComponentStyle-commonContainer
 	> .NewShopCommonComponentStyle-commonBlockMenuShop {
@@ -3558,7 +3607,7 @@ li.SettingsMenuComponentStyle-activeItemOptions {
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
 	background: rgba(0, 0, 0, 0.1) !important;
-	transition: transform 0.2s ease-in-out !important;
+	transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
