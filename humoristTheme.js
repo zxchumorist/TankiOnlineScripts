@@ -463,10 +463,13 @@ const css = `
     --color: rgb(0 0 0 / 35%);
     --color-two: rgb(0 0 0 / 35%);
 }
+.AnnouncementHomeScreenComponentStyle-mainClickContainer .Common-backgroundImageContain {
+    transition: background 1s ease;
+}
 .MainScreenComponentStyle-playButtonContainer:hover {
     background: rgba(118, 255, 51, 0.2);
 }
-.MainScreenComponentStyle-playButtonContainer::before {
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem::before {
     content: "";
     position: absolute;
     top: 0;
@@ -474,7 +477,7 @@ const css = `
     width: 100%;
     height: 100%;
     border-radius: 1.2em;
-    background-image: url(/play/static/images/videoplay.79570900.gif);
+    background: radial-gradient(100% 100% at 50% 100%, rgb(0, 25, 38) 0%, rgba(0, 25, 38, 0) 100%) center center / cover no-repeat, url(/play/static/images/battle_main_pick_match.f9aabe76.webp);
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -482,7 +485,7 @@ const css = `
     pointer-events: none;
     z-index: 0;
 }
-.MainScreenComponentStyle-playButtonContainer:hover::before {
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover::before {
     opacity: 1;
 }
 .MainScreenComponentStyle-playButtonContainer span {
@@ -1712,7 +1715,7 @@ tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
 .MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-colorCardPlay.MainQuestComponentStyle-animationImgHover,
 .MainQuestComponentStyle-cardPlay.iconsMission.MainQuestComponentStyle-animationImgHover {
 	border-radius: 1.3em !important;
-	    border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
 	box-shadow:
 		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
 		transparent 0rem 0rem 0rem 0rem inset !important;
@@ -2050,7 +2053,7 @@ footer.FooterComponentStyle-footer {
     bottom: 1em !important;
     transform: translateX(50%) !important;
     width: unset !important;
-    padding: 0 0 !important;
+    padding: 0 1em !important;
     border-radius: 1.3em !important;
     border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
