@@ -463,6 +463,13 @@ const css = `
     --color: rgb(0 0 0 / 35%);
     --color-two: rgb(0 0 0 / 35%);
 }
+.Common-contentSpaceBetween .RegistrationComponentStyle-containerItem .InputComponentStyle-input {
+    background: var(--color) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.QuestsChallengesComponentStyle-maxTierBlock > .Common-flexCenterAlignCenterColumn {
+    background: radial-gradient(170.14% 100% at 50% 100%, rgb(0 0 0 / 25%) 0%, rgb(0 0 0 / 0%) 100%);
+}
 .AnnouncementHomeScreenComponentStyle-mainClickContainer .Common-backgroundImageContain {
     transition: background 1s ease;
 }
@@ -2914,13 +2921,9 @@ li.SettingsMenuComponentStyle-menuItemOptions:hover,
 	background: rgb(0 255 25 / 10%) !important;
     transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
 }
-.BattleResultUserInfoComponentStyle-progressVictoryContainer {
-	border-radius: 1em !important;
-	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
-	box-shadow:
-		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
-		transparent 0rem 0rem 0rem 0rem inset !important;
-	background: rgba(0, 0, 0, 0.1) !important;
+.BattleResultUserInfoComponentStyle-progressVictoryContainer, .BattleRewardsComponentStyle-commonBlockButtonRewards .BattleRewardsComponentStyle-normalRow, .BattleRewardsComponentStyle-commonBlockButtonRewards .BattleRewardsComponentStyle-selectedRow {
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    background: rgba(0, 0, 0, 0.1) !important;
 }
 .GarageMenuComponentStyle-garageMenuContainer
 	> .GarageCommonStyle-subMenu
