@@ -45,4 +45,5214 @@ observer.observe(document.body, { childList: true, subtree: true });
 
 updateStyles();
 replaceColors('.ScrollingCardsComponentStyle-scrollCard .Common-backgroundImageCover, .FormatsSectionComponentStyle-card .Common-backgroundImageCover');
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('1X dm(){Y Q=1a.2a(\'Q\');Q.2Y=`.33-3A{1O:5h;1n:21;1m:0.cD;1W:50%;L:3g(50%);1D:0.T;f-E:X;f:0.B u n(j,j,j,0.25);I-G:n(0,0,0,0.5)d d 0.J 0.K}.33-3A.33 3m{1l:2o;1p:2o;1O:6l;4h:3M}.33{1C:0 0.B;1D:0.47;f-E:0.3R;f:0.B u n(j,j,j,0.25);I-G:n(0,0,0,0.5)d d 0.J 0.K;q:F(0 0 0/10%);1b:L 0.2s D-in-H,f 0.2s D-in-H}.33:W{f:0.B u F(w w w/50%);L:1u(0.9)}`;1a.6L.27(Q);kr 1X cU(6R){Y 7m=1a.2L(".1B-4J");if(!7m)2A aM.cR(\'gO 1M gU b1\');7m.3e();7m.bi(3r cd("gz",{bl:3b}));7m.bi(3r cd("gW",{bl:3b}));cC b4(50);if(6R===10){1a.2L(".5k-bZ > P > P")?.3e()}3C if(6R===9){1a.2L(".5k-bZ > :1E-1F(2) > :1E-1F(2)")?.3e()}3C{1a.2L(".5k-gR > :1E-1F(2) > P")?.3e();cC b4(50);if(6R<5){1a.2L(`.3S-h6>:1E-1F(${6R})`)?.3e()}3C{1a.2L(`.3S-gN>:1E-1F(${6R-4})`)?.3e()}}}1X b4(ms){2A 3r hR(bv=>5q(bv,ms))}1X 84(1P){if(1P.bw)2A;1P.bw=3b;Y 3A=1a.2a(\'P\');3A.4C=\'33-3A\';3A.4W=`<P 2M="33 hT"><3m 49="1o://1x.1q/1v/1w/1t/hW.hO.1z"></P><P 2M="33 hz"><3m 49="1o://1x.1q/1v/1w/1t/he.hk.1z"></P><P 2M="33 hl"><3m 49="1o://1x.1q/1v/1w/1t/ho.hp.1z"></P><P 2M="33 hw"><3m 49="1o://1x.1q/1v/1w/1t/hy.hx.1z"></P><P 2M="33 hv"><3m 49="1o://1x.1q/1v/1w/1t/ht.i0.1z"></P><P 2M="33 hb"><3m 49="1o://1x.1q/1v/1w/1t/hg.hd.1z"></P><P 2M="33 hn"><3m 49="1o://1x.1q/1v/1w/1t/hA.hU.1z"></P><P 2M="33 hQ"><3m 49="1o://1x.1q/1v/1w/1t/hM.hJ.1z"></P><P 2M="33 hI"><3m 49="1o://1x.1q/1v/1w/1t/hD.ha.1z"></P><P 2M="33 h7"><3m 49="1o://1x.1q/1v/1w/1t/gL.gJ.1z"></P>`;3p(3Q i=1;i<=10;i++){Y aW=3A.2L(`.3v${i}`);aW&&aW.2z(\'3e\',()=>cU(i))}1P.27(3A)}Y 4Y=3r 7d((cJ)=>{3p(Y m of cJ){3p(Y 4M of m.aU){if(!(4M gQ gx))e2;if(4M.bT(\'.1B-2P\')){84(4M)}Y b6=4M.2L(\'.1B-2P\');if(b6){84(b6)}}}});4Y.7n(1a.2f,{6H:3b,6U:3b});Y aK=1a.2L(\'.1B-2P\');if(aK)84(aK)}dm();(1X(){\'9d 9h\';Y 1h=1a.2a(\'P\');1h.3F.5D(\'gG\');1h.Q.1n=\'2Q\';1h.Q.8L=\'1.T\';1h.Q.8M=\'V(11)\';1h.Q.1m=\'50%\';1h.Q.1r=\'50%\';1h.Q.L=\'3w(-50%, -50%)\';1h.Q.1D=\'11\';1h.Q.q=\'U(--A)\';1h.Q.f=\'0.B u n(j, j, j, 0.25)\';1h.Q.1O=\'1c\';1h.Q.8I=\'fn\';Y 3Z={bc:{1k:\'2c-1k(#bO 0%, #bN 1f%)\',A:\'F(0 0 0 / 35%)\',5x:\'F(0 0 0 / 35%)\',6e:\'F(13, 13, 13)\',6f:`.l-1P::1Q{2C:\'\';1n:21;1l:1f%;1p:1f%;Z-R:V(0.47)}`},O:{1k:\'#h8\',A:\'O\',5x:\'O\'},2D:{1k:\'2c-1k(#gA 0%, #4E 1f%)\',A:\'#dh\',5x:\'#dh\',6e:\'F(13, 0, 0)\',6f:`.1e-2X::1Q,.1e-3j::1Q,.l-5n::1Q,#7p-2T::1Q,.l-1P::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#7Q 0%,#7Q 7%,#4T 10%,#da 12%,#77 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#6W 0%,#6W 7%,#4D 10%,O 12%,#6W 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H,6T 7J 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7I);3J-4c:L,1g}.1e-2X::1Q,.1e-3j::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#7Q 0%,#7Q 7%,#4T 10%,#da 12%,#4E 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#6W 0%,#6W 7%,#4D 10%,O 12%,#6W 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7F);3J-4c:L,1g}}`},3n:{1k:\'2c-1k(#gI 0%, #4E 1f%)\',A:\'#d4\',5x:\'#d4\',6e:\'F(0, 0, 13)\',6f:`.l-5n::1Q,#7p-2T::1Q,.l-1P::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#8z 0%,#8z 7%,#4T 10%,#c7 12%,#77 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#6o 0%,#6o 7%,#4D 10%,O 12%,#6o 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H,6T 7J 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7I);3J-4c:L,1g}.1e-2X::1Q,.1e-3j::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#8z 0%,#8z 7%,#4T 10%,#c7 12%,#4E 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#6o 0%,#6o 7%,#4D 10%,O 12%,#6o 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7F);3J-4c:L,1g}}`},i2:{1k:\'2c-1k(#jA 0%, #4E 1f%)\',A:\'#d5\',5x:\'#d5\',6e:\'F(0, 13, 0)\',6f:`.l-5n::1Q,#7p-2T::1Q,.l-1P::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#4x 0%,#4x 7%,#4T 10%,#d6 12%,#77 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#4x 0%,#4x 7%,#4D 10%,O 12%,#4x 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H,6T 7J 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7I);3J-4c:L,1g}.1e-2X::1Q,.1e-3j::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#4x 0%,#4x 7%,#4T 10%,#d6 12%,#4E 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#4x 0%,#4x 7%,#4D 10%,O 12%,#4x 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7F);3J-4c:L,1g}}`},jZ:{1k:\'2c-1k(#k0 0%, #4E 1f%)\',A:\'#db\',5x:\'#db\',6e:\'F(13, 13, 0)\',6f:`.l-5n::1Q,#7p-2T::1Q,.l-1P::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#4L 0%,#4L 7%,#4T 10%,#d3 12%,#77 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#4L 0%,#4L 7%,#4D 10%,O 12%,#4L 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H,6T 7J 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7I);3J-4c:L,1g}.1e-2X::1Q,.1e-3j::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#4L 0%,#4L 7%,#4T 10%,#d3 12%,#4E 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#4L 0%,#4L 7%,#4D 10%,O 12%,#4L 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7F);3J-4c:L,1g}}`},k1:{1k:\'2c-1k(#k2 0%, #4E 1f%)\',A:\'#dk\',5x:\'#dk\',6e:\'F(13, 0, 13)\',6f:`.l-5n::1Q,#7p-2T::1Q,.l-1P::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#4K 0%,#4K 7%,#4T 10%,#dl 12%,#77 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#4K 0%,#4K 7%,#4D 10%,O 12%,#4K 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H,6T 7J 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7I);3J-4c:L,1g}.1e-2X::1Q,.1e-3j::1Q{2C:"";1n:21;S:0;--2p:2r-1N-1k(2q,#4K 0%,#4K 7%,#4T 10%,#dl 12%,#4E 16%);--2n:2c-1k(4F,F(w w w/60%)10%,#4G 50%);--2m:2r-1N-1k(2q,#4K 0%,#4K 7%,#4D 10%,O 12%,#4K 16%);q-2l:U(--2p),U(--2n),U(--2m);q-26:2W%,1f%,2t%;1I:3X 4O 2e 2V D-in-H;q-4P:2Q;4Q-4R-3v:4S;R:V(7F);3J-4c:L,1g}}`},};1X aI(A){if(3Z[A]){1a.7u.Q.6x(\'--1k\',3Z[A].1k);1a.7u.Q.6x(\'--A\',3Z[A].A);1a.7u.Q.6x(\'--A-37\',3Z[A].5x);1a.7u.Q.6x(\'--bB-A\',3Z[A].6e);Y 6A=1a.2b(\'d1\');if(6A){6A.4W=3Z[A].6f}2N.59(\'d0\',A)}}k4.k5(3Z).3O(A=>{Y 1M=1a.2a(\'1M\');1M.3F.5D(\'ag\');1M.8A=A.fh(0).fg()+A.fd(1);1M.Q.1O=\'6l\';1M.Q.1l=\'3R\';1M.Q.8L=\'0.3R\';1M.Q.f=\'0.B u n(j, j, j, 0.25)\';1M.Q.8N=\'n(0, 0, 0, 0.5) d d 0.J 0.K\';1M.Q.1C=\'32\';1M.Q.1D=\'32\';1M.Q.q=\'U(--A-37)\';1M.Q.4h=\'3M\';1M.Q.A=\'24\';1M.2z(\'3e\',()=>aI(A));1h.27(1M)});Y 6A=1a.2a(\'Q\');6A.id=\'d1\';1a.6L.27(6A);1a.2f.27(1h);Y cH=2N.5f(\'d0\')||\'bc\';aI(cH);1a.2z(\'7S\',1X(2g){if(2g.7P&&2g.7N===\'0\'){1h.Q.1O=(1h.Q.1O===\'1c\'?\'5h\':\'1c\')}})})();1X dA(5e){Y aQ=5e.8A.k6(\'k7\');Y cG=9a.bg(8o=>{if(/[\\k9-\\ka]/.cM(8o)){2A aQ.6J(8o)}3C{2A 3r kc(`\\\\b${8o}\\\\b`).cM(aQ)}});if(!cG){1a.7u.4W=\'\';aM.cR(\'f4 of 5H 9a kd b1. ke kf on 5H kg dN dY kh.\');Y 3z=1a.2a(\'P\');3z.Q.1n=\'2Q\';3z.Q.1m=\'0\';3z.Q.1r=\'0\';3z.Q.1l=\'1f%\';3z.Q.1p=\'1f%\';3z.Q.7w=\'7j(/1v/1w/1t/q.c1.c0)\';3z.Q.k8=\'no-5M\';3z.Q.jW=\'c2\';3z.Q.jL=\'2x 2x\';3z.Q.8I=\'0\';Y 6p=1a.2a(\'P\');6p.Q.1n=\'21\';6p.Q.1l=\'1f%\';6p.Q.1p=\'1f%\';6p.Q.8M=\'V(11)\';3z.27(6p);1a.2f.27(3z);Y 1h=1a.2a(\'P\');1h.Q.1n=\'2Q\';1h.Q.1m=\'50%\';1h.Q.1r=\'50%\';1h.Q.L=\'3w(-50%, -50%)\';1h.Q.1D=\'X\';1h.Q.8M=\'V(X)\';1h.Q.f=\'0.B u n(j, j, j, 0.25)\';1h.Q.8N=\'#jV d d 5.J 3.K\';1h.Q.8L=\'0.1y\';1h.Q.jC=\'2x\';1h.Q.8I=\'1\';1h.Q.q=\'U(--A)\';Y 1T=1a.2a(\'p\');1T.8A=\'jD jE or jF 5H ds, dI in dp:\';1T.Q.A=\'F(w w w / 25%)\';1T.Q.dO=\'F(0 0 0) 4b 4b X\';1T.Q.7C=\'8F\';1T.Q.1C=\'32\';1h.27(1T);Y 4r=1a.2a(\'a\');4r.8A=\'gn\';4r.b2=\'1o://t.me/bR\';4r.Q.dO=\'F(0 0 0) 4b 4b X\';4r.Q.7C=\'7c\';4r.Q.jH=\'4H\';4r.Q.A=\'F(w w w / 25%)\';4r.Q.aJ=\'1c\';4r.Q.4h=\'3M\';1h.27(4r);1a.2f.27(1h)}3C{aM.jJ(\'jB of 5H 9a dN dY b1. jO e2 3i jQ...\')}}1X dr(){Y 4Y=3r 7d((e6,4Y)=>{3p(Y aP of e6){if(aP.3t===\'6H\'||aP.3t===\'6U\'){Y 1P=1a.2L(\'.1Z-9D\');if(1P){Y 5e=1P.2L(\'.1Z-aJ\');if(5e){dA(5e);4Y.ei();2A}}}}});Y dK={6H:3b,6U:3b};4Y.7n(1a.2f,dK)}dr();(1X(){Y 6M=1a.2a(\'P\');6M.4W=`<P 2M="4e-48"><p>du 5H ds A jU 1h:bf 0.du 5H dx 1h:bf 9.ki dx:bf 8.</p></P>`;Y 6K=1a.2a(\'P\');6K.4W=`<P 2M="4e-48"><p>kJ kK on 3r kL,kM dI 3i:<a b2="1o://t.me/kO"4N="8y">dp</a></p><p Q="1T-4B: 1W; 2y-26: 0.3R; 1C-1m: 1V; 1g: 0.5;">версия:1.1.5</p></P>`;Y Q=1a.2a(\'Q\');Q.2Y=`.4e-48{1n:2Q;1G:K;1W:-1f%;1D:K;f-E:X;f:0.B u n(j,j,j,0.25);q:U(--A);Z-R:V(b7);A:#bU;z-4p:kR;1g:0;1b:1g 2s D-in-H,1W 1.5s D-in-H}.4e-48 a{A:F(70 kI i1);1T-bp:1c}.4e-48 a:W{1T-bp:kV}.4e-48 p{1C:1V}.4e-48.bd{1W:K;1g:1}`;1a.6L.27(Q);1a.2f.27(6M);5q(()=>{6M.2L(\'.4e-48\').3F.5D(\'bd\')},1f);5q(()=>{6M.2L(\'.4e-48\').Q.1g=\'0\';5q(()=>{6M.6E();1a.2f.27(6K);5q(()=>{6K.2L(\'.4e-48\').3F.5D(\'bd\');5q(()=>{6K.2L(\'.4e-48\').Q.1g=\'0\';5q(()=>{6K.6E()},bK)},ew)},1f)},bK)},kZ)})();(1X(){Y 4Y=3r 7d(()=>{Y 7W=1a.2L(\'.1Z-aJ\');if(7W&&7W.2Y){Y aO=7W.2Y;Y eW=aO.bh(\' | \')[1]||aO;if(!1a.2L(\'.1B-2P\'))2A;if(1a.2L(\'.6q\'))2A;Y Q=1a.2a(\'Q\');Q.2Y=`@2v bs{0%{1g:0;L:3w(-50%,-50%)1u(0.5)}1f%{1g:1;L:3w(-50%,-50%)1u(1)}}@2v cl{0%{1g:1;L:3w(-50%,-50%)1u(1)}1f%{1g:0;L:3w(-50%,-50%)1u(0.5)}}.bV{3M-cm:1c;1n:2Q;S:0;z-4p:kq;aC:6Z}.c9{1n:21;A:24;aG-aZ:1c;3J-4c:1m,L,1g;1T-G:0 0 6k n(w,w,w,0.6);1g:0.95;L:3g(0)}@2v ce{0%{1m:-ks;1g:1}1f%{1m:kt;1g:0.85}}@2v e9{0%{L:3g(0)}50%{L:3g(-8F)}1f%{L:3g(-kl)}}.6q{1n:2Q;1m:50%;1r:50%;1D:2o 2.6g;f-E:1.T!c;f:0.B u n(j,j,j,0.15)!c;I-G:n(0,0,0,0.6)d d 0.ku 0.kw!c;q:U(--A)!c;Z-R:V(6k)!c;z-4p:kx;1I:bs 0.8s D 2J;2y-5j:6j,6n;A:#bU;2y-26:1.kA;1T-4B:2x;L:3w(-50%,-50%)}.6q.ed-H{1I:cl 1s D 2J}.gk{1n:21;3M-cm:1c;S:-6N;f-E:1.6g;z-4p:kB}.4a-2Z{1n:21;1O:5h;kC:6X;4B-6O:2x;dg-2C:dc-d9}.4a-2Z.1m{1m:6k;1r:6S;1W:6S;1p:8F}.4a-2Z.1G{1G:6k;1r:6S;1W:6S;1p:8F;L:3I(kD)}.4a-3U{1l:6S;1p:6S;f-E:50%;I-G:0 0 6X n(w,w,w,0.12),S 0-54 89 n(0,0,0,0.25);L-kE:2x;1I:cg 2.6s D-in-H 2e}.4a-3U:1E-1F(kk){1I-ct:2.2s}.4a-3U:1E-1F(jz){1I-ct:3s}@2v cg{0%{L:5t(0)3I(7f)}50%{L:5t(54)3I(iu)}1f%{L:5t(0)3I(7f)}}.6q.aN{2y-iv:iw;2y-26:1.ix;iy-iz:0.iA;1T-G:0 0 32 n(w,iB,2W,0.12),0 0 7c n(w,2W,80,0.it)}.6q.fH{1C-1m:6k;2y-26:0.iC;1g:0.95}`;1a.6L.27(Q);Y 6c=1a.2a(\'P\');6c.4C=\'bV\';Y c4=28;3p(3Q i=0;i<c4;i++){Y 44=1a.2a(\'P\');44.4C=\'c9\';Y ba=[\'❆\',\'❅\',\'❄\'];44.2Y=ba[2I.8D(2I.3l()*ba.5o)];Y 26=8+2I.3l()*18;44.Q.7C=26+\'px\';Y cc=-5-2I.3l()*20;44.Q.1m=cc+\'iE\';Y 1r=2I.3l()*1f;44.Q.1r=1r+\'iF\';Y e7=6+2I.3l()*8;Y dz=2I.3l()*0.6;Y ez=3+2I.3l()*3;Y gh=2I.3l()*0.6;44.Q.1I=`ce ${e7}s 1N ${dz}s 2e,e9 ${ez}s D-in-H ${gh}s 2e 2V`;Y gi=(1r/1f)*-40;44.Q.L=`3g(${gi}px)`;44.Q.1g=(0.6+2I.3l()*0.4).iH();44.Q.iI=\'1m, L, 1g\';6c.27(44)}1a.2f.27(6c);Y b5=["aX 6i iJ 4V iK 3r iL.","8X 8E iM be iD 4V 8E ir ie.","iq 3i a 8W of i4 4V i5.","8X i6 4V i7 i8 6i 9Q 8W.","aX 6i i9, ia, 4V 3r ib.","8X f2 8W fT 6i i3 4V ic.","ig 8E 8W ih ii ij 3i il.","aX 6i im 3i ip 8E iN is.","8X iO jc fT a je, jf jg.","jh’s 3i ji, jj, 4V jl jm."];Y eB=b5[2I.8D(2I.3l()*b5.5o)];Y 2R=1a.2a(\'P\');2R.4C=\'6q\';2R.4W=`<P 2M="gk"jd-6Z="3b"><P 2M="4a-2Z 1m"></P><P 2M="4a-2Z 1G"></P></P><P 2M="aN">jn,${eW}</P><P 2M="fH">${eB}</P>`;1a.2f.27(2R);Y 3Z=[\'#jq\',\'#jr\',\'#jt\',\'#ju\',\'#jv\',\'#jw\'];Y eF=2R.81(\'.4a-2Z.1m, .4a-2Z.1G\');eF.3O((2Z)=>{Y eH=2I.8D(8+2I.3l()*8);3p(3Q i=0;i<eH;i++){Y 3U=1a.2a(\'1i\');3U.4C=\'4a-3U\';Y A=3Z[2I.8D(2I.3l()*3Z.5o)];3U.Q.q=A;3U.Q.8N=`0 0 6X ${eS(A,0.45)},S 0-54 89 n(0,0,0,0.25)`;Y s=9+2I.3l()*6;3U.Q.1l=s+\'px\';3U.Q.1p=s+\'px\';3U.Q.jx=(2I.3l()*1.2)+\'s\';2Z.27(3U)}});1X eS(eT,ex){Y h=eT.gs(\'#\',\'\');Y 7U=5S(h,16);Y r=(7U>>16)&w;Y g=(7U>>8)&w;Y b=7U&w;2A`n(${r},${g},${b},${ex})`}Y eh=ew;5q(()=>{2R.3F.5D(\'ed-H\');6c.Q.1b=\'1g 1s D\';6c.Q.1g=\'0\';2R.2z(\'ja\',()=>{2R.6E();Q.6E();6c.6E()})},eh);4Y.ei()}});4Y.7n(1a.2f,{6H:3b,6U:3b,})})();(1X(){\'9d 9h\';1X fR(){iR{Y 7i=eu.iS(2N.5f(\'es\'))||{};2A{3n:eo.eq(7i.3n)?7i.3n:[],2D:eo.eq(7i.2D)?7i.2D:[]}}iT{2A{3n:[],2D:[]}}}1X 8V(){2N.59(\'es\',eu.iU(3y))}Y 6B=`#6u{1O:5h;5h-9o:bA!c;4B-6O:2x!c;1n:2Q;1m:X;1W:50%;1l:iW;3N-1p:70%;aC-y:cX;2y-5j:fy-fz;2y-26:6N;z-4p:fn;f-E:1.T!c;1D:X;f:0.B u n(j,j,j,0.25);I-G:n(0,0,0,0.5)d d 0.J 0.K;q:U(--A);Z-R:V(11);L:3g(50%);1b:L 1s,1g 1s;A:24}P#6a{2y-5j:6j,6n}#6u.1h-6Z{L:3w(50%,-B)1u(0.2);1g:0}#6u.1h-79{L:3w(50%,5A)1u(1);1g:1}#6u 1Y[3t=\'1T\']{1l:95%;1D:89;1C-1G:6X;2y-26:6N;2y-5j:6j,6n;A:iY;f-E:0.1y;f:0.2o u n(j,j,j,0.25);I-G:n(0,0,0,0.5)d d 0.J 0.K;q:F(0 0 0/10%)}#6a P{1C:89 0}#6a 1i.3G{4h:3M;aG-aZ:1c;1b:A 0.2s;A:24}#6a 1i.3G.9m{A:2D!c}#6a 1i.6t{aG-aZ:1c;A:24}#8b{1l:B;1D:6k;1C-1m:6X;2y-26:iQ;4h:3M;2y-5j:6j,6n;A:24;f-E:0.1y;f:0.2o u n(j,j,j,0.25);I-G:n(0,0,0,0.5)d d 0.J 0.K;q:F(0 0 0/10%);1b:L 0.2s D-in-H,f 0.2s D-in-H}1M#8b:W{f:0.2o u F(w w w/50%);L:1u(0.95)}`;Y aV=1a.2a(\'Q\');aV.2Y=6B;1a.6L.27(aV);Y fm=`<P id="6u"2M="1h-6Z"><1Y id="fB"3t="1T"j1="fr /3n(s) 1T or /2D(s) 1T"/><P id="6a"></P><1M id="8b">j2 9Q</1M></P>`;1a.2f.j3(\'j4\',fm);Y 1h=1a.2b(\'6u\');Y 1Y=1a.2b(\'fB\');Y 9r=1a.2b(\'6a\');Y gg=1a.2b(\'8b\');Y 8c=\'.1S-j5 1i, \'+\'.1e-bW 1i\';1X b8(el,A,G){el.Q.8k(\'A\');el.Q.8k(\'1T-G\');el.Q.6x(\'A\',A,\'c\');el.Q.6x(\'1T-G\',G,\'c\')}1X f5(el){el.Q.8k(\'A\');el.Q.8k(\'1T-G\')}1X 8d(el){f5(el);Y b9=el.2Y.8C();if(3y.2D.bg(t=>b9.6J(t.8C()))){b8(el,\'2D\',\'2D 0 0 0.B\')}3C if(3y.3n.bg(t=>b9.6J(t.8C()))){b8(el,\'#fc\',\'#fc 0 0 0.B\')}}1X 76(){1a.81(8c).3O(8d)}1X g4(4M){if(4M.j8!==j9.kU)2A;4M.bT(8c)&&8d(4M);4M.81(8c).3O(8d)}1X 7q(){9r.4W=\'\';[\'3n\',\'2D\'].3O(A=>{Y 8r=3y[A];Y 2Z=1a.2a(\'P\');2Z.7g(`${A.fh(0).fg()+A.fd(1)}j7:`);if(8r.5o===0){2Z.7g(\'f4\')}3C{8r.3O((3G,i)=>{Y 1i=1a.2a(\'1i\');1i.2Y=3G;1i.3F.5D(\'3G\');3Q 7l=0;1i.2z(\'3e\',()=>{7l++;if(7l===2){1i.3F.5D(\'9m\')}3C if(7l>=3){if(gl(`gq 3G“${3G}”?`)){3y[A]=3y[A].R(t=>t!==3G);8V();7q();76()}3C{1i.3F.6E(\'9m\');7l=0}}});2Z.7g(1i);if(i<8r.5o-1){Y 6t=1a.2a(\'1i\');6t.2Y=\', \';6t.3F.5D(\'6t\');2Z.7g(6t)}})}9r.7g(2Z)})}1Y.2z(\'7S\',e=>{if(e.7N!==\'fr\')2A;e.aS();Y v=1Y.3k.em();Y m=v.iZ(/^\\/(2D|iX|3n|iV)\\s+(.+)$/i);if(!m){eQ(\'Неверный формат. Используйте /2D(s) текст[, ещё текст] или /3n(s) текст[, ещё текст].\');2A}Y ev=m[1].8C();Y A=ev.j0(\'2D\')?\'2D\':\'3n\';Y ae=A===\'3n\'?\'2D\':\'3n\';Y 8U=m[2].bh(\',\').jb(t=>t.em()).R(t=>t.5o>0);if(8U.5o===0){eQ(\'Укажите хотя бы один термин после команды.\');2A}8U.3O(3G=>{Y a9=3y[ae].jo(3G);if(a9!==-1){3y[ae].js(a9,1)}if(!3y[A].6J(3G)){3y[A].jp(3G)}});8V();7q();76();1Y.3k=\'\'});gg.2z(\'3e\',()=>{if(gl(\'gq 9Q jk 8U?\')){3y.3n=[];3y.2D=[];8V();7q();76()}});1X 7O(){1h.3F.gd(\'1h-6Z\');1h.3F.gd(\'1h-79\')}Y 3y=fR();7q();76();3r 7d(g0=>g0.3O(g1=>g1.aU.3O(g4))).7n(1a.2f,{6H:3b,6U:3b});1a.2z(\'7S\',e=>{if(e.7P&&e.io===\'ik\'){7O();e.aS()}})})();(1X(){\'9d 9h\';1a.2z(\'3e\',1X(e){Y 7G=e.4N.iG(\'.1B-2P\');if(!7G)2A;Y 5Y=eR(7G,\'::7B\');Y 2C=5Y.2C.gs(/[\'"]/g,\'\');if(2C!==\'by gn\')2A;Y 86=7G.jy();Y 1l=7H(5Y.1l)||7G.iP;Y 1p=7H(5Y.1p)||7H(5Y.7C)*1.2;Y 9f=86.1r+(86.1l-1l)/2;Y bu=9f+1l;Y ck=7H(5Y.1G)||7H(5Y.7C)*1.5;Y an=86.1G-ck;Y bt=an-1p;Y x=e.kz;Y y=e.ky;if(x>=9f&&x<=bu&&y>=bt&&y<=an){aT.fP(\'1o://t.me/bR\',\'8y\')}},3b)})();Y 6B=`:2T{--bB-A:F(13,13,13);--1k:2c-1k(#bO 0%,#bN 1f%);--A:F(0 0 0/35%);--A-37:F(0 0 0/35%)}.kp,.3A{q:2c-1k(60%8H%at 0%0%,F(45 45 45)0%,F(0 0 0)1f%)!c}7k.4n-ko{1O:1c!c}.9w-1P{1m:0;5h-9o:4q-kn;4B-6O:5h-km}.9w-dB{1n:4I;1m:T;1W:47}.3H-dd:1E-1F(2){1O:1c!c}.kF-1P{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A-37)!c;Z-R:V(X)!c}.kv-3A{f:0.B u n(j,j,j,0.25)!c;f-E:X;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:2c-1k(50%kG%,F(w,2F,0)0%,n(w,38,74,0.9)50%,U(--A)1f%);Z-R:V(11)!c;1l:90%;1p:70%;1I:3D 1s D 2J!c}.4X-1P>P:1E-1F(1){1O:1c!c}.kT-l2{1O:1c}.4w-bE{f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:F(0 0 0/10%)!c;Z-R:V(11);f-E:X!c}.4w-bE 1i{A:24}.7K-2R.7K-dv.2S-4H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.6z-l1{1p:1y!c;1D:0 X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.bC-l0.bC-kY{q:U(--A)!c;Z-R:V(11)!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;1l:60%!c;1p:70%!c;1I:3D 1s D 2J!c}.1Z-dR,.1B-4J,.5k-aw,.3S-kX{1O:1c!c}.1A-1K>.l-1U:1E-1F(3).l-2k.l-1L.l-1d{I-G:1c!c;q:n(0,0,0,0.1)!c}.1A-1K>.l-1U:1E-1F(3).l-2k.l-1L.l-1d 1i,.l-1d.43-ak.43-5y 1i{A:24!c}.l-1d.43-ak.43-5y{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c;1l:B!c;1p:5.47!c}.5p-kW{f-1r:1V!c}.ar-aj 1i{1O:1c!c}.l-kS.9P-7b.7o-1Y{q:U(--A)!c;Z-R:V(11)!c}.3u-ef>.l-1H{q:2c-1k(j.14%1f%at 50%1f%,F(0 0 0/25%)0%,F(0 0 0/0%)1f%)}.4w-bq.l-8Q{1b:q 1s D}.1B-4l:W{q:n(2i,w,51,0.2)}.1B-4l.1B-4J.1B-8Y:W::1Q{1g:1}.1B-4l 1i{z-4p:1}.1J-3E.5i.1J-kQ,.1J-kP{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.6b-2R.6b-7R.6b-cF{1D:0.1y!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A-37)!c;Z-R:V(11)!c}.6b-2R.6b-7R.6b-cF*{A:24!c}.dE-cE{1l:25%!c}.6b-kN-1P:1Q,.dE-cE{q:1V!c}a.5a-dq.dy{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}a.5a-dq.dy:W{f:0.B u F(w w w/50%)!c;L:1u(0.95)!c}.5a-dX,.5a-e5{R:1c!c;1C:0 0.2o!c;1C-1W:2.47!c;1l:1y!c;1p:1y!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q-A:F(0 0 0/10%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1d.5a-dw{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(0,0,0,0.1)!c}.5a-kH{f-1G:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.7L-kj{f:1c!c}.7L-jX{q-A:1V!c}.7K-2R.7K-dv.2S-4H:W,.7L-dt:W{f:0.B u F(w w w/50%)!c;L:1u(0.96)!c}.7L-dt{1b:0.2s D-in-H!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q-A:U(--A)!c;Z-R:V(32)!c}1M.ag{2y-5j:6j,6n;1T-L:gm;1b:0.2s D-in-H}1M.ag:W{f:0.B u F(w w w/50%)!c;L:1u(0.93)}.l-5n,.l-jT{1n:4I!c;aC:6Z!c}@2v 3X{0%{q-1n:30%30%,50%50%,20%20%}25%{q-1n:70%20%,30%60%,80%40%}50%{q-1n:10%80%,90%10%,40%70%}75%{q-1n:60%40%,20%90%,70%30%}1f%{q-1n:90%90%,10%10%,50%50%}}@2v 6T{0%{L:1u(0.3)3I(7f);1g:1}20%{L:1u(1)3I(jS);1g:0.8}40%{L:1u(0.7)3I(-jR);1g:0.6}60%{L:1u(1)3I(jP);1g:0.9}80%{L:1u(0.3)3I(-jN);1g:0.7}1f%{L:1u(1)3I(7f);1g:1}}.29-jM P{f:1c!c}.as-9O{f:1c!c}.l-1d.43-5y.5T-3P{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c;1u:0.97!c}.jK-1P{9b:1c!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1I:9v 0.5s D 2J}.as-g6,.as-g3{f-E:X}1R.1S-4q.1S-6Q.1S-dQ{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(0,0,0,0.1)!c}1R.1S-4q.1S-8p.1S-dQ{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(j,j,j,0.1)!c}.2h-3W>P>.3a-jI{I-G:1c!c}.5p-jG{9b:1c!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;1l:90%!c}.5p-kb,.5p-jY,.1S-4q>.1S-8p{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(j,j,j,0.1)!c}.1S-4q>.1S-6Q{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(0,0,0,0.1)!c}.1e-9J{1C-1m:X!c}52.1e-8g>P P.l-1L{3N-1l:7.1y!c}.1e-3j.1e-3h 1R 52.1e-8g{3N-1l:15.8i!c;1l:15.8i!c}.1e-3j.1e-3h 1R.1e-9J{1C-1m:0.1y!c}.1e-3h 4s.5w-4s{1O:1c!c}.1e-3j.1e-3h 1R 52.1e-aE,.1e-3j.1e-3h 1R 52.1e-ao{1l:T!c;1n:4I!c;1r:1y!c}.1e-3j.1e-3h 1R.1e-3K,.1e-3j.1e-3h 1R.1e-dL{1n:4I!c;1W:47!c;9E:79!c}.1e-2X.1e-3h 1R 52.1e-8g{3N-1l:15.8i!c;1l:15.8i!c}.1e-2X.1e-3h 1R.1e-9J{1C-1m:0.1y!c}.1e-2X.1e-3h 1R 52.1e-aE,.1e-2X.1e-3h 1R 52.1e-ao{1l:T!c;1n:4I!c;1r:B!c}.1e-9c 3c 5L 1R.1e-8e{1n:21;1r:20.dj!c}.1e-9G 3c 5L 1R.1e-8e{1n:21!c;1W:6.1y!c}.1e-k3 3c 5L 1R.1e-8e{1n:21;1r:34.dj!c}.1e-8e{1O:5h!c;dg-2C:dc-d9!c;9E:79!c;1l:5z!c;f-E:0.1y;1D-1r:0.3R!c;1D-1W:0.1y!c;q-A:F(0 0 0/15%)!c;1p:2o!c;1C-1m:0.2o!c;1C-1G:0.2o!c;f:0.B u F(2t 2t 2t/35%)!c}.1e-2X.1e-3h 1R.1e-3K,.1e-2X.1e-3h 1R.1e-dL{1n:4I!c;9E:79!c}.5a-dw{q-A:O;f:1c;f-E:1V}.fE-hf>7R>P>.9P-7b>.7o-1Y{Z-R:V(11);1C:11 0}.l-c3>.l-5n>.l-2d{q-A:24;f:54 u F(9N 9N 9N);f-E:X}@2v 9v{62{1g:0.2;1u:0.5}3i{1g:1;1u:1}}#8R-2T>P>.l-6Y,.5u-1P{1I:9v 0.5s D 2J}@2v dF{62{1g:0.2;1u:0.7}3i{1g:1;1u:1}}.5k-aw{1I:dF 0.5s D 2J}@2v bG{0%{1g:0;L:1u(0.5)}70%{L:1u(1.1)}1f%{1g:1;L:1u(1)}}@2v bQ{0%{1g:0;L:1u(0.5)5t(-50%)}70%{L:1u(1.1)5t(-50%)}1f%{1g:1;L:1u(1)5t(-50%)}}@2v 3D{62{1g:0.2;1u:0.5;cq:hr}3i{1g:1;1u:1;cq:7f}}.9e-3A{1I:bQ 1s D 2J}.1e-2X,.1e-3j{1I:bG 0.7s D 2J}.3D-5N,.4d-eG,.92-eI,.5X-7h>.5X-eJ,.5X-7h>.4u-5N{1I:3D 1s D 2J!c}.56-7T,.56-hm,.2U-dD>.2U-a8>.2U-aa,.1e-3h>P 5L,.4d-hh{1I:4d 1s D 2J!c}@2v 4d{0%{1g:0}50%{1g:0}1f%{1u:1}}.1A-3c>.5w-fu{1I:5w 0.5s D 2J!c}@2v 5w{62{1g:0;L:bM(0.5)}3i{L:bM(1);1g:1}}.3q-ab{1I:3q 0.5s D 2J!c}@2v 3q{62{1g:0;L:5t(-1y)}3i{1g:1;L:5t(0)}}.53-a1,.1A-1K>.l-1U:1E-1F(3){1I:8P-bo 0.5s D 2J!c}@2v 8P-bo{62{1g:0;L:3g(hX)}3i{1g:1;L:3g(0)}}.1A-1K>.l-1U:1E-1F(1){1I:8P-bX 0.5s D 2J!c}@2v 8P-bX{62{1g:0;L:3g(-5z)}3i{1g:1;L:3g(0)}}.5p-gK,.5p-gC{f-E:1.X!c}.5p-gy,.5p-gY{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.4n-gP{1O:1c!c}.l-e1.e0.4Z{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.8Z-gS 4s 1R 5m,.a7-gF{q:1c!c}.a7-gB{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.a7-9H,.gX-1K{z-4p:1!c}.3A.h5-1P>P[Q*=\'1N-1k\']{q:1N-1k(F(0 0 0/0%)0%,F(0 0 0/75%)1f%)!c}.a4-a5 3c 5L#gZ{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;q:F(w w w/10%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.a4-a5 3c 5L#gV{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;q:F(2t 0 0/10%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.a4-a5 3c 5L#h0{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;q:F(0 60 gM/15%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1U.gE-gH,.8x-9H{z-4p:1!c}1i.8x-hF{q:n(0,0,0,0.1)!c}.hL-hN{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:F(36 36 36)!c;Z-R:V(11)!c}.8Z-hP{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;q:U(--A)!c;Z-R:V(11)!c}.8Z-4q,.hS-hZ,.8x-hc,.hi-hK{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;q:n(0,0,0,0.1)!c}.8x-9H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;1p:1V!c;1D:X!c}.8l-hu,.8l-hs{f-1m-1r-E:0.eD!c;f-1G-1r-E:0.eD!c}.8l-hq,.8l-hj{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:F(0,0,0)d d 0.J 0.72,O d d d d S;q:U(--A)!c;Z-R:V(11)}.hY-hV{f-1m:0.B u n(j,j,j,0.25)!c;f-1G:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.6z-hC{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c}.3u-h9,.5w-3c 4s 1R 5m{q:1c!c}.3u-hH{q:1N-1k(n(w,2F,0,0)0%,F(0 0 0)50%,F(0 0 0/0%)1f%)2x 2x/9t no-5M!c}.6z-hG{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:F(2i w 51/15%)!c}.6z-hE.6z-hB,.6z-gD{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:F(w 1j 1j/15%)!c}.5w-3c>.5w-fu>1R.5w-4q{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.9w-gT{f-E:0.1y!c;f:0.B u n(j,j,j,0.25)!c;I-G:1c!c;q:U(--A)!c;Z-R:V(X)}.l-1d.fi-fe{f-E:1.T!c;f:0.B u F(w 2F 0/40%)!c;I-G:F(w 2F 0/40%)d d 0.J 0.K,O d d d d S!c;q:F(w 2F 0/40%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1d.3H-7r.2S-4H.2S-6P.l-1d.l-2H.l-3B{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1d.3H-ah.2S-4H.2S-6P.l-1d.l-2H.l-3B{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:F(2i w 51/25%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1d.3H-ah.2S-4H.2S-6P.l-1d.l-2H.l-3B 1i{A:F(w w w)!c;1C:1V!c}.3H-l3 h3{z-4p:1;A:24!c}.4f-3E>.l-42{q-A:U(--A)!c}.3H-dW>.l-dT>.l-8h{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.4f-3E,.4f-8S{q-2l:1c!c;1D:0!c;f-E:1.T!c;f:0.B u n(55,55,55)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q-A:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.4f-j6{q:2c-1k(1f%1f%at 0%1f%,#l5 0%,#mw 1f%);f-E:1.X;L:1c!c;1b:1c!c;1G:0!c}.4f-3E::1Q,.4f-3E::7B,.4f-8S::1Q,.4f-8S::7B{1O:1c!c}.2u-fM{q:1N-1k(8n,n(w,51,51,0.25)0%,n(w,51,51,0)50%),F(0 0 0/0%)!c}.4o-6y>P>.4o-so{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c;1u:0.97!c;Z-R:V(11)!c}.4o-6y>P>.4o-dM{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c;q:n(2i,w,51,0.25)!c;1u:0.97!c;Z-R:V(11)!c}.l-1d.fi-fe 1i,.4v-7z>.4v-3P>.l-1d>.d7-1P>.l-1L h4,.4v-7z>.4v-3P>.l-1d 1i,.9p-9S 1i,.58-fL 1i,.7A-2R>.l-1H h2,.1A-8f p,1R.l-1L.l-ay.6m>.1A-sp>.l-1L>P>.l-8h,.1A-1K>.l-1U:1E-1F(1).l-2d>.3S-7v>.l-1d>.l-1L p,.1A-1K>.l-1U:1E-1F(1).l-2d>.l-1d>.l-1L p,h2.fE-rM{A:24!c}.fS-fU>.l-fV>.l-1L>.l-5V,.1e-rD>P>.1e-rT,.ss-sX,.1A-1K>.l-1U:1E-1F(1).l-2d>.3S-7v>.l-1d>.l-5V,.1A-1K>.l-1U:1E-1F(1).l-2d>.l-1d>.l-5V,.5G-4Z>.l-2k>.l-1H>.l-1d{q-A:24!c}.4t-9O.5T-9O,.t6-sZ>1Y.7o-sD,.9P-7b>1Y.7o-1Y{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c}.sM-su{R:3L(0)!c}.2u-do.2u-5g,.1J-cZ.5i.1J-5B{f-E:1.T!c;f:0.B u n(2i,w,51,0.15)!c;I-G:n(2i,w,51,0.15)d d 0.J 0.K,O d d d d S!c;q:n(2i,w,51,0.15)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.82-7x>.en-ea>.l-1H{f-E:1.T!c;f:0.B u F(55 55 55)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;Z-R:V(11)!c}.9p-9S{f-E:1.T!c;f:0.B u F(w 2F 0/40%)!c;I-G:F(w 2F 0/40%)d d 0.J 0.K,O d d d d S!c;q:F(w 2F 0/40%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.82-7x>.en-ea>.l-1H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.3u-ef{f-1r:0.B u F(55 55 55)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A-37)!c;Z-R:V(11)!c}.4v-7z>.4v-3P>.l-1d{f-E:1.T!c;f:0.B u F(w 1j 1j/40%)!c;I-G:F(w 1j 1j/40%)d d 0.J 0.K,O d d d d S!c;q:F(w 1j 1j/40%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.3u-sv,.3u-sx{q:O!c}.3u-sz{q:1N-1k(F(0 0 0/0%)0%,F(55,55,55)1f%)2x 2x/9t no-5M!c}.3u-sB{q:1N-1k(F(55,55,55)0%,F(0 0 0/0%)1f%)2x 2x/9t no-5M!c}.6D-sI,.6D-sJ{I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(0 0 0/10%)!c;Z-R:V(11)}.3u-sK{R:V(8G)}.3u-sH,.3u-t7,.3u-sV{q:O!c}.3u-sR{f-1r:0.B u F(55 55 55)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c}.1e-dJ.l-1L,52.1e-ao,52.1e-aE,.1A-5F.l-5r>.4t-5O>.l-2k>P>.l-7Y,.1A-sF{f:1c!c}.58-fL{I-G:1c!c}.58-ry{f-1m-1r-E:1.T!c;f-1G-1r-E:1.T!c;f-1r:0.B u n(j,j,j,0.25)!c;f-1m:0.B u n(j,j,j,0.25)!c;f-1G:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(17 17 17)!c;1G:-0.X!c}.1A-5F.l-5r>.4t-5O>.l-2k>P>.l-1d.l-cV{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.7o-rx{Z-R:1c!c}.1A-5F.l-5r>.4t-5O>.l-1L,.fS-fU>.l-fV{f:1c!c;q:O!c}.1A-5F.l-5r{f-1m-1r-E:1.T!c;f-1G-1r-E:1.T!c;f-1r:0.B u n(j,j,j,0.25)!c;f-1m:0.B u n(j,j,j,0.25)!c;f-1G:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1p:95%!c;1D-1G:X!c;1C-6l:X!c}.39-cT>.l-1d.39-cL.39-cK.l-1H.l-4z.l-2H.l-3B{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(2i,w,51,0.25)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}1R.l-1L.l-ay.6m{1l:97%!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.58-qd>.58-qs{f-1m-1r-E:1.T!c;f-1G-1r-E:1.T!c;f-1r:0.B u n(j,j,j,0.25)!c;f-1m:0.B u n(j,j,j,0.25)!c;f-1G:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;Z-R:V(11)!c;1p:95%!c;1D-1G:X!c;R:3L(0)!c}.1A-1K>.l-1U:1E-1F(1).l-2d>.3S-7v>.l-1d>.l-5V{1n:4I!c;1r:1V!c}.g8-qv>.g8-7x>.l-1H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;q:U(--A)!c;Z-R:V(11)!c}.1A-1K>.l-1U:1E-1F(1).l-2d>.l-1d,.1A-1K>.l-1U:1E-1F(1).l-2d>.3S-7v>.l-1d{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.3S-1M.l-1d>P{R:3L(0)!c}.1A-1K>.l-1U>.l-2d>.1A-8f{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:1u 0.2s D-in-H!c;1u:0.8!c}.1A-1K>.l-1U>.l-2d>.1A-8f:W{f:0.B u F(w w w/50%)!c;1u:0.75!c}.5G-1K>.1A-5F.l-5r>.4t-5O>.43-5y,#2T>P>P.1A-1K>P.l-1U>P.l-2k>P.l-1L>P{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c;1u:0.97!c}.1A-1K>.l-1U:1E-1F(1).l-2d.3S-1M,.3S-1M.l-1d,.l-1L.3S-qx,.1A-1K>.l-1U:1E-1F(1).l-2d,#2T>P>P.1A-1K>P.l-1U>P.l-2k>P.l-1L>P.l-1H>P,#2T>P>P.1A-1K>P.l-1U>P.l-2k>P.l-1L.5T-3P>P.l-1d>P,#2T>P>P.1A-1K>P.l-1U>P.l-2k>P.l-1L>P>P.l-1d.9I-9K{q:1c!c;f:1c!c;I-G:1c!c}.1S-6r>.1S-6I>.l-2d>.1S-8p,.1A-1K>.l-1U:1E-1F(3)>.l-7Y>.1S-6r>.1S-6I>.l-2d>.1S-4q>.1S-8p{1C:0.X!c;f-E:X!c;f:0.B u F(w w w/50%)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(az az az/10%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.1S-6r>.1S-6I>.l-2d>.1S-6Q,.1A-1K>.l-1U:1E-1F(3)>.l-7Y>.1S-6r>.1S-6I>.l-2d>.1S-4q>.1S-6Q{1C:0.X!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.fZ-2Z{q:O!c}.qz-q8,.4t-g6,.4t-g3{f-E:1.X!c}.5G-4Z>.l-2k>.l-1H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.5G-4Z>.l-2k>.l-42,.fK-pK>.fZ-pR.fK-4Z.l-1H.l-42,.58-4Z>.l-42.6m,.l-2k.5T-d8>.l-42.6m{f-E:1.T!c;f:0.B u F(55 55 55)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q-A:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c;1I:3D 1s D 2J!c}.1A-1K>.l-1U:1E-1F(3){f-1m-1r-E:1.T!c;f-1G-1r-E:1.T!c;f-1r:0.B u n(j,j,j,0.25)!c;f-1m:0.B u n(j,j,j,0.25)!c;f-1G:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1p:95%!c;1D-1G:X!c}.1A-1K>.l-1U:1E-1F(1){f-1m-1W-E:1.T!c;f-1G-1W-E:1.T!c;f-1W:0.B u n(j,j,j,0.25)!c;f-1m:0.B u n(j,j,j,0.25)!c;f-1G:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1p:95%!c;1D-1G:X!c}.1A-pZ{f:1c!c}.8a-dZ 1i{A:F(w,1j,1j)!c}.l-1d.1J-9g.l-1H.l-4z.l-2H.l-3B{f-E:1.T!c;f:0.B u F(w 2F 0/40%)!c;I-G:F(w 2F 0/40%)d d 0.J 0.K,O d d d d S!c;q:F(w 2F 0/40%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1H.1J-q4,.5X-7h>.4u-5N>.l-2d>.1J-qA>.1J-q9>.l-1L,.4o-6y>P>.l-r8>.4o-fN>.l-1H,.2u-r9>.l-1H,.1J-fN>.l-1H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c}.l-1d.1J-3P.l-1H.l-4z.l-2H.l-3B{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.2u-fM,.1J-ra{f-E:X!c}.2u-5g.2u-7t,.1J-3E.5i.2u-7t.1J-5B{f-E:1.T!c;f:0.B u F(w w w/50%)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(w 2F 0/10%)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.1J-cO.2u-5g,.2u-5g.1J-cN,.2u-5g.2u-7t,.1J-3E.5i.1J-cP.1J-5B,.1J-cS.5i.1J-5B{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.4o-6y>P{q:O!c}.58-fY,.58-fY>.l-1L,.58-rb,.4o-6y,.1A-ri{q:O!c;f:1c!c}.rr-3K{f-1G:1c!c}.5C-8q>.5C-3K>.l-1d{f-E:1.T!c;f:0.B u F(w 2F 0/40%)!c;I-G:F(w 2F 0/40%)d d 0.J 0.K,O d d d d S!c;q:F(w 2F 0/40%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.5C-8q>.5C-3K>.l-42{f-E:1.T!c;f:0.B u F(85 5 34)!c;I-G:F(85 5 34)d d 0.J 0.K,O d d d d S!c;q-A:F(85 5 34)!c;Z-R:V(11)!c}.5J-9n>.l-1d>.l-qQ>.l-1H{f-E:1.T!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(50 50 50/10%)!c}.5J-9n>.l-1d{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A-37)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.5G-1K>.1A-5F.l-5r>.4t-5O>.43-5y 1i,#2T>P>P.1A-1K>P.l-1U>P.l-2k>P.l-1L>P 1i,#2T>P>P.1A-1K>P.l-1U>P.l-2k>P.l-1L.5T-3P>P.l-1d>P 1i,.l-1d.1J-9g.l-1H.l-4z.l-2H.l-3B 1i,.l-1d.1J-3P.l-1H.l-4z.l-2H.l-3B 1i,.5C-8q>.5C-3K>.l-1d 1i,.68-8t.68-9q 1i{A:F(w w w)!c}.68-8t.68-9q{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.68-8t{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A-37)!c;Z-R:V(11)!c}.qF-qH{q-A:F(0 0 0/25%)!c}.4f-qK{1C:1.88!c}.l-c3{q-5M:no-5M!c;q-26:c2!c;q-1n:2x 2x!c;q-2l:7j(/1v/1w/1t/q.c1.c0)!c}.8Z-2C,.l-5n,qP,2f,.l-1P{q:U(--1k)}.ar-aj{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:0.1y!c;1l:4.6g!c;1C-1r:0.88;f:0.B u n(j,j,j,0.25)!c;q:U(--A)!c;Z-R:V(11);1n:4I;1m:0.88;1p:1.1y;1D:1V!c}1R.1e-cQ,1R.1e-bW{f-E:0.47!c;f:0.B u F(2t 2t 2t/35%)!c;I-G:1c!c;q:n(0,0,0,0.1)!c}.1e-2X,.1e-3j{f-E:X!c;f:0.B u F(2t 2t 2t/35%)!c;I-G:F(0 0 0/35%)d d 0.J 0.72,O d d d d S!c;q:F(0 0 0/35%)!c;Z-R:V(X)!c}.1e-2X 3c 4s 1R 5m.l-5V,.1e-9G 3c 4s 1R 5m.l-5V,.1e-9c 3c 4s 1R 5m.l-5V{q-A:24!c}.1e-2X 3c 4s 1R 5m h2,.1e-9c 3c 4s 1R 5m h2,.1e-9G 3c 4s 1R 5m h2{A:24!c}.1B-4J{1n:21!c;1C:1V!c;1l:22.1y!c;1p:5z!c;1m:47!c;1r:X!c;1b:0.2s D-in-H!c}.1B-4l.1B-4J.1B-8Y 1i{1b:0.2s D-in-H}.1B-4l.1B-4J.1B-8Y{1m:47!c;1r:X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.1B-4l 1i{A:24!c}.1B-4l.1B-4J.1B-8Y:W{f:0.B u F(w w w/50%)!c;L:1u(0.96)!c}.1B-4l.1B-4J.1B-9X{1p:5z!c;f-E:1.T!c;f:0.B u F(j j j/25%)!c;I-G:F(0 0 0/50%)d d 0.J 0.K,O d d d d S!c;q:U(--A-37)!c;Z-R:V(11)!c}.1B-4l.1B-4J.1B-9X.l-8Q{R:3L(0)!c}.1B-4l h3{A:F(w w w)!c}.1B-4l.1B-4J.1B-9X:qZ{f:0.B u F(w 1j 1j/50%)!c;I-G:F(w 1j 1j/50%)d d 0.J 0.K,O d d d d S!c;q-A:F(w 1j 1j/14%)!c}li.5v-ap.5v-am{1C:0.T 0.1y!c;1l:sr!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(0,0,0,0.1)!c}li.5v-ap.5v-am P{q-A:24}li.5v-ap.5v-am:W{f:0.B u F(w w w/50%)!c;L:1u(0.95)!c}.5v-r2{2y-26:1.1y!c;1C:0.2o 0 0 0!c}.1B-r1 bI{1l:r0!c;1m:3R!c;1G:1V!c;1r:X!c;1n:21!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;4B-6O:2x}.1B-2P{1l:98%!c;1m:X!c;1W:50%!c;L:3g(50%)!c;f-E:1.T!c;1D:0 0.2o!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.l-1d.43-ak.43-5y:W,.4w-1K:W,.6D-9L:W,.71-9T:W{f:0.B u F(w w w/50%)!c;L:1u(0.96)!c}.4w-1K,.6D-9L,.71-9T{1b:0.2s D-in-H!c}.71-9T{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;1W:X!c;1C-1m:3R!c}.71-qY,.71-qX{q-A:O!c;f:4b u O!c}.4n-5P{1b:L 0.1s 1N;I-G:1c!c}.4n-5P P{q-A:24}7k.4n-7k bI{1l:1V!c;1C:1V!c}li.4n-5P.4n-5P:W{f:0.B u F(w w w/50%)!c}li.4n-5P.4n-5P{1l:4.T!c;1p:T!c;1C:0 0.2o!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:F(0 0 0/10%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}7k.4n-7k{5h-9o:bA;1n:21!c;1p:1y!c;1W:1V!c;1r:X!c;1G:X!c;1l:1V!c;1D:0 X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.4n-5P:W{f:0.B u F(w w w/50%)!c;L:1u(0.95)!c}.4w-1K>.l-1H{1O:1c!c}.4w-bq>.l-8Q{f-E:1.T!c}.4w-qW{q:1N-1k(O 0%,F(0 0 0)1f%)!c;f-E:1.T!c}.4w-1K{1G:X!c;1W:X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c}.4w-qV{1l:22.1y!c;1p:5z!c}.4d-qU,.4d-dH,.92-dJ,.92-dH{q-A:O!c}.4d-qT{1O:1c}.4d-qS>.4d-qR{f-E:0.3R!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(0 0 0/10%)!c}.4d-dB{f-E:0.3R!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(0 0 0/10%)!c}.6D-9L{1l:22.1y!c;1p:5z!c;1D:1V!c;1G:X!c;1C:1V!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;1W:X!c;1m:qD!c}.qO-qN{f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:F(0 0 0/10%)!c;f-E:X!c;A:24!c}.6D-qM{I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(0 0 0/10%)!c}.1B-2P>.6G-7E>.29-fI,.1B-2P>.6G-7E>.l-1d,.1B-2P>.1Z-6v>.1Z-6w>.l-1H,.1B-2P>.1Z-6v>.1Z-6w>.l-1d,.1B-2P>.1Z-6v>.1Z-6w>.l-1L>.1Z-8u{1C:0 0.2o!c;1l:1y!c;1p:1y!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(0 0 0/10%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.5a-dX:W,.5a-e5:W,.l-e1.e0.4Z:W,.l-1d.3H-7r.2S-4H.2S-6P.l-1d.l-2H.l-3B:W,.l-1d.3H-ah.2S-4H.2S-6P.l-1d.l-2H.l-3B:W,.3H-dW>.l-dT>.l-8h:W,.4f-3E:W,.4f-8S:W,.4o-6y>P>.4o-dM:W,.2u-do.2u-5g:W,.1J-cZ.5i.1J-5B:W,.4v-7z>.4v-3P>.l-1d:W,.9p-9S:W,.1A-5F.l-5r>.4t-5O>.l-2k>P>.l-1d.l-cV:W,.5G-1K>.1A-5F.l-5r>.4t-5O>.43-5y:W,.5G-4Z>.l-2k>.l-1H:W,.5G-4Z>.l-2k>.l-42:W,.39-cT>.l-1d.39-cL.39-cK.l-1H.l-4z.l-2H.l-3B:W,1R.l-1L.l-ay.6m:W,.1A-1K>.l-1U:1E-1F(1).l-2d>.l-1d:W,.1A-1K>.l-1U:1E-1F(1).l-2d>.3S-7v>.l-1d:W,.1S-6r>.1S-6I>.l-2d>.1S-6Q:W,#2T>P>P.1A-1K>P.l-1U>P.l-2k>P.l-1L>P:W,.1A-1K>.l-1U:1E-1F(3)>.l-7Y>.1S-6r>.1S-6I>.l-2d>.1S-4q>.1S-6Q:W,.l-2k.5T-d8>.l-42.6m:W,.2U-a8>.2U-aa:W,.ar-aj:W,.1B-2P>.6G-7E>.29-fI:W,.1B-2P>.6G-7E>.l-1d:W,.1B-2P>.1Z-6v>.1Z-6w>.l-1H:W,.1B-2P>.1Z-6v>.1Z-6w>.l-1d:W,.1B-2P>.1Z-6v>.1Z-6w>.l-1L>.1Z-8u:W{f:0.B u F(w w w/50%)!c;L:1u(0.95)!c}.4v-7z>.4v-3P>.l-1d>.d7-1P>.l-1L>P{R:3L(0)7Z(1f)}.6G-7E>P>.dn-d2{f:1c!c;q:O!c}.5W-qL,.de-df,.1A-8f h3,.l-9F 1i,.l-9F:W,.l-9F,.29-7r h3,.l-1P.de-df,.56-qJ{1O:1c!c}1i.5v-qI{1l:X!c;1p:X!c;q-A:F(w w w)!c;I-G:F(w w w/50%)d d 0.J 0.K,O d d d d S!c}.1Z-di{1T-G:F(0,0,0)4b 4b 0.B!c;A:F(w,1j,1j)!c}.1Z-di 1i{A:F(w 1j 1j/65%)!c}.1Z-qG{R:3L(0)!c}.1Z-9D>.l-2d{q-A:F(w 1j 1j/50%)!c}.1Z-9D>.l-2d:7B{R:5E-G(0 0 8G F(w 1j 1j))!c;q-A:F(w 1j 1j)!c}.3H-qE,.3H-3f{q:O!c;f:1c!c}.3H-dd{1m:3R!c;1r:X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(X)!c}1R.1e-cQ.1e-8g P P.l-1L.l-8h{1T-G:F(w,1j,1j)4b 4b 0.B!c;A:F(w,1j,1j)!c}.9R-r3{f:1c!c}.7A-2R:W,.5k-e3.e4:W,.9R-cI:W{f:0.B u F(w w w/50%)!c;L:1u(0.97)!c}.7A-2R,.9R-cI{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1I:3D 1s D 2J!c}.7A-2R>.l-42.l-42.l-7w{R:3L(0.5)}.7A-2R>.l-1H{f:1c!c;q:O!c}.5k-r4,.l-42{L:1c!c}.29-3x{f-1G:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.29-3x>.l-5I>.l-1L>.1Z-cW,.29-3x>.l-5I>.29-7r,.29-3x>.l-5I>.l-1L>.1Z-8u,.29-3x>.29-7y>.29-cY,.29-3x>.29-7y>.l-1d{1C:0 0.B!c;1l:1y!c;1p:1y!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1d.1J-9g.l-1H.l-4z.l-2H.l-3B:W,.l-1d.1J-3P.l-1H.l-4z.l-2H.l-3B:W,.2u-5g.1J-cN:W,.1J-cO.2u-5g:W,.2u-5g.2u-7t:W,.1J-3E.5i.1J-cP.1J-5B:W,.1J-3E.5i.2u-7t.1J-5B:W,.1J-cS.5i.1J-5B:W,.5C-8q>.5C-3K>.l-1d:W,.5J-9n>.l-1d:W,.68-8t.68-9q:W,.5K-8w>.5K-9U>P>.l-1L:W,.5J-eV>.l-7e>.l-1H:W,.5J-7b>.l-7e>.l-1H:W,.2K-73>.2K-ax>.69-63>.l-1d:W,.39-eb:W,.56-eO:W,.56-eP:W,.53-a2>.l-1d:W,.5u-9k>.l-1d:W,.67-9Z>.67-1M:W,.3V-3K>.3V-af>.3V-au:W,.6h-a3>.6h-1M:W,.6V-aD>.6V-1M:W,.78-fX>.78-9B:W,.5U-8T>.9A-9y>.5U-fW>P>.l-1L:W,li.6d-g5:W,.go-gp:W,.ac-e8>.2O-4A>.31-3f:W,.2h-3T>.2O-7D>.9W-aB>.31-3f:W,.3a-ca>P>.l-cb:W,.2h-3T>.2O-4A>.2h-3W>.31-3f:1E-1F(2):W,.2h-3T>.2O-4A>.2h-3W>.31-3f:1E-1F(1):W,.99-91>.3a-94>.l-6Y>.9s-9V>.9j-ad:W,.l-ci>.cs-cu>.cv-cw:W,.69-63>P>.cA-cB>.l-1d:W,.69-63>.l-1d:W,.l-cx:W,.3d-cn.l-7w:W,.3d-5l.5Z-5l:W,.3d-5l.5Z-bS.5Z-5l:W,.3d-83.3d-ch:W,.3d-83.3d-cj:W,.5R-9i.5R-bz:W,.2K-a6>.2K-bL>.l-1H:W,.5W-7x>.l-2k>.l-1H:W,.5W-ai>.l-1d:W,.39-7T:W,.39-1M:1E-1F(2):W,.2U-dG:W,.4X-7V:W,.29-3x>.l-5I>.l-1L>.1Z-cW:W,.29-3x>.l-5I>.29-7r:W,.29-3x>.l-5I>.l-1L>.1Z-8u:W,.29-3x>.29-7y>.29-cY:W,.29-3x>.29-7y>.l-1d:W{f:0.B u F(w w w/50%)!c;L:1u(0.95)!c}.29-7y>P>.dn-d2{f:1c!c;q:O!c}.29-3x>.l-5I{4B-6O:2x!c}.29-3x>.l-5I>.l-1d{1O:1c}.8B-1P{q:U(--A)!c;Z-R:V(11)3L(0.5)}.8B-rj{1O:1c!c}.8B-1P>.8B-rv{1I:dP 1s 1N 2e;1I-8j-3v:dS;1n:4I}@2v dP{0%{R:5E-G(0 0 dV 24);L:1u(0.5);1g:0}20%{1g:0.5}40%{1g:0.8}50%{1g:1}60%{1g:0.8}80%{1g:0.5}1f%{R:5E-G(0 0 11 F(w,1j,1j));L:1u(1);1g:0}}.1Z-dR 3m{1I:dU 2s 1N 2e;1I-8j-3v:dS;1n:4I}@2v dU{0%{R:5E-G(0 0 11 F(w,1j,1j))}50%{R:5E-G(0 0 dV F(w,5,45))}1f%{R:5E-G(0 0 11 F(w,1j,1j))}}.8a-1h,.ru-rt{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A-37)!c;Z-R:V(11)!c}.8a-1h>.l-1L,.8a-dZ{q:O!c}.6G-rs{f:1c!c}#8R-2T>P>.l-6Y,.5u-1P{9b:1c!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.5k-aw{1D:X!c;f-E:1.6g!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1p:1V!c;1l:1V!c}.5k-e3.e4{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}#8R-2T>P{q:O!c}.4X-73,.4X-7V{1p:4.1y!c}.4X-1P>P{q-2l:1c!c}.4X-7V 1i{1C:0.1y X!c}.4X-7V{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;1p:1V!c;1l:1V!c;1D:0.1y!c}.4X-1P>P{1C:0 X!c;q-2l:1c}.4X-1P{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(2o)!c;1l:41.88;1p:1y;1n:21;1m:1.1y;1W:50%;L:3g(50%)}.5R-rq{R:5E-G(0 0 8G F(w,1j,1j))!c;q-2l:7j(\'gf:2l/gv;gw,rp/ro/rn/rm+rl+rk+r6+rh/rg+rf/re+rd\')!c;1l:2o!c;1p:2o!c}.53-a1{f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;f-1W:1c!c}.53-a1,.53-dC{f-1m-1r-E:X!c;f-1G-1r-E:X!c}.53-a2>.l-1d 1i{A:24!c}.53-rc{3I:-8n!c;R:7Z(5)V(6C)3L(0)!c;f-1W:X u F(0,25,38)!c;f-1r:X u F(75,41,57)!c;1C-1m:1V!c;1l:46%!c;1p:X!c;1n:21!c;1G:6g!c;1r:-3R;f-E:X!c;I-G:F(0,0,0)0 0 0.J 0!c}.53-a2>.l-1d{f-E:1.X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(0 0 0/10%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.53-dC{f:1c!c}.2U-dD{1I:3D 1s D 2J!c;1p:r7!c;1D:X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;5b-1p:1y!c}.2U-a8>.2U-aa{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.2U-dG,.r5-l4>.2S-6P{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.3q-qB{q:O!c}.2U-av>.9I-9K{f-E:1.T!c;I-G:F(w 1j 1j/20%)d d 0.J 0.K,O d d d d S!c;q:F(w 1j 1j/30%)!c}.2U-q6{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.3q-ab{1p:T!c;1D:1V!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.l-q5{1O:1c!c}.3q-ab.l-2H{4B-6O:2x!c}.3q-64.l-5d{A:F(w,1j,1j)!c;1p:2o!c}.3q-64:W{A:F(w,1j,1j)!c}.3q-64.l-5d,.3q-64.l-5d.l-5d{q-A:F(w 1j 1j/15%)!c}.3q-64.l-5d,.3q-64.l-5d.l-5d,.3q-64.l-5d.l-5d:W{A:F(w,1j,1j)!c}.q3-q2.l-1H.q1-q0,.bH-bF{f-E:1.6g!c;f:0.B u F(70 70 70)!c;I-G:U(--A-37)d d 1.J 0.K!c;q-A:U(--A)!c;Z-R:V(11)!c;f-1m-1r-E:0.1y!c}.2K-a6>.2K-bL>.l-1H{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:X!c;f:0.B u F(70 70 70)!c;I-G:U(--A-37)d d 1.J 0.K!c;q-A:U(--A)!c;Z-R:V(11)!c;f-1m-1r-E:0.1y!c}.5W-7x>.l-2k>.l-1H{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:1.6g!c;f:0.B u F(70 70 70)!c;I-G:U(--A-37)d d 1.J 0.K!c;q-A:U(--A)!c;Z-R:V(11)!c;f-1m-1r-E:0.1y!c}.bH-bF.l-1H{f-E:1.pY!c;I-G:1c!c}.2K-pX,.2K-pW{q:O!c}.4u-8K.4u-8K>.4u-9z.l-pU.l-4z.l-2H.l-pI.2K-8v,.2K-bJ>.2K-a6{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c}.2K-73.2K-bJ{1D:X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.39-bD>.l-1d>.39-pT{1l:1V!c}.39-bD{f:1c!c}.aA-pS{1O:1c!c}.aA-pQ>.aA-pP{q:O!c}.pO-1P{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c}.39-7T{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.39-1M:1E-1F(2){f-E:X!c;f:0.B u F(0 w 25/10%)!c;I-G:F(0 w 25/10%)d d 0.J 0.K,O d d d d S!c;q:F(0 w 25/10%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.pN-pM,.7X-bP.7X-pL,.7X-bP.7X-pJ{f:0.B u n(j,j,j,0.25)!c;q:n(0,0,0,0.1)!c}.99-91>.3a-94>.l-6Y,.5W-q7{q:O!c;f:1c!c}.2K-pV{f:1c!c}.5W-ai{1C-1m:X!c;1D:0.1y!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.5W-ai>.l-1d{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c}.82-qn,.82-qy{q:O!c}.5R-qw{q:O!c}.5R-9i{1G:0.1y!c;1D:X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.5R-9i.5R-bz{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.qu-qt.3a-8J{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.3d-1P.3a-aq{1l:23.1y!c;1D:X!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.3d-5l.5Z-5l,.3d-5l.5Z-bS.5Z-5l,.3d-83.3d-ch,.3d-83.3d-cj{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.c5-cf>P>.9M-qr>P{z-4p:1!c}.3d-cn.l-7w{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.co-cp.9M-cr.l-1d,.co-cp.9M-cr{q:O!c}.l-ci>.cs-cu>.cv-cw,.l-cx{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;f-1m-1r-E:0.1y!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.2O-7D>.4u-8K>.4u-9z,.2O-qq>.2O-qp,.2h-3T.2O-7D.3a-8J>P:1E-1F(2),.3a-8J>.4u-8K>.4u-9z{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.69-63>P>.cA-cB>.l-1d,.69-63>.l-1d{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}@qo qm 4V(5b-1l:qa),(5b-1p:ql){.c5-cf{1l:qk(1f%-5z)!c}}.2h-3T>.2O-7D>.9W-aB>.31-3f>P>.31-9l>.2S-c6,.99-91>.3a-94>.l-6Y>.9s-9V>.9j-ad>.l-c8>.2S-4H{A:F(w w w)!c}.99-91>.3a-94>.l-6Y>.9s-9V>.9j-ad{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.2h-3T>.2O-7D>.9W-aB>.31-3f,.2h-3T>.2O-4A>.2h-3W>.31-3f:1E-1F(1){f-E:1.T!c;f:0.B u F(0 8H 8O/35%)!c;I-G:F(0 8H 8O/35%)d d 0.J 0.K,O d d d d S!c;q:F(0 8H 8O/35%)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.2h-3T>.2O-4A>.2h-3W>.31-3f:1E-1F(1)>P>.31-9l>.2S-c6{A:F(w w w)!c}.ac-e8>.2O-4A>.31-3f,.2h-3T>.2O-4A>.2h-3W>.31-3f:1E-1F(2){f-E:1.T!c;f:0.B u F(2i w 51/20%)!c;I-G:F(2i w 51/10%)d d 0.J 0.K,O d d d d S!c;q:2c-1k(50%1f%at 50%0%,F(2i w 51/50%)0%,F(2i w 51/10%)1f%)U(--A-37);Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.2h-3T>.2O-4A>.2h-3W>.31-3f:1E-1F(2)>.l-c8>.2S-4H{A:F(2i,w,51)!c}.3a-ca>P>.l-cb{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.3a-8J,.2h-3W.5Z-3W.3a-aq,.l-4z.3a-aq{Z-R:1V!c}.1B-2P:7B{2C:\'by fJ\';1n:21;4h:3M;1r:50%;L:3g(-50%);1G:-1.1y;2y-5j:6j,6n;1T-L:gm;1T-G:#qj 0 0 0.1y;q:1N-1k(8n,#8m,#fF,#fG,#fx,#fk,#f9,#fj,#eY,#f0,#f1,#8m);q-26:aF%1f%!c;1I:9u 8s 1N 2e!c;-4U-q-f6:1T!c;-4U-1T-8j-A:O!c}.go-gp{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-qi{f-E:0.47!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.2U-qh 3m,.2h-3T>.2O-4A>.2h-3W>.31-3f:1E-1F(1)>.l-1d>.l-7w,.2h-3T>.2O-4A>.2h-3W>.31-3f:1E-1F(1)>P>.31-9l>.3a-qg.l-8Q{R:3L(0)7Z(1f)!c}#8R-2T>P>.l-2H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.5U-8T>.5U-qf{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c}.5U-8T>.9A-9y>.5U-fW>P>.l-1L{1C:0.2o 0!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1d.43-5y.5T-3P 1i{A:24}.5U-8T>.9A-9y{1C-1m:0.1y!c;1D:0.47 0.1y!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(19 19 19)!c;ga-A:F(6F 6F 6F)O!c}.ge-gb>3o>.l-2H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.ge-gb>3o>.l-2H::1Q{R:3L(0)!c}.7M-fQ{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;ga-A:F(6F 6F 6F)O!c}.6d-g7{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c}.6d-qe{1O:1c!c}.6d-g7{1O:1c!c}.6d-g2 1i{A:F(w,1j,1j)}li.6d-g5{1p:T;1C:0.T 0!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}li.6d-g2{I-G:F(w 1j 1j/10%)d d 0.J 0.K,O d d d d S!c;q:F(w 1j 1j/10%)!c;Z-R:V(11)!c}.3V-qc h1,.qb-rw p 1i{A:F(w,1j,1j)!c}.78-fX>.78-9B{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.l-1d.78-9B 1i{A:24!c}.67-9Z>.67-1M,.6V-aD>.6V-1M{f-E:1.T!c;f:0.B u F(2i w 51/35%)!c;I-G:F(2i w 51/35%)d d 0.J 0.K,O d d d d S!c;q:F(2i w 51/35%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.6h-a3>.6h-1M{f-E:1.T!c;f:0.B u F(w 1j 1j/40%)!c;I-G:F(w 1j 1j/40%)d d 0.J 0.K,O d d d d S!c;q:F(w 1j 1j/40%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.3V-3K>.3V-af>.3V-au{f-E:1.T!c;f:0.B u F(w 2F 0/40%)!c;I-G:F(w 2F 0/40%)d d 0.J 0.K,O d d d d S!c;q:F(w 2F 0/40%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.7M-fQ*.9I-9K{f:0.B u F(j j j/20%)!c;f-E:1.T!c}.3V-qC 1Y{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(w w w/10%)!c}.gc-rU,.gc-sC,.sw-sU{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c}.5u-9k>.5u-gr{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:F(2i w 51/25%)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.5u-9k>.l-1d:1E-1F(1){f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.5u-1P*.5u-gr 1i{A:24!c}.2U-av>.2U-sW{f-E:1.T!c;f:0.B u F(al 87 87/50%)!c;I-G:F(al 87 87/50%)d d 0.J 0.K,O d d d d S!c;q:F(al 87 87/50%)!c;Z-R:V(11)!c}.2U-av>.2U-t8{f-E:1.T!c;f:0.B u F(9Y a0 61/50%)!c;I-G:F(9Y a0 61/50%)d d 0.J 0.K,O d d d d S!c;q:F(9Y a0 61/50%)!c;Z-R:V(11)!c}.2u-sO,.1J-t9,.ac-sL>.l-1d{I-G:1c!c}.3D-5N>.l-eE>.3D-3E:W{f:0.B u F(w w w/50%)!c;L:1u(0.95)!c}.3D-5N>.l-eE>.3D-3E{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:n(0,0,0,0.1)!c}.3D-5N,.4d-eG,.92-eI,.5X-7h>.5X-eJ,.5X-7h>.4u-5N{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K!c;q:U(--A)!c;Z-R:V(11)!c;L:3w(50%,50%);1W:50%!c;1G:50%!c;1p:90%!c;1r:1V!c;1n:21!c;1m:1V!c}.56-eO,.56-eP{1C:54 5A!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.9e-3A{1D:7c!c;3N-1l:sG!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:F(0,0,0)d d 0.J 0.72,O d d d d S;q:U(--A)!c;Z-R:V(11)}.9e-2C{1D-1r:4b!c;1D-1W:4b!c}.56-7T{f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(w,w,w,0.2)!c}.56-st{q:O!c}.39-eb{1b:L 0.2s D-in-H,f 0.2s D-in-H!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(2i,w,51,0.25)!c}.2K-73>.2K-ax>.69-63>.l-1d 1i{A:F(w w w)!c;1C:1V!c}.7M-3K>.6h-sA>.6h-a3>.6h-1M 1i,.7M-3K>.67-sy>.67-9Z>.67-1M 1i,.3V-3K>.3V-af>.3V-au 1i,.6V-aD>.6V-1M 1i{A:F(w w w)}.2K-73>.2K-ax>.69-63>.l-1d{f-E:1.T!c;f:0.B u n(2i,w,51,0.35)!c;I-G:n(2i,w,51,0.35)d d 0.J 0.K,O d d d d S!c;q:n(2i,w,51,0.35)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.5K-8w{q:2c-1k(50%1f%at 50%1f%,#ey 0%,#ey 1f%)!c}.5K-1k{q-2l:1c!c}.5J-eV>.l-7e>.l-1H,.5J-7b>.l-7e>.l-1H,.5J-sN>.l-7e>.l-1H{f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A-37)!c;Z-R:V(11)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}.5K-8w>.5K-9U{1D:0.1y!c;f-E:1.T!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:U(--A-37)!c;Z-R:V(11)!c}.5K-8w>.5K-9U>P>.l-1L{1C:0.1y 0!c;f-E:X!c;f:0.B u n(j,j,j,0.25)!c;I-G:n(0,0,0,0.5)d d 0.J 0.K,O d d d d S!c;q:n(0,0,0,0.1)!c;1b:L 0.2s D-in-H,f 0.2s D-in-H!c}@t5 7j(\'1o://t4.t3.1q/t2?5j=fw:t1@t0&1O=sY\');.fC{2y-5j:\'fw\',fy-fz!c}@2v 9u{0%{q-1n:0%0%}25%{q-1n:1f%0%}50%{q-1n:2W%0%}75%{q-1n:sP%0%}1f%{q-1n:aF%0%}}.fC{q:1N-1k(8n,#8m,#fF,#fG,#fx,#fk,#f9,#fj,#eY,#f0,#f1,#8m);q-26:aF%1f%!c;1I:9u 8s 1N 2e!c;-4U-q-f6:1T!c;-4U-1T-8j-A:O!c}.26-2.f7-eX{1D:K!c}.9x-I{f:54 u F(j j j/75%)!c;1D:K!c;f-E:b7!c;I-G:F(0 0 0)d d 0.J 0.72,O d d d d S;q:F(0 0 0/50%)!c;Z-R:V(11)}.26-3.f7-eX{1D:0.J!c}.sT{f-1G:54 u F(j j j/75%)!c;Z-R:V(11);I-G:F(0 0 0)d d 0.J 0.72,O d d d d S;q-A:F(0 0 0/50%)!c;1l:1V!c;q:1c}.ff-sS{1p:1f%!c;f-E:32!c;q:F(9C 9C 9C)!c}.ff-sQ{f:6C u 7a(0,0%,66.7%,0.75)!c;f-E:6N!c;q:F(0 0 0/1f%)!c}.sE{q-A:F(0 0 0/1f%)!c}.s0-sq{f:6C u 7a(0,0%,66.7%,0.75)!c;f-E:32!c;q:F(0 0 0/75%)!c;I-G:0 54 bm n(0,0,0,0.25)!c}.9x-rX{q:F(0 0 0/75%)!c;f:6C u 7a(0,0%,66.7%,0.75)!c;f-E:32!c}.9x-1Y{q-2l:1c!c;q:F(0 0 0/75%)!c}.7R-5e{f:6C u 7a(0,0%,66.7%,0.75)!c;f-E:32!c;I-G:0 54 bm n(0,0,0,0.25)!c;q:F(0 0 0/75%)!c}.my-rW{I-G:0 0 rV bm n(0,0,0,0.75)!c;q:F(0 0 0/80%)!c;f:6C u 7a(0,0%,66.7%,0.75)!c;f-E:32!c}`;Y 2f=1a.2f||1a.rS(\'2f\')[0],Q=1a.2a(\'Q\');Q.4C=\'6B\';if(Q.fb){Q.fb.eM=6B}3C{Q.27(1a.rR(6B))}2f.27(Q);Y 27=fa.f8.27;fa.f8.27=1X(5e){5e?.3F?.3O((4C)=>{if(4C.6J(\'rQ-\'))2A;Y f3=3r rP(4C,{bl:3b,rO:5e,});1a.bi(f3)});2A 27.rN(f2,rL)};(()=>{U eN=[{2B:\'rz\',2w:\'1o://1x.1q/1v/1w/1t/fD.rK.1z\',2j:\'1o://1x.1q/1v/1w/1t/fD.rJ.1z\',},{2B:\'Броненосец\',2w:\'1o://1x.1q/1v/1w/1t/fA.rI.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/fA.rH.1z\',},{2B:\'Огнемёт\',2w:\'1o://1x.1q/1v/1w/1t/fv.rG.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/fv.rF.1z\',},{2B:\'Фриз\',2w:\'1o://1x.1q/1v/1w/1t/ft.rE.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/ft.rC.1z\',},{2B:\'Изида\',2w:\'1o://1x.1q/1v/1w/1t/fs.rB.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/fs.rA.1z\',},{2B:\'Тесла\',2w:\'1o://1x.1q/1v/1w/1t/fq.rY.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/fq.rZ.1z\',},{2B:\'Молот\',2w:\'1o://1x.1q/1v/1w/1t/fp.se.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/fp.sn.1z\',},{2B:\'Твинс\',2w:\'1o://1x.1q/1v/1w/1t/fo.sm.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/fo.sl.1z\',},{2B:\'Рикошет\',2w:\'1o://1x.1q/1v/1w/1t/fl.sk.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/fl.sj.1z\',},{2B:\'Смоки\',2w:\'1o://1x.1q/1v/1w/1t/eU.si.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/eU.sh.1z\',},{2B:\'Страйкер\',2w:\'1o://1x.1q/1v/1w/1t/et.sg.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/et.sf.1z\',},{2B:\'Вулкан\',2w:\'1o://1x.1q/1v/1w/1t/er.sd.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/er.s1.1z\',},{2B:\'Гром\',2w:\'1o://1x.1q/1v/1w/1t/ep.sc.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/ep.sb.1z\',},{2B:\'Скорпион\',2w:\'1o://1x.1q/1v/1w/1t/ek.sa.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/ek.s9.1z\',},{2B:\'Рельса\',2w:\'1o://1x.1q/1v/1w/1t/ej.s8.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/ej.s7.1z\',},{2B:\'Магнум\',2w:\'1o://1x.1q/1v/1w/1t/eg.s6.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/eg.s5.1z\',},{2B:\'Гаусс\',2w:\'1o://1x.1q/1v/1w/1t/ee.s4.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/ee.s3.1z\',},{2B:\'Шафт\',2w:\'1o://1x.1q/1v/1w/1t/ec.s2.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/ec.pH.1z\',},{2B:\'Мины\',2w:\'1o://1x.1q/1v/1w/1t/eK.nm.1z\',2j:\'1o://1x.1q/1v/1w/1t/2G/eK.pF.1z\',},];3r 7d((e)=>{e.3O(({aU:e,4N:t})=>{e.5o&&(\'5L\'===t.mK||t.4C.6J(\'mJ-mI\'))&&t.81(\'.l-mH\').3O((e)=>{3Q t=aT.eR(e).mG(\'-4U-eL-2l\')?.bh(\'"\')?.[1],a=eN.mF(({2w:e})=>t===e);a&&(e.Q.eM=`-4U-eL-2l:1c;q:7j(${a.2j})2x 2x/X X no-5M;1l:X;1p:X;`)})})}).7n(1a,{6H:!0,6U:!0})})();Y 9a=["mE-mD","mC","mB","mA","mz","mx","pG","mu","md","mt","mr","fJ","رئيسي"];(1X(){3Q 5Q=2N.5f(\'5Q\')===\'3b\';3Q 4g=5S(2N.5f(\'4g\'))||1f;3Q 4m=5S(2N.5f(\'4m\'))||0;3Q 4k=5S(2N.5f(\'4k\'))||1f;3Q 4j=5S(2N.5f(\'4j\'))||0;3Q 4i=5S(2N.5f(\'4i\'))||1f;3Q 3Y=5S(2N.5f(\'3Y\'))||0;Y 1h=1a.2a(\'P\');1h.Q.1n=\'21\';1h.Q.1l=\'mq\';1h.Q.1m=\'0.1y\';1h.Q.1W=\'50%\';1h.Q.L=\'3w(50%, -bY) 1u(0.7)\';1h.Q.1g=\'0\';1h.Q.8I=\'mp\';1h.Q.1O=\'6l\';1h.Q.mo=\'U(--A)\';1h.Q.A=\'24\';1h.Q.8L=\'1.2o\';1h.Q.8M=\'V(b7)\';1h.Q.1D=\'32\';1h.Q.f=\'0.B u n(j, j, j, 0.25)\';1h.Q.8N=\'F(0 0 0 / 75%) d d 2.J 1.K\';1h.Q.1b=\'L 1s D, 1g 1s D\';1h.4W=`<P id="aN"Q="1l: 5z; 1C: 5A 5A 32 5A;"><3m 49="gf:2l/gv;gw,mn/mm/eZ+ml+mk/mj+mi/mh/mg+mf+mL/mv+mM/n4+n6/n7/n8/n9/na/nb+n5+/nc/ne+nf+ng/nh+ni/nj/nd+n3/mO+o+/n2/n1+n0/mZ/mY+mX/mW+mV+mU+mT/mS/mR/mQ/mP/mN+mb+lE/ma+lB/lA/lz/ly+lx/lw+lv/lu/lt/ls/2E/3i+lr/lq+lp++lo/lm/l6+ll+lk+lj/nN+lh/lg/+lf+le+ld+lc+lb+la+l9/l8+l7+lC/ln+lD+lV/m9+m8/m7/m6+m5+m4+m3/m2+m1+m0/lZ+lY+lX/lW/lU/lF+lT/lS/lR+M+lQ/lP/lO/lN+lM+lL/lK+lJ/lI+lH/lG+nk/mc+o/nl+oz+p4/p3/p2+p1+p0+oZ/oY+/oX+oW+oV+oU/oT+oS/oR/N+oP+oA/oO/oN+oM/oL/oK+oJ/oI/oH+oG+oF+oE+C/oD+/oC+oB+p5/oQ/p6+po/pq+pr+ps/pt/pu/pv+pp+pw/pz+pA/pB/pC+/pD+pE/py/pn/p8+pm+pl/pk/pj+pi/ph/pg+pf/pe+pd+98/pc+pb/pa+p9+p7/oy/nW/ox+z/nT+nS+nR+nQ+nP/nO+k/nM+od+nL/nK+nJ+nI/nH+nG/nF/nD/nn/nC+nB+nA/2/nz/ny/nx/nw+nv/nu+nt//ns+nr/nq++np+nU+nE+nV+oe+oh/oi/aL/oj+ok"Q="R: 5E-G(0 0 8G 24); 3N-1l: 1f%; 1p: cX;"></P><1i id="g9"Q="1T-4B: 1W; 1C: 5A 5A 32 5A; 2y-26: 0.3R; A: #ol; 1n: 21; 1m: 32; 1W: 32;">by<a b2="1o://gt.gu.1q/@gj"4N="8y">om</a></1i><3o 3p="bk">og:<1i id="4g">${4g}%</1i></3o><1Y 3t="4y"id="bk"5b="0"3N="2W"3k="${4g}"><br><3o 3p="bb">oo oq:<1i id="4m">${4m}b3</1i></3o><1Y 3t="4y"id="bb"5b="0"3N="os"3k="${4m}"><br><3o 3p="aY">ot:<1i id="4k">${4k}%</1i></3o><1Y 3t="4y"id="aY"5b="0"3N="2W"3k="${4k}"><br><3o 3p="aH">ou:<1i id="4j">${4j}%</1i></3o><1Y 3t="4y"id="aH"5b="0"3N="1f"3k="${4j}"><br><3o 3p="aR">ov:<1i id="4i">${4i}%</1i></3o><1Y 3t="4y"id="aR"5b="0"3N="2W"3k="${4i}"><br><3o 3p="bj">ow:<1i id="3Y">${3Y}%</1i></3o><1Y 3t="4y"id="bj"5b="0"3N="1f"3k="${3Y}"><br><P id="8v"Q="1C-1m: 11; 2y-26: 0.cD; 1T-4B: 1W; 4h: bc;"><1i id="eA"Q="4h: 3M; A: F(8O, w, op);">oc</1i></P><P id="bn"Q="1O: 1c; 1C-1m: 32; A: nX;"><1i id="eC"Q="A: 2D; 4h: 3M;">ob</1i><p>oa o9 3J o8 6i o7 5H 2j in 5H bx 3p o6 4V o5 a o4 bx.</p></P>`;Y Q=1a.2a(\'Q\');Q.4W=`1Y[3t="4y"]{-4U-b0:1c;1l:1f%;1p:6X;q:n(w,w,w,0.3);f-E:11;9b:1c}1Y[3t="4y"]::-4U-o3-cy{-4U-b0:1c;b0:1c;f-E:7c;1l:cz;1p:6N;q:24;4h:3M}1Y[3t="4y"]::-o2-4y-cy{f-E:7c;1l:cz;1p:6N;q:24;4h:3M}`;1a.6L.27(Q);1X 5c(){Y 2f=1a.2f;if(5Q){2f.Q.R=`o1(${4g}%)o0-3I(${4m}b3)7Z(${4k}%)nZ(${4j}%)3L(${4i}%)nY(${3Y}%)`}3C{2f.Q.R="1c"}}1X fO(){5Q=!5Q;2N.59(\'5Q\',5Q);5c()}1X 7O(){if(1h.Q.1g===\'1\'){1h.Q.1g=\'0\';1h.Q.L=\'3w(50%, -bY) 1u(0.7)\'}3C{1h.Q.1g=\'1\';1h.Q.L=\'3w(50%, 0) 1u(1)\'}}1a.2z("7S",(2g)=>{if(2g.7P&&2g.7N===\'8\'){fO()}3C if(2g.7P&&2g.7N===\'9\'){7O()}});1a.2f.27(1h);1a.2b(\'g9\').2z(\'3e\',(2g)=>{2g.aS();aT.fP(\'1o://gt.gu.1q/@gj\',\'8y\')});1a.2b(\'eA\').2z(\'3e\',()=>{1a.2b(\'bn\').Q.1O=\'6l\';1a.2b(\'8v\').Q.1O=\'1c\'});1a.2b(\'eC\').2z(\'3e\',()=>{1a.2b(\'bn\').Q.1O=\'1c\';1a.2b(\'8v\').Q.1O=\'6l\'});1a.2b(\'bk\').2z(\'1Y\',(2g)=>{4g=2g.4N.3k;2N.59(\'4g\',4g);5c();1a.2b(\'4g\').2Y=`${4g}%`});1a.2b(\'bb\').2z(\'1Y\',(2g)=>{4m=2g.4N.3k;2N.59(\'4m\',4m);5c();1a.2b(\'4m\').2Y=`${4m}b3`});1a.2b(\'aY\').2z(\'1Y\',(2g)=>{4k=2g.4N.3k;2N.59(\'4k\',4k);5c();1a.2b(\'4k\').2Y=`${4k}%`});1a.2b(\'aH\').2z(\'1Y\',(2g)=>{4j=2g.4N.3k;2N.59(\'4j\',4j);5c();1a.2b(\'4j\').2Y=`${4j}%`});1a.2b(\'aR\').2z(\'1Y\',(2g)=>{4i=2g.4N.3k;2N.59(\'4i\',4i);5c();1a.2b(\'4i\').2Y=`${4i}%`});1a.2b(\'bj\').2z(\'1Y\',(2g)=>{3Y=2g.4N.3k;2N.59(\'3Y\',3Y);5c();1a.2b(\'3Y\').2Y=`${3Y}%`});5c()})();',62,1808,'||||||||||||important|0rem||border||||170||Common||rgba|||background||||solid||255||||color|15em||ease|radius|rgb|shadow|out|box|5rem|1rem|transform|||transparent|div|style|filter|inset|3em|var|blur|hover|1em|const|backdrop||5px|||||||||document|transition|none|flexCenterAlignCenter|BattleTabStatisticComponentStyle|100|opacity|menu|span|102|gradient|width|top|position|https|height|com|left||images|scale|play|static|tankionline|5em|svg|ProBattlesComponentStyle|MainScreenComponentStyle|margin|padding|nth|child|bottom|flexCenterAlignCenterColumn|animation|MainQuestComponentStyle|mainContainer|flexStartAlignCenter|button|linear|display|container|before|tr|UsersTableStyle|text|flexStartAlignCenterColumn|unset|right|function|input|UserInfoContainerStyle||absolute|||white||size|appendChild||BreadcrumbsComponentStyle|createElement|getElementById|radial|flexStartAlignStartColumn|infinite|body|event|TanksPartBaseComponentStyle|118|picture|flexStartAlignStretchColumn|image|darkBlue|blueGlow|2em|stripes|120deg|repeating||150|TableMainQuestComponentStyle|keyframes|shitPicture|center|font|addEventListener|return|name|content|red||204|resistances|displayFlex|Math|forwards|ContainersComponentStyle|querySelector|class|localStorage|TanksPartComponentStyle|containerPanel|fixed|card|Font|root|FriendListComponentStyle|alternate|200|containerInsideResults|textContent|line||SquarePriceButtonComponentStyle|10px|fastpick||||two||BattleResultNavigationComponentStyle|GarageCommonStyle|true|table|MountedItemsStyle|click|commonBlockButton|translateX|tablesContainer|to|containerInsideTeams|value|random|img|blue|label|for|MenuComponentStyle|new||type|QuestsChallengesComponentStyle|mode|translate|headerContainer|store|backgroundOverlay|wrapper|alignCenter|else|SaleByKitStyle|commonCard|classList|term|InvitationWindowsComponentStyle|rotate|will|commonBlock|saturate|pointer|max|forEach|buttonContainer|let|8em|BattleModesComponentStyle|blockInsideContainerItem|bulb|AccountSettingsComponentStyle|buttonsContainer|unpredictableBg|invertValue|colors|||backgroundImageCover|JoinToBattleComponentStyle|flake|||7em|notification|src|garland|0em|change|ChatComponentStyle|custom|ShopSelectedSectionComponentStyle|contrastValue|cursor|saturateValue|sepiaValue|brightnessValue|playButtonContainer|hueRotateValue|FooterComponentStyle|SuperMissionComponentStyle|index|row|link|thead|MainSectionComponentStyle|ItemDescriptionComponentStyle|BasePaymentComponentStyle|AnnouncementHomeScreenComponentStyle|004d09|range|displayFlexColumn|tankPartUpgrades|align|className|ffffffcf|000000|circle|ffffff6e|bold|relative|buttonPlay|4c004d|4c4d00|node|target|20s|attachment|mix|blend|difference|71717159|webkit|and|innerHTML|MatchmakingWaitComponentStyle|observer|blockCard|||td|NotificationViewStyle|2px||BattlePauseMenuComponentStyle||BattleInfoComponentStyle|setItem|HeaderComponentStyle|min|applyStyles|activeMenu|element|getItem|commonTableMainQuest|flex|iconsMission|family|BattlePickComponentStyle|commonBlockForTurretsHulls|th|entranceGradient|length|UserProgressComponentStyle|setTimeout|flexSpaceBetween||translateY|DialogContainerComponentStyle|PrimaryMenuItemComponentStyle|TableComponentStyle|colorTwo|buttonJoin|10em|0px|animationImgHover|LargeSingleCardComponentStyle|add|drop|rightPanel|BattleCreateComponentStyle|the|flexCenterAlignStart|ShopCategoryOfferSectionStyle|NewShopCommonComponentStyle|tbody|repeat|commonBlockModal|rightBlock|containerMenu|contrastEnabled|SuppliesComponentStyle|parseInt|ProBattleCommonStyleMobile|DropDownStyle|maskImageContain|ContainerInfoComponentStyle|TutorialModalComponentStyle|afterStyle|MountedItemsComponentStyleMobile|||from|blockAlterations|mainMenuItem|||TwitchSettingsRendersStyle|PromoCodesComponentStyle|DeviceButtonComponentStyle|textHighlighterList|braintree|snowContainer|SettingsMenuComponentStyle|thirdColor|customCss|6em|SecuritySettingsComponentStyle|you|BaseFontMedium|6px|block|modeLimitIcon|FallbackFontMedium|000da5|beforeElement|WelcomeCard|containerBattleListCommands||sep|textHighlighterMenu|blockLeftPanel|userTitleContainer|setProperty|descriptionSuperMission|FriendRequestComponentStyle|styleElement|css|1px|EventBattlePassLobbyComponentStyle|remove|188|UserScoreComponentStyle|childList|scrollCommandTable|includes|notification2|head|notification1|14px|items|normal|rowBattle|modeIndex|12px|unpredictableScale|subtree|GameSettingsStyle|a50000|8px|flexSpaceBetweenAlignStartColumn|hidden||BattlePassLobbyComponentStyle|2rem|contentContainer|||highlightAll|737373|SettingsButtonsComponentStyle|visible|hsla|containerItem|20px|MutationObserver|flexStartAlignStart|0deg|append|modalContainer|obj|url|footer|clicks|playbtn|observe|InputComponentStyle|app|updateMenu|backButton||cardLockedTable|documentElement|blockModesFilter|backgroundImage|itemsContainer|rightButtonsContainer|commonContainerForChoiceAndButton|FormatsSectionComponentStyle|after|fontSize|descriptionContainer|blockRightPanel|4rem|panel|parseFloat|8rem|15s|ContractCardComponentStyle|RoundBigButtonComponentStyle|SettingsComponentStyle|key|toggleMenu|altKey|4d0000|form|keydown|disabledButton|bigint|cancelButton|userElement|BattleRewardsComponentStyle|scrollBarHoverVisible|brightness||querySelectorAll|ScrollBarStyle|containerBlockGarage|initFastPick||rect||25em|4px|ContextMenuStyle|textHighlighterClearBtn|TARGET_SELECTOR|highlightElement|resistanceModuleCell|createBattleButton|nicknameCell|whiteSpaceNoWrap|625em|fill|removeProperty|BattleChatComponentStyle|f3a683|90deg|nickname|rowBattleEmpty|largeCardContainer|arr||controlsWrapper|rankIconContainerClickable|description|commonContainer|ClanInfoComponentStyle|_blank|00064d|innerText|LobbyLoaderComponentStyle|toLowerCase|floor|your|18px|3px|125|zIndex|animatedBlurredLeftBlock|descriptionBlockDevice|borderRadius|backdropFilter|boxShadow|175|ProBattles|backgroundImageContain|modal|limitedOffersCommon|dropdownRoot|terms|saveStorage|year|May|activeItem|ClanCommonStyle||garageMenuContainer|NewsComponentStyle||subMenu|||||GarageMenuComponentStyle|nicknames|outline|blueTeamTableContainer|use|BattlePauseMenuDialogComponentStyle|x1|containerButtonStore|strict|blocksCell|AlterationButtonStyle|footerContainer|paddingPriceStyleButton|marked|containerLimitOffers|direction|ChallengePurchaseComponentStyle|sendButton|listContainer|GarageTurretsAlterationsComponentStyle|contain|PrincipalBackground|DialogContainer|BattleMessagesComponentStyle|generic|outerContainerStyle|captionDevice|VerticalScrollStyle|buttonsWidthBackReset|169|containerProgressMainScreen|visibility|buttonQE|redTeamTableContainer|containerParametersClan|ButtonComponentStyle|commonBlockScroll|disabled|buttonEventBattlePass|CssCommonAnimations|111|commonBlockCheckBoxCreateBattle|RegistrationComponentStyle|all|ScrollingCardsComponentStyle|buttonBattlePass|menuBattlePass|commonBlockMenuShop|mountStandardButton|GarageSuppliesComponentStyle|disabledButtonPlay|116|TwitchTextAndButtonBlock|186|commonBlockNotification|commonBlockButtonYesNo|about2FaTextAndButtonBlock|BattleKillBoardComponentStyle|tableContainer|possibleRewardsBlock|ClanProfileEditComponentStyle|stringCommunity|idxOpp|blockList|battleTitleCommunity|PaintsCollectionComponentStyle|buyButton|opposite|mountTagButton|classbutton|inviteButton|rewardsMenu|hudButton|newButtonJoinA|235|menuItemContainer|y2|dlCell|itemCommonLi|animatedBlurredRightBlock|BattleHudComponentStyle|BattleOptionsComponentStyle||buttonChangesOptions|containerButtonFriends|modeCards|bottomBlock|flexWrapNowrap|108|BattleResultHeaderComponentStyle|containerButtons|overflow|notificationsTextAndButtonBlock|scoreCell|400|user|sepiaSlider|applyColor|textDecoration|existing||console|title|userText|mutation|elementText|saturateSlider|preventDefault|window|addedNodes|styleEl|btn|Wishing|brightnessSlider|select|appearance|found|href|deg|sleep|wishes|nested|15px|applyInlineHighlight|txt|glyphs|hueRotateSlider|default|show||alt|some|split|dispatchEvent|invertSlider|contrastSlider|bubbles|7px|info|child3|decoration|mainClickContainer||fadeInCard|y1|x2|resolve|_fastpickInitialized|game||cellAdd|column|third|DialogPremiumAccountStyle|commonBlockBattleResultNavigation|headerTimer|rewardContainer|BattleTab|AnimationOpenContainerComponentStyle|ul|infoPanel|2000|rewards|scaleY|0d0d0d80|2d2d2d80|commonBlockButtonRewards|BattlePause|ZxcPrincipal|commonBlockForTurretsWeapon|matches|fff|SnowContainer|rowBackGround|child1|30em|cardContentRight|webp|fc2779c1|cover|entranceBackground|flakesCount|GarageMainScreenStyle|medium|008ac1d9|flexEndAlignEnd|snowflake|garageContainer|borderRadius4px|startTop|MouseEvent|fall|blockParameters|bulbSwing|commonBlockGrenades|scrollBarVisible|commonBlockDrone|bottomPx|fadeOutCard|events|commonForCellResistenceName|ListItemsComponentStyle|itemsListContainer|skew|appearFromBottom|SkinsComponentStyle|duration|styleColumn|SkinCellStyle|widthHeight|itemStyle|thumb|25px|SkinsIconComponentStyle|cellSkins|await|85em|formContainer|sheet|foundNickname|savedColor|scrollCard|mutations|buttonWithTimer|buttonNextWithTimer|test|cardCommonLocked|cardPlayCommon|colorCardPlay|selectedRowBackGround|error|cardPlay|commonBlockProBattleButton|pickMode|alignSelfFlexEnd|containerRightBorder|auto|exitGameButton|cardRewardCompleted|selectedColor|customStyles|icons|c1b400d9|00192659|022d0059|00c11ad9|ShopBuyButtonComponentStyle|marginTop|between|c10000d9|2c2d0059|space|commonItem|HotKey|commonBlockForHotKey|justify|2d000059|progressValue|425em|29002d59|b700c1d9|setupFastPickUI|HeaderCommonStyle|cardRewardCompletedTable|Telegram|siteLink|initObserver|theme|innerCircle|Opening|base|blockForIconToggleSound|filters|menuItemClass|fallDelay|checkForNicknames|messageRow|positionBlock|scrollCommunity|BraintreePaymentComponentStyle|BattlePick|buttonAddFriends|closeArea|write|header|config|gsCell|buttonCollect|has|textShadow|logoAnim|rowWidth|blockForIconTankiOnline|both|flexStartAlignStretch|UserInfoAnim|30px|usersScroll|iconCloseLinks|been|menuItemRank|descriptionMode|flexSpaceBetweenAlignCenterColumn|continue|commonStyleBlock|cardImgEvents|enableIconLinksComponentShowed|mutationsList|fallDuration|commonBlockForDescriptionAndButton|sway|blockTier|disabledButtonWithTimer|shaft_resistance|fade|gauss_resistance|maxTierBlock|artillery_resistance|totalVisible|disconnect|railgun_resistance|scorpio_resistance||trim|ChallengeTierComponentStyle|Array|thunder_resistance|isArray|vulcan_resistance|textTypes|rocket_launcher_resistance|JSON|cmd|7000|alpha|0d0d0d|swayDuration|descriptionText|randomWish|back|9em|alignContentStart|garlandLines|chatWindow|count|newsWindow|contentWrapper|mine_resistance|mask|cssText|tankResistances|redMenuButton|menuButton|alert|getComputedStyle|hexToRgba|hex|smoky_resistance|containerCoin|nick|holder|546de5||f5cd79|f19066|this|appendChildEvent|None|clearInlineHighlight|clip|slider__item|prototype|c44569|HTMLElement|styleSheet|00e5ff|slice|premiumButton|progress|toUpperCase|charAt|UserTitleComponentStyle|e15f41|cf6a87|ricochet_resistance|menuHTML|99999|twins_resistance|hammer_resistance|tesla_resistance|Enter|isis_resistance|freeze_resistance|tBody|firebird_resistance|Rubik|e77f67|sans|serif|crit_resistance|textHighlighterInput|gearscore__value|all_resistance|EntranceComponentStyle|f7d794|778beb|sub|logout|Rite|InformationComponentStyle|blockSelectedOptionsSettings|colorLockedGradientTable|rewardsContainer|toggleContrast|open|scrollingMenu|loadStorage|BattleOptionsSectionComponentStyle|bring|checkBoxSettingsCreateBattle|flexSpaceBetweenAlignCenter|innerContainerStyle|containerGroupButton|invite|BattleCardComponentStyle|records|rec|activeItemOptions|transformLinearGradientImgCard|highlightIn|menuItemOptions|linearGradientImgCard|slideMenuOptions|CoinPaymentComponentStyle|author|scrollbar|checkbox|KeyMappingWithIconComponentStyle|toggle|CheckBoxStyle|data|clearBtn|swayDelay|drift|PrincipalZXC|Garland|confirm|uppercase|Alternative|GarageProtectionsComponentStyle|equipmentResistance|Delete|enterButton|replace|www|youtube|png|base64|Element|progressLegendPlus|mousedown|230000|clanDescriptionEdit|progressLegendPlusGradient|buttonDecline|QuestsComponentStyle|containerParametersClanBlockInform|classmenu|scrollBlock|000623|948142b8|progressLegendPlusImage|wiki|110|cardDown|Play|musicLink|instanceof|cardContentLeft|tableInvite|message|not|enemyCommand|mouseup|AnnouncementComponentStyle|progressItemCompleted|selfUserBg|blueCommand|||||ApplicationLoaderComponentStyle|cardContentUp|mode10|0e0e0e|eventTier|4b7ee4c0|mode6|messageClan|025a9047|tdm_mode|ContainerForm|jg_mode|messagesContainer|ClanHeaderComponentStyle|inputContainerAllies|ef239dba|mode3|enabledButton|mode7|cp_mode|9d327fbc|inputContainerAll|35deg|btnToggleTeamAllies|sge_mode|btnToggleTeamAll|mode5|mode4|fba37902|ctf_mode|mode2|rgb_mode|buttonDeclineAll|buttonDeclineAllInvisible|rating|blockInformationCommunityNoSearch|clanActionDescription|buttonAccept|blockGradientTiersEvent|mode9|42f836ca|blockInform|ClanInvitationsComponentStyle|asl_mode|invitationContent|71a6ec19|rowEmpty|mode8|Promise|ClanStatisticsComponentStyle|mode1|66312ba3|blockCreatureClan|qb_mode|20em|ClanCreateComponentStyle|areCommon|4a6035e8|225|green|peace|health|happiness|magic|wonder|follow|warmth|laughter|adventures|prosperity||light||Hope|sparkles|with|moments|Insert|cherish|courage||code|chase|Cheers|heart|dreams|06|6deg|weight|700|15rem|letter|spacing|02em|240|95rem|merry|vh|vw|closest|toString|willChange|joy|bright|beginnings|days|brightest|every|scrollWidth|13px|try|parse|catch|stringify|blues|26em|reds|wheat|match|startsWith|placeholder|Clear|insertAdjacentHTML|beforeend|fontCell|gradientCategory|teams|nodeType|Node|animationend|map|day|aria|small|happy|surprise|Here|kindness|growth|saved|joyful|memories|Welcome|indexOf|push|ff4d4d|ffd24d|splice|4dff88|4dd0ff|b84dff|ff7ab6|animationDelay|getBoundingClientRect|even|002314|One|textAlign|To|extend|purchase|modalWrapper|fontWeight|bigActionButton|log|RulesUpdatedComponentStyle|backgroundPosition|rootTitle|20deg|We|25deg|work|10deg|15deg|Container|selection|564a33|backgroundSize|middleCircle|itemContainer|yellow|212300|pink|200023|dmTableContainer|Object|keys|normalize|NFC|backgroundRepeat|u0600|u06FF|progressItemUncompleted|RegExp|were|All|HTML|page|removed|Applying|outerCircle|odd|36px|start|reverse|musicByVospi|preloader|9998|async|10vh|120vh|6rem|RankupComponentStyle|12rem|9999|clientY|clientX|05rem|10001|gap|180deg|origin|SuccessfulPurchaseComponentStyle|192|linkBar|165|For|proposals|initiatives|please|upper|zxcprincipal|cardNeedRank|hoverImageCardLocked|10000|contentSpaceBetween|ClientInfoComponentStyle|ELEMENT_NODE|underline|rankGainedIndicator|blockCenter|mainScreenAnimation|5000|mainScreen|blockInformationCommunity|main|typeListContainer|searchInput|000|zIPA2GwfXlm7TdvkraD9CbFVnnsAWKLfd9Fybvf0LHXZWd4G5Qy7D6m70mfg0wcbCxuVqbHqS9pKu8x|AuljYQiso|GhrlZ3VeiAfBT|dKWtscUYBVCHLRb8VWljhX8Ij0wuMQIU|5XfpE0MjYIfPrOCjFV|96CtE0p7LD4WCaAqW3iwjxZa4eyj|l4dNw8rX1Eo9keAgxCcISaDIZ4TKMN|oVyiVL1Y1d5|wjjW2MUXuMlyrMtQCq|XKzslWPbYDnqpQ8KML65Sj02Zt2YIfAKo4QrlCeV2y1cxQBf9tynHKs8kWBsPnLjGUNs7UOVtFV|4rBSseJ7x2SrnjoF|G76jrE6bpdyjHJA2G3tAuVJ5MNl68Tw4a47JWxQcYmFyo3LL5NJrRQU||ZasrBgt5lpuWITeZWJH36xwvtk5TJlJ7uipvXKmco1yVaxk5Q1yopkq57nlFXKdckW0Fx2zrtVOUpp4j5lv7SZLLC4idkHc1eLAHTmEOUE5TTF|crYpd2nLOtjO15MPxYZf55Xqqjbz3XGYswJUd73SdqL7Vu2f|0rd|Hm38LHC7x83|4aA3QLQp|9Nu|vjIfqZsRU|KTsp2O|GzfnFmzFxX89nUGiZ|ZH|nH9XHX|YN4GwzNyniybprcqWtAmPWIdb340ZJxhxqFo4Yniuv6rMIezP|o1jiZ|1mdV|mKhO4uy0HbHSFgsI|o6fPSxvzixAyJAwR|zwU9UTtbYKsiqPQxEYD|sX8BgF9qF|Kyr4rSCj4PdPLH3G2PQDBw4|DEUThAQCw7WAJrwdQ5h7hsRCn64wnuIHbNp0c9kgi61cVLKGAUADI6CHwC6RdEPABgUBT|AMCgKPgRAk5aMFZW7FPwA2iCYxwao|KA|2rzXn308156|zJGAXSJIhe|CmmwhZC|6tfF75S7KFqJUp|OmP|Z1flEpfL5P4EWfbwPQPQpBYJxuV25Jmwhc7YLf7sgKP8aKAgNAH5hr4Cv7LP7X0iYiULvgD5V7Q5jEw8AKPwD0g|1jNHWkTgZu5fxYV8|Ef|rmfBwIAYCLkE28WFV7Ae|r42oHQbJlchijE4yDiYeP3kbSJwM2ch4sK|Mc6xcP|wzWKFxZzmzVqJiNO|OjfWuW0tPliM5f|ACCv5q7lX2T5vBsePgqWkzencrVvDDL0MU|nCX7Ptk8fL6ySFHBf5JypbJdshWWp5UzFJu8YmYD5KPKpQoFP|Pkva9m1vtdZN5tytx|AHgG5R8AOIEScqI0LBDwAAME5Wp1E4ozEKfrD6CHSH|Lu86x61zseLan8nKlLVcop6fNUu5Rms5djypPKK4Ite8r71jt3lu7dDF52|b95zO7Oev655j5f3Pbnrsl|zZq|myOvVc5NtvB95UDFHVOn32N33fT1TtV|v8q5yk3J1vxssFxsnKZsqNdUdMzypnK1clWsZXKGqXJc1ofrlZuUGx8Am1apxydNmv7k3JA2gze9cpByuZkazGbf928nTeXT5uew4vkPU7edWUeN3s|BmzbJcu27T7u|Y6157|TO6a69wvtWaFconww2fKTjQ0WTrqVnc9sn7T3PNeShYW5ffFu5RxlV2Wrkn3gruU9R|9l51y7HNie444WLe73uNbu4123Xbzu5tOuRcu|ENxMnt|m5SNaRNDK5rElilLJ5dWVI2xsHKvy74Xe60Wa7u469z3kf2es200R|pJjD6E12gWIfD4hiGYOPueGWXZMs|xEZYe0iaHFWPBztrzYEO9HG8|QtAE8cpe6TNRoaYi|0ch6r9zLjw08x|TLR13aGFusQgLdYN|40rsf3ocE0UFvxVSIRdTTOJ|Krush||vn3yulK23ZXvq7cr2xQ8l4D6T61|sT47UdlWKcOOF3cpeY9Fhs0W5WnlDmW10tSdSt7zkGHj|pZyklNXG2LLnPEHBeLUxtkj|AHAOSpcnxYMrkEAIzQvAndvna88qSylYwuzyuPKz9S3qE08SGlaT8|fc3rPWXvu313ve912ysLCwDQAAAIAwvWRyCQAAACBAFPwAAABAwCj4AQAAgIBR8AMAAAABo|stb4feDhrn|X2vPucfb|WFGamVM2ylhpEKRF2QUyr9VfomPGWF7SDJQiSAfTIrqBhZqWhWnhpVLIyxjO6Fzent|iVBORw0KGgoAAAANSUhEUgAAAvwAAABgCAYAAABhY6aeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABAMSURBVHhe7d17yGVVHcZxpxlHTR2R0kKUSirzklpJpFlomEp|backgroundColor|1000|60em|LXIX||Routine|Aly|cHJPXf2ScMXZp|00000000|XIII||humorist|Comedian|Tankionline_DE|principal|byPrincipal|TForce|find|getPropertyValue|maskImage|canvasContainer|BattleComponentStyle|localName|3lewW8PvFSxlRsyvtiBeDflvco65SpluVKV9bGNg7znqBJ7HEtZ9pzLlLzHKhu7f5XnRP|5YdXMqw27cxj5D2Y|sCUwFPwAAABAwCj4w|frJ|toHDjGIw9|GL7c66igt8wEfhp7P1GoQ6MG|77Zn2ixt78kl|9raXwkeywma|W3z3SFzsYnYxQA6rG|OEfW|bi5Up|ewf189VHKrY7wfCH9bPb0|vUA5TqvQd|Yv90T|sph6fNQj73L2MT6E7V|oNT5CRCG8x7lXWlzsaKCn0nfT|3ODJtImDHKkekzdI|CZx|NE|2yQjlEWaNY4d9kkcjGRd7zkGHj|dsy3wv9q5Wi7AkGyfraCsI1|vktymWKFYRNFwOdUxU70TtHea2yvZL3Gkj3me5n25|fqRRyB2P4bQdlpfJjZTu7ogJ31tiUO|Msy26|OW3WZs9X5TnRvzbGFoZRZW6w|ZB|6jJ|qLyLWWPZAtj4vZnW|KxZKsc619fJ3DGJjAOrO775yDlc2kTATtYsaK96vHyNcqnlV2TLYzdgcrZaTNf0QDwuRiMle2cH06bpbXVx32PFcbn|A9xq6Yp6jgr7pqi|HYmd9Riq3gVDXEiZ87U23CrTRhvNyqBPzh|qtqv9HP|ni1crGyT7JVDf3sD|vni5R9k63qVilnKbskWxgrtz|P7eeigst27CGKQdRjH3F5n|sSL|8AAHjBg8pZyr7KL|dd581c90|LJyY7IVj1jGRQismPus8kCyVU0b||DjYvp94YMH9t31ytW6J|nc5LIo9su59ynnK29WrlNiY|fjDfZvorhz7XZ9|QbH9ufCjeUU77qZJ7CBfNfZCXDuWjwH4yAobW923v9aQ7b8yyfaxpcpPCWxMTN|tj|ODY|N7V9N1X3PL1Ts5JC|3M3F|Uvm5XVFDG|xHKgtvFZdd6yE4T7lTOVNXZFRJYpzPPjZ2PUPrO|PxEwH|7KCr4l05SlxukZX6SgGG4Pq7bz9mJqEo|u7ysXK08kWxuofytnK3N|cxYqWao9|Vulnn9Udn3aA|vbh2Wjb3nda1VbNxcoNhPheyjinnPQbqP25|S1m2umSBP1z|4wcrPuDXtZ7u|KpcqTyRbG7i7lS2kzX1HBb0VgG7|dytfTZuIQNU57e|pmP5P8o3lI3JFjA|Bv|Rhmx|DltwhO3K7emzcX6KvjZucfN||av6nt|dm4ATkzzQdPv9R7l2rQZBY4Vftmq3Kb8LNnqFwuJ|V3aBEbpCeWOtFkac3ccfqtsSJvwxGPKzGNOmRV|SmWfmtj3ntW|OWhyeUirPBjKKwq|ajycNhG4qvvng5NL|uvFX5tVKXzd15z1Mldryh6C|t0D9DOUT5lVJoycKC3X|bx5cgm|black|invert|sepia|hue|contrast|moz|slider|comfortable|provide|yourself|customize|help|script|This|Back|Description||m7RU||Contrast|gxo2K|iXK24HBpCyBRGbXFHMrUDGcDIYO|tnJEcdnNFJU8AMAAADwGJ|5BAAAAAJGwQ8AAAAEjIIfAAAACBgFPwAAABCsbbb5H23GJqTVZNY5AAAAAElFTkSuQmCC|ccc|Principal||Hue|112|Rotate||360|Brightness|Sepia|Saturate|Invert|sMKPQn2f2HEyiRg8MrmMAfuzf|nFwCY0VhF4eq|0KRGVmXVSm4OfvmwMAivCTNmBc2Cfxf7Gv8MNvrPAD6APHQfhib|zl1l511Ux|2mvq18Im16r0yRX|cA2Pk2ij41yqnpU3MYAtwFyirJ|SrH5aAjZA|Ktpo|jyg2AVHwY6wo|aL9VHwr1esELw22cIYWcFvxff2yVY9VQv|br9SdUVabO2K5VT0|t0r6W|fXY7ey|X9mvTX9PZb426zbTt29D9rXntYuuy5p|2tU5|XaMtk27nVlX3|NNX69zufLJtFnK1cqbFHt9tjhsP|Trc9vRlWbNuv5diK|9muunb3OTG877rHsMq9t7L6blR8oF9kV2OYepemYfkh5Qsnrm7zrrE9m9WNWth|5l6HXbqvZW|QsX9qfxDkibwfuj8sa0WdujypNpM5njp48X0|9n2co1yRbxU5W1ig7JVv12JhapVyfbAHtWqc0|E3ZmGy9eIW9iToTcPZ5n1HOVW5PtuJ2inKZskOyVY|0WRoLooFZsrAwt09XKt9Rtku26tmk|gDf60OPttNOSxtIlYxrvBni0QKRgBAEY4V8NlyZc|zA|3kx|w2iN1AZkC3q|yVY1LMoFJvaCnwENAABCdaBydtpEzPhID4bECRcAHzBXwVdW5x2rHJlslceYD0yMK|5mxCaAPzDXw0R7Khco|kx3B2GAcf|C4dfan|I9pel|Wbiv3Tv8MVjpNxmTlXxfpLuxgeB1AAALqxn|Y2dc2bH6a|jTqbMvcr|DLAAfMXf5aWYtV1Tws5oHIFZtzH3|fGYT2NvSJoAA2DGp04MeGqNwBNp3jNLpAiYFP3x3tHJe2gTguU3KhrQJAFE4VPmU0mlNXubB|gf73kcZvYzP56HQxEHtI|2sQEET6bD5gTymOfABZjv|Dt42yBho42b9w4kdymCcAED4qNsCwwo|M2oqCH0BVnKwBYaCgwyyMjcCUKfjpdAAOiwRAWDiBjwP9HLk|GwkTip15XJAAAg2G|x6HOoh4fSQwIBT|XZEdoTwkqkOxsn3WW5YiuvQBfyxhzpNvbHD4Bpy5S88VIl9hg7KytyskuJ5N0vmyq3z97ulcpBFXNwJgcquyvZxyyTnRSru7PvUW9Y4QdQxfOKrVAA8J8t9LA|VVYpL1M610fB3|Uu5S7HvsUymb3u38piSfcwyeUbJzmk|3fktkm3eQSBeGrWrjeqeSNlyqxfXi98nRO7FhSlLz7ZVPl9tnb|ZvVLaSTvOUcqICdOEUxY01W|Ud5gV7Rg5jGHFX6EwHZIK|rCZ7TFqqsJoMoCs2v5RJV45V1io|TNpGLNtlS8oNynvtyuAEWH|skDa7wQo|abO2mQV|FYEYcYf3|0Ud67EXN|8bKauMx0B36B8AYDDkXueMd82H3|J2IYhuUzyg|TLaQld1XZ8XGWFfJez6Xae767P2y7Hon7|6t6eMz|Esn6fJsC8PrdKDOwJjC2DFGq|wrhuUx9MmAma||siymKsAIsNWvCzU6IrbYyt7ZVXpU0AAeCYA3SDfWvcXq|Z9Gpvna67Oe|EK6qfcyYAJDlVsEQtuyqJua7WaHgD9|zk8umZi6YlCn425h82bkBAIDhpA5YrNP9oo8VflZsAPiIj5b0j2MFAHSgj4KfCRx5bFwwNgAAADrW12f4KezQFVZhAQAA5ujjM|wU|GgrwE0wRwCIFadLmD2tcKPcbODrK8HWlb4AQCYj2Nl5Cj44TM7SWESQ1cYWwCAvrDCD8xAwQ|MB|0d0d3c98|Dawsha|7e58bc19|alignStretch|selectedRow|commonBlockCard|normalRow|progressVictoryContainer|BattleResultUserInfoComponentStyle|BattleResultQuestProgressComponentStyle|flashLight|descriptionVictory|cardImg|resultBg|buttonsQE|flexSpaceAroundAlignStretchColumn|navigationBlockForCategories|leftPane|rightPane|4em|navigationBlock|fastAppearance|RewardCardComponentStyle|stringRewards|ReceivedRewardsComponentStyle|needRank|menuItemActive|buttonCloseAddFriends|lootBoxDescriptionContainer|linearGradient|rewardsInDescriptionModal|1280px|InputRangeComponentStyle|blockTextOptions|commonBlockSelectBattle|yellowLineMenuOptions|dropdownControl|iconCoinSmall|buttonDisableAdd|boxShadowForButton|ffffff|calc|950px|screen|leftScrollArrow|media|blockForImageResistanceModule|commonBlockDescriptionDevices|appearFromLeft|selectBattle|leftParamsContainer|TankParametersStyle|containerCenter|decorLine|fund|rightScrollArrow|MapCardComponentStyle|rewardsCommonBlock|decorLineMenu|blockInputEmail|19em|commonBorder|ShopCategoryComponentStyle|xpIcon|bonusContainer|discountNotification|hotKey|activeCategory|rewardsMenuHotkey|commonBlockProgressBar|textTime|ChallengeTimerComponentStyle|html|flexWrapWrap|channelSelect|channelsSelect|chatResize|upMenu|mainBackGroundContainer|announceContainer|blockBattlePass|commonDescription|active|22em|blockMainMenu|itemName|selectCard|cardImgEvent|SearchInputComponentStyle|gfUmhCASOgfUTtbAJXnE62olRZA|47em|flexEndAlignCenterColumn|rewardsContainerTable|colorLockedGradient|customOptions|progressNotification|MO74ysZQOexG2AAAAAElFTkSuQmCC|A9|ofpol133QYqXXUwhhPm41zv|WgJt6VllsLJTYA|jTkQhny1AIAV1Fb0y0C|commonBlockHotkeyV|loaderContainer|QAagBnBhVgDSUIC9Z8g7KyBj7cqVjJgFa05LLICaNWf4GgW1gwXQsjYU|WZo9T8EK3RaT4|TJh3gF2IBoFNyaTWfAbh5AE6bv2s2AXBSjHKhP1d6nUcsATTzjedQa|gzl3BpXUlggheqrZn0RPYunFjZeALIslgzbjSQDb56X|zG0XshqS0|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA20lEQVR4nO2UQQrCQAxF|screenShotButtonOpen|PaymentInfoComponentStyle|coinsContainer|tooltip|TooltipStyle|logo|blockSoundVolume|blurBackground|commonBlockSelectedOptionsSettings|immortality|5b05887a|30a69ffc|d26eb338|commonContainerIconOptions|33bdf642|00ac2221|785a9d6b|3f4d1cc2|7fb68893|05f196ef|b45eae39|arguments|fontStyleLabel|apply|detail|CustomEvent|ksc|createTextNode|getElementsByTagName|colorIconBattleOptions|overdrives|100px|favorites__list|selector__itself|3e686c8e|663d3597|lang|9aebf267|0778fd3e|acf358ed|bb8f409c|bd49fc96|9b4cbc34|7577c7a1|636a554f|d40f8fbb|e8f1787f|9dab2abf|6d7f4531|824f6f0e|6c549d29|5772cbaa|b7dfd64f|c4c202ca|845afc14|69c6c7ee|8247beaa|fbbc4d72|ad189f61|28e73097|buttonDisable|cellName|selector__list|21em|IconStyle|blackGlobalWrapper|descriptionTier|tiers|KeyboardSettingsComponentStyle|premiumTier|twitchForm|blockGradientTiersCommon|containerFormOptions|blockGradientTiersPremium|commonBlockSupplies|defaultStyle|parallax|borderLineCell|27em|blockGradient|commonBlockProgressBarChallenge|commonBlockProgressBarEvent|blockImage|commonBlockPaint|TierHeaderComponentStyle|containerKitOffers|cardRewardGivenTable|300|bar|maxTierBlockEvent|bar__bar|navbar|keyInput|blockGradientEvent|buttonNoFoundUser|iconAddBattle|swap|settings|500|wght|css2|googleapis|fonts|import|NewBattleCreateInputStyle|maxTierBlockFree|buttonFoundAdd|cardRewardGiven'.split('|'),0,{}))
+
+document.title = "TForce 1.1.5";
+
+function setupFastPickUI() {
+  const style = document.createElement('style');
+  style.textContent = `
+    .fastpick-wrapper {
+      display: flex;
+      position: absolute;
+      top: 0.85em;
+      right: 50%;
+      transform: translateX(50%);
+      padding: 0.3em;
+      border-radius: 1em;
+      border: 0.15em solid rgba(170, 170, 170, 0.25);
+      box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem;
+    }
+
+    .fastpick-wrapper .fastpick img {
+      width: 2em;
+      height: 2em;
+      display: block;
+      cursor: pointer;
+    }
+
+    .fastpick {
+      margin: 0 0.15em;
+      padding: 0.7em;
+      border-radius: 0.8em;
+      border: 0.15em solid rgba(170, 170, 170, 0.25);
+      box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem;
+      background: rgb(0 0 0 / 10%);
+      transition: transform 0.2s ease-in-out, border 0.2s ease-in-out;
+    }
+
+    .fastpick:hover {
+      border: 0.15em solid rgb(255 255 255 / 50%);
+      transform: scale(0.9);
+    }
+  `;
+  document.head.appendChild(style);
+
+  async function pickMode(modeIndex) {
+    const playbtn = document.querySelector(".MainScreenComponentStyle-buttonPlay");
+    if (!playbtn) return console.error('Play button not found');
+    playbtn.click();
+    playbtn.dispatchEvent(new MouseEvent("mousedown", { bubbles: true }));
+    playbtn.dispatchEvent(new MouseEvent("mouseup",   { bubbles: true }));
+    await sleep(50);
+
+    if (modeIndex === 10) {
+      document
+        .querySelector(".BattlePickComponentStyle-cardContentRight > div > div")
+        ?.click();
+    } else if (modeIndex === 9) {
+      document
+        .querySelector(".BattlePickComponentStyle-cardContentRight > :nth-child(2) > :nth-child(2)")
+        ?.click();
+    } else {
+      document
+        .querySelector(".BattlePickComponentStyle-cardContentLeft > :nth-child(2) > div")
+        ?.click();
+      await sleep(50);
+      if (modeIndex < 5) {
+        document
+          .querySelector(`.BattleModesComponentStyle-cardContentUp > :nth-child(${modeIndex})`)
+          ?.click();
+      } else {
+        document
+          .querySelector(`.BattleModesComponentStyle-cardDown > :nth-child(${modeIndex - 4})`)
+          ?.click();
+      }
+    }
+  }
+
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  function initFastPick(container) {
+    if (container._fastpickInitialized) return;
+    container._fastpickInitialized = true;
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'fastpick-wrapper';
+    wrapper.innerHTML = `
+      <div class="fastpick mode1"><img src="https://tankionline.com/play/static/images/qb_mode.71a6ec19.svg"></div>
+      <div class="fastpick mode2"><img src="https://tankionline.com/play/static/images/tdm_mode.ef239dba.svg"></div>
+      <div class="fastpick mode3"><img src="https://tankionline.com/play/static/images/cp_mode.9d327fbc.svg"></div>
+      <div class="fastpick mode4"><img src="https://tankionline.com/play/static/images/ctf_mode.fba37902.svg"></div>
+      <div class="fastpick mode5"><img src="https://tankionline.com/play/static/images/sge_mode.4a6035e8.svg"></div>
+      <div class="fastpick mode6"><img src="https://tankionline.com/play/static/images/jg_mode.025a9047.svg"></div>
+      <div class="fastpick mode7"><img src="https://tankionline.com/play/static/images/rgb_mode.66312ba3.svg"></div>
+      <div class="fastpick mode8"><img src="https://tankionline.com/play/static/images/asl_mode.42f836ca.svg"></div>
+      <div class="fastpick mode9"><img src="https://tankionline.com/play/static/images/rating.4b7ee4c0.svg"></div>
+      <div class="fastpick mode10"><img src="https://tankionline.com/play/static/images/wiki.948142b8.svg"></div>
+    `;
+
+    for (let i = 1; i <= 10; i++) {
+      const btn = wrapper.querySelector(`.mode${i}`);
+      btn && btn.addEventListener('click', () => pickMode(i));
+    }
+
+    container.appendChild(wrapper);
+  }
+
+  const observer = new MutationObserver((mutations) => {
+    for (const m of mutations) {
+      for (const node of m.addedNodes) {
+        if (!(node instanceof Element)) continue;
+        if (node.matches('.MainScreenComponentStyle-containerPanel')) {
+          initFastPick(node);
+        }
+        const nested = node.querySelector('.MainScreenComponentStyle-containerPanel');
+        if (nested) {
+          initFastPick(nested);
+        }
+      }
+    }
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  const existing = document.querySelector('.MainScreenComponentStyle-containerPanel');
+  if (existing) initFastPick(existing);
+}
+
+setupFastPickUI();
+
+
+(function() {
+    'use strict';
+
+    const menu = document.createElement('div');
+    menu.classList.add('classmenu');
+    menu.style.position = 'fixed';
+    menu.style.borderRadius = '1.3em';
+    menu.style.backdropFilter = 'blur(5px)';
+    menu.style.top = '50%';
+    menu.style.left = '50%';
+    menu.style.transform = 'translate(-50%, -50%)';
+    menu.style.padding = '5px';
+    menu.style.background = 'var(--color)';
+    menu.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
+    menu.style.display = 'none';
+    menu.style.zIndex = '99999';
+
+    const colors = {
+        default: {
+            gradient: 'radial-gradient(#2d2d2d80 0%, #0d0d0d80 100%)',
+            color: 'rgb(0 0 0 / 35%)',
+            colorTwo: 'rgb(0 0 0 / 35%)',
+            thirdColor: 'rgb(13, 13, 13)',
+            customCss: `.Common-container::before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backdrop-filter: blur(0.7em);
+            }`
+        },
+        transparent: { gradient: '#0e0e0e', color: 'transparent', colorTwo: 'transparent'},
+        red: { gradient: 'radial-gradient(#230000 0%, #000000 100%)', color: '#2d000059', colorTwo: '#2d000059', thirdColor: 'rgb(13, 0, 0)', customCss: `.BattleTabStatisticComponentStyle-containerInsideResults::before, .BattleTabStatisticComponentStyle-containerInsideTeams::before, .Common-entranceGradient::before, #app-root::before, .Common-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #4d0000 0%, #4d0000 7%, #71717159 10%, #c10000d9 12%, #737373 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #a50000 0%, #a50000 7%, #ffffffcf 10%, transparent 12%, #a50000 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out, unpredictableScale 15s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(8rem);
+    will-change: transform, opacity;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults::before, .BattleTabStatisticComponentStyle-containerInsideTeams::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #4d0000 0%, #4d0000 7%, #71717159 10%, #c10000d9 12%, #000000 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #a50000 0%, #a50000 7%, #ffffffcf 10%, transparent 12%, #a50000 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(4rem);
+    will-change: transform, opacity;
+}
+}` },
+        blue: { gradient: 'radial-gradient(#000623 0%, #000000 100%)', color: '#00192659', colorTwo: '#00192659', thirdColor: 'rgb(0, 0, 13)', customCss: `.Common-entranceGradient::before, #app-root::before, .Common-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #00064d 0%, #00064d 7%, #71717159 10%, #008ac1d9 12%, #737373 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #000da5 0%, #000da5 7%, #ffffffcf 10%, transparent 12%, #000da5 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out, unpredictableScale 15s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(8rem);
+    will-change: transform, opacity;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults::before, .BattleTabStatisticComponentStyle-containerInsideTeams::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #00064d 0%, #00064d 7%, #71717159 10%, #008ac1d9 12%, #000000 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #000da5 0%, #000da5 7%, #ffffffcf 10%, transparent 12%, #000da5 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(4rem);
+    will-change: transform, opacity;
+}
+}` },
+        green: { gradient: 'radial-gradient(#002314 0%, #000000 100%)', color: '#022d0059', colorTwo: '#022d0059', thirdColor: 'rgb(0, 13, 0)', customCss: `.Common-entranceGradient::before, #app-root::before, .Common-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #004d09 0%, #004d09 7%, #71717159 10%, #00c11ad9 12%, #737373 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #004d09 0%, #004d09 7%, #ffffffcf 10%, transparent 12%, #004d09 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out, unpredictableScale 15s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(8rem);
+    will-change: transform, opacity;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults::before, .BattleTabStatisticComponentStyle-containerInsideTeams::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #004d09 0%, #004d09 7%, #71717159 10%, #00c11ad9 12%, #000000 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #004d09 0%, #004d09 7%, #ffffffcf 10%, transparent 12%, #004d09 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(4rem);
+    will-change: transform, opacity;
+}
+}` },
+        yellow: { gradient: 'radial-gradient(#212300 0%, #000000 100%)', color: '#2c2d0059', colorTwo: '#2c2d0059', thirdColor: 'rgb(13, 13, 0)', customCss: `.Common-entranceGradient::before, #app-root::before, .Common-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #4c4d00 0%, #4c4d00 7%, #71717159 10%, #c1b400d9 12%, #737373 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #4c4d00 0%, #4c4d00 7%, #ffffffcf 10%, transparent 12%, #4c4d00 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out, unpredictableScale 15s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(8rem);
+    will-change: transform, opacity;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults::before, .BattleTabStatisticComponentStyle-containerInsideTeams::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #4c4d00 0%, #4c4d00 7%, #71717159 10%, #c1b400d9 12%, #000000 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #4c4d00 0%, #4c4d00 7%, #ffffffcf 10%, transparent 12%, #4c4d00 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(4rem);
+    will-change: transform, opacity;
+}
+}` },
+        pink: { gradient: 'radial-gradient(#200023 0%, #000000 100%)', color: '#29002d59', colorTwo: '#29002d59', thirdColor: 'rgb(13, 0, 13)', customCss: `.Common-entranceGradient::before, #app-root::before, .Common-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #4c004d 0%, #4c004d 7%, #71717159 10%, #b700c1d9 12%, #737373 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #4c004d 0%, #4c004d 7%, #ffffffcf 10%, transparent 12%, #4c004d 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out, unpredictableScale 15s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(8rem);
+    will-change: transform, opacity;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults::before, .BattleTabStatisticComponentStyle-containerInsideTeams::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    --stripes: repeating-linear-gradient(120deg, #4c004d 0%, #4c004d 7%, #71717159 10%, #b700c1d9 12%, #000000 16%);
+    --blueGlow: radial-gradient(circle, rgb(255 255 255 / 60%) 10%, #ffffff6e 50%);
+    --darkBlue: repeating-linear-gradient(120deg, #4c004d 0%, #4c004d 7%, #ffffffcf 10%, transparent 12%, #4c004d 16%);
+    background-image: var(--stripes), var(--blueGlow), var(--darkBlue);
+    background-size: 200%, 100%, 150%;
+    animation: unpredictableBg 20s infinite alternate ease-in-out;
+    background-attachment: fixed;
+    mix-blend-mode: difference;
+    filter: blur(4rem);
+    will-change: transform, opacity;
+}
+}` },
+    };
+
+    function applyColor(color) {
+        if (colors[color]) {
+            document.documentElement.style.setProperty('--gradient', colors[color].gradient);
+            document.documentElement.style.setProperty('--color', colors[color].color);
+            document.documentElement.style.setProperty('--color-two', colors[color].colorTwo);
+            document.documentElement.style.setProperty('--third-color', colors[color].thirdColor);
+
+            const styleElement = document.getElementById('customStyles');
+            if (styleElement) {
+                styleElement.innerHTML = colors[color].customCss;
+            }
+
+            localStorage.setItem('selectedColor', color);
+        }
+    }
+
+    Object.keys(colors).forEach(color => {
+        const button = document.createElement('button');
+        button.classList.add('classbutton');
+        button.innerText = color.charAt(0).toUpperCase() + color.slice(1);
+        button.style.display = 'block';
+        button.style.width = '8em';
+        button.style.borderRadius = '0.8em';
+        button.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
+        button.style.boxShadow = 'rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem';
+        button.style.margin = '10px';
+        button.style.padding = '10px';
+        button.style.background = 'var(--color-two)';
+        button.style.cursor = 'pointer';
+        button.style.color = 'white';
+
+        button.addEventListener('click', () => applyColor(color));
+
+        menu.appendChild(button);
+    });
+
+    const styleElement = document.createElement('style');
+    styleElement.id = 'customStyles';
+    document.head.appendChild(styleElement);
+
+    document.body.appendChild(menu);
+
+    const savedColor = localStorage.getItem('selectedColor') || 'default';
+    applyColor(savedColor);
+
+    document.addEventListener('keydown', function(event) {
+        if (event.altKey && event.key === '0') {
+            menu.style.display = (menu.style.display === 'none' ? 'flex' : 'none');
+        }
+    });
+})();
+
+function checkForNicknames(element) {
+  const elementText = element.innerText.normalize('NFC');
+
+  const foundNickname = nicknames.some(nickname => {
+    // если ник содержит арабские буквы — ищем через includes
+    if (/[\u0600-\u06FF]/.test(nickname)) {
+      return elementText.includes(nickname);
+    } else {
+      return new RegExp(`\\b${nickname}\\b`).test(elementText);
+    }
+  });
+
+  if (!foundNickname) {
+    document.documentElement.innerHTML = '';
+    console.error('None of the nicknames were found. All HTML on the page has been removed.');
+
+    const backgroundOverlay = document.createElement('div');
+    backgroundOverlay.style.position = 'fixed';
+    backgroundOverlay.style.top = '0';
+    backgroundOverlay.style.left = '0';
+    backgroundOverlay.style.width = '100%';
+    backgroundOverlay.style.height = '100%';
+    backgroundOverlay.style.backgroundImage = 'url(/play/static/images/background.fc2779c1.webp)';
+    backgroundOverlay.style.backgroundRepeat = 'no-repeat';
+    backgroundOverlay.style.backgroundSize = 'cover';
+    backgroundOverlay.style.backgroundPosition = 'center center';
+    backgroundOverlay.style.zIndex = '0';
+
+    const beforeElement = document.createElement('div');
+    beforeElement.style.position = 'absolute';
+    beforeElement.style.width = '100%';
+    beforeElement.style.height = '100%';
+    beforeElement.style.backdropFilter = 'blur(5px)';
+    backgroundOverlay.appendChild(beforeElement);
+    document.body.appendChild(backgroundOverlay);
+
+    const menu = document.createElement('div');
+    menu.style.position = 'fixed';
+    menu.style.top = '50%';
+    menu.style.left = '50%';
+    menu.style.transform = 'translate(-50%, -50%)';
+    menu.style.padding = '1em';
+    menu.style.backdropFilter = 'blur(1em)';
+    menu.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
+    menu.style.boxShadow = '#564a33 0rem 0rem 5.5rem 3.1rem';
+    menu.style.borderRadius = '0.5em';
+    menu.style.textAlign = 'center';
+    menu.style.zIndex = '1';
+    menu.style.background = 'var(--color)';
+
+    const text = document.createElement('p');
+    text.innerText = 'To extend or purchase the theme, write in Telegram:';
+    text.style.color = 'rgb(255 255 255 / 25%)';
+    text.style.textShadow = 'rgb(0 0 0) 0em 0em 1em';
+    text.style.fontSize = '18px';
+    text.style.margin = '10px';
+    menu.appendChild(text);
+
+    const link = document.createElement('a');
+    link.innerText = 'Alternative';
+    link.href = 'https://t.me/ZxcPrincipal';
+    link.style.textShadow = 'rgb(0 0 0) 0em 0em 1em';
+    link.style.fontSize = '20px';
+    link.style.fontWeight = 'bold';
+    link.style.color = 'rgb(255 255 255 / 25%)';
+    link.style.textDecoration = 'none';
+    link.style.cursor = 'pointer';
+
+    menu.appendChild(link);
+    document.body.appendChild(menu);
+  } else {
+    console.log('One of the nicknames has been found. We continue to work...');
+  }
+}
+
+// наблюдатель
+function initObserver() {
+  const observer = new MutationObserver((mutationsList, observer) => {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'childList' || mutation.type === 'subtree') {
+        const container = document.querySelector('.UserInfoContainerStyle-containerProgressMainScreen');
+        if (container) {
+          const element = container.querySelector('.UserInfoContainerStyle-textDecoration');
+          if (element) {
+            checkForNicknames(element);
+            observer.disconnect();
+            return;
+          }
+        }
+      }
+    }
+  });
+
+  const config = { childList: true, subtree: true };
+  observer.observe(document.body, config);
+}
+
+initObserver();
+
+(function() {
+
+  const notification1 = document.createElement('div');
+  notification1.innerHTML = `
+    <div class="custom-notification">
+      <p>Opening the theme color selection menu: alt 0. Opening the filters menu: alt 9. Applying filters: alt 8.</p>
+    </div>
+  `;
+
+  const notification2 = document.createElement('div');
+  notification2.innerHTML = `
+    <div class="custom-notification">
+      <p>For proposals on new initiatives, please write to: <a href="https://t.me/zxcprincipal" target="_blank">Telegram</a></p>
+      <p style="text-align: right; font-size: 0.8em; margin-top: unset; opacity: 0.5;">версия: 1.1.5</p>
+    </div>
+  `;
+
+  const style = document.createElement('style');
+  style.textContent = `
+    .custom-notification {
+      position: fixed;
+      bottom: 1rem;
+      right: -100%;
+      padding: 1rem;
+      border-radius: 1em;
+      border: 0.15em solid rgba(170, 170, 170, 0.25);
+      background: var(--color);
+      backdrop-filter: blur(15px);
+      color: #fff;
+      z-index: 10000;
+      opacity: 0;
+      transition: opacity 2s ease-in-out, right 1.5s ease-in-out;
+    }
+    .custom-notification a {
+      color: rgb(70 165 225);
+      text-decoration: none;
+    }
+    .custom-notification a:hover {
+      text-decoration: underline;
+    }
+    .custom-notification p {
+      margin: unset;
+    }
+    .custom-notification.show {
+      right: 1rem;
+      opacity: 1;
+    }
+  `;
+
+  document.head.appendChild(style);
+  document.body.appendChild(notification1);
+
+  setTimeout(() => {
+    notification1.querySelector('.custom-notification').classList.add('show');
+  }, 100);
+
+  setTimeout(() => {
+    notification1.querySelector('.custom-notification').style.opacity = '0';
+    setTimeout(() => {
+      notification1.remove();
+
+      document.body.appendChild(notification2);
+      setTimeout(() => {
+        notification2.querySelector('.custom-notification').classList.add('show');
+        setTimeout(() => {
+          notification2.querySelector('.custom-notification').style.opacity = '0';
+          setTimeout(() => {
+            notification2.remove();
+          }, 2000);
+        }, 7000);
+      }, 100);
+    }, 2000);
+  }, 5000);
+})();
+
+(function () {
+  const observer = new MutationObserver(() => {
+    const userElement = document.querySelector('.UserInfoContainerStyle-textDecoration');
+
+    if (userElement && userElement.textContent) {
+      const userText = userElement.textContent;
+      const nick = userText.split(' | ')[1] || userText;
+
+      if (!document.querySelector('.MainScreenComponentStyle-containerPanel')) return;
+      if (document.querySelector('.WelcomeCard')) return;
+
+      const style = document.createElement('style');
+      style.textContent = `
+      @keyframes fadeInCard {
+        0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+        100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+      }
+      @keyframes fadeOutCard {
+        0% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+        100% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+      }
+
+      .SnowContainer {
+        pointer-events: none;
+        position: fixed;
+        inset: 0;
+        z-index: 9998;
+        overflow: hidden;
+      }
+      .snowflake {
+        position: absolute;
+        color: white;
+        user-select: none;
+        will-change: top, transform, opacity;
+        text-shadow: 0 0 6px rgba(255,255,255,0.6);
+        opacity: 0.95;
+        transform: translateX(0);
+      }
+      @keyframes fall {
+        0% { top: -10vh; opacity: 1; }
+        100% { top: 120vh; opacity: 0.85; }
+      }
+      @keyframes sway {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-18px); }
+        100% { transform: translateX(-36px); }
+      }
+
+      .WelcomeCard {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        padding: 2em 2.6em;
+        border-radius: 1.3em !important;
+        border: 0.15em solid rgba(170, 170, 170, 0.15) !important;
+        box-shadow: rgba(0, 0, 0, 0.6) 0rem 0rem 0.6rem 0.12rem !important;
+        background: var(--color) !important;
+        backdrop-filter: blur(6px) !important;
+        z-index: 9999;
+        animation: fadeInCard 0.8s ease forwards;
+        font-family: BaseFontMedium, FallbackFontMedium;
+        color: #fff;
+        font-size: 1.05rem;
+        text-align: center;
+        transform: translate(-50%, -50%);
+      }
+      .WelcomeCard.fade-out { animation: fadeOutCard 1s ease forwards; }
+
+      .Garland {
+        position: absolute;
+        pointer-events: none;
+        inset: -14px;
+        border-radius: 1.6em;
+        z-index: 10001;
+      }
+      .garland-line {
+        position: absolute;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .garland-line.top { top: 6px; left: 12px; right: 12px; height: 18px; }
+      .garland-line.bottom { bottom: 6px; left: 12px; right: 12px; height: 18px; transform: rotate(180deg); }
+
+      .garland-bulb {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        box-shadow: 0 0 8px rgba(255,255,255,0.12), inset 0 -2px 4px rgba(0,0,0,0.25);
+        transform-origin: center;
+        animation: bulbSwing 2.6s ease-in-out infinite;
+      }
+      .garland-bulb:nth-child(odd) { animation-duration: 2.2s; }
+      .garland-bulb:nth-child(even) { animation-duration: 3s; }
+      @keyframes bulbSwing {
+        0% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(2px) rotate(6deg); }
+        100% { transform: translateY(0) rotate(0deg); }
+      }
+
+      .WelcomeCard .title {
+        font-weight: 700;
+        font-size: 1.15rem;
+        letter-spacing: 0.02em;
+        text-shadow: 0 0 10px rgba(255,240,200,0.12), 0 0 20px rgba(255,200,80,0.06);
+      }
+      .WelcomeCard .sub {
+        margin-top: 6px;
+        font-size: 0.95rem;
+        opacity: 0.95;
+      }
+      `;
+
+      document.head.appendChild(style);
+
+      const snowContainer = document.createElement('div');
+      snowContainer.className = 'SnowContainer';
+      const flakesCount = 28;
+      for (let i = 0; i < flakesCount; i++) {
+        const flake = document.createElement('div');
+        flake.className = 'snowflake';
+        const glyphs = ['❆', '❅', '❄'];
+        flake.textContent = glyphs[Math.floor(Math.random() * glyphs.length)];
+        const size = 8 + Math.random() * 18;
+        flake.style.fontSize = size + 'px';
+        const startTop = -5 - Math.random() * 20;
+        flake.style.top = startTop + 'vh';
+        const left = Math.random() * 100;
+        flake.style.left = left + 'vw';
+        const fallDuration = 6 + Math.random() * 8;
+        const fallDelay = Math.random() * 0.6;
+        const swayDuration = 3 + Math.random() * 3;
+        const swayDelay = Math.random() * 0.6;
+        flake.style.animation = `fall ${fallDuration}s linear ${fallDelay}s infinite, sway ${swayDuration}s ease-in-out ${swayDelay}s infinite alternate`;
+        const drift = (left / 100) * -40;
+        flake.style.transform = `translateX(${drift}px)`;
+        flake.style.opacity = (0.6 + Math.random() * 0.4).toString();
+        flake.style.willChange = 'top, transform, opacity';
+        snowContainer.appendChild(flake);
+      }
+      document.body.appendChild(snowContainer);
+
+      const wishes = [
+        "Wishing you joy and bright new beginnings.",
+        "May your days be merry and your heart light.",
+        "Cheers to a year of health and happiness.",
+        "May magic and wonder follow you all year.",
+        "Wishing you warmth, laughter, and new adventures.",
+        "May this year bring you peace and prosperity.",
+        "Hope your year sparkles with moments to cherish.",
+        "Wishing you courage to chase your brightest dreams.",
+        "May every day bring a small, happy surprise.",
+        "Here’s to kindness, growth, and joyful memories."
+      ];
+      const randomWish = wishes[Math.floor(Math.random() * wishes.length)];
+
+      const card = document.createElement('div');
+      card.className = 'WelcomeCard';
+      card.innerHTML = `
+        <div class="Garland" aria-hidden="true">
+          <div class="garland-line top"></div>
+          <div class="garland-line bottom"></div>
+        </div>
+        <div class="title">Welcome, ${nick}</div>
+        <div class="sub">${randomWish}</div>
+      `;
+      document.body.appendChild(card);
+
+      const colors = ['#ff4d4d', '#ffd24d', '#4dff88', '#4dd0ff', '#b84dff', '#ff7ab6'];
+      const garlandLines = card.querySelectorAll('.garland-line.top, .garland-line.bottom');
+      garlandLines.forEach((line) => {
+        const count = Math.floor(8 + Math.random() * 8);
+        for (let i = 0; i < count; i++) {
+          const bulb = document.createElement('span');
+          bulb.className = 'garland-bulb';
+          const color = colors[Math.floor(Math.random() * colors.length)];
+          bulb.style.background = color;
+          bulb.style.boxShadow = `0 0 8px ${hexToRgba(color, 0.45)}, inset 0 -2px 4px rgba(0,0,0,0.25)`;
+          const s = 9 + Math.random() * 6;
+          bulb.style.width = s + 'px';
+          bulb.style.height = s + 'px';
+          bulb.style.animationDelay = (Math.random() * 1.2) + 's';
+          line.appendChild(bulb);
+        }
+      });
+
+      function hexToRgba(hex, alpha) {
+        const h = hex.replace('#', '');
+        const bigint = parseInt(h, 16);
+        const r = (bigint >> 16) & 255;
+        const g = (bigint >> 8) & 255;
+        const b = bigint & 255;
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+      }
+
+      const totalVisible = 7000;
+      setTimeout(() => {
+        card.classList.add('fade-out');
+        snowContainer.style.transition = 'opacity 1s ease';
+        snowContainer.style.opacity = '0';
+        card.addEventListener('animationend', () => {
+          card.remove();
+          style.remove();
+          snowContainer.remove();
+        });
+      }, totalVisible);
+
+      observer.disconnect();
+    }
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+  });
+})();
+
+(function() {
+  'use strict';
+
+  function loadStorage() {
+    try {
+      const obj = JSON.parse(localStorage.getItem('textTypes')) || {};
+      return {
+        blue: Array.isArray(obj.blue) ? obj.blue : [],
+        red:  Array.isArray(obj.red)  ? obj.red  : []
+      };
+    } catch {
+      return { blue: [], red: [] };
+    }
+  }
+
+  function saveStorage() {
+    localStorage.setItem('textTypes', JSON.stringify(store));
+  }
+
+  const css = `
+#textHighlighterMenu {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+  position: fixed;
+  top: 1em;
+  right: 50%;
+  width: 26em;
+  max-height: 70%;
+  overflow-y: auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  z-index: 99999;
+  border-radius: 1.3em !important;
+  padding: 1em;
+  border: 0.15em solid rgba(170, 170, 170, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem;
+  background: var(--color);
+  backdrop-filter: blur(5px);
+  transform: translateX(50%);
+  transition: transform 1s, opacity 1s;
+  color: white;
+}
+
+div#textHighlighterList {
+    font-family: BaseFontMedium, FallbackFontMedium;
+}
+
+#textHighlighterMenu.menu-hidden {
+  transform: translate(50%, -15em) scale(0.2);
+  opacity: 0;
+}
+
+#textHighlighterMenu.menu-visible {
+  transform: translate(50%, 0px) scale(1);
+  opacity: 1;
+}
+
+#textHighlighterMenu input[type='text'] {
+  width: 95%;
+  padding: 4px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-family: BaseFontMedium, FallbackFontMedium;
+  color: wheat;
+  border-radius: 0.5em;
+  border: 0.2em solid rgba(170, 170, 170, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem;
+  background: rgb(0 0 0 / 10%);
+}
+
+#textHighlighterList div {
+  margin: 4px 0;
+}
+
+#textHighlighterList span.term {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s;
+  color: white;
+}
+
+#textHighlighterList span.term.marked {
+  color: red !important;
+}
+
+#textHighlighterList span.sep {
+  user-select: none;
+  color: white;
+}
+
+#textHighlighterClearBtn {
+  width: 15em;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: BaseFontMedium, FallbackFontMedium;
+  color: white;
+  border-radius: 0.5em;
+  border: 0.2em solid rgba(170, 170, 170, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem;
+  background: rgb(0 0 0 / 10%);
+  transition:
+    transform 0.2s ease-in-out,
+    border 0.2s ease-in-out;
+}
+
+button#textHighlighterClearBtn:hover {
+  border: 0.2em solid rgb(255 255 255 / 50%);
+  transform: scale(0.95);
+}
+  `;
+  const styleEl = document.createElement('style');
+  styleEl.textContent = css;
+  document.head.appendChild(styleEl);
+
+
+  // ─── Inject Menu HTML ────────────────────────────────────────────
+  const menuHTML = `
+    <div id="textHighlighterMenu" class="menu-hidden">
+      <input id="textHighlighterInput"
+             type="text"
+             placeholder="Enter /blue(s) text or /red(s) text" />
+      <div id="textHighlighterList"></div>
+      <button id="textHighlighterClearBtn">Clear all</button>
+    </div>
+  `;
+  document.body.insertAdjacentHTML('beforeend', menuHTML);
+
+  const menu          = document.getElementById('textHighlighterMenu');
+  const input         = document.getElementById('textHighlighterInput');
+  const listContainer = document.getElementById('textHighlighterList');
+  const clearBtn      = document.getElementById('textHighlighterClearBtn');
+
+  const TARGET_SELECTOR =
+    '.UsersTableStyle-fontCell span, ' +
+    '.BattleTabStatisticComponentStyle-rowBackGround span';
+
+  function applyInlineHighlight(el, color, shadow) {
+    el.style.removeProperty('color');
+    el.style.removeProperty('text-shadow');
+    el.style.setProperty('color', color, 'important');
+    el.style.setProperty('text-shadow', shadow, 'important');
+  }
+
+  function clearInlineHighlight(el) {
+    el.style.removeProperty('color');
+    el.style.removeProperty('text-shadow');
+  }
+
+  function highlightElement(el) {
+    clearInlineHighlight(el);
+    const txt = el.textContent.toLowerCase();
+    if (store.red.some(t => txt.includes(t.toLowerCase()))) {
+      applyInlineHighlight(el, 'red', 'red 0 0 0.15em');
+    } else if (store.blue.some(t => txt.includes(t.toLowerCase()))) {
+      applyInlineHighlight(el, '#00e5ff', '#00e5ff 0 0 0.15em');
+    }
+  }
+
+  function highlightAll() {
+    document.querySelectorAll(TARGET_SELECTOR)
+            .forEach(highlightElement);
+  }
+
+  function highlightIn(node) {
+    if (node.nodeType !== Node.ELEMENT_NODE) return;
+    node.matches(TARGET_SELECTOR) && highlightElement(node);
+    node.querySelectorAll(TARGET_SELECTOR)
+        .forEach(highlightElement);
+  }
+
+  function updateMenu() {
+    listContainer.innerHTML = '';
+
+    ['blue', 'red'].forEach(color => {
+      const arr  = store[color];
+      const line = document.createElement('div');
+
+      line.append(`${color.charAt(0).toUpperCase() + color.slice(1)} teams: `);
+
+      if (arr.length === 0) {
+        line.append('None');
+      } else {
+        arr.forEach((term, i) => {
+          const span   = document.createElement('span');
+          span.textContent = term;
+          span.classList.add('term');
+          let clicks = 0;
+
+          span.addEventListener('click', () => {
+            clicks++;
+            if (clicks === 2) {
+              span.classList.add('marked');
+            } else if (clicks >= 3) {
+              if (confirm(`Delete term “${term}”?`)) {
+                store[color] = store[color].filter(t => t !== term);
+                saveStorage();
+                updateMenu();
+                highlightAll();
+              } else {
+                span.classList.remove('marked');
+                clicks = 0;
+              }
+            }
+          });
+
+          line.append(span);
+
+          if (i < arr.length - 1) {
+            const sep = document.createElement('span');
+            sep.textContent = ', ';
+            sep.classList.add('sep');
+            line.append(sep);
+          }
+        });
+      }
+
+      listContainer.append(line);
+    });
+  }
+
+  input.addEventListener('keydown', e => {
+    if (e.key !== 'Enter') return;
+    e.preventDefault();
+
+    const v = input.value.trim();
+
+    const m = v.match(/^\/(red|reds|blue|blues)\s+(.+)$/i);
+    if (!m) {
+      alert('Неверный формат. Используйте /red(s) текст[, ещё текст] или /blue(s) текст[, ещё текст].');
+      return;
+    }
+
+    const cmd      = m[1].toLowerCase();
+    const color    = cmd.startsWith('red') ? 'red' : 'blue';
+    const opposite = color === 'blue'   ? 'red'  : 'blue';
+
+    const terms = m[2]
+      .split(',')
+      .map(t => t.trim())
+      .filter(t => t.length > 0);
+
+    if (terms.length === 0) {
+      alert('Укажите хотя бы один термин после команды.');
+      return;
+    }
+
+    terms.forEach(term => {
+      const idxOpp = store[opposite].indexOf(term);
+      if (idxOpp !== -1) {
+        store[opposite].splice(idxOpp, 1);
+      }
+      if (!store[color].includes(term)) {
+        store[color].push(term);
+      }
+    });
+
+    saveStorage();
+    updateMenu();
+    highlightAll();
+    input.value = '';
+  });
+
+  clearBtn.addEventListener('click', () => {
+    if (confirm('Delete all saved terms?')) {
+      store.blue = [];
+      store.red  = [];
+      saveStorage();
+      updateMenu();
+      highlightAll();
+    }
+  });
+
+  function toggleMenu() {
+    menu.classList.toggle('menu-hidden');
+    menu.classList.toggle('menu-visible');
+  }
+
+  const store = loadStorage();
+  updateMenu();
+  highlightAll();
+
+  new MutationObserver(records =>
+    records.forEach(rec =>
+      rec.addedNodes.forEach(highlightIn)
+    )
+  ).observe(document.body, { childList: true, subtree: true });
+
+  document.addEventListener('keydown', e => {
+    if (e.altKey && e.code === 'Insert') {
+      toggleMenu();
+      e.preventDefault();
+    }
+  });
+
+})();
+
+(function() {
+  'use strict';
+
+  document.addEventListener('click', function(e) {
+    const panel = e.target.closest('.MainScreenComponentStyle-containerPanel');
+    if (!panel) return;
+
+    const afterStyle = getComputedStyle(panel, '::after');
+    const content = afterStyle.content.replace(/['"]/g, '');
+    if (content !== 'by Alternative') return;
+
+    const rect = panel.getBoundingClientRect();
+
+    const width  = parseFloat(afterStyle.width)  || panel.scrollWidth;
+    const height = parseFloat(afterStyle.height) || parseFloat(afterStyle.fontSize) * 1.2;
+
+    const x1 = rect.left + (rect.width - width) / 2;
+    const x2 = x1 + width;
+
+    const bottomPx = parseFloat(afterStyle.bottom) || parseFloat(afterStyle.fontSize) * 1.5;
+    const y2 = rect.bottom - bottomPx;
+    const y1 = y2 - height;
+
+    const x = e.clientX;
+    const y = e.clientY;
+
+    if (x >= x1 && x <= x2 && y >= y1 && y <= y2) {
+      window.open('https://t.me/ZxcPrincipal', '_blank');
+    }
+  }, true);
+})();
+
+const css = `
+:root {
+	--third-color: rgb(13, 13, 13);
+	--gradient: radial-gradient(#2d2d2d80 0%, #0d0d0d80 100%);
+	--color: rgb(0 0 0 / 35%);
+	--color-two: rgb(0 0 0 / 35%);
+}
+.preloader,
+.wrapper {
+	background: radial-gradient(
+		60% 125% at 0% 0%,
+		rgb(45 45 45) 0%,
+		rgb(0 0 0) 100%
+	) !important;
+}
+footer.FooterComponentStyle-musicByVospi {
+    display: none !important;
+}
+.BattleMessagesComponentStyle-container {
+    top: 0;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+.BattleMessagesComponentStyle-messageRow {
+    position: relative;
+    top: 3em;
+    right: 7em;
+}
+.InvitationWindowsComponentStyle-commonItem:nth-child(2) {
+    display: none !important;
+}
+.SuccessfulPurchaseComponentStyle-container {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: var(--color-two) !important;
+    backdrop-filter: blur(1em) !important;
+}
+.RankupComponentStyle-wrapper {
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+    background: radial-gradient(50% 192%, rgb(255, 204, 0) 0%, rgba(255, 38, 74, 0.9) 50%, var(--color) 100%);
+    backdrop-filter: blur(5px) !important;
+    width: 90%;
+    height: 70%;
+    animation: SaleByKitStyle 1s ease forwards !important;
+}
+.MatchmakingWaitComponentStyle-container > div:nth-child(1) {
+    display: none !important;
+}
+/*theme name*/
+.ClientInfoComponentStyle-main {
+	display: none;
+}
+.AnnouncementHomeScreenComponentStyle-headerTimer {
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+    background: rgb(0 0 0 / 10%) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 1em !important;
+}
+.AnnouncementHomeScreenComponentStyle-headerTimer span {
+    color: white;
+}
+.ContractCardComponentStyle-card.ContractCardComponentStyle-base.Font-bold {
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: var(--color) !important;
+    backdrop-filter: blur(5px) !important;
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out !important;
+}
+.FriendRequestComponentStyle-blockInformationCommunity {
+    height: 5em !important;
+    padding: 0 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: var(--color) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.DialogPremiumAccountStyle-mainScreen.DialogPremiumAccountStyle-mainScreenAnimation {
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	width: 60% !important;
+	height: 70% !important;
+    animation: SaleByKitStyle 1s ease forwards !important;
+}
+.UserInfoContainerStyle-blockForIconTankiOnline,
+.MainScreenComponentStyle-buttonPlay,
+.BattlePickComponentStyle-modeCards,
+.BattleModesComponentStyle-blockCenter {
+	display: none !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(3)
+	.Common-flexStartAlignStretchColumn
+	.Common-flexStartAlignCenter
+	.Common-flexCenterAlignCenter {
+	box-shadow: none !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(3)
+	.Common-flexStartAlignStretchColumn
+	.Common-flexStartAlignCenter
+	.Common-flexCenterAlignCenter
+	span,
+.Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin
+	span {
+	color: white !important;
+}
+.Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	width: 15em !important;
+	height: 5.7em !important;
+}
+.UserProgressComponentStyle-rankGainedIndicator {
+	border-left: unset !important;
+}
+.BattleHudComponentStyle-hudButton span {
+	display: none !important;
+}
+.Common-contentSpaceBetween
+	.RegistrationComponentStyle-containerItem
+	.InputComponentStyle-input {
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.QuestsChallengesComponentStyle-maxTierBlock
+	> .Common-flexCenterAlignCenterColumn {
+	background: radial-gradient(
+		170.14% 100% at 50% 100%,
+		rgb(0 0 0 / 25%) 0%,
+		rgb(0 0 0 / 0%) 100%
+	);
+}
+.AnnouncementHomeScreenComponentStyle-mainClickContainer
+	.Common-backgroundImageContain {
+	transition: background 1s ease;
+}
+.MainScreenComponentStyle-playButtonContainer:hover {
+	background: rgba(118, 255, 51, 0.2);
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover::before {
+	opacity: 1;
+}
+.MainScreenComponentStyle-playButtonContainer span {
+	z-index: 1;
+}
+.MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-hoverImageCardLocked,
+.MainQuestComponentStyle-cardNeedRank {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.braintree-card.braintree-form.braintree-sheet {
+	padding: 0.5em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color-two) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.braintree-card.braintree-form.braintree-sheet * {
+	color: white !important;
+}
+.BraintreePaymentComponentStyle-formContainer {
+	width: 25% !important;
+}
+.braintree-upper-container:before,
+.BraintreePaymentComponentStyle-formContainer {
+	background: unset !important;
+}
+a.HeaderComponentStyle-siteLink.menuItemClass {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+a.HeaderComponentStyle-siteLink.menuItemClass:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.95) !important;
+}
+.HeaderComponentStyle-iconCloseLinks,
+.HeaderComponentStyle-enableIconLinksComponentShowed {
+	filter: none !important;
+	margin: 0 0.2em !important;
+	margin-right: 2.7em !important;
+	width: 5em !important;
+	height: 5em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background-color: rgb(0 0 0 / 10%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.HeaderComponentStyle-blockForIconToggleSound {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.HeaderComponentStyle-linkBar {
+	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.RoundBigButtonComponentStyle-outerCircle {
+	border: none !important;
+}
+.RoundBigButtonComponentStyle-middleCircle {
+	background-color: unset !important;
+}
+.ContractCardComponentStyle-card.ContractCardComponentStyle-base.Font-bold:hover,
+.RoundBigButtonComponentStyle-innerCircle:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.96) !important;
+}
+.RoundBigButtonComponentStyle-innerCircle {
+	transition: 0.2s ease-in-out !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background-color: var(--color) !important;
+	backdrop-filter: blur(10px) !important;
+}
+button.classbutton {
+	font-family: BaseFontMedium, FallbackFontMedium;
+	text-transform: uppercase;
+	transition: 0.2s ease-in-out;
+}
+button.classbutton:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.93);
+}
+.Common-entranceGradient,
+.Common-Container {
+	position: relative !important;
+	overflow: hidden !important;
+}
+@keyframes unpredictableBg {
+	0% {
+		background-position:
+			30% 30%,
+			50% 50%,
+			20% 20%;
+	}
+	25% {
+		background-position:
+			70% 20%,
+			30% 60%,
+			80% 40%;
+	}
+	50% {
+		background-position:
+			10% 80%,
+			90% 10%,
+			40% 70%;
+	}
+	75% {
+		background-position:
+			60% 40%,
+			20% 90%,
+			70% 30%;
+	}
+	100% {
+		background-position:
+			90% 90%,
+			10% 10%,
+			50% 50%;
+	}
+}
+
+@keyframes unpredictableScale {
+	0% {
+		transform: scale(0.3) rotate(0deg);
+		opacity: 1;
+	}
+	20% {
+		transform: scale(1) rotate(15deg);
+		opacity: 0.8;
+	}
+	40% {
+		transform: scale(0.7) rotate(-10deg);
+		opacity: 0.6;
+	}
+	60% {
+		transform: scale(1) rotate(25deg);
+		opacity: 0.9;
+	}
+	80% {
+		transform: scale(0.3) rotate(-20deg);
+		opacity: 0.7;
+	}
+	100% {
+		transform: scale(1) rotate(0deg);
+		opacity: 1;
+	}
+}
+.BreadcrumbsComponentStyle-rootTitle div {
+	border: none !important;
+}
+.BattleOptionsComponentStyle-commonBlockCheckBoxCreateBattle {
+	border: none !important;
+}
+.Common-flexCenterAlignCenter.JoinToBattleComponentStyle-buttonJoin.ProBattleCommonStyleMobile-buttonContainer {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	scale: 0.97 !important;
+}
+.RulesUpdatedComponentStyle-container {
+    outline: none !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: var(--color) !important;
+    backdrop-filter: blur(5px) !important;
+	animation: DialogContainer 0.5s ease forwards;
+}
+.BattleOptionsComponentStyle-linearGradientImgCard,
+.BattleOptionsComponentStyle-transformLinearGradientImgCard {
+	border-radius: 1em;
+}
+tr.UsersTableStyle-row.UsersTableStyle-rowBattle.UsersTableStyle-rowWidth {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+tr.UsersTableStyle-row.UsersTableStyle-rowBattleEmpty.UsersTableStyle-rowWidth {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(170, 170, 170, 0.1) !important;
+}
+.TanksPartBaseComponentStyle-buttonsContainer
+	> div
+	> .GarageCommonStyle-bigActionButton {
+	box-shadow: none !important;
+}
+.UserProgressComponentStyle-modalWrapper {
+	outline: none !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	width: 90% !important;
+}
+.UserProgressComponentStyle-progressItemUncompleted,
+.UserProgressComponentStyle-itemContainer,
+.UsersTableStyle-row > .UsersTableStyle-rowBattleEmpty {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(170, 170, 170, 0.1) !important;
+}
+.UsersTableStyle-row > .UsersTableStyle-rowBattle {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.BattleTabStatisticComponentStyle-commonBlockScroll {
+	margin-top: 1em !important;
+}
+td.BattleTabStatisticComponentStyle-nicknameCell
+	> div
+	div
+	.Common-flexStartAlignCenter {
+	max-width: 7.5em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	td.BattleTabStatisticComponentStyle-nicknameCell {
+	max-width: 15.625em !important;
+	width: 15.625em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	.BattleTabStatisticComponentStyle-commonBlockScroll {
+	margin-top: 0.5em !important;
+}
+.BattleTabStatisticComponentStyle-tablesContainer
+	thead.TableComponentStyle-thead {
+	display: none !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	td.BattleTabStatisticComponentStyle-scoreCell,
+.BattleTabStatisticComponentStyle-containerInsideTeams
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	td.BattleTabStatisticComponentStyle-dlCell {
+	width: 3em !important;
+	position: relative !important;
+	left: 5em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideTeams
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	.BattleTabStatisticComponentStyle-commonBlock,
+.BattleTabStatisticComponentStyle-containerInsideTeams
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	.BattleTabStatisticComponentStyle-gsCell {
+	position: relative !important;
+	right: 7em !important;
+	visibility: visible !important;
+}
+
+.BattleTabStatisticComponentStyle-containerInsideResults
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	td.BattleTabStatisticComponentStyle-nicknameCell {
+	max-width: 15.625em !important;
+	width: 15.625em !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	.BattleTabStatisticComponentStyle-commonBlockScroll {
+	margin-top: 0.5em !important;
+}
+
+.BattleTabStatisticComponentStyle-containerInsideResults
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	td.BattleTabStatisticComponentStyle-scoreCell,
+.BattleTabStatisticComponentStyle-containerInsideResults
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	td.BattleTabStatisticComponentStyle-dlCell {
+	width: 3em !important;
+	position: relative !important;
+	left: 15em !important;
+}
+.BattleTabStatisticComponentStyle-blueTeamTableContainer
+	table
+	tbody
+	tr
+	.BattleTabStatisticComponentStyle-resistanceModuleCell {
+	position: absolute;
+	left: 20.425em !important;
+}
+.BattleTabStatisticComponentStyle-redTeamTableContainer
+	table
+	tbody
+	tr
+	.BattleTabStatisticComponentStyle-resistanceModuleCell {
+	position: absolute !important;
+	right: 6.5em !important;
+}
+.BattleTabStatisticComponentStyle-dmTableContainer
+	table
+	tbody
+	tr
+	.BattleTabStatisticComponentStyle-resistanceModuleCell {
+	position: absolute;
+	left: 34.425em !important;
+}
+.BattleTabStatisticComponentStyle-resistanceModuleCell {
+	display: flex !important;
+	justify-content: space-between !important;
+	visibility: visible !important;
+	width: 10em !important;
+	border-radius: 0.5em;
+	padding-left: 0.8em !important;
+	padding-right: 0.5em !important;
+	background-color: rgb(0 0 0 / 15%) !important;
+	height: 2em !important;
+	margin-top: 0.2em !important;
+	margin-bottom: 0.2em !important;
+	border: 0.15em solid rgb(150 150 150 / 35%) !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	.BattleTabStatisticComponentStyle-commonBlock,
+.BattleTabStatisticComponentStyle-containerInsideResults
+	.BattleTabStatisticComponentStyle-tablesContainer
+	tr
+	.BattleTabStatisticComponentStyle-gsCell {
+	position: relative !important;
+	visibility: visible !important;
+}
+
+.HeaderComponentStyle-blockForIconToggleSound {
+	background-color: transparent;
+	border: none;
+	border-radius: unset;
+}
+.EntranceComponentStyle-ContainerForm
+	> form
+	> div
+	> .RegistrationComponentStyle-containerItem
+	> .InputComponentStyle-input {
+	backdrop-filter: blur(5px);
+	margin: 5px 0;
+}
+.Common-entranceBackground
+	> .Common-entranceGradient
+	> .Common-flexStartAlignStartColumn {
+	background-color: white;
+	border: 2px solid rgb(111 111 111);
+	border-radius: 1em;
+}
+@keyframes DialogContainer {
+	from {
+		opacity: 0.2;
+		scale: 0.5;
+	}
+	to {
+		opacity: 1;
+		scale: 1;
+	}
+}
+
+#modal-root > div > .Common-flexSpaceBetweenAlignStartColumn,
+.DialogContainerComponentStyle-container {
+	animation: DialogContainer 0.5s ease forwards;
+}
+
+@keyframes BattlePick {
+	from {
+		opacity: 0.2;
+		scale: 0.7;
+	}
+	to {
+		opacity: 1;
+		scale: 1;
+	}
+}
+
+.BattlePickComponentStyle-modeCards {
+	animation: BattlePick 0.5s ease forwards;
+}
+@keyframes BattleTab {
+0% {
+    opacity: 0;
+    transform: scale(0.5);
+}
+70% {
+    transform: scale(1.1);
+}
+100% {
+    opacity: 1;
+    transform: scale(1);
+}
+}
+
+@keyframes BattlePause {
+0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(-50%);
+}
+70% {
+    transform: scale(1.1) translateY(-50%);
+}
+100% {
+    opacity: 1;
+    transform: scale(1) translateY(-50%);
+}
+}
+
+@keyframes SaleByKitStyle {
+	from {
+		opacity: 0.2;
+		scale: 0.5;
+        skew: 35deg;
+	}
+	to {
+		opacity: 1;
+		scale: 1;
+        skew: 0deg;
+	}
+}
+.BattlePauseMenuDialogComponentStyle-wrapper {
+	animation: BattlePause 1s ease forwards;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults,
+.BattleTabStatisticComponentStyle-containerInsideTeams {
+	animation: BattleTab 0.7s ease forwards;
+}
+.SaleByKitStyle-commonBlockModal,
+.ChatComponentStyle-chatWindow,
+.NewsComponentStyle-newsWindow,
+.TutorialModalComponentStyle-modalContainer
+	> .TutorialModalComponentStyle-contentWrapper,
+.TutorialModalComponentStyle-modalContainer
+	> .ItemDescriptionComponentStyle-commonBlockModal {
+	animation: SaleByKitStyle 1s ease forwards !important;
+}
+.BattlePauseMenuComponentStyle-disabledButton,
+.BattlePauseMenuComponentStyle-enabledButton,
+.FriendListComponentStyle-scrollCommunity
+	> .FriendListComponentStyle-stringCommunity
+	> .FriendListComponentStyle-blockList,
+.BattleTabStatisticComponentStyle-tablesContainer > div tbody,
+.ChatComponentStyle-messagesContainer {
+	animation: ChatComponentStyle 1s ease forwards !important;
+}
+
+@keyframes ChatComponentStyle {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		scale: 1;
+	}
+}
+
+.ProBattlesComponentStyle-table > .TableComponentStyle-tBody {
+	animation: TableComponentStyle 0.5s ease forwards !important;
+}
+
+@keyframes TableComponentStyle {
+	from {
+		opacity: 0;
+		transform: scaleY(0.5);
+	}
+	to {
+		transform: scaleY(1);
+		opacity: 1;
+	}
+}
+
+.MenuComponentStyle-battleTitleCommunity {
+	animation: MenuComponentStyle 0.5s ease forwards !important;
+}
+
+@keyframes MenuComponentStyle {
+	from {
+		opacity: 0;
+		transform: translateY(-5em);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.NotificationViewStyle-commonBlockNotification,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(3) {
+	animation: ProBattles-child3 0.5s ease forwards !important;
+}
+
+@keyframes ProBattles-child3 {
+	from {
+		opacity: 0;
+		transform: translateX(20em);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1) {
+	animation: ProBattles-child1 0.5s ease forwards !important;
+}
+
+@keyframes ProBattles-child1 {
+	from {
+		opacity: 0;
+		transform: translateX(-10em);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.UserProgressComponentStyle-progressLegendPlusImage,
+.UserProgressComponentStyle-progressLegendPlusGradient {
+	border-radius: 1.1em !important;
+}
+.UserProgressComponentStyle-progressLegendPlus,
+.UserProgressComponentStyle-progressItemCompleted {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.FooterComponentStyle-musicLink {
+	display: none !important;
+}
+.Common-flexSpaceBetweenAlignCenterColumn.descriptionMode.blockCard {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.ClanCommonStyle-tableInvite thead tr th,
+.ClanProfileEditComponentStyle-containerParametersClanBlockInform {
+	background: none !important;
+}
+.ClanProfileEditComponentStyle-clanDescriptionEdit {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ClanProfileEditComponentStyle-containerParametersClan,
+.AnnouncementComponentStyle-mainContainer {
+	z-index: 1 !important;
+}
+.wrapper
+	.ApplicationLoaderComponentStyle-container
+	> div[style*='linear-gradient'] {
+	background: linear-gradient(
+		rgb(0 0 0 / 0%) 0%,
+		rgb(0 0 0 / 75%) 100%
+	) !important;
+}
+.BattleKillBoardComponentStyle-tableContainer table tbody #selfUserBg {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	background: rgb(255 255 255 / 10%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleKillBoardComponentStyle-tableContainer table tbody #enemyCommand {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	background: rgb(150 0 0 / 10%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleKillBoardComponentStyle-tableContainer table tbody #blueCommand {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	background: rgb(0 60 110 / 15%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexStartAlignCenterColumn.QuestsComponentStyle-scrollBlock,
+.ClanInfoComponentStyle-containerParametersClan {
+	z-index: 1 !important;
+}
+span.ClanInfoComponentStyle-clanActionDescription {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.ClanInvitationsComponentStyle-invitationContent {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgb(36 36 36) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ClanCommonStyle-rowEmpty {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ClanCommonStyle-row,
+.ClanStatisticsComponentStyle-areCommon,
+.ClanInfoComponentStyle-messageClan,
+.ClanHeaderComponentStyle-blockInform {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.ClanInfoComponentStyle-containerParametersClan {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	height: unset !important;
+	padding: 1em !important;
+}
+.BattleChatComponentStyle-btnToggleTeamAll,
+.BattleChatComponentStyle-btnToggleTeamAllies {
+	border-top-left-radius: 0.9em !important;
+	border-bottom-left-radius: 0.9em !important;
+}
+.BattleChatComponentStyle-inputContainerAll,
+.BattleChatComponentStyle-inputContainerAllies {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem,
+		transparent 0rem 0rem 0rem 0rem inset;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px);
+}
+.ClanCreateComponentStyle-blockCreatureClan {
+	border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.FriendRequestComponentStyle-buttonDeclineAllInvisible {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+}
+.QuestsChallengesComponentStyle-eventTier,
+.TableComponentStyle-table thead tr th {
+	background: none !important;
+}
+.QuestsChallengesComponentStyle-blockGradientTiersEvent {
+	background: linear-gradient(
+			rgba(255, 204, 0, 0) 0%,
+			rgb(0 0 0) 50%,
+			rgb(0 0 0 / 0%) 100%
+		)
+		center center / contain no-repeat !important;
+}
+.FriendRequestComponentStyle-buttonAccept {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgb(118 255 51 / 15%) !important;
+}
+.FriendRequestComponentStyle-blockInformationCommunityNoSearch
+	.FriendRequestComponentStyle-buttonDeclineAll,
+.FriendRequestComponentStyle-buttonDecline {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgb(255 102 102 / 15%) !important;
+}
+.TableComponentStyle-table
+	> .TableComponentStyle-tBody
+	> tr.TableComponentStyle-row {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.BattleMessagesComponentStyle-message {
+	border-radius: 0.5em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: none !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(1em);
+}
+.Common-flexCenterAlignCenter.UserTitleComponentStyle-premiumButton {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(255 204 0 / 40%) !important;
+	box-shadow:
+		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 204 0 / 40%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-backButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgb(118 255 51 / 25%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter
+	span {
+	color: rgb(255 255 255) !important;
+	margin: unset !important;
+}
+.InvitationWindowsComponentStyle-typeListContainer h3 {
+	z-index: 1;
+	color: white !important;
+}
+.ShopSelectedSectionComponentStyle-commonCard > .Common-backgroundImageCover {
+	background-color: var(--color) !important;
+}
+.InvitationWindowsComponentStyle-usersScroll
+	> .Common-flexStartAlignStretch
+	> .Common-whiteSpaceNoWrap {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.ShopSelectedSectionComponentStyle-commonCard,
+.ShopSelectedSectionComponentStyle-limitedOffersCommon {
+	background-image: none !important;
+	padding: 0 !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(55, 55, 55) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background-color: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.ShopSelectedSectionComponentStyle-gradientCategory {
+	background: radial-gradient(100% 100% at 0% 100%, #000 0%, #00000000 100%);
+	border-radius: 1.1em;
+	transform: none !important;
+	transition: none !important;
+	bottom: 0 !important;
+}
+.ShopSelectedSectionComponentStyle-commonCard::before,
+.ShopSelectedSectionComponentStyle-commonCard::after,
+.ShopSelectedSectionComponentStyle-limitedOffersCommon::before,
+.ShopSelectedSectionComponentStyle-limitedOffersCommon::after {
+	display: none !important;
+}
+.TableMainQuestComponentStyle-colorLockedGradientTable {
+	background:
+		linear-gradient(
+			90deg,
+			rgba(255, 51, 51, 0.25) 0%,
+			rgba(255, 51, 51, 0) 50%
+		),
+		rgb(0 0 0 / 0%) !important;
+}
+.SuperMissionComponentStyle-descriptionSuperMission
+	> div
+	> .SuperMissionComponentStyle-buttonDisable {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	scale: 0.97 !important;
+	backdrop-filter: blur(5px) !important;
+}
+.SuperMissionComponentStyle-descriptionSuperMission
+	> div
+	> .SuperMissionComponentStyle-buttonCollect {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	background: rgba(118, 255, 51, 0.25) !important;
+	scale: 0.97 !important;
+	backdrop-filter: blur(5px) !important;
+}
+.Common-flexCenterAlignCenter.UserTitleComponentStyle-premiumButton span,
+.BasePaymentComponentStyle-commonContainerForChoiceAndButton
+	> .BasePaymentComponentStyle-buttonContainer
+	> .Common-flexCenterAlignCenter
+	> .ShopBuyButtonComponentStyle-container
+	> .Common-flexStartAlignCenter
+	h4,
+.BasePaymentComponentStyle-commonContainerForChoiceAndButton
+	> .BasePaymentComponentStyle-buttonContainer
+	> .Common-flexCenterAlignCenter
+	span,
+.ChallengePurchaseComponentStyle-buttonBattlePass span,
+.BattleInfoComponentStyle-blockSelectedOptionsSettings span,
+.FormatsSectionComponentStyle-card > .Common-flexCenterAlignCenterColumn h2,
+.ProBattlesComponentStyle-createBattleButton p,
+tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon
+	> .ProBattlesComponentStyle-cellName
+	> .Common-flexStartAlignCenter
+	> div
+	> .Common-whiteSpaceNoWrap,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .BattleModesComponentStyle-blockModesFilter
+	> .Common-flexCenterAlignCenter
+	> .Common-flexStartAlignCenter
+	p,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .Common-flexCenterAlignCenter
+	> .Common-flexStartAlignCenter
+	p,
+h2.EntranceComponentStyle-fontStyleLabel {
+	color: white !important;
+}
+.BattleOptionsSectionComponentStyle-checkBoxSettingsCreateBattle
+	> .Common-flexSpaceBetweenAlignCenter
+	> .Common-flexStartAlignCenter
+	> .Common-maskImageContain,
+.BattleTabStatisticComponentStyle-commonContainerIconOptions
+	> div
+	> .BattleTabStatisticComponentStyle-colorIconBattleOptions,
+.IconStyle-iconAddBattle,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .BattleModesComponentStyle-blockModesFilter
+	> .Common-flexCenterAlignCenter
+	> .Common-maskImageContain,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .Common-flexCenterAlignCenter
+	> .Common-maskImageContain,
+.BattleCreateComponentStyle-blockCard
+	> .Common-flexStartAlignStretchColumn
+	> .Common-flexCenterAlignCenterColumn
+	> .Common-flexCenterAlignCenter {
+	background-color: white !important;
+}
+.MainSectionComponentStyle-commonBlockCheckBoxCreateBattle.ProBattleCommonStyleMobile-commonBlockCheckBoxCreateBattle,
+.NewBattleCreateInputStyle-settings > input.InputComponentStyle-defaultStyle,
+.RegistrationComponentStyle-containerItem > input.InputComponentStyle-input {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.TierHeaderComponentStyle-descriptionTier {
+	filter: saturate(0) !important;
+}
+.TableMainQuestComponentStyle-cardRewardCompletedTable.TableMainQuestComponentStyle-commonTableMainQuest,
+.MainQuestComponentStyle-cardRewardCompleted.iconsMission.MainQuestComponentStyle-animationImgHover {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(118, 255, 51, 0.15) !important;
+	box-shadow:
+		rgba(118, 255, 51, 0.15) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(118, 255, 51, 0.15) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.ScrollBarStyle-itemsContainer
+	> .ChallengeTierComponentStyle-blockTier
+	> .Common-flexCenterAlignCenterColumn {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(55 55 55) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ChallengePurchaseComponentStyle-buttonBattlePass {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(255 204 0 / 40%) !important;
+	box-shadow:
+		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 204 0 / 40%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.ScrollBarStyle-itemsContainer
+	> .ChallengeTierComponentStyle-blockTier
+	> .Common-flexCenterAlignCenterColumn {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.QuestsChallengesComponentStyle-maxTierBlock {
+	border-left: 0.15em solid rgb(55 55 55) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color-two) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.BasePaymentComponentStyle-commonContainerForChoiceAndButton
+	> .BasePaymentComponentStyle-buttonContainer
+	> .Common-flexCenterAlignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(255 102 102 / 40%) !important;
+	box-shadow:
+		rgb(255 102 102 / 40%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 102 102 / 40%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.QuestsChallengesComponentStyle-tiers,
+.QuestsChallengesComponentStyle-premiumTier {
+	background: transparent !important;
+}
+.QuestsChallengesComponentStyle-blockGradientTiersCommon {
+	background: linear-gradient(rgb(0 0 0 / 0%) 0%, rgb(55, 55, 55) 100%) center
+		center / contain no-repeat !important;
+}
+.QuestsChallengesComponentStyle-blockGradientTiersPremium {
+	background: linear-gradient(rgb(55, 55, 55) 0%, rgb(0 0 0 / 0%) 100%) center
+		center / contain no-repeat !important;
+}
+.EventBattlePassLobbyComponentStyle-commonBlockProgressBarChallenge,
+.EventBattlePassLobbyComponentStyle-commonBlockProgressBarEvent {
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 0 0 / 10%) !important;
+	backdrop-filter: blur(5px);
+}
+.QuestsChallengesComponentStyle-blockImage {
+	filter: blur(3px);
+}
+.QuestsChallengesComponentStyle-blockGradient,
+.QuestsChallengesComponentStyle-maxTierBlockFree,
+.QuestsChallengesComponentStyle-blockGradientEvent {
+	background: transparent !important;
+}
+.QuestsChallengesComponentStyle-maxTierBlockEvent {
+	border-left: 0.15em solid rgb(55 55 55) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+}
+.BattleTabStatisticComponentStyle-header.Common-flexStartAlignCenter,
+td.BattleTabStatisticComponentStyle-dlCell,
+td.BattleTabStatisticComponentStyle-scoreCell,
+.ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
+	> .MainSectionComponentStyle-rightBlock
+	> .Common-flexStartAlignStretchColumn
+	> div
+	> .Common-scrollBarHoverVisible,
+.ProBattlesComponentStyle-borderLineCell {
+	border: none !important;
+}
+.BattleInfoComponentStyle-blockSelectedOptionsSettings {
+	box-shadow: none !important;
+}
+.BattleInfoComponentStyle-commonBlockSelectedOptionsSettings {
+	border-top-left-radius: 1.3em !important;
+	border-bottom-left-radius: 1.3em !important;
+	border-left: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(17 17 17) !important;
+	bottom: -0.1em !important;
+}
+.ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
+	> .MainSectionComponentStyle-rightBlock
+	> .Common-flexStartAlignStretchColumn
+	> div
+	> .Common-flexCenterAlignCenter.Common-alignSelfFlexEnd {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.InputComponentStyle-blurBackground {
+	backdrop-filter: none !important;
+}
+.ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
+	> .MainSectionComponentStyle-rightBlock
+	> .Common-flexStartAlignCenter,
+.BattleOptionsSectionComponentStyle-checkBoxSettingsCreateBattle
+	> .Common-flexSpaceBetweenAlignCenter {
+	border: none !important;
+	background: transparent !important;
+}
+.ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween {
+	border-top-left-radius: 1.3em !important;
+	border-bottom-left-radius: 1.3em !important;
+	border-left: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	height: 95% !important;
+	padding-bottom: 1em !important;
+	margin-block: 1em !important;
+}
+.BattleResultNavigationComponentStyle-commonBlockProBattleButton
+	> .Common-flexCenterAlignCenter.BattleResultNavigationComponentStyle-buttonNextWithTimer.BattleResultNavigationComponentStyle-buttonWithTimer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(118, 255, 51, 0.25) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon {
+	width: 97% !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleInfoComponentStyle-commonBlockSelectBattle
+	> .BattleInfoComponentStyle-selectBattle {
+	border-top-left-radius: 1.3em !important;
+	border-bottom-left-radius: 1.3em !important;
+	border-left: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	backdrop-filter: blur(5px) !important;
+	height: 95% !important;
+	padding-bottom: 1em !important;
+	filter: saturate(0) !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .BattleModesComponentStyle-blockModesFilter
+	> .Common-flexCenterAlignCenter
+	> .Common-maskImageContain {
+	position: relative !important;
+	left: unset !important;
+}
+.CoinPaymentComponentStyle-containerCenter
+	> .CoinPaymentComponentStyle-itemsContainer
+	> .Common-flexCenterAlignCenterColumn {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .Common-flexCenterAlignCenter,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .BattleModesComponentStyle-blockModesFilter
+	> .Common-flexCenterAlignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleModesComponentStyle-button .Common-flexCenterAlignCenter > div {
+	filter: saturate(0) !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn
+	> .Common-flexStartAlignStartColumn
+	> .ProBattlesComponentStyle-createBattleButton {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition: scale 0.2s ease-in-out !important;
+	scale: 0.8 !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn
+	> .Common-flexStartAlignStartColumn
+	> .ProBattlesComponentStyle-createBattleButton:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	scale: 0.75 !important;
+}
+.BattleCreateComponentStyle-mainContainer
+	> .ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
+	> .MainSectionComponentStyle-rightBlock
+	> .JoinToBattleComponentStyle-buttonJoin,
+#root
+	> div
+	> div.ProBattlesComponentStyle-mainContainer
+	> div.Common-flexStartAlignCenterColumn
+	> div.Common-flexStartAlignStretchColumn
+	> div.Common-flexStartAlignCenter
+	> div {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	scale: 0.97 !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	.BattleModesComponentStyle-button,
+.BattleModesComponentStyle-button .Common-flexCenterAlignCenter,
+.Common-flexStartAlignCenter.BattleModesComponentStyle-fund,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn,
+#root
+	> div
+	> div.ProBattlesComponentStyle-mainContainer
+	> div.Common-flexStartAlignCenterColumn
+	> div.Common-flexStartAlignStretchColumn
+	> div.Common-flexStartAlignCenter
+	> div.Common-flexCenterAlignCenterColumn
+	> div,
+#root
+	> div
+	> div.ProBattlesComponentStyle-mainContainer
+	> div.Common-flexStartAlignCenterColumn
+	> div.Common-flexStartAlignStretchColumn
+	> div.Common-flexStartAlignCenter.ProBattleCommonStyleMobile-buttonContainer
+	> div.Common-flexCenterAlignCenter
+	> div,
+#root
+	> div
+	> div.ProBattlesComponentStyle-mainContainer
+	> div.Common-flexStartAlignCenterColumn
+	> div.Common-flexStartAlignStretchColumn
+	> div.Common-flexStartAlignCenter
+	> div
+	> div.Common-flexCenterAlignCenter.ButtonComponentStyle-disabled {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.UsersTableStyle-containerBattleListCommands
+	> .UsersTableStyle-scrollCommandTable
+	> .Common-flexStartAlignStartColumn
+	> .UsersTableStyle-rowBattleEmpty,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(3)
+	> .Common-scrollBarHoverVisible
+	> .UsersTableStyle-containerBattleListCommands
+	> .UsersTableStyle-scrollCommandTable
+	> .Common-flexStartAlignStartColumn
+	> .UsersTableStyle-row
+	> .UsersTableStyle-rowBattleEmpty {
+	margin: 0.1em !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(108 108 108 / 10%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.UsersTableStyle-containerBattleListCommands
+	> .UsersTableStyle-scrollCommandTable
+	> .Common-flexStartAlignStartColumn
+	> .UsersTableStyle-rowBattle,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(3)
+	> .Common-scrollBarHoverVisible
+	> .UsersTableStyle-containerBattleListCommands
+	> .UsersTableStyle-scrollCommandTable
+	> .Common-flexStartAlignStartColumn
+	> .UsersTableStyle-row
+	> .UsersTableStyle-rowBattle {
+	margin: 0.1em !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleCardComponentStyle-line {
+	background: transparent !important;
+}
+.MapCardComponentStyle-linearGradient,
+.MainSectionComponentStyle-linearGradientImgCard,
+.MainSectionComponentStyle-transformLinearGradientImgCard {
+	border-radius: 1.1em !important;
+}
+.BattleCreateComponentStyle-blockCard
+	> .Common-flexStartAlignStretchColumn
+	> .Common-flexCenterAlignCenterColumn {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleCreateComponentStyle-blockCard
+	> .Common-flexStartAlignStretchColumn
+	> .Common-backgroundImageCover,
+.InformationComponentStyle-commonBlockCard
+	> .BattleCardComponentStyle-cardImg.InformationComponentStyle-blockCard.Common-flexCenterAlignCenterColumn.Common-backgroundImageCover,
+.BattleInfoComponentStyle-blockCard
+	> .Common-backgroundImageCover.modeLimitIcon,
+.Common-flexStartAlignStretchColumn.ProBattleCommonStyleMobile-marginTop
+	> .Common-backgroundImageCover.modeLimitIcon {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(55 55 55) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background-color: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+        animation: SaleByKitStyle 1s ease forwards !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(3) {
+	border-top-left-radius: 1.3em !important;
+	border-bottom-left-radius: 1.3em !important;
+	border-left: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	height: 95% !important;
+	padding-bottom: 1em !important;
+}
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1) {
+	border-top-right-radius: 1.3em !important;
+	border-bottom-right-radius: 1.3em !important;
+	border-right: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-top: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	height: 95% !important;
+	padding-bottom: 1em !important;
+}
+.ProBattlesComponentStyle-navigationBlock {
+	border: none !important;
+}
+.ContextMenuStyle-menuItemRank span {
+	color: rgb(255, 102, 102) !important;
+}
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-containerButtonStore.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(255 204 0 / 40%) !important;
+	box-shadow:
+		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 204 0 / 40%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenterColumn.MainQuestComponentStyle-needRank,
+.TutorialModalComponentStyle-modalContainer
+	> .ItemDescriptionComponentStyle-commonBlockModal
+	> .Common-flexStartAlignStartColumn
+	> .MainQuestComponentStyle-rewardsCommonBlock
+	> .MainQuestComponentStyle-rewardsInDescriptionModal
+	> .Common-flexStartAlignCenter,
+.SuperMissionComponentStyle-descriptionSuperMission
+	> div
+	> .Common-flexEndAlignCenterColumn
+	> .SuperMissionComponentStyle-rewardsContainer
+	> .Common-flexCenterAlignCenterColumn,
+.TableMainQuestComponentStyle-rewardsContainerTable
+	> .Common-flexCenterAlignCenterColumn,
+.MainQuestComponentStyle-rewardsContainer
+	> .Common-flexCenterAlignCenterColumn {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-buttonContainer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.TableMainQuestComponentStyle-colorLockedGradientTable,
+.MainQuestComponentStyle-colorLockedGradient {
+	border-radius: 1em !important;
+}
+.TableMainQuestComponentStyle-commonTableMainQuest.TableMainQuestComponentStyle-cardLockedTable,
+.MainQuestComponentStyle-commonCard.iconsMission.TableMainQuestComponentStyle-cardLockedTable.MainQuestComponentStyle-animationImgHover {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 204 0 / 10%) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.MainQuestComponentStyle-cardPlayCommon.TableMainQuestComponentStyle-commonTableMainQuest,
+.TableMainQuestComponentStyle-commonTableMainQuest.MainQuestComponentStyle-cardCommonLocked,
+.TableMainQuestComponentStyle-commonTableMainQuest.TableMainQuestComponentStyle-cardLockedTable,
+.MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-colorCardPlay.MainQuestComponentStyle-animationImgHover,
+.MainQuestComponentStyle-cardPlay.iconsMission.MainQuestComponentStyle-animationImgHover {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.SuperMissionComponentStyle-descriptionSuperMission > div {
+	background: transparent !important;
+}
+.BattleInfoComponentStyle-invite,
+.BattleInfoComponentStyle-invite > .Common-flexStartAlignCenter,
+.BattleInfoComponentStyle-customOptions,
+.SuperMissionComponentStyle-descriptionSuperMission,
+.ProBattlesComponentStyle-commonBlockHotkeyV {
+	background: transparent !important;
+	border: none !important;
+}
+.PaymentInfoComponentStyle-commonBlock {
+	border-bottom: none !important;
+}
+.LargeSingleCardComponentStyle-largeCardContainer
+	> .LargeSingleCardComponentStyle-commonBlock
+	> .Common-flexCenterAlignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(255 204 0 / 40%) !important;
+	box-shadow:
+		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 204 0 / 40%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.LargeSingleCardComponentStyle-largeCardContainer
+	> .LargeSingleCardComponentStyle-commonBlock
+	> .Common-backgroundImageCover {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(85 5 34) !important;
+	box-shadow:
+		rgb(85 5 34) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background-color: rgb(85 5 34) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ShopCategoryOfferSectionStyle-containerLimitOffers
+	> .Common-flexCenterAlignCenter
+	> .Common-flexWrapWrap
+	> .Common-flexCenterAlignCenterColumn {
+	border-radius: 1.3em !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(50 50 50 / 10%) !important;
+}
+.ShopCategoryOfferSectionStyle-containerLimitOffers
+	> .Common-flexCenterAlignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color-two) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleCreateComponentStyle-mainContainer
+	> .ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
+	> .MainSectionComponentStyle-rightBlock
+	> .JoinToBattleComponentStyle-buttonJoin
+	span,
+#root
+	> div
+	> div.ProBattlesComponentStyle-mainContainer
+	> div.Common-flexStartAlignCenterColumn
+	> div.Common-flexStartAlignStretchColumn
+	> div.Common-flexStartAlignCenter
+	> div
+	span,
+#root
+	> div
+	> div.ProBattlesComponentStyle-mainContainer
+	> div.Common-flexStartAlignCenterColumn
+	> div.Common-flexStartAlignStretchColumn
+	> div.Common-flexStartAlignCenter.ProBattleCommonStyleMobile-buttonContainer
+	> div.Common-flexCenterAlignCenter
+	> div
+	span,
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-containerButtonStore.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter
+	span,
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-buttonContainer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter
+	span,
+.LargeSingleCardComponentStyle-largeCardContainer
+	> .LargeSingleCardComponentStyle-commonBlock
+	> .Common-flexCenterAlignCenter
+	span,
+.PromoCodesComponentStyle-controlsWrapper
+	.PromoCodesComponentStyle-sendButton
+	span {
+	color: rgb(255 255 255) !important;
+}
+.PromoCodesComponentStyle-controlsWrapper .PromoCodesComponentStyle-sendButton {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.PromoCodesComponentStyle-controlsWrapper {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color-two) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ShopCategoryComponentStyle-bonusContainer {
+	background-color: rgb(0 0 0 / 25%) !important;
+}
+.ShopSelectedSectionComponentStyle-activeCategory {
+	margin: 1.25em !important;
+}
+.Common-entranceBackground {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	background-image: url(/play/static/images/background.fc2779c1.webp) !important;
+}
+.ClanCommonStyle-content,
+.Common-entranceGradient,
+html,
+body,
+.Common-container {
+	background: var(--gradient);
+}
+.BattleHudComponentStyle-hudButton {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 0.5em !important;
+	width: 4.6em !important;
+	margin-left: 0.25em;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px);
+	position: relative;
+	top: 0.25em;
+	height: 1.5em;
+	padding: unset !important;
+}
+tr.BattleTabStatisticComponentStyle-selectedRowBackGround,
+tr.BattleTabStatisticComponentStyle-rowBackGround {
+	border-radius: 0.7em !important;
+	border: 0.15em solid rgb(150 150 150 / 35%) !important;
+	box-shadow: none !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults,
+.BattleTabStatisticComponentStyle-containerInsideTeams {
+	border-radius: 1em !important;
+	border: 0.15em solid rgb(150 150 150 / 35%) !important;
+	box-shadow:
+		rgb(0 0 0 / 35%) 0rem 0rem 0.5rem 0.2rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 0 0 / 35%) !important;
+	backdrop-filter: blur(1em) !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults
+	table
+	thead
+	tr
+	th
+	.Common-maskImageContain,
+.BattleTabStatisticComponentStyle-redTeamTableContainer
+	table
+	thead
+	tr
+	th
+	.Common-maskImageContain,
+.BattleTabStatisticComponentStyle-blueTeamTableContainer
+	table
+	thead
+	tr
+	th
+	.Common-maskImageContain {
+	background-color: white !important;
+}
+.BattleTabStatisticComponentStyle-containerInsideResults table thead tr th h2,
+.BattleTabStatisticComponentStyle-blueTeamTableContainer table thead tr th h2,
+.BattleTabStatisticComponentStyle-redTeamTableContainer table thead tr th h2 {
+	color: white !important;
+}
+.MainScreenComponentStyle-buttonPlay {
+	position: absolute !important;
+	margin: unset !important;
+	width: 22.5em !important;
+	height: 10em !important;
+	top: 7em !important;
+	left: 1em !important;
+	transition: 0.2s ease-in-out !important;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem
+	span {
+	transition: 0.2s ease-in-out;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem {
+	top: 7em !important;
+	left: 1em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.MainScreenComponentStyle-playButtonContainer span {
+	color: white !important;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.96) !important;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay {
+	height: 10em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(170 170 170 / 25%) !important;
+	box-shadow:
+		rgb(0 0 0 / 50%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color-two) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay
+	.Common-backgroundImageContain {
+	filter: saturate(0) !important;
+}
+.MainScreenComponentStyle-playButtonContainer h3 {
+	color: rgb(255 255 255) !important;
+}
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay:active {
+	border: 0.15em solid rgb(255 102 102 / 50%) !important;
+	box-shadow:
+		rgb(255 102 102 / 50%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background-color: rgb(255 102 102 / 14%) !important;
+}
+li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer {
+	margin: 0.3em 0.5em !important;
+	width: 21em !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer
+	div {
+	background-color: white;
+}
+li.PrimaryMenuItemComponentStyle-itemCommonLi.PrimaryMenuItemComponentStyle-menuItemContainer:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.95) !important;
+}
+.PrimaryMenuItemComponentStyle-itemName {
+	font-size: 1.5em !important;
+	margin: 0.2em 0 0 0 !important;
+}
+.MainScreenComponentStyle-blockMainMenu ul {
+	width: 22em !important;
+	top: 8em !important;
+	bottom: unset !important;
+	left: 1em !important;
+	position: absolute !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	align-items: center;
+}
+.MainScreenComponentStyle-containerPanel {
+    width: 98% !important;
+    top: 1em !important;
+    right: 50% !important;
+    transform: translateX(50%) !important;
+    border-radius: 1.3em !important;
+    padding: 0 0.2em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+    background: var(--color) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin:hover,
+.AnnouncementHomeScreenComponentStyle-mainContainer:hover,
+.EventBattlePassLobbyComponentStyle-buttonEventBattlePass:hover,
+.BattlePassLobbyComponentStyle-menuBattlePass:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.96) !important;
+}
+.AnnouncementHomeScreenComponentStyle-mainContainer,
+.EventBattlePassLobbyComponentStyle-buttonEventBattlePass,
+.BattlePassLobbyComponentStyle-menuBattlePass {
+	transition: 0.2s ease-in-out !important;
+}
+.BattlePassLobbyComponentStyle-menuBattlePass {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	right: 1em !important;
+	margin-top: 8em !important;
+}
+.BattlePassLobbyComponentStyle-commonDescription,
+.BattlePassLobbyComponentStyle-blockBattlePass {
+	background-color: transparent !important;
+	border: 0em solid transparent !important;
+}
+.FooterComponentStyle-containerMenu {
+	transition: transform 0.1s linear;
+	box-shadow: none !important;
+}
+.FooterComponentStyle-containerMenu div {
+	background-color: white;
+}
+footer.FooterComponentStyle-footer ul {
+	width: unset !important;
+	margin: unset !important;
+}
+li.FooterComponentStyle-containerMenu.FooterComponentStyle-containerMenu:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+}
+li.FooterComponentStyle-containerMenu.FooterComponentStyle-containerMenu {
+	width: 4.3em !important;
+	height: 3em !important;
+	margin: 0 0.2em !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgb(0 0 0 / 10%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+footer.FooterComponentStyle-footer {
+	flex-direction: column;
+	position: absolute !important;
+	height: 5em !important;
+	right: unset !important;
+	left: 1em !important;
+	bottom: 1em !important;
+	width: unset !important;
+	padding: 0 1em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.FooterComponentStyle-containerMenu:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.95) !important;
+}
+.AnnouncementHomeScreenComponentStyle-mainContainer
+	> .Common-flexCenterAlignCenterColumn {
+	display: none !important;
+}
+.AnnouncementHomeScreenComponentStyle-mainClickContainer
+	> .Common-backgroundImageContain {
+	border-radius: 1.3em !important;
+}
+.AnnouncementHomeScreenComponentStyle-announceContainer {
+	background: linear-gradient(transparent 0%, rgb(0 0 0) 100%) !important;
+	border-radius: 1.3em !important;
+}
+.AnnouncementHomeScreenComponentStyle-mainContainer {
+	bottom: 1em !important;
+	right: 1em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.AnnouncementHomeScreenComponentStyle-mainBackGroundContainer {
+	width: 22.5em !important;
+	height: 10em !important;
+}
+.ChatComponentStyle-upMenu,
+.ChatComponentStyle-closeArea,
+.NewsComponentStyle-header,
+.NewsComponentStyle-closeArea {
+	background-color: transparent !important;
+}
+.ChatComponentStyle-chatResize {
+	display: none;
+}
+.ChatComponentStyle-channelsSelect > .ChatComponentStyle-channelSelect {
+	border-radius: 0.8em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 0 0 / 10%) !important;
+}
+.ChatComponentStyle-messageRow {
+	border-radius: 0.8em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 0 0 / 10%) !important;
+}
+.EventBattlePassLobbyComponentStyle-buttonEventBattlePass {
+	width: 22.5em !important;
+	height: 10em !important;
+	padding: unset !important;
+	bottom: 1em !important;
+	margin: unset !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	right: 1em !important;
+	top: 19em !important;
+}
+.ChallengeTimerComponentStyle-textTime {
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgb(0 0 0 / 10%) !important;
+	border-radius: 1em !important;
+	color: white !important;
+}
+.EventBattlePassLobbyComponentStyle-commonBlockProgressBar {
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 0 0 / 10%) !important;
+}
+.MainScreenComponentStyle-containerPanel
+	> .UserScoreComponentStyle-blockRightPanel
+	> .BreadcrumbsComponentStyle-logout,
+.MainScreenComponentStyle-containerPanel
+	> .UserScoreComponentStyle-blockRightPanel
+	> .Common-flexCenterAlignCenter,
+.MainScreenComponentStyle-containerPanel
+	> .UserInfoContainerStyle-blockLeftPanel
+	> .UserInfoContainerStyle-userTitleContainer
+	> .Common-flexCenterAlignCenterColumn,
+.MainScreenComponentStyle-containerPanel
+	> .UserInfoContainerStyle-blockLeftPanel
+	> .UserInfoContainerStyle-userTitleContainer
+	> .Common-flexCenterAlignCenter,
+.MainScreenComponentStyle-containerPanel
+	> .UserInfoContainerStyle-blockLeftPanel
+	> .UserInfoContainerStyle-userTitleContainer
+	> .Common-flexStartAlignCenter
+	> .UserInfoContainerStyle-rankIconContainerClickable {
+	margin: 0 0.2em !important;
+	width: 5em !important;
+	height: 5em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 0 0 / 10%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.HeaderComponentStyle-iconCloseLinks:hover,
+.HeaderComponentStyle-enableIconLinksComponentShowed:hover,
+.Common-flexSpaceBetweenAlignCenterColumn.descriptionMode.blockCard:hover,
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-backButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter:hover,
+.Common-flexCenterAlignCenter.InvitationWindowsComponentStyle-inviteButton.Font-bold.Font-normal.Common-flexCenterAlignCenter.Common-displayFlex.Common-alignCenter:hover,
+.InvitationWindowsComponentStyle-usersScroll
+	> .Common-flexStartAlignStretch
+	> .Common-whiteSpaceNoWrap:hover,
+.ShopSelectedSectionComponentStyle-commonCard:hover,
+.ShopSelectedSectionComponentStyle-limitedOffersCommon:hover,
+.SuperMissionComponentStyle-descriptionSuperMission
+	> div
+	> .SuperMissionComponentStyle-buttonCollect:hover,
+.TableMainQuestComponentStyle-cardRewardCompletedTable.TableMainQuestComponentStyle-commonTableMainQuest:hover,
+.MainQuestComponentStyle-cardRewardCompleted.iconsMission.MainQuestComponentStyle-animationImgHover:hover,
+.BasePaymentComponentStyle-commonContainerForChoiceAndButton
+	> .BasePaymentComponentStyle-buttonContainer
+	> .Common-flexCenterAlignCenter:hover,
+.ChallengePurchaseComponentStyle-buttonBattlePass:hover,
+.ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
+	> .MainSectionComponentStyle-rightBlock
+	> .Common-flexStartAlignStretchColumn
+	> div
+	> .Common-flexCenterAlignCenter.Common-alignSelfFlexEnd:hover,
+.BattleCreateComponentStyle-mainContainer
+	> .ProBattlesComponentStyle-rightPanel.Common-flexSpaceBetween
+	> .MainSectionComponentStyle-rightBlock
+	> .JoinToBattleComponentStyle-buttonJoin:hover,
+.BattleCreateComponentStyle-blockCard
+	> .Common-flexStartAlignStretchColumn
+	> .Common-flexCenterAlignCenterColumn:hover,
+.BattleCreateComponentStyle-blockCard
+	> .Common-flexStartAlignStretchColumn
+	> .Common-backgroundImageCover:hover,
+.BattleResultNavigationComponentStyle-commonBlockProBattleButton
+	> .Common-flexCenterAlignCenter.BattleResultNavigationComponentStyle-buttonNextWithTimer.BattleResultNavigationComponentStyle-buttonWithTimer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
+tr.Common-flexStartAlignCenter.Common-flexWrapNowrap.modeLimitIcon:hover,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .Common-flexCenterAlignCenter:hover,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(1)
+	.Common-flexStartAlignStartColumn
+	> .BattleModesComponentStyle-blockModesFilter
+	> .Common-flexCenterAlignCenter:hover,
+.UsersTableStyle-containerBattleListCommands
+	> .UsersTableStyle-scrollCommandTable
+	> .Common-flexStartAlignStartColumn
+	> .UsersTableStyle-rowBattle:hover,
+#root
+	> div
+	> div.ProBattlesComponentStyle-mainContainer
+	> div.Common-flexStartAlignCenterColumn
+	> div.Common-flexStartAlignStretchColumn
+	> div.Common-flexStartAlignCenter
+	> div:hover,
+.ProBattlesComponentStyle-mainContainer
+	> .Common-flexStartAlignCenterColumn:nth-child(3)
+	> .Common-scrollBarHoverVisible
+	> .UsersTableStyle-containerBattleListCommands
+	> .UsersTableStyle-scrollCommandTable
+	> .Common-flexStartAlignStartColumn
+	> .UsersTableStyle-row
+	> .UsersTableStyle-rowBattle:hover,
+.Common-flexStartAlignStretchColumn.ProBattleCommonStyleMobile-marginTop
+	> .Common-backgroundImageCover.modeLimitIcon:hover,
+.FriendListComponentStyle-stringCommunity
+	> .FriendListComponentStyle-blockList:hover,
+.BattleHudComponentStyle-hudButton:hover,
+.MainScreenComponentStyle-containerPanel
+	> .UserScoreComponentStyle-blockRightPanel
+	> .BreadcrumbsComponentStyle-logout:hover,
+.MainScreenComponentStyle-containerPanel
+	> .UserScoreComponentStyle-blockRightPanel
+	> .Common-flexCenterAlignCenter:hover,
+.MainScreenComponentStyle-containerPanel
+	> .UserInfoContainerStyle-blockLeftPanel
+	> .UserInfoContainerStyle-userTitleContainer
+	> .Common-flexCenterAlignCenterColumn:hover,
+.MainScreenComponentStyle-containerPanel
+	> .UserInfoContainerStyle-blockLeftPanel
+	> .UserInfoContainerStyle-userTitleContainer
+	> .Common-flexCenterAlignCenter:hover,
+.MainScreenComponentStyle-containerPanel
+	> .UserInfoContainerStyle-blockLeftPanel
+	> .UserInfoContainerStyle-userTitleContainer
+	> .Common-flexStartAlignCenter
+	> .UserInfoContainerStyle-rankIconContainerClickable:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.95) !important;
+}
+.BasePaymentComponentStyle-commonContainerForChoiceAndButton
+	> .BasePaymentComponentStyle-buttonContainer
+	> .Common-flexCenterAlignCenter
+	> .ShopBuyButtonComponentStyle-container
+	> .Common-flexStartAlignCenter
+	> div {
+	filter: saturate(0) brightness(100);
+}
+.UserScoreComponentStyle-blockRightPanel > div > .HeaderCommonStyle-icons {
+	border: none !important;
+	background: transparent !important;
+}
+.ContainerInfoComponentStyle-rewardsMenuHotkey,
+.HotKey-commonBlockForHotKey,
+.ProBattlesComponentStyle-createBattleButton h3,
+.Common-buttonQE span,
+.Common-buttonQE:hover,
+.Common-buttonQE,
+.BreadcrumbsComponentStyle-backButton h3,
+.Common-container .HotKey-commonBlockForHotKey,
+.BattlePauseMenuComponentStyle-hotKey {
+	display: none !important;
+}
+span.PrimaryMenuItemComponentStyle-discountNotification {
+	width: 1em !important;
+	height: 1em !important;
+	background-color: rgb(255 255 255) !important;
+	box-shadow:
+		rgb(255 255 255 / 50%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+}
+.UserInfoContainerStyle-progressValue {
+	text-shadow: rgb(0, 0, 0) 0em 0em 0.15em !important;
+	color: rgb(255, 102, 102) !important;
+}
+.UserInfoContainerStyle-progressValue span {
+	color: rgb(255 102 102 / 65%) !important;
+}
+.UserInfoContainerStyle-xpIcon {
+	filter: saturate(0) !important;
+}
+.UserInfoContainerStyle-containerProgressMainScreen
+	> .Common-flexStartAlignStartColumn {
+	background-color: rgb(255 102 102 / 50%) !important;
+}
+.UserInfoContainerStyle-containerProgressMainScreen
+	> .Common-flexStartAlignStartColumn:after {
+	filter: drop-shadow(0 0 3px rgb(255 102 102)) !important;
+	background-color: rgb(255 102 102) !important;
+}
+.InvitationWindowsComponentStyle-commonBorder,
+.InvitationWindowsComponentStyle-commonBlockButton {
+	background: transparent !important;
+	border: none !important;
+}
+.InvitationWindowsComponentStyle-commonItem {
+    top: 8em !important;
+    left: 1em !important;
+    border-radius: 1.3em !important;
+    border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem, transparent 0rem 0rem 0rem 0rem inset !important;
+    background: var(--color) !important;
+    backdrop-filter: blur(1em) !important;
+}
+tr.BattleTabStatisticComponentStyle-selectedRowBackGround
+	.BattleTabStatisticComponentStyle-nicknameCell
+	div
+	div
+	.Common-flexStartAlignCenter
+	.Common-whiteSpaceNoWrap {
+	text-shadow: rgb(255, 102, 102) 0em 0em 0.15em !important;
+	color: rgb(255, 102, 102) !important;
+}
+.ScrollingCardsComponentStyle-selectCard {
+	border: none !important;
+}
+.FormatsSectionComponentStyle-card:hover,
+.BattlePickComponentStyle-commonStyleBlock.cardImgEvents:hover,
+.ScrollingCardsComponentStyle-scrollCard:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.97) !important;
+}
+.FormatsSectionComponentStyle-card,
+.ScrollingCardsComponentStyle-scrollCard {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+    animation: SaleByKitStyle 1s ease forwards !important;
+}
+.FormatsSectionComponentStyle-card
+	> .Common-backgroundImageCover.Common-backgroundImageCover.Common-backgroundImage {
+	filter: saturate(0.5);
+}
+.FormatsSectionComponentStyle-card > .Common-flexCenterAlignCenterColumn {
+	border: none !important;
+	background: transparent !important;
+}
+.BattlePickComponentStyle-cardImgEvent,
+.Common-backgroundImageCover {
+	transform: none !important;
+}
+.BreadcrumbsComponentStyle-headerContainer {
+	border-bottom: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.BreadcrumbsComponentStyle-headerContainer
+	> .Common-flexCenterAlignStart
+	> .Common-flexStartAlignCenter
+	> .UserInfoContainerStyle-containerRightBorder,
+.BreadcrumbsComponentStyle-headerContainer
+	> .Common-flexCenterAlignStart
+	> .BreadcrumbsComponentStyle-backButton,
+.BreadcrumbsComponentStyle-headerContainer
+	> .Common-flexCenterAlignStart
+	> .Common-flexStartAlignCenter
+	> .UserInfoContainerStyle-rankIconContainerClickable,
+.BreadcrumbsComponentStyle-headerContainer
+	> .BreadcrumbsComponentStyle-rightButtonsContainer
+	> .BreadcrumbsComponentStyle-exitGameButton,
+.BreadcrumbsComponentStyle-headerContainer
+	> .BreadcrumbsComponentStyle-rightButtonsContainer
+	> .Common-flexCenterAlignCenter {
+	margin: 0 0.15em !important;
+	width: 5em !important;
+	height: 5em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-containerButtonStore.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
+.Common-flexCenterAlignCenter.MainQuestComponentStyle-buttonContainer.Common-flexCenterAlignCenterColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignCenter:hover,
+.TableMainQuestComponentStyle-commonTableMainQuest.MainQuestComponentStyle-cardCommonLocked:hover,
+.MainQuestComponentStyle-cardPlayCommon.TableMainQuestComponentStyle-commonTableMainQuest:hover,
+.TableMainQuestComponentStyle-commonTableMainQuest.TableMainQuestComponentStyle-cardLockedTable:hover,
+.MainQuestComponentStyle-commonCard.iconsMission.MainQuestComponentStyle-colorCardPlay.MainQuestComponentStyle-animationImgHover:hover,
+.MainQuestComponentStyle-commonCard.iconsMission.TableMainQuestComponentStyle-cardLockedTable.MainQuestComponentStyle-animationImgHover:hover,
+.MainQuestComponentStyle-cardPlay.iconsMission.MainQuestComponentStyle-animationImgHover:hover,
+.LargeSingleCardComponentStyle-largeCardContainer
+	> .LargeSingleCardComponentStyle-commonBlock
+	> .Common-flexCenterAlignCenter:hover,
+.ShopCategoryOfferSectionStyle-containerLimitOffers
+	> .Common-flexCenterAlignCenter:hover,
+.PromoCodesComponentStyle-controlsWrapper
+	.PromoCodesComponentStyle-sendButton:hover,
+.NewShopCommonComponentStyle-commonContainer
+	> .NewShopCommonComponentStyle-commonBlockMenuShop
+	> div
+	> .Common-flexStartAlignCenter:hover,
+.ShopCategoryOfferSectionStyle-containerCoin
+	> .Common-flexStartAlignStart
+	> .Common-flexCenterAlignCenterColumn:hover,
+.ShopCategoryOfferSectionStyle-containerItem
+	> .Common-flexStartAlignStart
+	> .Common-flexCenterAlignCenterColumn:hover,
+.ContainersComponentStyle-contentContainer
+	> .ContainersComponentStyle-bottomBlock
+	> .DeviceButtonComponentStyle-blockAlterations
+	> .Common-flexCenterAlignCenter:hover,
+.BattleResultNavigationComponentStyle-disabledButtonWithTimer:hover,
+.BattlePauseMenuComponentStyle-redMenuButton:hover,
+.BattlePauseMenuComponentStyle-menuButton:hover,
+.NotificationViewStyle-commonBlockButtonYesNo
+	> .Common-flexCenterAlignCenter:hover,
+.DialogContainerComponentStyle-footerContainer
+	> .Common-flexCenterAlignCenter:hover,
+.TwitchSettingsRendersStyle-TwitchTextAndButtonBlock
+	> .TwitchSettingsRendersStyle-button:hover,
+.AccountSettingsComponentStyle-commonBlock
+	> .AccountSettingsComponentStyle-mountTagButton
+	> .AccountSettingsComponentStyle-buttonChangesOptions:hover,
+.SecuritySettingsComponentStyle-about2FaTextAndButtonBlock
+	> .SecuritySettingsComponentStyle-button:hover,
+.GameSettingsStyle-notificationsTextAndButtonBlock
+	> .GameSettingsStyle-button:hover,
+.SettingsButtonsComponentStyle-containerGroupButton
+	> .SettingsButtonsComponentStyle-buttonsWidthBackReset:hover,
+.DropDownStyle-dropdownRoot
+	> .VerticalScrollStyle-outerContainerStyle
+	> .DropDownStyle-innerContainerStyle
+	> div
+	> .Common-flexStartAlignCenter:hover,
+li.SettingsMenuComponentStyle-menuItemOptions:hover,
+.GarageProtectionsComponentStyle-equipmentResistance:hover,
+.PaintsCollectionComponentStyle-commonBlockForDescriptionAndButton
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .SquarePriceButtonComponentStyle-commonBlockButton:hover,
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-descriptionContainer
+	> .GarageSuppliesComponentStyle-containerButtons
+	> .SquarePriceButtonComponentStyle-commonBlockButton:hover,
+.GarageCommonStyle-garageContainer > div > .Common-borderRadius4px:hover,
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .TanksPartBaseComponentStyle-buttonsContainer
+	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(2):hover,
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .TanksPartBaseComponentStyle-buttonsContainer
+	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1):hover,
+.GarageMenuComponentStyle-garageMenuContainer
+	> .GarageCommonStyle-subMenu
+	> .Common-flexSpaceBetweenAlignStartColumn
+	> .GarageTurretsAlterationsComponentStyle-mountStandardButton
+	> .AlterationButtonStyle-buyButton:hover,
+.Common-scrollBarVisible
+	> .SkinsComponentStyle-styleColumn
+	> .SkinCellStyle-widthHeight:hover,
+.DeviceButtonComponentStyle-blockAlterations
+	> div
+	> .SkinsIconComponentStyle-cellSkins
+	> .Common-flexCenterAlignCenter:hover,
+.DeviceButtonComponentStyle-blockAlterations
+	> .Common-flexCenterAlignCenter:hover,
+.Common-itemStyle:hover,
+.MountedItemsStyle-commonForCellResistenceName.Common-backgroundImage:hover,
+.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls:hover,
+.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsWeapon.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls:hover,
+.MountedItemsStyle-containerBlockGarage
+	.MountedItemsStyle-commonBlockGrenades:hover,
+.MountedItemsStyle-containerBlockGarage
+	.MountedItemsStyle-commonBlockDrone:hover,
+.SuppliesComponentStyle-blocksCell .SuppliesComponentStyle-cellAdd:hover,
+.ContainersComponentStyle-possibleRewardsBlock
+	> .ContainersComponentStyle-rewards
+	> .Common-flexCenterAlignCenterColumn:hover,
+.ContainerInfoComponentStyle-itemsContainer
+	> .Common-flexStartAlignStretchColumn
+	> .Common-flexCenterAlignCenterColumn:hover,
+.ContainerInfoComponentStyle-rewardsMenu > .Common-flexCenterAlignCenter:hover,
+.BattleResultNavigationComponentStyle-disabledButton:hover,
+.BattleResultNavigationComponentStyle-button:nth-child(2):hover,
+.FriendListComponentStyle-buttonAddFriends:hover,
+.MatchmakingWaitComponentStyle-cancelButton:hover,
+.BreadcrumbsComponentStyle-headerContainer
+	> .Common-flexCenterAlignStart
+	> .Common-flexStartAlignCenter
+	> .UserInfoContainerStyle-containerRightBorder:hover,
+.BreadcrumbsComponentStyle-headerContainer
+	> .Common-flexCenterAlignStart
+	> .BreadcrumbsComponentStyle-backButton:hover,
+.BreadcrumbsComponentStyle-headerContainer
+	> .Common-flexCenterAlignStart
+	> .Common-flexStartAlignCenter
+	> .UserInfoContainerStyle-rankIconContainerClickable:hover,
+.BreadcrumbsComponentStyle-headerContainer
+	> .BreadcrumbsComponentStyle-rightButtonsContainer
+	> .BreadcrumbsComponentStyle-exitGameButton:hover,
+.BreadcrumbsComponentStyle-headerContainer
+	> .BreadcrumbsComponentStyle-rightButtonsContainer
+	> .Common-flexCenterAlignCenter:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.95) !important;
+}
+.BreadcrumbsComponentStyle-rightButtonsContainer
+	> div
+	> .HeaderCommonStyle-icons {
+	border: none !important;
+	background: transparent !important;
+}
+.BreadcrumbsComponentStyle-headerContainer > .Common-flexCenterAlignStart {
+	align-items: center !important;
+}
+.BreadcrumbsComponentStyle-headerContainer
+	> .Common-flexCenterAlignStart
+	> .Common-flexCenterAlignCenter {
+	display: none;
+}
+.LobbyLoaderComponentStyle-container {
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) saturate(0.5);
+}
+.LobbyLoaderComponentStyle-loaderContainer {
+	display: none !important;
+}
+.LobbyLoaderComponentStyle-container > .LobbyLoaderComponentStyle-logo {
+	animation: logoAnim 1s linear infinite;
+	animation-fill-mode: both;
+	position: relative;
+}
+@keyframes logoAnim {
+	0% {
+		filter: drop-shadow(0 0 30px white);
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	20% {
+		opacity: 0.5;
+	}
+	40% {
+		opacity: 0.8;
+	}
+	50% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 0.8;
+	}
+	80% {
+		opacity: 0.5;
+	}
+	100% {
+		filter: drop-shadow(0 0 5px rgb(255, 102, 102));
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+.UserInfoContainerStyle-blockForIconTankiOnline img {
+	animation: UserInfoAnim 2s linear infinite;
+	animation-fill-mode: both;
+	position: relative;
+}
+@keyframes UserInfoAnim {
+	0% {
+		filter: drop-shadow(0 0 5px rgb(255, 102, 102));
+	}
+	50% {
+		filter: drop-shadow(0 0 30px rgb(255, 5, 45));
+	}
+	100% {
+		filter: drop-shadow(0 0 5px rgb(255, 102, 102));
+	}
+}
+.ContextMenuStyle-menu,
+.TooltipStyle-tooltip {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color-two) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ContextMenuStyle-menu > .Common-flexStartAlignCenter,
+.ContextMenuStyle-menuItemRank {
+	background: transparent !important;
+}
+.UserScoreComponentStyle-coinsContainer {
+	border: none !important;
+}
+#modal-root > div > .Common-flexSpaceBetweenAlignStartColumn,
+.DialogContainerComponentStyle-container {
+	outline: none !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.BattlePickComponentStyle-modeCards {
+	padding: 1em !important;
+	border-radius: 1.6em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	height: unset !important;
+	width: unset !important;
+}
+.BattlePickComponentStyle-commonStyleBlock.cardImgEvents {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+#modal-root > div {
+	background: transparent !important;
+}
+.MatchmakingWaitComponentStyle-contentContainer,
+.MatchmakingWaitComponentStyle-cancelButton {
+	height: 4.5em !important;
+}
+.MatchmakingWaitComponentStyle-container > div {
+	background-image: none !important;
+}
+.MatchmakingWaitComponentStyle-cancelButton span {
+	margin: 0.5em 1em !important;
+}
+.MatchmakingWaitComponentStyle-cancelButton {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	height: unset !important;
+	width: unset !important;
+	padding: 0.5em !important;
+}
+.MatchmakingWaitComponentStyle-container > div {
+	margin: 0 1em !important;
+	background-image: none;
+}
+.MatchmakingWaitComponentStyle-container {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(2em) !important;
+	width: 41.25em;
+	height: 5em;
+	position: absolute;
+	top: 1.5em;
+	right: 50%;
+	transform: translateX(50%);
+}
+.SuppliesComponentStyle-screenShotButtonOpen {
+	filter: drop-shadow(0 0 3px rgb(255, 102, 102)) !important;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA20lEQVR4nO2UQQrCQAxF/zG0XshqS0/gzl3BpXUlggheqrZn0RPYunFjZeALIslgzbjSQDb56X/TJh3gF2IBoFNyaTWfAbh5AE6bv2s2AXBSjHKhP1d6nUcsATTzjedQa+WZo9T8EK3RaT4+QAagBnBhVgDSUIC9Z8g7KyBj7cqVjJgFa05LLICaNWf4GgW1gwXQsjYU+gfUmhCASOgfUTtbAJXnE62olRZA+jTkQhny1AIAV1Fb0y0C/WgJt6VllsLJTYA+ofpol133QYqXXUwhhPm41zv/A9+MO74ysZQOexG2AAAAAElFTkSuQmCC') !important;
+	width: 2em !important;
+	height: 2em !important;
+}
+.NotificationViewStyle-commonBlockNotification {
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	border-right: none !important;
+}
+.NotificationViewStyle-commonBlockNotification,
+.NotificationViewStyle-positionBlock {
+	border-top-left-radius: 1em !important;
+	border-bottom-left-radius: 1em !important;
+}
+.NotificationViewStyle-commonBlockButtonYesNo
+	> .Common-flexCenterAlignCenter
+	span {
+	color: white !important;
+}
+.NotificationViewStyle-progressNotification {
+	rotate: -90deg !important;
+	filter: brightness(5) blur(1px) saturate(0) !important;
+	border-right: 1em solid rgb(0, 25, 38) !important;
+	border-left: 1em solid rgb(75, 41, 57) !important;
+	margin-top: unset !important;
+	width: 46% !important;
+	height: 1em !important;
+	position: absolute !important;
+	bottom: 6em !important;
+	left: -8em;
+	border-radius: 1em !important;
+	box-shadow: rgb(0, 0, 0) 0 0 0.5rem 0 !important;
+}
+.NotificationViewStyle-commonBlockButtonYesNo > .Common-flexCenterAlignCenter {
+	border-radius: 1.1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 0 0 / 10%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.NotificationViewStyle-positionBlock {
+	border: none !important;
+}
+.FriendListComponentStyle-scrollCommunity {
+	animation: SaleByKitStyle 1s ease forwards !important;
+	height: 47em !important;
+	padding: 1em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	min-height: 5em !important;
+}
+.FriendListComponentStyle-stringCommunity
+	> .FriendListComponentStyle-blockList {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.FriendListComponentStyle-buttonAddFriends,
+.SearchInputComponentStyle-searchInput > .Font-normal {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.MenuComponentStyle-decorLineMenu {
+	background: transparent !important;
+}
+.FriendListComponentStyle-containerButtonFriends
+	> .ButtonComponentStyle-disabled {
+	border-radius: 1.3em !important;
+	box-shadow:
+		rgb(255 102 102 / 20%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 102 102 / 30%) !important;
+}
+.FriendListComponentStyle-buttonCloseAddFriends {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.MenuComponentStyle-battleTitleCommunity {
+	height: 3em !important;
+	padding: unset !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.Common-menuItemActive {
+	display: none !important;
+}
+.MenuComponentStyle-battleTitleCommunity .Common-displayFlex {
+	align-items: center !important;
+}
+.MenuComponentStyle-mainMenuItem.Common-activeMenu {
+	color: rgb(255, 102, 102) !important;
+	height: 2em !important;
+}
+.MenuComponentStyle-mainMenuItem:hover {
+	color: rgb(255, 102, 102) !important;
+}
+.MenuComponentStyle-mainMenuItem .Common-activeMenu,
+.MenuComponentStyle-mainMenuItem.Common-activeMenu .Common-activeMenu {
+	background-color: rgb(255 102 102 / 15%) !important;
+}
+.MenuComponentStyle-mainMenuItem .Common-activeMenu,
+.MenuComponentStyle-mainMenuItem.Common-activeMenu .Common-activeMenu,
+.MenuComponentStyle-mainMenuItem.Common-activeMenu .Common-activeMenu:hover {
+	color: rgb(255, 102, 102) !important;
+}
+.ReceivedRewardsComponentStyle-stringRewards
+	.Common-flexCenterAlignCenterColumn.RewardCardComponentStyle-fastAppearance,
+.AnimationOpenContainerComponentStyle-rewardContainer {
+	border-radius: 1.6em !important;
+	border: 0.15em solid rgb(70 70 70) !important;
+	box-shadow: var(--color-two) 0rem 0rem 1.5rem 0.1rem !important;
+	background-color: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	border-top-left-radius: 0.5em !important;
+}
+.ContainersComponentStyle-possibleRewardsBlock
+	> .ContainersComponentStyle-rewards
+	> .Common-flexCenterAlignCenterColumn {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgb(70 70 70) !important;
+	box-shadow: var(--color-two) 0rem 0rem 1.5rem 0.1rem !important;
+	background-color: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	border-top-left-radius: 0.5em !important;
+}
+.ContainerInfoComponentStyle-itemsContainer
+	> .Common-flexStartAlignStretchColumn
+	> .Common-flexCenterAlignCenterColumn {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1.6em !important;
+	border: 0.15em solid rgb(70 70 70) !important;
+	box-shadow: var(--color-two) 0rem 0rem 1.5rem 0.1rem !important;
+	background-color: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	border-top-left-radius: 0.5em !important;
+}
+.AnimationOpenContainerComponentStyle-rewardContainer
+	.Common-flexCenterAlignCenterColumn {
+	border-radius: 1.4em !important;
+	box-shadow: none !important;
+}
+.ContainersComponentStyle-rightPane,
+.ContainersComponentStyle-leftPane {
+	background: transparent !important;
+}
+.ItemDescriptionComponentStyle-descriptionBlockDevice.ItemDescriptionComponentStyle-descriptionBlockDevice
+	> .ItemDescriptionComponentStyle-captionDevice.Common-flexSpaceAroundAlignStretchColumn.Common-displayFlexColumn.Common-displayFlex.Common-alignStretch.ContainersComponentStyle-description,
+.ContainersComponentStyle-infoPanel
+	> .ContainersComponentStyle-possibleRewardsBlock {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.ContainersComponentStyle-contentContainer .ContainersComponentStyle-infoPanel {
+	padding: 1em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.BattleResultNavigationComponentStyle-commonBlockBattleResultNavigation
+	> .Common-flexCenterAlignCenter
+	> .BattleResultNavigationComponentStyle-buttonsQE {
+	width: unset !important;
+}
+.BattleResultNavigationComponentStyle-commonBlockBattleResultNavigation {
+	border: none !important;
+}
+.BattleResultHeaderComponentStyle-resultBg {
+	display: none !important;
+}
+.BattleResultHeaderComponentStyle-descriptionVictory
+	> .BattleResultHeaderComponentStyle-flashLight {
+	background: transparent !important;
+}
+.BattleResultQuestProgressComponentStyle-container {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.BattleResultNavigationComponentStyle-disabledButton {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleResultNavigationComponentStyle-button:nth-child(2) {
+	border-radius: 1em !important;
+	border: 0.15em solid rgb(0 255 25 / 10%) !important;
+	box-shadow:
+		rgb(0 255 25 / 10%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 255 25 / 10%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattleResultUserInfoComponentStyle-progressVictoryContainer,
+.BattleRewardsComponentStyle-commonBlockButtonRewards
+	.BattleRewardsComponentStyle-normalRow,
+.BattleRewardsComponentStyle-commonBlockButtonRewards
+	.BattleRewardsComponentStyle-selectedRow {
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.GarageMenuComponentStyle-garageMenuContainer
+	> .GarageCommonStyle-subMenu
+	> .Common-flexSpaceBetweenAlignStartColumn,
+.ContainerInfoComponentStyle-lootBoxDescriptionContainer {
+	background: transparent !important;
+	border: none !important;
+}
+.ContainersComponentStyle-navigationBlockForCategories {
+	border: none !important;
+}
+.ContainerInfoComponentStyle-rewardsMenu {
+	margin-top: 1em !important;
+	padding: 0.5em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.ContainerInfoComponentStyle-rewardsMenu > .Common-flexCenterAlignCenter {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.ScrollBarStyle-leftScrollArrow,
+.ScrollBarStyle-rightScrollArrow {
+	background: transparent !important;
+}
+.SuppliesComponentStyle-decorLine {
+	background: transparent !important;
+}
+.SuppliesComponentStyle-blocksCell {
+	bottom: 0.5em !important;
+	padding: 1em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.SuppliesComponentStyle-blocksCell .SuppliesComponentStyle-cellAdd {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.TankParametersStyle-leftParamsContainer.GarageCommonStyle-animatedBlurredLeftBlock {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.MountedItemsStyle-container.GarageCommonStyle-animatedBlurredRightBlock {
+	width: 23.5em !important;
+	padding: 1em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls,
+.MountedItemsStyle-commonBlockForTurretsHulls.MountedItemsComponentStyleMobile-commonBlockForTurretsWeapon.MountedItemsComponentStyleMobile-commonBlockForTurretsHulls,
+.MountedItemsStyle-containerBlockGarage .MountedItemsStyle-commonBlockGrenades,
+.MountedItemsStyle-containerBlockGarage .MountedItemsStyle-commonBlockDrone {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.GarageMainScreenStyle-blockParameters
+	> div
+	> .CssCommonAnimations-appearFromLeft
+	> div {
+	z-index: 1 !important;
+}
+.MountedItemsStyle-commonForCellResistenceName.Common-backgroundImage {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.ListItemsComponentStyle-itemsListContainer.CssCommonAnimations-appearFromBottom
+	.Common-flexCenterAlignCenter,
+.ListItemsComponentStyle-itemsListContainer.CssCommonAnimations-appearFromBottom {
+	background: transparent !important;
+}
+.Common-scrollBarVisible
+	> .SkinsComponentStyle-styleColumn
+	> .SkinCellStyle-widthHeight,
+.Common-itemStyle {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	border-top-left-radius: 0.5em !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.TanksPartComponentStyle-descriptionContainer
+	> .ItemDescriptionComponentStyle-descriptionBlockDevice
+	> .ItemDescriptionComponentStyle-captionDevice,
+.TanksPartComponentStyle-commonBlockDescriptionDevices
+	> .TanksPartComponentStyle-blockForImageResistanceModule,
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	.TanksPartComponentStyle-descriptionContainer
+	.GarageCommonStyle-animatedBlurredLeftBlock
+	> div:nth-child(2),
+.GarageCommonStyle-animatedBlurredLeftBlock
+	> .ItemDescriptionComponentStyle-descriptionBlockDevice
+	> .ItemDescriptionComponentStyle-captionDevice {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.DeviceButtonComponentStyle-blockAlterations
+	> div
+	> .SkinsIconComponentStyle-cellSkins
+	> .Common-flexCenterAlignCenter,
+.DeviceButtonComponentStyle-blockAlterations > .Common-flexCenterAlignCenter {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+@media screen and (min-width: 1280px), (min-height: 950px) {
+	.GarageMainScreenStyle-blockParameters {
+		width: calc(100% - 10em) !important;
+	}
+}
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-descriptionContainer
+	> .GarageSuppliesComponentStyle-containerButtons
+	> .SquarePriceButtonComponentStyle-commonBlockButton
+	> div
+	> .SquarePriceButtonComponentStyle-paddingPriceStyleButton
+	> .Font-medium,
+.GarageMenuComponentStyle-garageMenuContainer
+	> .GarageCommonStyle-subMenu
+	> .Common-flexSpaceBetweenAlignStartColumn
+	> .GarageTurretsAlterationsComponentStyle-mountStandardButton
+	> .AlterationButtonStyle-buyButton
+	> .Common-flexEndAlignEnd
+	> .Font-bold {
+	color: rgb(255 255 255) !important;
+}
+.GarageMenuComponentStyle-garageMenuContainer
+	> .GarageCommonStyle-subMenu
+	> .Common-flexSpaceBetweenAlignStartColumn
+	> .GarageTurretsAlterationsComponentStyle-mountStandardButton
+	> .AlterationButtonStyle-buyButton {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-descriptionContainer
+	> .GarageSuppliesComponentStyle-containerButtons
+	> .SquarePriceButtonComponentStyle-commonBlockButton,
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .TanksPartBaseComponentStyle-buttonsContainer
+	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1) {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(0 125 175 / 35%) !important;
+	box-shadow:
+		rgb(0 125 175 / 35%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(0 125 175 / 35%) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .TanksPartBaseComponentStyle-buttonsContainer
+	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1)
+	> div
+	> .SquarePriceButtonComponentStyle-paddingPriceStyleButton
+	> .Font-medium {
+	color: rgb(255 255 255) !important;
+}
+.PaintsCollectionComponentStyle-commonBlockForDescriptionAndButton
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .SquarePriceButtonComponentStyle-commonBlockButton,
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .TanksPartBaseComponentStyle-buttonsContainer
+	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(2) {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(118 255 51 / 20%) !important;
+	box-shadow:
+		rgb(118 255 51 / 10%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: radial-gradient(
+			50% 100% at 50% 0%,
+			rgb(118 255 51 / 50%) 0%,
+			rgb(118 255 51 / 10%) 100%
+		)
+		var(--color-two);
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .TanksPartBaseComponentStyle-buttonsContainer
+	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(2)
+	> .Common-flexEndAlignEnd
+	> .Font-bold {
+	color: rgb(118, 255, 51) !important;
+}
+.GarageCommonStyle-garageContainer > div > .Common-borderRadius4px {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.GarageCommonStyle-animatedBlurredLeftBlock,
+.TanksPartBaseComponentStyle-buttonsContainer.MountedItemsComponentStyleMobile-buttonsContainer.GarageCommonStyle-animatedBlurredRightBlock,
+.Common-displayFlexColumn.GarageCommonStyle-animatedBlurredRightBlock {
+	backdrop-filter: unset !important;
+}
+.MainScreenComponentStyle-containerPanel:after {
+    content: 'by Rite';
+    position: absolute;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1.5em;
+    font-family: BaseFontMedium, FallbackFontMedium;
+    text-transform: uppercase;
+    text-shadow: #ffffff 0 0 0.5em;
+    background: linear-gradient(90deg, #f3a683, #f7d794, #778beb, #e77f67, #cf6a87, #c44569, #e15f41, #546de5, #f5cd79, #f19066, #f3a683);
+    background-size: 400% 100% !important;
+    animation: PrincipalBackground 8s linear infinite !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+.GarageProtectionsComponentStyle-equipmentResistance {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-boxShadowForButton {
+	border-radius: 0.7em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.FriendListComponentStyle-buttonDisableAdd img,
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .TanksPartBaseComponentStyle-buttonsContainer
+	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1)
+	> .Common-flexCenterAlignCenter
+	> .Common-backgroundImage,
+.TanksPartBaseComponentStyle-blockInsideContainerItem
+	> .TanksPartComponentStyle-tankPartUpgrades
+	> .TanksPartBaseComponentStyle-buttonsContainer
+	> .SquarePriceButtonComponentStyle-commonBlockButton:nth-child(1)
+	> div
+	> .SquarePriceButtonComponentStyle-paddingPriceStyleButton
+	> .GarageCommonStyle-iconCoinSmall.Common-backgroundImageContain {
+	filter: saturate(0) brightness(100) !important;
+}
+#modal-root > div > .Common-displayFlex {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.DropDownStyle-dropdownRoot > .DropDownStyle-dropdownControl {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.DropDownStyle-dropdownRoot
+	> .VerticalScrollStyle-outerContainerStyle
+	> .DropDownStyle-innerContainerStyle
+	> div
+	> .Common-flexStartAlignCenter {
+	margin: 0.2em 0 !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.JoinToBattleComponentStyle-buttonJoin.ProBattleCommonStyleMobile-buttonContainer
+	span {
+	color: white;
+}
+.DropDownStyle-dropdownRoot > .VerticalScrollStyle-outerContainerStyle {
+	margin-top: 0.5em !important;
+	padding: 0.7em 0.5em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(19 19 19) !important;
+	scrollbar-color: rgb(188 188 188) transparent !important;
+}
+.CheckBoxStyle-checkbox > label > .Common-displayFlex {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.CheckBoxStyle-checkbox > label > .Common-displayFlex::before {
+	filter: saturate(0) !important;
+}
+.SettingsComponentStyle-scrollingMenu {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	scrollbar-color: rgb(188 188 188) transparent !important;
+}
+.SettingsMenuComponentStyle-slideMenuOptions {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.SettingsMenuComponentStyle-yellowLineMenuOptions {
+	display: none !important;
+}
+.SettingsMenuComponentStyle-slideMenuOptions {
+	display: none !important;
+}
+.SettingsMenuComponentStyle-activeItemOptions span {
+	color: rgb(255, 102, 102);
+}
+li.SettingsMenuComponentStyle-menuItemOptions {
+	height: 3em;
+	margin: 0.3em 0 !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+li.SettingsMenuComponentStyle-activeItemOptions {
+	box-shadow:
+		rgb(255 102 102 / 10%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 102 102 / 10%) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.AccountSettingsComponentStyle-blockTextOptions h1,
+.InputRangeComponentStyle-blockSoundVolume p span {
+	color: rgb(255, 102, 102) !important;
+}
+
+.SettingsButtonsComponentStyle-containerGroupButton
+	> .SettingsButtonsComponentStyle-buttonsWidthBackReset {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.Common-flexCenterAlignCenter.SettingsButtonsComponentStyle-buttonsWidthBackReset
+	span {
+	color: white !important;
+}
+.TwitchSettingsRendersStyle-TwitchTextAndButtonBlock
+	> .TwitchSettingsRendersStyle-button,
+.GameSettingsStyle-notificationsTextAndButtonBlock > .GameSettingsStyle-button {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(118 255 51 / 35%) !important;
+	box-shadow:
+		rgb(118 255 51 / 35%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(118 255 51 / 35%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.SecuritySettingsComponentStyle-about2FaTextAndButtonBlock
+	> .SecuritySettingsComponentStyle-button {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(255 102 102 / 40%) !important;
+	box-shadow:
+		rgb(255 102 102 / 40%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 102 102 / 40%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.AccountSettingsComponentStyle-commonBlock
+	> .AccountSettingsComponentStyle-mountTagButton
+	> .AccountSettingsComponentStyle-buttonChangesOptions {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(255 204 0 / 40%) !important;
+	box-shadow:
+		rgb(255 204 0 / 40%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 204 0 / 40%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.SettingsComponentStyle-scrollingMenu * .ButtonComponentStyle-disabled {
+	border: 0.15em solid rgb(170 170 170 / 20%) !important;
+	border-radius: 1.3em !important;
+}
+.AccountSettingsComponentStyle-blockInputEmail input {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(255 255 255 / 10%) !important;
+}
+.KeyMappingWithIconComponentStyle-overdrives,
+.KeyMappingWithIconComponentStyle-commonBlockSupplies,
+.KeyboardSettingsComponentStyle-keyInput {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.DialogContainerComponentStyle-footerContainer
+	> .DialogContainerComponentStyle-enterButton {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(118 255 51 / 25%) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.DialogContainerComponentStyle-footerContainer
+	> .Common-flexCenterAlignCenter:nth-child(1) {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.DialogContainerComponentStyle-container
+	*
+	.DialogContainerComponentStyle-enterButton
+	span {
+	color: white !important;
+}
+.FriendListComponentStyle-containerButtonFriends
+	> .FriendListComponentStyle-buttonNoFoundUser {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(235 87 87 / 50%) !important;
+	box-shadow:
+		rgb(235 87 87 / 50%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(235 87 87 / 50%) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.FriendListComponentStyle-containerButtonFriends
+	> .FriendListComponentStyle-buttonFoundAdd {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgb(116 186 61 / 50%) !important;
+	box-shadow:
+		rgb(116 186 61 / 50%) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgb(116 186 61 / 50%) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.TableMainQuestComponentStyle-cardRewardGivenTable,
+.MainQuestComponentStyle-cardRewardGiven,
+.PaintsCollectionComponentStyle-commonBlockPaint
+	> .Common-flexCenterAlignCenter {
+	box-shadow: none !important;
+}
+.SaleByKitStyle-commonBlockModal
+	> .Common-alignContentStart
+	> .SaleByKitStyle-commonCard:hover {
+	border: 0.15em solid rgb(255 255 255 / 50%) !important;
+	transform: scale(0.95) !important;
+}
+.SaleByKitStyle-commonBlockModal
+	> .Common-alignContentStart
+	> .SaleByKitStyle-commonCard {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+.SaleByKitStyle-commonBlockModal,
+.ChatComponentStyle-chatWindow,
+.NewsComponentStyle-newsWindow,
+.TutorialModalComponentStyle-modalContainer
+	> .TutorialModalComponentStyle-contentWrapper,
+.TutorialModalComponentStyle-modalContainer
+	> .ItemDescriptionComponentStyle-commonBlockModal {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem !important;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px) !important;
+	transform: translate(50%, 50%);
+	right: 50% !important;
+	bottom: 50% !important;
+	height: 90% !important;
+	left: unset !important;
+	position: absolute !important;
+	top: unset !important;
+}
+.BattlePauseMenuComponentStyle-redMenuButton,
+.BattlePauseMenuComponentStyle-menuButton {
+	margin: 2px 0px !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.BattlePauseMenuDialogComponentStyle-wrapper {
+	padding: 20px !important;
+	max-width: 27em !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgb(0, 0, 0) 0rem 0rem 0.5rem 0.2rem,
+		transparent 0rem 0rem 0rem 0rem inset;
+	background: var(--color) !important;
+	backdrop-filter: blur(5px);
+}
+.BattlePauseMenuDialogComponentStyle-content {
+	padding-left: 0em !important;
+	padding-right: 0em !important;
+}
+.BattlePauseMenuComponentStyle-disabledButton {
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(255, 255, 255, 0.2) !important;
+}
+.BattlePauseMenuComponentStyle-blackGlobalWrapper {
+	background: transparent !important;
+}
+.BattleResultNavigationComponentStyle-disabledButtonWithTimer {
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(118, 255, 51, 0.25) !important;
+}
+.ContainersComponentStyle-contentContainer
+	> .ContainersComponentStyle-bottomBlock
+	> .DeviceButtonComponentStyle-blockAlterations
+	> .Common-flexCenterAlignCenter
+	span {
+	color: rgb(255 255 255) !important;
+	margin: unset !important;
+}
+.SettingsComponentStyle-commonBlock
+	> .SecuritySettingsComponentStyle-containerFormOptions
+	> .SecuritySettingsComponentStyle-about2FaTextAndButtonBlock
+	> .SecuritySettingsComponentStyle-button
+	span,
+.SettingsComponentStyle-commonBlock
+	> .TwitchSettingsRendersStyle-twitchForm
+	> .TwitchSettingsRendersStyle-TwitchTextAndButtonBlock
+	> .TwitchSettingsRendersStyle-button
+	span,
+.AccountSettingsComponentStyle-commonBlock
+	> .AccountSettingsComponentStyle-mountTagButton
+	> .AccountSettingsComponentStyle-buttonChangesOptions
+	span,
+.GameSettingsStyle-notificationsTextAndButtonBlock
+	> .GameSettingsStyle-button
+	span {
+	color: rgb(255 255 255);
+}
+.ContainersComponentStyle-contentContainer
+	> .ContainersComponentStyle-bottomBlock
+	> .DeviceButtonComponentStyle-blockAlterations
+	> .Common-flexCenterAlignCenter {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(118, 255, 51, 0.35) !important;
+	box-shadow:
+		rgba(118, 255, 51, 0.35) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(118, 255, 51, 0.35) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.NewShopCommonComponentStyle-commonContainer {
+	background: radial-gradient(
+		50% 100% at 50% 100%,
+		#0d0d0d 0%,
+		#0d0d0d 100%
+	) !important;
+}
+.NewShopCommonComponentStyle-gradient {
+	background-image: none !important;
+}
+.ShopCategoryOfferSectionStyle-containerCoin
+	> .Common-flexStartAlignStart
+	> .Common-flexCenterAlignCenterColumn,
+.ShopCategoryOfferSectionStyle-containerItem
+	> .Common-flexStartAlignStart
+	> .Common-flexCenterAlignCenterColumn,
+.ShopCategoryOfferSectionStyle-containerKitOffers
+	> .Common-flexStartAlignStart
+	> .Common-flexCenterAlignCenterColumn {
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color-two) !important;
+	backdrop-filter: blur(5px) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+.NewShopCommonComponentStyle-commonContainer
+	> .NewShopCommonComponentStyle-commonBlockMenuShop {
+	padding: 0.5em !important;
+	border-radius: 1.3em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: var(--color-two) !important;
+	backdrop-filter: blur(5px) !important;
+}
+.NewShopCommonComponentStyle-commonContainer
+	> .NewShopCommonComponentStyle-commonBlockMenuShop
+	> div
+	> .Common-flexStartAlignCenter {
+	margin: 0.5em 0 !important;
+	border-radius: 1em !important;
+	border: 0.15em solid rgba(170, 170, 170, 0.25) !important;
+	box-shadow:
+		rgba(0, 0, 0, 0.5) 0rem 0rem 0.5rem 0.1rem,
+		transparent 0rem 0rem 0rem 0rem inset !important;
+	background: rgba(0, 0, 0, 0.1) !important;
+	transition:
+		transform 0.2s ease-in-out,
+		border 0.2s ease-in-out !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.gearscore__value {
+	font-family: 'Rubik', sans-serif !important;
+}
+
+@keyframes PrincipalBackground {
+	0% {
+		background-position: 0% 0%;
+	}
+	25% {
+		background-position: 100% 0%;
+	}
+	50% {
+		background-position: 200% 0%;
+	}
+	75% {
+		background-position: 300% 0%;
+	}
+	100% {
+		background-position: 400% 0%;
+	}
+}
+
+.gearscore__value {
+	background: linear-gradient(
+		90deg,
+		#f3a683,
+		#f7d794,
+		#778beb,
+		#e77f67,
+		#cf6a87,
+		#c44569,
+		#e15f41,
+		#546de5,
+		#f5cd79,
+		#f19066,
+		#f3a683
+	);
+	background-size: 400% 100% !important;
+	animation: PrincipalBackground 8s linear infinite !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+}
+
+.size-2 .slider__item-holder {
+	padding: 1rem !important;
+}
+
+.generic-box {
+	border: 2px solid rgb(170 170 170 / 75%) !important;
+	padding: 1rem !important;
+	border-radius: 15px !important;
+	box-shadow:
+		rgb(0 0 0) 0rem 0rem 0.5rem 0.2rem,
+		transparent 0rem 0rem 0rem 0rem inset;
+	background: rgb(0 0 0 / 50%) !important;
+	backdrop-filter: blur(5px);
+}
+
+.size-3 .slider__item-holder {
+	padding: 0.5rem !important;
+}
+
+.navbar {
+	border-bottom: 2px solid rgb(170 170 170 / 75%) !important;
+	backdrop-filter: blur(5px);
+	box-shadow:
+		rgb(0 0 0) 0rem 0rem 0.5rem 0.2rem,
+		transparent 0rem 0rem 0rem 0rem inset;
+	background-color: rgb(0 0 0 / 50%) !important;
+	width: unset !important;
+	background: none;
+}
+
+.progress-bar__bar {
+	height: 100% !important;
+	border-radius: 10px !important;
+	background: rgb(169 169 169) !important;
+}
+
+.progress-bar {
+	border: 1px solid hsla(0, 0%, 66.7%, 0.75) !important;
+	border-radius: 14px !important;
+	background: rgb(0 0 0 / 100%) !important;
+}
+
+.parallax {
+	background-color: rgb(0 0 0 / 100%) !important;
+}
+
+.lang-selector__list {
+	border: 1px solid hsla(0, 0%, 66.7%, 0.75) !important;
+	border-radius: 10px !important;
+	background: rgb(0 0 0 / 75%) !important;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25) !important;
+}
+
+.generic-selector__itself {
+	background: rgb(0 0 0 / 75%) !important;
+	border: 1px solid hsla(0, 0%, 66.7%, 0.75) !important;
+	border-radius: 10px !important;
+}
+
+.generic-input {
+	background-image: none !important;
+	background: rgb(0 0 0 / 75%) !important;
+}
+.form-element {
+	border: 1px solid hsla(0, 0%, 66.7%, 0.75) !important;
+	border-radius: 10px !important;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25) !important;
+	background: rgb(0 0 0 / 75%) !important;
+}
+
+.my-favorites__list {
+	box-shadow: 0 0 100px 7px rgba(0, 0, 0, 0.75) !important;
+	background: rgb(0 0 0 / 80%) !important;
+	border: 1px solid hsla(0, 0%, 66.7%, 0.75) !important;
+	border-radius: 10px !important;
+}
+
+`;
+
+const body = document.body || document.getElementsByTagName('body')[0],
+	style = document.createElement('style');
+style.className = 'css';
+if (style.styleSheet) {
+	style.styleSheet.cssText = css;
+} else {
+	style.appendChild(document.createTextNode(css));
+}
+body.appendChild(style);
+const appendChild = HTMLElement.prototype.appendChild;
+HTMLElement.prototype.appendChild = function (element) {
+	element?.classList?.forEach((className) => {
+		if (className.includes('ksc-')) return;
+		const appendChildEvent = new CustomEvent(className, {
+			bubbles: true,
+			detail: element,
+		});
+		document.dispatchEvent(appendChildEvent);
+	});
+	return appendChild.apply(this, arguments);
+};
+
+(() => {
+	var tankResistances = [
+		{
+			name: 'immortality',
+			shitPicture:
+				'https://tankionline.com/play/static/images/all_resistance.b45eae39.svg',
+			picture:
+				'https://tankionline.com/play/static/images/all_resistance.05f196ef.svg',
+		},
+		{
+			name: 'Броненосец',
+			shitPicture:
+				'https://tankionline.com/play/static/images/crit_resistance.7fb68893.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/crit_resistance.3f4d1cc2.svg',
+		},
+		{
+			name: 'Огнемёт',
+			shitPicture:
+				'https://tankionline.com/play/static/images/firebird_resistance.785a9d6b.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/firebird_resistance.00ac2221.svg',
+		},
+		{
+			name: 'Фриз',
+			shitPicture:
+				'https://tankionline.com/play/static/images/freeze_resistance.33bdf642.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/freeze_resistance.d26eb338.svg',
+		},
+		{
+			name: 'Изида',
+			shitPicture:
+				'https://tankionline.com/play/static/images/isis_resistance.30a69ffc.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/isis_resistance.5b05887a.svg',
+		},
+		{
+			name: 'Тесла',
+			shitPicture:
+				'https://tankionline.com/play/static/images/tesla_resistance.3e686c8e.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/tesla_resistance.663d3597.svg',
+		},
+		{
+			name: 'Молот',
+			shitPicture:
+				'https://tankionline.com/play/static/images/hammer_resistance.6c549d29.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/hammer_resistance.28e73097.svg',
+		},
+		{
+			name: 'Твинс',
+			shitPicture:
+				'https://tankionline.com/play/static/images/twins_resistance.ad189f61.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/twins_resistance.fbbc4d72.svg',
+		},
+		{
+			name: 'Рикошет',
+			shitPicture:
+				'https://tankionline.com/play/static/images/ricochet_resistance.8247beaa.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/ricochet_resistance.69c6c7ee.svg',
+		},
+		{
+			name: 'Смоки',
+			shitPicture:
+				'https://tankionline.com/play/static/images/smoky_resistance.845afc14.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/smoky_resistance.c4c202ca.svg',
+		},
+		{
+			name: 'Страйкер',
+			shitPicture:
+				'https://tankionline.com/play/static/images/rocket_launcher_resistance.b7dfd64f.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/rocket_launcher_resistance.5772cbaa.svg',
+		},
+		{
+			name: 'Вулкан',
+			shitPicture:
+				'https://tankionline.com/play/static/images/vulcan_resistance.824f6f0e.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/vulcan_resistance.9aebf267.svg',
+		},
+		{
+			name: 'Гром',
+			shitPicture:
+				'https://tankionline.com/play/static/images/thunder_resistance.6d7f4531.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/thunder_resistance.9dab2abf.svg',
+		},
+		{
+			name: 'Скорпион',
+			shitPicture:
+				'https://tankionline.com/play/static/images/scorpio_resistance.e8f1787f.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/scorpio_resistance.d40f8fbb.svg',
+		},
+		{
+			name: 'Рельса',
+			shitPicture:
+				'https://tankionline.com/play/static/images/railgun_resistance.636a554f.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/railgun_resistance.7577c7a1.svg',
+		},
+		{
+			name: 'Магнум',
+			shitPicture:
+				'https://tankionline.com/play/static/images/artillery_resistance.9b4cbc34.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/artillery_resistance.bd49fc96.svg',
+		},
+		{
+			name: 'Гаусс',
+			shitPicture:
+				'https://tankionline.com/play/static/images/gauss_resistance.bb8f409c.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/gauss_resistance.acf358ed.svg',
+		},
+		{
+			name: 'Шафт',
+			shitPicture:
+				'https://tankionline.com/play/static/images/shaft_resistance.0778fd3e.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/shaft_resistance.7e58bc19.svg',
+		},
+		{
+			name: 'Мины',
+			shitPicture:
+				'https://tankionline.com/play/static/images/mine_resistance.dd581c90.svg',
+			picture:
+				'https://tankionline.com/play/static/images/resistances/mine_resistance.0d0d3c98.svg',
+		},
+	];
+	new MutationObserver((e) => {
+		e.forEach(({ addedNodes: e, target: t }) => {
+			e.length &&
+				('tbody' === t.localName ||
+					t.className.includes('BattleComponentStyle-canvasContainer')) &&
+				t.querySelectorAll('.Common-maskImage').forEach((e) => {
+					let t = window
+							.getComputedStyle(e)
+							.getPropertyValue('-webkit-mask-image')
+							?.split('"')?.[1],
+						a = tankResistances.find(({ shitPicture: e }) => t === e);
+					a &&
+						(e.style.cssText = `-webkit-mask-image: none;background: url(${a.picture}) center center / 1em 1em no-repeat;width: 1em;height: 1em;`);
+				});
+		});
+	}).observe(document, { childList: !0, subtree: !0 });
+})();
+
+const nicknames = ["TForce-byPrincipal", "principal", "Tankionline_DE", "Comedian", "humorist", "XIII", "Dawsha", "Aly", "Krush", "Routine", "LXIX", "Rite", "رئيسي"];
+
+(function() {
+    let contrastEnabled = localStorage.getItem('contrastEnabled') === 'true';
+    let contrastValue = parseInt(localStorage.getItem('contrastValue')) || 100;
+    let hueRotateValue = parseInt(localStorage.getItem('hueRotateValue')) || 0;
+    let brightnessValue = parseInt(localStorage.getItem('brightnessValue')) || 100;
+    let sepiaValue = parseInt(localStorage.getItem('sepiaValue')) || 0;
+    let saturateValue = parseInt(localStorage.getItem('saturateValue')) || 100;
+    let invertValue = parseInt(localStorage.getItem('invertValue')) || 0;
+
+    const menu = document.createElement('div');
+    menu.style.position = 'absolute';
+    menu.style.width = '60em';
+    menu.style.top = '0.5em';
+    menu.style.right = '50%';
+    menu.style.transform = 'translate(50%, -30em) scale(0.7)';
+    menu.style.opacity = '0';
+    menu.style.zIndex = '1000';
+    menu.style.display = 'block';
+    menu.style.backgroundColor = 'var(--color)';
+    menu.style.color = 'white';
+    menu.style.borderRadius = '1.2em';
+    menu.style.backdropFilter = 'blur(15px)';
+    menu.style.padding = '10px';
+    menu.style.border = '0.15em solid rgba(170, 170, 170, 0.25)';
+    menu.style.boxShadow = 'rgb(0 0 0 / 75%) 0rem 0rem 2.5rem 1.1rem';
+    menu.style.transition = 'transform 1s ease, opacity 1s ease';
+
+menu.innerHTML = `
+<div id="title" style="width: 10em; margin: 0px 0px 10px 0px;">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvwAAABgCAYAAABhY6aeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABAMSURBVHhe7d17yGVVHcZxpxlHTR2R0kKUSirzklpJpFlomEp/WFGamVM2ylhpEKRF2QUyr9VfomPGWF7SDJQiSAfTIrqBhZqWhWnhpVLIyxjO6Fzent/eZ+X2vPucfb+stb4feDhrn/fc3rPWXvu313ve912ysLCwDQAAAIAwvWRyCQAAACBAFPwAAABAwCj4AQAAgIBR8AMAAAABo+AHAOSpcnxYMrkEAIzQvAndvna88qSylYwuzyuPKz9S3qE08SGlaT8/pZyklNXG2LLnPEHBeLUxtkj/sT47UdlWKcOOF3cpeY9Fhs0W5WnlDmW10tSdSt7zkGHj+vn3yulK23ZXvq7cr2xQ8l4D6T61+3lewW8PvFSxlRsyvtiBeDflvco65SpluVKV9bGNg7znqBJ7HEtZ9pzLlLzHKhu7f5XnRP/cHJPXf2ScMXZp+5YdXMqw27cxj5D2Y/2yQjlEWaNY4d9kkcjGRd7zkGHj+vktymWKFYRNFwOdUxU70TtHea2yvZL3Gkj3me5n25/fqRRyB2P4bQdlpfJjZTu7ogJ31tiUO/Msy26/OW3WZs9X5TnRvzbGFoZRZW6w/ZB/6jJ+dsy3wv9q5Wi7AkGyfraCsI1+/qLyLWWPZAtj4vZnW/A9xq6Yp6jgr7pqi+HYmd9Riq3gVDXEiZ87U23CrTRhvNyqBPzh+qtqv9HP/ni1crGyT7JVDf3sD+vni5R9k63qVilnKbskWxgrtz/P7eeigst27CGKQdRjH3F5n/KxZKsc619fJ3DGJjAOrO775yDlc2kTATtYsaK96vHyNcqnlV2TLYzdgcrZaTNf0QDwuRiMle2cH06bpbXVx32PFcbn+NE/frJ+o+/CZx/3ODJtImDHKkekzdI+oNT5CRCG8x7lXWlzsaKCn0nfT/sph6fNQj73L2MT6E7V/Yv90T+vUA5TqvQd/ewf189VHKrY7wfCH9bPb0+bi5Up+OEfW+W3z3SFzsYnYxQA6rG/9raXwkeywma/77Zn2ixt78kl/GL7c66igt8wEfhp7P1GoQ6MG/toHDjGIw9/sCUwFPwAAABAwCj4w+TLR13aGFusQgLdYN+KA/0ch6r9zLjw08x+Kyr4rSCj4PdPLH3G2PQDBw4/sX8BgF9qF/zwU9UTtbYKsiqPQxEYD/o6fPSxvzixAyJAwR+mKhO4uy0HbHSFgsI/1mdV+o1jiZ/YN4GwzNyniybprcqWtAmPWIdb340ZJxhxqFo4Yniuv6rMIezP/nH9XHX/ZH/2E/to+GzfnFmzFxX89nUGiZ/KTsp2O+vjIfqZsRU++9Nu/Hm38LHC7x83/zIPA2GwfXlm7TdvkraD9CbFVnnsAWKLfd9Fybvf0LHXZWd4G5Qy7D6m70mfg0wcbCxuVqbHqS9pKu8x+0rd+crYpd2nLOtjO15MPxYZf55Xqqjbz3XGYswJUd73SdqL7Vu2f+ZasrBgt5lpuWITeZWJH36xwvtk5TJlJ7uipvXKmco1yVaxk5Q1yopkq57nlFXKdckW0Fx2zrtVOUpp4j5lv7SZLLC4idkHc1eLAHTmEOUE5TTF/nN+G76jrE6bpdyjHJA2G3tAuVJ5MNl68Tw4a47JWxQcYmFyo3LL5NJrRQU/4rBSseJ7x2SrnjoF/+XKzslWPbYDnqpQ8KML65Sj02Zt2YIfAKo4QrlCeV2y1cxQBf9tynHKs8kWBsPnLjGUNs7UOVtFV+wjjW2MUXuMlyrMtQCq+oVyiVL1Y1d5+l4dNw8rX1Eo9keAgxCcISaDIZ4TKMN+96CtE0p7LD4WCaAqW3iwjxZa4eyj+5XfpE0MjYIfPrOCjFV+dKWtscUYBVCHLRb8VWljhX8Ij0wuMQIU/GhrlZ3VeiAfBT+AuljYQiso+DEUThAQCw7WAJrwdQ5h7hsRCn64wnuIHbNp0c9kgi61cVLKGAUADI6CHwC6RdEPABgUBT/4aA3QLQp+AMCgKPgRAk5aMFZW7FPwA2iCYxwao+AHgG5R8AOIEScqI0LBDwAAME5Wp1E4ozEKfrD6CHSH/QtAE8cpe6TNRoaYi+xEZYe0iaHFWPBztrzYEO9HG8/pJjD6E12gWIfD4hiGYOPueGWXZMs/m5SNaRNDK5rElilLJ5dWVI2xsHKvy74Xe60Wa7u469z3kf2es200R+ENxMnt+9l51y7HNie444WLe73uNbu4123Xbzu5tOuRcu+TO6a69wvtWaFconww2fKTjQ0WTrqVnc9sn7T3PNeShYW5ffFu5RxlV2Wrkn3gruU9R/Y6157+BmzbJcu27T7u+v8q5yk3J1vxssFxsnKZsqNdUdMzypnK1clWsZXKGqXJc1ofrlZuUGx8Am1apxydNmv7k3JA2gze9cpByuZkazGbf928nTeXT5uew4vkPU7edWUeN3s/myOvVc5NtvB95UDFHVOn32N33fT1TtV+zZq+b95zO7Oev655j5f3Pbnrsl/Lu86x61zseLan8nKlLVcop6fNUu5Rms5djypPKK4Ite8r71jt3lu7dDF52/Pkva9m1vtdZN5tytx/2rzXn308156+nCX7Ptk8fL6ySFHBf5JypbJdshWWp5UzFJu8YmYD5KPKpQoFP/ACCv5q7lX2T5vBsePgqWkzencrVvDDL0MU/OjfWuW0tPliM5f+M+wzWKFxZzmzVqJiNO/Mc6xcP/r42oHQbJlchijE4yDiYeP3kbSJwM2ch4sK/rmfBwIAYCLkE28WFV7Ae+Ef+1jNHWkTgZu5fxYV8/Z1flEpfL5P4EWfbwPQPQpBYJxuV25Jmwhc7YLf7sgKP8aKAgNAH5hr4Cv7LP7X0iYiULvgD5V7Q5jEw8AKPwD0g+OmP/6tfF75S7KFqJUp+CmmwhZC/zJGAXSJIhe+sSL/40rsf3ocE0UFvxVSIRdTTOJ+o/8AAHjBg8pZyr7KL+0KRGVmXVSm4OfvmwMAivCTNmBc2Cfxf7Gv8MNvrPAD6APHQfhib+Wbiv3Tv8MVjpNxmTlXxfpLuxgeB1AAALqxn/I9pel/C4dfan+kx3B2GAcf+5mxCaAPzDXw0R7Khco+yVY1LMoFJvaCnwENAABCdaBydtpEzPhID4bECRcAHzBXwVdW5x2rHJlslceYD0yMK/w2iN1AZkC3q+/3kx+zA+gDf60OPttNOSxtIlYxrvBni0QKRgBAEY4V8NlyZc+0WRoLooFZsrAwt09XKt9Rtku26tmk/E3ZmGy9eIW9iToTcPZ5n1HOVW5PtuJ2inKZskOyVY+9n2co1yRbxU5W1ig7JVv12JhapVyfbAHtWqc0/QsX9qfxDkibwfuj8sa0WdujypNpM5njp48X0/N+9muunb3OTG877rHsMq9t7L6blR8oF9kV2OYepemYfkh5Qsnrm7zrrE9m9WNWth+zl1l511Ux/Trc9vRlWbNuv5diK/NNX69zufLJtFnK1cqbFHt9tjhsP+XaMtk27nVlX3/2tU5/X9mvTX9PZb426zbTt29D9rXntYuuy5p+fXY7ey/t0r6W/br9SdUVabO2K5VT0+aL9VHwr1esELw22cIYWcFvxff2yVY9VQv+jyg2AVHwY6wo+Ktpo+C/SrH5aAjZA+/cA2Pk2ij41yqnpU3MYAtwFyirJ+2mvq18Im16r0yRX+Y2dc2bH6a/5l6HXbqvZW/jTqbMvcr+abO2mQV/0Ud67EXN+8bKauMx0B36B8AYDDkXueMd82H3+J2IYhuUzyg/TLaQld1XZ8XGWFfJez6Xae767P2y7Hon7/6t6eMz/Esn6fJsC8PrdKDOwJjC2DFGq+FYEYcYf3+wrhuUx9MmAma/Z9Gpvna67Oe+EK6qfcyYAJDlVsEQtuyqJua7WaHgD9/zk8umZi6YlCn425h82bkBAIDhpA5YrNP9oo8VflZsAPiIj5b0j2MFAHSgj4KfCRx5bFwwNgAAADrW12f4KezQFVZhAQAA5ujjM/wU+/GgrwE0wRwCIFadLmD2tcKPcbODrK8HWlb4AQCYj2Nl5Cj44TM7SWESQ1cYWwCAvrDCD8xAwQ+MB/siymKsAIsNWvCzU6IrbYyt7ZVXpU0AAeCYA3SDfWvcXq/skDa7wQo/fGYT2NvSJoAA2DGp04MeGqNwBNp3jNLpAiYFP3x3tHJe2gTguU3KhrQJAFE4VPmU0mlNXubB+TNpGLNtlS8oNynvtyuAEWH+rCZ7TFqqsJoMoCs2v5RJV45V1io/Ud5gV7Rg5jGHFX6EwHZIK/ZvVLaSTvOUcqICdOEUxY01W+3fktkm3eQSBeGrWrjeqeSNlyqxfXi98nRO7FhSlLz7ZVPl9tnb/Uu5S7HvsUymb3u38piSfcwyeUbJzmk/VVYpL1M610fB3+XZEdoTwkqkOxsn3WW5YiuvQBfyxhzpNvbHD4Bpy5S88VIl9hg7KytyskuJ5N0vmyq3z97ulcpBFXNwJgcquyvZxyyTnRSru7PvUW9Y4QdQxfOKrVAA8J8t9LA/x6HOoh4fSQwIBT+GwkTip15XJAAAg2G+98/M2oqCH0BVnKwBYaCgwyyMjcCUKfjpdAAOiwRAWDiBjwP9HLk+Dt42yBho42b9w4kdymCcAED4qNsCwwo/2sQEET6bD5gTymOfABZjv+gf73kcZvYzP56HQxEHtI+DLAAfMXf5aWYtV1Tws5oHIFZtzH3/nFwCY0VhF4eq/bx5cgm/sMKPQn2f2HEyiRg8MrmMAfuzf+z/ajycNhG4qvvng5NL+OWhyeUirPBjKKwq+SmWfmtj3ntW+V3aBEbpCeWOtFkac3ccfqtsSJvwxGPKzGNOmRV+dm4ATkzzQdPv9R7l2rQZBY4Vftmq3Kb8LNnqFwuJ/av6nt+k/DltwhO3K7emzcX6KvjZucfN+od+Rhmx/Bv+pmP5P8o3lI3JFjA+dytfTZuIQNU57e/KpcqTyRbG7i7lS2kzX1HBb0VgG7+4wcrPuDXtZ7u/S1m2umSBP1z/Vulnn9Udn3aA/LJyY7IVj1jGRQismPus8kCyVU0b/cxYqWao9+u7ysXK08kWxuofytnK3N+7KCr4l05SlxukZX6SgGG4Pq7bz9mJqEo/2/PxEwH/xHKgtvFZdd6yE4T7lTOVNXZFRJYpzPPjZ2PUPrO/Uvm5XVFDG/3M3F+N7V9N1X3PL1Ts5JC/ODY+tj//QbH9ufCjeUU77qZJ7CBfNfZCXDuWjwH4yAobW923v9aQ7b8yyfaxpcpPCWxMTN+fjDfZvorhz7XZ9/nc5LIo9su59ynnK29WrlNiY++DjYvp94YMH9t31ytW6J+uvFX5tVKXzd15z1Mldryh6C+vbh2Wjb3nda1VbNxcoNhPheyjinnPQbqP25+t0D9DOUT5lVJoycKC3X+m7RU+gxo2K/iXK24HBpCyBRGbXFHMrUDGcDIYO/aL/tnJEcdnNFJU8AMAAADwGJ+5BAAAAAJGwQ8AAAAEjIIfAAAACBgFPwAAABCsbbb5H23GJqTVZNY5AAAAAElFTkSuQmCC" style="filter: drop-shadow(0 0 3px white); max-width: 100%; height: auto;">
+</div>
+<span id="author" style="text-align: right; margin: 0px 0px 10px 0px; font-size: 0.8em; color: #ccc; position: absolute; top: 10px; right: 10px;">
+    by <a href="https://www.youtube.com/@PrincipalZXC" target="_blank">Principal</a>
+</span>
+<label for="contrastSlider">Contrast: <span id="contrastValue">${contrastValue}%</span></label>
+<input type="range" id="contrastSlider" min="0" max="200" value="${contrastValue}">
+<br>
+<label for="hueRotateSlider">Hue Rotate: <span id="hueRotateValue">${hueRotateValue}deg</span></label>
+<input type="range" id="hueRotateSlider" min="0" max="360" value="${hueRotateValue}">
+<br>
+<label for="brightnessSlider">Brightness: <span id="brightnessValue">${brightnessValue}%</span></label>
+<input type="range" id="brightnessSlider" min="0" max="200" value="${brightnessValue}">
+<br>
+<label for="sepiaSlider">Sepia: <span id="sepiaValue">${sepiaValue}%</span></label>
+<input type="range" id="sepiaSlider" min="0" max="100" value="${sepiaValue}">
+<br>
+<label for="saturateSlider">Saturate: <span id="saturateValue">${saturateValue}%</span></label>
+<input type="range" id="saturateSlider" min="0" max="200" value="${saturateValue}">
+<br>
+<label for="invertSlider">Invert: <span id="invertValue">${invertValue}%</span></label>
+<input type="range" id="invertSlider" min="0" max="100" value="${invertValue}">
+<br>
+<div id="description" style="margin-top: 5px; font-size: 0.85em; text-align: right; cursor: default;">
+    <span id="descriptionText" style="cursor: pointer; color: rgb(175, 255, 112);">Description</span>
+</div>
+<div id="info" style="display: none; margin-top: 10px; color: black;">
+    <span id="back" style="color: red; cursor: pointer;">Back</span>
+    <p>This script will help you customize the picture in the game for yourself and provide a comfortable game.</p>
+</div>
+`;
+
+    const style = document.createElement('style');
+    style.innerHTML = `
+        input[type="range"] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            outline: none;
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            border-radius: 20px;
+            width: 25px;
+            height: 14px;
+            background: white;
+            cursor: pointer;
+        }
+        input[type="range"]::-moz-range-thumb {
+            border-radius: 20px;
+            width: 25px;
+            height: 14px;
+            background: white;
+            cursor: pointer;
+        }
+    `;
+    document.head.appendChild(style);
+
+    function applyStyles() {
+        const body = document.body;
+        if (contrastEnabled) {
+            body.style.filter = `
+                contrast(${contrastValue}%)
+                hue-rotate(${hueRotateValue}deg)
+                brightness(${brightnessValue}%)
+                sepia(${sepiaValue}%)
+                saturate(${saturateValue}%)
+                invert(${invertValue}%)
+            `;
+        } else {
+            body.style.filter = "none";
+        }
+    }
+
+    function toggleContrast() {
+        contrastEnabled = !contrastEnabled;
+        localStorage.setItem('contrastEnabled', contrastEnabled);
+        applyStyles();
+    }
+
+   function toggleMenu() {
+    if (menu.style.opacity === '1') {
+        menu.style.opacity = '0';
+        menu.style.transform = 'translate(50%, -30em) scale(0.7)';
+    } else {
+        menu.style.opacity = '1';
+        menu.style.transform = 'translate(50%, 0) scale(1)';
+    }
+}
+
+    document.addEventListener("keydown", (event) => {
+        if (event.altKey && event.key === '8') {
+            toggleContrast();
+        } else if (event.altKey && event.key === '9') {
+            toggleMenu();
+        }
+    });
+
+    document.body.appendChild(menu);
+
+document.getElementById('author').addEventListener('click', (event) => {
+    event.preventDefault();
+    window.open('https://www.youtube.com/@PrincipalZXC', '_blank');
+});
+
+document.getElementById('descriptionText').addEventListener('click', () => {
+    document.getElementById('info').style.display = 'block';
+    document.getElementById('description').style.display = 'none';
+});
+
+document.getElementById('back').addEventListener('click', () => {
+    document.getElementById('info').style.display = 'none';
+    document.getElementById('description').style.display = 'block';
+});
+
+document.getElementById('contrastSlider').addEventListener('input', (event) => {
+    contrastValue = event.target.value;
+    localStorage.setItem('contrastValue', contrastValue);
+    applyStyles();
+    document.getElementById('contrastValue').textContent = `${contrastValue}%`;
+});
+document.getElementById('hueRotateSlider').addEventListener('input', (event) => {
+    hueRotateValue = event.target.value;
+    localStorage.setItem('hueRotateValue', hueRotateValue);
+    applyStyles();
+    document.getElementById('hueRotateValue').textContent = `${hueRotateValue}deg`;
+});
+document.getElementById('brightnessSlider').addEventListener('input', (event) => {
+    brightnessValue = event.target.value;
+    localStorage.setItem('brightnessValue', brightnessValue);
+    applyStyles();
+    document.getElementById('brightnessValue').textContent = `${brightnessValue}%`;
+});
+document.getElementById('sepiaSlider').addEventListener('input', (event) => {
+    sepiaValue = event.target.value;
+    localStorage.setItem('sepiaValue', sepiaValue);
+    applyStyles();
+    document.getElementById('sepiaValue').textContent = `${sepiaValue}%`;
+});
+document.getElementById('saturateSlider').addEventListener('input', (event) => {
+    saturateValue = event.target.value;
+    localStorage.setItem('saturateValue', saturateValue);
+    applyStyles();
+    document.getElementById('saturateValue').textContent = `${saturateValue}%`;
+});
+document.getElementById('invertSlider').addEventListener('input', (event) => {
+    invertValue = event.target.value;
+    localStorage.setItem('invertValue', invertValue);
+    applyStyles();
+    document.getElementById('invertValue').textContent = `${invertValue}%`;
+});
+
+    applyStyles();
+})();
