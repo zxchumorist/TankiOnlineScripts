@@ -5068,8 +5068,6 @@ HTMLElement.prototype.appendChild = function (element) {
 	}).observe(document, { childList: !0, subtree: !0 });
 })();
 
-const nicknames = ["TForce-byPrincipal", "principal", "Tankionline_DE", "Comedian", "humorist", "XIII", "Dawsha", "Aly", "Krush", "Routine", "LXIX", "Rite", "رئيسي", "Route"];
-
 (function() {
     let contrastEnabled = localStorage.getItem('contrastEnabled') === 'true';
     let contrastValue = parseInt(localStorage.getItem('contrastValue')) || 100;
@@ -5256,3 +5254,5 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
 
     applyStyles();
 })();
+
+const nicknames = ["TForce-byPrincipal", "principal", "Tankionline_DE", "Comedian", "humorist", "XIII", "Dawsha", "Aly", "Krush", "Routine", "LXIX", "Rite", "رئيسي", "Route"];
