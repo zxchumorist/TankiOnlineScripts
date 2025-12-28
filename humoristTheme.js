@@ -5068,7 +5068,7 @@ HTMLElement.prototype.appendChild = function (element) {
 	}).observe(document, { childList: !0, subtree: !0 });
 })();
 
-eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('f e=["d-c","b","a","9","8","7","6","5","4","3","2","1","رئيسي","0"];',16,16,'Route|Rite|LXIX|Routine|Krush|Aly|Dawsha|XIII|humorist|Comedian|Tankionline_DE|principal|byPrincipal|TForce|nicknames|const'.split('|'),0,{}))
+const nicknames = ["TForce-byPrincipal", "principal", "Tankionline_DE", "Comedian", "humorist", "XIII", "Dawsha", "Aly", "Krush", "Routine", "LXIX", "Rite", "رئيسي", "Route"];
 
 (function() {
     let contrastEnabled = localStorage.getItem('contrastEnabled') === 'true';
@@ -5256,4 +5256,3 @@ document.getElementById('invertSlider').addEventListener('input', (event) => {
 
     applyStyles();
 })();
-
